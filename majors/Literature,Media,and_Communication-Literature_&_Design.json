@@ -1,0 +1,587 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1712",
+      "Survey of Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201712"
+    ],
+    [
+      "orMATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH1711",
+      "Finite Mathematics",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201711"
+    ],
+    [
+      "orMATH1551&MATH1553",
+      "Differential Calculusand Introduction to Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "International Requirement",
+      "3"
+    ],
+    [
+      "Any SS",
+      "6",
+      3
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "Technical Electives",
+      "6"
+    ],
+    [
+      "Ethics Requirement",
+      "3",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#"
+    ],
+    [
+      "LMC2000",
+      "Introduction to Literature, Media, and Communication",
+      3,
+      "https://catalog.gatech.edu/search/?P=LMC%202000"
+    ],
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "LMC2050",
+      "Seminar in Literature, Media, and Communication",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202050"
+    ],
+    [
+      "LMC2060",
+      "Introduction to Literary Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202060"
+    ],
+    [
+      "LMC2100",
+      "Introduction to Science, Technology and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202100"
+    ],
+    [
+      "LMC2200",
+      "Introduction to Gender Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202200"
+    ],
+    [
+      "LMC2350",
+      "Introduction to Social Justice",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202350"
+    ],
+    [
+      "LMC2400",
+      "Introduction to Media Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202400"
+    ],
+    [
+      "LMC2450",
+      "Introduction to Black Media Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202450"
+    ],
+    [
+      "LMC2500",
+      "Introduction to Film",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202500"
+    ],
+    [
+      "LMC2600",
+      "Introduction to Performance Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202600"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "LMC4000",
+      "Senior Seminar in Literature, Media, and Communication",
+      3,
+      "https://catalog.gatech.edu/search/?P=LMC%204000"
+    ],
+    [
+      "orLMC4500",
+      "Seminar in Film Studies",
+      3,
+      3
+    ],
+    [
+      "orLMC4102",
+      "Senior Thesis",
+      3,
+      3
+    ]
+  ],
+  "Concentration": [
+    [
+      "Literature",
+      ""
+    ],
+    [
+      "LMC2060",
+      "Introduction to Literary Studies",
+      3,
+      "https://catalog.gatech.edu/search/?P=LMC%202060"
+    ],
+    [
+      "Select two Foundation courses:",
+      "6"
+    ],
+    [
+      "LMC3202",
+      "Studies in Fiction",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203202"
+    ],
+    [
+      "LMC3226",
+      "Major Authors",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203226"
+    ],
+    [
+      "LMC3502",
+      "Ancient and Medieval Literature and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203502"
+    ],
+    [
+      "LMC3504",
+      "Renaissance Literature and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203504"
+    ],
+    [
+      "LMC3506",
+      "Enlightenment and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203506"
+    ],
+    [
+      "LMC3511",
+      "American Literature & Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203511"
+    ],
+    [
+      "LMC3512",
+      "British and Continental Romanticism",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203512"
+    ],
+    [
+      "LMC3514",
+      "Victorian Literature and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203514"
+    ],
+    [
+      "LMC3516",
+      "Literary and Cultural Modernism",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203516"
+    ],
+    [
+      "LMC3518",
+      "Literary and Cultural Postmodernism",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203518"
+    ],
+    [
+      "Select three Specialty courses:",
+      "9"
+    ],
+    [
+      "LMC3102",
+      "Science, Technology, and the Classical Tradition",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203102"
+    ],
+    [
+      "LMC3112",
+      "Evolution and the Industrial Age",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203112"
+    ],
+    [
+      "LMC3204",
+      "Poetry and Poetics",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203204"
+    ],
+    [
+      "LMC3208",
+      "African American Literature and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203208"
+    ],
+    [
+      "LMC3210",
+      "Ethnicity in American Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203210"
+    ],
+    [
+      "LMC3212",
+      "Women, Literature, and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203212"
+    ],
+    [
+      "LMC3214",
+      "Science Fiction",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203214"
+    ],
+    [
+      "LMC3219",
+      "Literature and Medicine",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203219"
+    ],
+    [
+      "LMC3228",
+      "Shakespeare",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203228"
+    ],
+    [
+      "LMC3234",
+      "Creative Writing",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203234"
+    ],
+    [
+      "LMC3236",
+      "Writing for the Stage and Screen",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203236"
+    ],
+    [
+      "LMC3316",
+      "Science, Technology, and Postcolonialism",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203316"
+    ],
+    [
+      "LMC3520",
+      "Contemporary Issues in Literature & Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203520"
+    ],
+    [
+      "LMC4204",
+      "Poetry and Poetics II",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%204204"
+    ],
+    [
+      "LMC3813",
+      "Special Topics",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203813"
+    ],
+    [
+      "Design",
+      ""
+    ],
+    [
+      "LMC2720",
+      "Principles of Visual Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=LMC%202720"
+    ],
+    [
+      "Select two Foundation courses:",
+      "6"
+    ],
+    [
+      "LMC2400",
+      "Introduction to Media Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202400"
+    ],
+    [
+      "LMC2410",
+      "Introduction to Game Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202410"
+    ],
+    [
+      "LMC2700",
+      "Introduction to Computational Media",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202700"
+    ],
+    [
+      "LMC2730",
+      "Constructing the Moving Image",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%202730"
+    ],
+    [
+      "LMC3314",
+      "Technologies of Representation",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203314"
+    ],
+    [
+      "LMC3402",
+      "Graphic and Visual Design",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203402"
+    ],
+    [
+      "LMC3705",
+      "Principles of Information Design",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203705"
+    ],
+    [
+      "LMC3710",
+      "Principles of Interaction Design",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203710"
+    ],
+    [
+      "LMC4725",
+      "Games Design as a Cultural Practice",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%204725"
+    ],
+    [
+      "LMC4733",
+      "Mixed Reality Experience Design",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%204733"
+    ],
+    [
+      "Select three Specialty courses:",
+      "9"
+    ],
+    [
+      "LMC3106",
+      "The Age of Scientific Revolution",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203106"
+    ],
+    [
+      "LMC3206",
+      "Communication and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203206"
+    ],
+    [
+      "LMC3306",
+      "Science, Technology, and Race",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203306"
+    ],
+    [
+      "LMC3308",
+      "Environmentalism and Ecocriticism",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203308"
+    ],
+    [
+      "LMC3318",
+      "Biomedicine and Culture",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203318"
+    ],
+    [
+      "LMC3403",
+      "Technical Communication, Theory and Practice",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203403"
+    ],
+    [
+      "LMC3404",
+      "Social Media",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203404"
+    ],
+    [
+      "LMC3406",
+      "Video Production",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203406"
+    ],
+    [
+      "LMC3407",
+      "Advanced Video Production",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203407"
+    ],
+    [
+      "LMC3408",
+      "The Rhetoric of Technical Narratives",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203408"
+    ],
+    [
+      "LMC3410",
+      "The Rhetoric of Nonlinear Documents",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203410"
+    ],
+    [
+      "LMC3412",
+      "Communicating Science and Technology to the Public",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203412"
+    ],
+    [
+      "LMC4720",
+      "Interactive Narrative",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%204720"
+    ],
+    [
+      "LMC3813",
+      "Special Topics",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%203813"
+    ],
+    [
+      "LMC4730",
+      "Experimental Digital Art",
+      "",
+      "https://catalog.gatech.edu/search/?P=LMC%204730"
+    ],
+    [
+      "LMC Electives",
+      "6"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "14"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

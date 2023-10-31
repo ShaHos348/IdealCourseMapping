@@ -1,0 +1,170 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1712",
+      "Survey of Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201712"
+    ],
+    [
+      "orMATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ],
+    [
+      "orCS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH1711",
+      "Finite Mathematics",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201711"
+    ],
+    [
+      "orMATH1551&MATH1553",
+      "Differential Calculusand Introduction to Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "Any SS",
+      "9",
+      3
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "Approved Cluster",
+      "18"
+    ]
+  ],
+  "ALIS Major Requirements": [
+    [
+      "RUSS4500",
+      "Russian Intercultural Capstone Seminar",
+      3,
+      "https://catalog.gatech.edu/search/?P=RUSS%204500"
+    ],
+    [
+      "Russian Electives",
+      "27"
+    ],
+    [
+      "Study Abroad Experience (12 credits from 30 credits of Russian Electives for the ALIS Major Requirements and/or 18 credits of Approved Cluster)",
+      ""
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "29"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

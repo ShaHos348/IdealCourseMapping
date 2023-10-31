@@ -1,0 +1,400 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1554",
+      "Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201554"
+    ],
+    [
+      "orMATH1564",
+      "Linear Algebra with Abstract Vector Spaces",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201564"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Choose one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      "",
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      "",
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      "",
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      "",
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      "",
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "Any SS",
+      "9",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "CS1100",
+      "Freshman Leap Seminar",
+      1,
+      "https://catalog.gatech.edu/search/?P=CS%201100"
+    ],
+    [
+      "CS1331",
+      "Introduction to Object Oriented Programming",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201331"
+    ],
+    [
+      "CS1332",
+      "Data Structures and Algorithms for Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201332"
+    ],
+    [
+      "CS2050",
+      "Introduction to Discrete Mathematics for Computer Science",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%202050"
+    ],
+    [
+      "orCS2051",
+      "Honors - Induction to Discrete Mathematics for Computer Science",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%202051"
+    ],
+    [
+      "MATH2550",
+      "Introduction to Multivariable Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%202550"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "CS2340",
+      "Objects and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%202340"
+    ],
+    [
+      "Select one for Professionalism/Ethics requirement:",
+      "3"
+    ],
+    [
+      "CS3001",
+      "Computing, Society, and Professionalism",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203001"
+    ],
+    [
+      "CS4001",
+      "Computing, Society, and Professionalism",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204001"
+    ],
+    [
+      "CS4002",
+      "Robots and Society",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204002"
+    ],
+    [
+      "CS4003",
+      "AI, Ethics, and Society",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204003"
+    ],
+    [
+      "CS4726",
+      "Privacy, Technology, Policy, and Law",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204726"
+    ],
+    [
+      "SLS3110",
+      "Technology and Sustainable Community Development",
+      3,
+      "https://catalog.gatech.edu/search/?P=SLS%203110"
+    ]
+  ],
+  "Junior Design Options (Capstone)": [
+    [
+      "Junior Design Option",
+      "6"
+    ]
+  ],
+  "Concentration": [
+    [
+      "CS2110",
+      "Computer Organization and Programming",
+      4,
+      "https://catalog.gatech.edu/search/?P=CS%202110"
+    ],
+    [
+      "CS2200",
+      "Computer Systems and Networks",
+      4,
+      "https://catalog.gatech.edu/search/?P=CS%202200"
+    ],
+    [
+      "CS3210",
+      "Design of Operating Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203210"
+    ],
+    [
+      "CS3220",
+      "Computer Structures: Hardware/Software Codesign of a Processor",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203220"
+    ],
+    [
+      "CS3510",
+      "Design and Analysis of Algorithms",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203510"
+    ],
+    [
+      "orCS3511",
+      "Design and Analysis of Algorithms, Honors",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203511"
+    ],
+    [
+      "ECE2031",
+      "Digital Design Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%202031"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ],
+    [
+      "Select two of the following for Computational Science and Engineering:",
+      "6"
+    ],
+    [
+      "CS4641",
+      "Machine Learning",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204641"
+    ],
+    [
+      "CX4140",
+      "Computational Modeling Algorithms",
+      "",
+      "https://catalog.gatech.edu/search/?P=CX%204140"
+    ],
+    [
+      "CX4220",
+      "Introduction to High Performance Computing",
+      "",
+      "https://catalog.gatech.edu/search/?P=CX%204220"
+    ],
+    [
+      "CX4230",
+      "Computer Simulation",
+      "",
+      "https://catalog.gatech.edu/search/?P=CX%204230"
+    ],
+    [
+      "CX4640",
+      "Numerical Analysis I",
+      "",
+      "https://catalog.gatech.edu/search/?P=CX%204640"
+    ],
+    [
+      "Select one of the following for Software Systems Tools:",
+      "3"
+    ],
+    [
+      "CS3300",
+      "Introduction to Software Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203300"
+    ],
+    [
+      "CS4240",
+      "Compilers, Interpreters, and Program Analyzers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204240"
+    ],
+    [
+      "Select one of the following for Advanced Systems Architectures:",
+      "3"
+    ],
+    [
+      "CS4210",
+      "Advanced Operating Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204210"
+    ],
+    [
+      "CS4220",
+      "Programming Embedded Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204220"
+    ],
+    [
+      "CS4290",
+      "Advanced Computer Organization",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204290"
+    ]
+  ],
+  "Other Required Courses": [
+    [
+      "MATH3012",
+      "Applied Combinatorics",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203012"
+    ]
+  ],
+  " ": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "MATH3215",
+      "Introduction to Probability and Statistics",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203215"
+    ],
+    [
+      "MATH3670",
+      "Probability and Statistics with Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203670"
+    ],
+    [
+      "CEE3770",
+      "Statistics and Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%203770"
+    ],
+    [
+      "ISYE3770",
+      "Statistics and Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%203770"
+    ],
+    [
+      "orISYE2027&ISYE2028",
+      "Probability with Applicationsand Basic Statistical Methods",
+      3,
+      3
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "10"
+    ],
+    [
+      "Total Credit Hours",
+      "126"
+    ]
+  ]
+}

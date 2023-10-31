@@ -1,0 +1,334 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "orMATH1550",
+      "Introduction to Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201550"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ],
+    [
+      "orMATH1554",
+      "Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201554"
+    ],
+    [
+      "orMATH1564",
+      "Linear Algebra with Abstract Vector Spaces",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201564"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "Any SS",
+      "9",
+      3
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "CS1331",
+      "Introduction to Object Oriented Programming",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201331"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "orMATH2561",
+      "Honors Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202561"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ],
+    [
+      "orMATH2562",
+      "Honors Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202562"
+    ],
+    [
+      "MATH2106",
+      "Foundations of Mathematical Proof",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%202106"
+    ]
+  ],
+  "Bridging Courses": [
+    [
+      "MATH3012",
+      "Applied Combinatorics",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203012"
+    ],
+    [
+      "MATH3235",
+      "Probability Theory",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203235"
+    ],
+    [
+      "MATH3406",
+      "A Second Course in Linear Algebra",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203406"
+    ]
+  ],
+  "Upper Level Foundation Courses": [
+    [
+      "MATH4107",
+      "Introduction to Abstract Algebra I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204107"
+    ],
+    [
+      "MATH4317",
+      "Analysis I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204317"
+    ],
+    [
+      "MATH4320",
+      "Complex Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204320"
+    ]
+  ],
+  "Applied Mathematics Concentration": [
+    [
+      "MATH4640",
+      "Numerical Analysis I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204640"
+    ],
+    [
+      "MATH4347",
+      "Partial Differential Equations I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204347"
+    ],
+    [
+      "MATH4541",
+      "Dynamics and Bifurcations I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204541"
+    ],
+    [
+      "Select nine credits:",
+      "9"
+    ],
+    [
+      "MATH4348",
+      "Partial Differential Equations II",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204348"
+    ],
+    [
+      "MATH4542",
+      "Dynamics and Bifurcations II",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204542"
+    ],
+    [
+      "MATH4580",
+      "Linear Programming",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204580"
+    ],
+    [
+      "MATH4581",
+      "Classical Mathematical Methods in Engineering",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204581"
+    ],
+    [
+      "MATH4641",
+      "Numerical Analysis II",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204641"
+    ],
+    [
+      "MATH4699",
+      "Undergraduate Research",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204699"
+    ],
+    [
+      "MATH4755",
+      "Mathematical Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204755"
+    ],
+    [
+      "MATH4777",
+      "Vector and Parallel Scientific Computation",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204777"
+    ],
+    [
+      "MATH4782",
+      "Quantum Information and Quantum Computing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%204782"
+    ],
+    [
+      "CX4140",
+      "Computational Modeling Algorithms",
+      "",
+      "https://catalog.gatech.edu/search/?P=CX%204140"
+    ],
+    [
+      "CX4240",
+      "Introduction to Computing for Data Analysis",
+      "",
+      "https://catalog.gatech.edu/search/?P=CX%204240"
+    ],
+    [
+      "Mathematics Elective",
+      "3"
+    ]
+  ],
+  "Engineering or Science Electives 7": [
+    [
+      "BIOS, CHEM, EAS, PHYS, PSYC, ECON, CS, AE, BMED, CEE, CHBE, ECE, ISYE, MSE, ME 3000-level or higher courses",
+      "9"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "11"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

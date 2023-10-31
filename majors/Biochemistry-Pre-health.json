@@ -1,0 +1,498 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ],
+    [
+      "orCS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "Any SS",
+      "9",
+      3
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "CHEM1212K",
+      "Chemical Principles II",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201212K"
+    ],
+    [
+      "CHEM2380",
+      "Synthesis Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%202380"
+    ],
+    [
+      "BIOS1107&1107L",
+      "Biological Principlesand Biological Principles Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=BIOS%201107"
+    ],
+    [
+      "BIOS1108&1108L",
+      "Organismal Biologyand Organismal Biology Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=BIOS%201108"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "CHEM2216&2216L",
+      "Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202216"
+    ],
+    [
+      "orCHEM2214",
+      "Quantitative Chemical Analysis",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202214"
+    ],
+    [
+      "CHEM2311",
+      "Organic Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202311"
+    ],
+    [
+      "CHEM2312",
+      "Organic Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202312"
+    ],
+    [
+      "orCHEM2313",
+      "Organic and Bioorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202313"
+    ],
+    [
+      "CHEM3216&3216L",
+      "Analytical Chemistry Lectureand Analytical Chemistry Laboratory",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203216"
+    ],
+    [
+      "orCHEM3211",
+      "Analytical Chemistry",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203211"
+    ],
+    [
+      "CHEM3371",
+      "Organic Chemistry Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%203371"
+    ],
+    [
+      "CHEM3411",
+      "Physical Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203411"
+    ],
+    [
+      "CHEM4511",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204511"
+    ],
+    [
+      "orCHEM3521",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203521"
+    ],
+    [
+      "CHEM4512",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204512"
+    ],
+    [
+      "orCHEM3522",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203522"
+    ],
+    [
+      "CHEM4581",
+      "Biochemistry Laboratory I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204581"
+    ],
+    [
+      "CHEM4582",
+      "Biochemistry Laboratory II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204582"
+    ],
+    [
+      "CHEM4601",
+      "Chemistry Seminar",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%204601"
+    ]
+  ],
+  "Pre-Health Electives 4": [
+    [
+      "Select 12 credits from the following:",
+      "12"
+    ],
+    [
+      "BIOS2600",
+      "Genetics",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%202600"
+    ],
+    [
+      "BIOS2601",
+      "Genetics Laboratory",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%202601"
+    ],
+    [
+      "BIOS2610&BIOS2611",
+      "Integrative Geneticsand Integrative Genetics Lab",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%202610"
+    ],
+    [
+      "BIOS3000",
+      "Survey of Medicine",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203000"
+    ],
+    [
+      "BIOS3380",
+      "Microbiology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203380"
+    ],
+    [
+      "BIOS3381",
+      "Microbiology Lab",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203381"
+    ],
+    [
+      "BIOS3450",
+      "Cell and Molecular Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203450"
+    ],
+    [
+      "BIOS3451",
+      "Cell and Molecular Biology Lab",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203451"
+    ],
+    [
+      "BIOS3753",
+      "Human Anatomy",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203753"
+    ],
+    [
+      "BIOS3754",
+      "Laboratory in Human Anatomy",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203754"
+    ],
+    [
+      "BIOS3755",
+      "Human Physiology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203755"
+    ],
+    [
+      "BIOS3756",
+      "Physiology Laboratory",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203756"
+    ],
+    [
+      "BIOS4012",
+      "Protein Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204012"
+    ],
+    [
+      "BIOS4015",
+      "Cancer Biology and Biotechnology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204015"
+    ],
+    [
+      "BIOS 4150/BIOL6150",
+      "Genomics and Applied Bioinformatics",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204150"
+    ],
+    [
+      "BIOS4200",
+      "Kinesiological Basis of Human Movement",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204200"
+    ],
+    [
+      "BIOS 4238/APPH6238",
+      "Ion Channels",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204238"
+    ],
+    [
+      "BIOS4340",
+      "Medical Microbiology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204340"
+    ],
+    [
+      "BIOS4400",
+      "Human Neuroanatomy",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204400"
+    ],
+    [
+      "BIOS4401",
+      "Experimental Design and Statistical Methods in Biological Sciences",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204401"
+    ],
+    [
+      "BIOS4440",
+      "Human Pathology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204440"
+    ],
+    [
+      "BIOS4464",
+      "Developmental Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204464"
+    ],
+    [
+      "BIOS4471",
+      "Behavioral Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204471"
+    ],
+    [
+      "BIOS4500",
+      "Drug Discovery",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204500"
+    ],
+    [
+      "BIOS 4510/BIOL8510",
+      "Epigenetics,  Stem Cells, and Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204510"
+    ],
+    [
+      "BIOS4520",
+      "Health Genes Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204520"
+    ],
+    [
+      "BIOS 4530/BIOL8530",
+      "Human Evolutionary Genomics",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204530"
+    ],
+    [
+      "BIOS4545",
+      "Genetics of Complex Human Traits and Diseases",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204545"
+    ],
+    [
+      "BIOS 4560/BIOL8560",
+      "RNA Biology and Biotechnology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204560"
+    ],
+    [
+      "BIOS4570",
+      "Immunology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204570"
+    ],
+    [
+      "BIOS4744",
+      "Microbial Symbiosis & Microbiomes",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204744"
+    ],
+    [
+      "BIOS 4607/BIOL6607",
+      "Molecular Biology of Microbes: Disease, Nature, and Biotechnology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204607"
+    ],
+    [
+      "BMED3100",
+      "Systems Physiology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BMED%203100"
+    ],
+    [
+      "BMED3600",
+      "Physiology of Cellular and Molecular Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=BMED%203600"
+    ],
+    [
+      "CHEM4521",
+      "Biophysical Chemistry",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204521"
+    ],
+    [
+      "CHEM4765",
+      "Drug Design, Development, and Delivery",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204765"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "13"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ],
+    [
+      "orMATH1712",
+      "Survey of Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201712"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH1551&MATH1553",
+      "Differential Calculusand Introduction to Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "orMATH1711",
+      "Finite Mathematics",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201711"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "ECON2105",
+      "Principles of Macroeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202105"
+    ],
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
+    ],
+    [
+      "Any SS",
+      "3",
+      3
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "ACCT2101",
+      "Accounting I: Financial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ACCT%202101"
+    ],
+    [
+      "ACCT2102",
+      "Accounting II: Managerial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ACCT%202102"
+    ],
+    [
+      "MGT2106",
+      "Legal, Social, Ethical Aspects of Business",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202106"
+    ],
+    [
+      "MGT2210",
+      "Information Systems and Digital Transformation",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202210"
+    ],
+    [
+      "MGT2250",
+      "Management Statistics",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202250"
+    ],
+    [
+      "MGT2255",
+      "Quantitative Analysis for Business",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202255"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "LMC3403",
+      "Technical Communication, Theory and Practice",
+      3,
+      "https://catalog.gatech.edu/search/?P=LMC%203403"
+    ],
+    [
+      "MGT3062",
+      "Financial Management",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203062"
+    ],
+    [
+      "MGT3101",
+      "Organizational Behavior",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203101"
+    ],
+    [
+      "MGT3102",
+      "Managing Human Resources within a Regulatory Environment",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203102"
+    ],
+    [
+      "MGT3300",
+      "Marketing Management I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203300"
+    ],
+    [
+      "MGT3501",
+      "Operations Management",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203501"
+    ],
+    [
+      "MGT3599",
+      "Career Development Workshop",
+      1,
+      "https://catalog.gatech.edu/search/?P=MGT%203599"
+    ],
+    [
+      "MGT3660",
+      "International Business",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203660"
+    ],
+    [
+      "MGT3659",
+      "Foundations of Strategy",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203659"
+    ]
+  ],
+  "Finance Concentration": [
+    [
+      "MGT3076",
+      "Investments",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203076"
+    ],
+    [
+      "MGT3079",
+      "Management of Financial Institutions",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203079"
+    ],
+    [
+      "MGT4070",
+      "International Finance",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%204070"
+    ],
+    [
+      "MGT4067",
+      "Financial Markets: Trading and Structure",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%204067"
+    ],
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "MGT3075",
+      "Security Valuation",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203075"
+    ],
+    [
+      "MGT3082",
+      "Fundamentals of Real Estate Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203082"
+    ],
+    [
+      "MGT3084",
+      "Derivative Securities",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203084"
+    ],
+    [
+      "MGT4026",
+      "Financial Reporting and Analysis I",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204026"
+    ],
+    [
+      "MGT4066",
+      "Corporate Restructuring",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204066"
+    ],
+    [
+      "MGT4068",
+      "Fixed Income",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204068"
+    ],
+    [
+      "MGT4072",
+      "Entrepreneurial Finance",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204072"
+    ]
+  ],
+  "Non-MGT Electives": [
+    [
+      "Non-MGT Electives",
+      "6"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "10"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}
