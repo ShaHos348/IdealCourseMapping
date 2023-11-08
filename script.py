@@ -17,7 +17,7 @@ for i in range(len(titles)):
 links = courses.find_all('a')
 for i in range(len(links)):
     links[i] = links[i].get('href')
-    if links[i] != None and "www.catalog.gatech.edu" in links[i]:
+    if links[i] is not None and "www.catalog.gatech.edu" in links[i]:
         links[i] = links[i].split(".edu")[1]
 links.remove(None)
 
@@ -31,10 +31,10 @@ for program in range(len(links)):
 
     concentration = soup.find('div', id='concentrationstextcontainer')
     threads = soup.find('div', id='threadstextcontainer')
-    if concentration != None:
+    if concentration is not None:
         concentration_titles = concentration.find_all('li')
         for i in range(len(concentration_titles)):
-            concentration_titles[i] = concentration_titles[i].text.split('.')[0].replace(" ", "_").replace("\n","")
+            concentration_titles[i] = concentration_titles[i].text.split('.')[0].replace(" ", "_").replace("\n", "")
             if ":" in concentration_titles[i]:
                 concentration_titles[i] = concentration_titles[i].split(":")[0] + concentration_titles[i].split(":")[1]
         concentration_links = concentration.find_all('a')
@@ -61,7 +61,7 @@ for program in range(len(links)):
             for item in table.find_all('tr'):
                 if 'areaheader' in item["class"]:
                     currArea = item.text
-                    
+
                     map[item.text] = []
                 elif currArea == "":
                     continue
@@ -71,9 +71,9 @@ for program in range(len(links)):
                         sup = course_info.find('sup')
                         if sup:
                             sup.decompose()
-                        course.append(course_info.text.replace("\xa0","").strip())
+                        course.append(course_info.text.replace("\xa0", "").strip())
                     link = item.find('a')
-                    if (link != None):
+                    if link is not None:
                         course.append("https://catalog.gatech.edu" + link.get('href'))
                     map[currArea].append(course)
             creditHour = -1
@@ -98,12 +98,18 @@ for program in range(len(links)):
                         currCourse.insert(2, creditHour)
                 creditHour = -1
             if "-" not in concentration_titles[concentration]:
-                fileName = titles[program] + "-" + concentration_titles[concentration].replace(" ", "_").replace("_-_", "-").replace(",_",",").replace("Bachelor_of_Science_in_Mathematics","").replace("_with_a_concentration_in_","").replace("Bachelor_of_Science_in_","").replace("_with_a_concentration_is_","")
+                fileName = titles[program] + "-" + concentration_titles[concentration].replace(" ", "_").replace("_-_",
+                                                                                                                 "-").replace(
+                    ",_", ",").replace("Bachelor_of_Science_in_Mathematics", "").replace("_with_a_concentration_in_",
+                                                                                         "").replace(
+                    "Bachelor_of_Science_in_", "").replace("_with_a_concentration_is_", "")
             else:
-                fileName = concentration_titles[concentration].replace(" ", "_").replace("_-_", "-").replace("-_","-").replace("Bachelor_of_Science_in_","").replace("_Option","")
+                fileName = concentration_titles[concentration].replace(" ", "_").replace("_-_", "-").replace("-_",
+                                                                                                             "-").replace(
+                    "Bachelor_of_Science_in_", "").replace("_Option", "")
             with open("./majors/" + fileName + ".json", "w") as f:
                 f.write(json.dumps(map, indent=2))
-    elif threads != None:
+    elif threads is not None:
         thread_titles = threads.find_all('a')
         thread_links = threads.find_all('a')
         for i in range(len(thread_titles)):
@@ -127,7 +133,7 @@ for program in range(len(links)):
             for item in table.find_all('tr'):
                 if 'areaheader' in item["class"]:
                     currArea = item.text
-                    
+
                     map[item.text] = []
                 elif currArea == "":
                     continue
@@ -137,9 +143,9 @@ for program in range(len(links)):
                         sup = course_info.find('sup')
                         if sup:
                             sup.decompose()
-                        course.append(course_info.text.replace("\xa0","").strip())
+                        course.append(course_info.text.replace("\xa0", "").strip())
                     link = item.find('a')
-                    if (link != None):
+                    if (link is not None):
                         course.append("https://catalog.gatech.edu" + link.get('href'))
                     map[currArea].append(course)
             creditHour = -1
@@ -163,9 +169,11 @@ for program in range(len(links)):
                     if currCourse[0][0:2] == "or":
                         currCourse.insert(2, creditHour)
                 creditHour = -1
-            fileName = (titles[program] + "-" + thread_titles[threadIdx]).replace("_-_","-").replace("-_","-").replace("_\u2013_","-").replace(",_",",").strip()
+            fileName = (titles[program] + "-" + thread_titles[threadIdx]).replace("_-_", "-").replace("-_",
+                                                                                                      "-").replace(
+                "_\u2013_", "-").replace(",_", ",").strip()
             with open("./majors/" + fileName + ".json", "w") as f:
-                f.write(json.dumps(map,indent=2))
+                f.write(json.dumps(map, indent=2))
     else:
         table = soup.find('table', 'sc_courselist')
         map = {}
@@ -175,7 +183,7 @@ for program in range(len(links)):
         for item in table.find_all('tr'):
             if 'areaheader' in item["class"]:
                 currArea = item.text
-                
+
                 map[item.text] = []
             elif currArea == "":
                 continue
@@ -185,9 +193,9 @@ for program in range(len(links)):
                     sup = course_info.find('sup')
                     if sup:
                         sup.decompose()
-                    course.append(course_info.text.replace("\xa0","").strip())
+                    course.append(course_info.text.replace("\xa0", "").strip())
                 link = item.find('a')
-                if (link != None):
+                if link is not None:
                     course.append("https://catalog.gatech.edu" + link.get('href'))
                 map[currArea].append(course)
         creditHour = -1
@@ -196,13 +204,12 @@ for program in range(len(links)):
                 if "Select one" in course[0]:
                     creditHour = course[1]
                 elif creditHour != -1:
-                    if(len(course) > 2):
+                    if (len(course) > 2):
                         course[2] = creditHour
             creditHour = -1
 
         creditHour = -1
         for area in map.keys():
-
             for i in range(len(map[area])):
                 currCourse = map[area][i]
                 if len(currCourse) > 2 and currCourse[2].isnumeric():
@@ -212,4 +219,4 @@ for program in range(len(links)):
                     currCourse.insert(2, creditHour)
             creditHour = -1
         with open("./majors/" + titles[i] + ".json", "w") as f:
-            f.write(json.dumps(map,indent=2))
+            f.write(json.dumps(map, indent=2))
