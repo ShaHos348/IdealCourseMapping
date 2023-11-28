@@ -1,0 +1,65 @@
+Category,Course Code,Course Name,Credits,URL
+Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
+Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
+Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
+Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
+Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
+Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
+Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
+Core C - Humanities,Any HUM,3
+Core C - Humanities,Any LMC HUM,3
+Core D - Science, Math, & Technology,Lab Science,8
+Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
+Core D - Science, Math, & Technology,MATH1554,Linear Algebra,4,https://catalog.gatech.edu/search/?P=MATH%201554
+Core D - Science, Math, & Technology,orMATH1564,Linear Algebra with Abstract Vector Spaces,4,https://catalog.gatech.edu/search/?P=MATH%201564
+Core E - Social Sciences,Select one of the following:,3
+Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
+Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
+Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
+Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
+Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
+Core E - Social Sciences,Any SS,9,3
+Core F - Courses Related to Major,CS1331,Introduction to Object Oriented Programming,3,https://catalog.gatech.edu/search/?P=CS%201331
+Core F - Courses Related to Major,CS1332,Data Structures and Algorithms for Applications,3,https://catalog.gatech.edu/search/?P=CS%201332
+Core F - Courses Related to Major,CS2050,Introduction to Discrete Mathematics for Computer Science,3,https://catalog.gatech.edu/search/?P=CS%202050
+Core F - Courses Related to Major,CS2340,Objects and Design,3,https://catalog.gatech.edu/search/?P=CS%202340
+Core F - Courses Related to Major,LMC2700,Introduction to Computational Media,3,https://catalog.gatech.edu/search/?P=LMC%202700
+Core F - Courses Related to Major,MATH2550,Introduction to Multivariable Calculus,2,https://catalog.gatech.edu/search/?P=MATH%202550
+Major Requirement,CS2261,Media Device Architectures,4,https://catalog.gatech.edu/search/?P=CS%202261
+Major Requirement,CS4001,Computing, Society, and Professionalism,3,https://catalog.gatech.edu/search/?P=CS%204001
+Major Requirement,orCS4726,Privacy, Technology, Policy, and Law,3,https://catalog.gatech.edu/search/?P=CS%204726
+Major Requirement,orSLS3110,Technology and Sustainable Community Development,3,https://catalog.gatech.edu/search/?P=SLS%203110
+Junior Design Options (Capstone),Junior Design Option,6
+Media Requirements,CS3451,Computer Graphics,3,https://catalog.gatech.edu/search/?P=CS%203451
+Media Requirements,Media Technology (select two):,6
+Media Requirements,CS4455,Video Game Design and Programming,,https://catalog.gatech.edu/search/?P=CS%204455
+Media Requirements,CS4460,Introduction to Information Visualization,,https://catalog.gatech.edu/search/?P=CS%204460
+Media Requirements,CS4464,Computational Journalism,,https://catalog.gatech.edu/search/?P=CS%204464
+Media Requirements,CS4475,Computational Photography,,https://catalog.gatech.edu/search/?P=CS%204475
+Media Requirements,CS4480,Digital Video Special Effects,,https://catalog.gatech.edu/search/?P=CS%204480
+Media Requirements,CS4496,Computer Animation,,https://catalog.gatech.edu/search/?P=CS%204496
+Media Requirements,CS4590,Principles and Applications of Computer Audio,,https://catalog.gatech.edu/search/?P=CS%204590
+Interaction Design Requirements,LMC3710,Principles of Interaction Design,3,https://catalog.gatech.edu/search/?P=LMC%203710
+Interaction Design Requirements,LMC4813,Special Topics (Media/Design Capstone),3,https://catalog.gatech.edu/search/?P=LMC%204813
+Interaction Design Requirements,Design course:,3
+Interaction Design Requirements,LMC2720,Principles of Visual Design,,https://catalog.gatech.edu/search/?P=LMC%202720
+Interaction Design Requirements,LMC3705,Principles of Information Design,,https://catalog.gatech.edu/search/?P=LMC%203705
+Interaction Design Requirements,LMC4730,Experimental Digital Art,,https://catalog.gatech.edu/search/?P=LMC%204730
+Interaction Design Requirements,Design and Culture courses:,9
+Interaction Design Requirements,LMC2730,Constructing the Moving Image,,https://catalog.gatech.edu/search/?P=LMC%202730
+Interaction Design Requirements,LMC3206,Communication and Culture,,https://catalog.gatech.edu/search/?P=LMC%203206
+Interaction Design Requirements,LMC3314,Technologies of Representation,,https://catalog.gatech.edu/search/?P=LMC%203314
+Interaction Design Requirements,LMC3705,Principles of Information Design,,https://catalog.gatech.edu/search/?P=LMC%203705
+Interaction Design Requirements,LMC4730,Experimental Digital Art,,https://catalog.gatech.edu/search/?P=LMC%204730
+Interaction Design Requirements,CM or Media Courses,9
+Interaction Design Requirements,LMC2400,Introduction to Media Studies,,https://catalog.gatech.edu/search/?P=LMC%202400
+Interaction Design Requirements,LMC2500,Introduction to Film,,https://catalog.gatech.edu/search/?P=LMC%202500
+Interaction Design Requirements,LMC3206,Communication and Culture,,https://catalog.gatech.edu/search/?P=LMC%203206
+Interaction Design Requirements,LMC3314,Technologies of Representation,,https://catalog.gatech.edu/search/?P=LMC%203314
+Interaction Design Requirements,LMC3362,Science, Technology and Performance,,https://catalog.gatech.edu/search/?P=LMC%203362
+Interaction Design Requirements,LMC3406,Video Production,,https://catalog.gatech.edu/search/?P=LMC%203406
+Interaction Design Requirements,LMC3402,Graphic and Visual Design,,https://catalog.gatech.edu/search/?P=LMC%203402
+Interaction Design Requirements,LMC3853,Special Topics in Film,,https://catalog.gatech.edu/search/?P=LMC%203853
+Interaction Design Requirements,Any LMC 27XX, 37XX, 47XX, 325X,
+Free Electives,Free Electives,9
+Free Electives,Total Credit Hours,122

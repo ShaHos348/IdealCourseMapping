@@ -1,0 +1,68 @@
+Category,Course Code,Course Name,Credits,URL
+Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
+Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
+Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
+Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
+Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
+Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
+Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
+Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
+Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
+Core D - Science, Math, & Technology,Lab Science,4
+Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
+Core D - Science, Math, & Technology,MATH1554,Linear Algebra,4,https://catalog.gatech.edu/search/?P=MATH%201554
+Core D - Science, Math, & Technology,orMATH1564,Linear Algebra with Abstract Vector Spaces,4,https://catalog.gatech.edu/search/?P=MATH%201564
+Core E - Social Sciences,Select one of the following:,3
+Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
+Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
+Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
+Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
+Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
+Core E - Social Sciences,Any SS,9,3
+Core F - Courses Related to Major,Lab Science,4
+Core F - Courses Related to Major,CS1100,Freshman Leap Seminar,1,https://catalog.gatech.edu/search/?P=CS%201100
+Core F - Courses Related to Major,CS1331,Introduction to Object Oriented Programming,3,https://catalog.gatech.edu/search/?P=CS%201331
+Core F - Courses Related to Major,CS1332,Data Structures and Algorithms for Applications,3,https://catalog.gatech.edu/search/?P=CS%201332
+Core F - Courses Related to Major,CS2050,Introduction to Discrete Mathematics for Computer Science,3,https://catalog.gatech.edu/search/?P=CS%202050
+Core F - Courses Related to Major,orCS2051,Honors - Induction to Discrete Mathematics for Computer Science,3,https://catalog.gatech.edu/search/?P=CS%202051
+Core F - Courses Related to Major,MATH2550,Introduction to Multivariable Calculus,2,https://catalog.gatech.edu/search/?P=MATH%202550
+Major Requirements,CS2340,Objects and Design,3,https://catalog.gatech.edu/search/?P=CS%202340
+Major Requirements,Select one for Professionalism/Ethics requirement:,3
+Major Requirements,CS3001,Computing, Society, and Professionalism,3,https://catalog.gatech.edu/search/?P=CS%203001
+Major Requirements,CS4001,Computing, Society, and Professionalism,3,https://catalog.gatech.edu/search/?P=CS%204001
+Major Requirements,CS4002,Robots and Society,3,https://catalog.gatech.edu/search/?P=CS%204002
+Major Requirements,CS4003,AI, Ethics, and Society,3,https://catalog.gatech.edu/search/?P=CS%204003
+Major Requirements,CS4726,Privacy, Technology, Policy, and Law,3,https://catalog.gatech.edu/search/?P=CS%204726
+Major Requirements,SLS3110,Technology and Sustainable Community Development,3,https://catalog.gatech.edu/search/?P=SLS%203110
+Junior Design Options (Capstone),Junior Design Option,6
+Concentration,CS2110,Computer Organization and Programming,4,https://catalog.gatech.edu/search/?P=CS%202110
+Concentration,CS2200,Computer Systems and Networks,4,https://catalog.gatech.edu/search/?P=CS%202200
+Concentration,CS3510,Design and Analysis of Algorithms,3,https://catalog.gatech.edu/search/?P=CS%203510
+Concentration,orCS3511,Design and Analysis of Algorithms, Honors,3,https://catalog.gatech.edu/search/?P=CS%203511
+Concentration,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
+Concentration,Select three of the following for Media Technologies:,9
+Concentration,CS3451,Computer Graphics,,https://catalog.gatech.edu/search/?P=CS%203451
+Concentration,CS4455,Video Game Design and Programming,,https://catalog.gatech.edu/search/?P=CS%204455
+Concentration,CS4460,Introduction to Information Visualization,,https://catalog.gatech.edu/search/?P=CS%204460
+Concentration,CS4464,Computational Journalism,,https://catalog.gatech.edu/search/?P=CS%204464
+Concentration,CS4475,Computational Photography,,https://catalog.gatech.edu/search/?P=CS%204475
+Concentration,CS4480,Digital Video Special Effects,,https://catalog.gatech.edu/search/?P=CS%204480
+Concentration,CS4488,Procedural Content Generation,,https://catalog.gatech.edu/search/?P=CS%204488
+Concentration,CS4496,Computer Animation,,https://catalog.gatech.edu/search/?P=CS%204496
+Concentration,CS4497,Computational Aesthetics,,https://catalog.gatech.edu/search/?P=CS%204497
+Concentration,CS4590,Principles and Applications of Computer Audio,,https://catalog.gatech.edu/search/?P=CS%204590
+Concentration,Select six credit hours of the following for Computational Science and Engineering:,6
+Concentration,CS4641,Machine Learning,,https://catalog.gatech.edu/search/?P=CS%204641
+Concentration,CX4140,Computational Modeling Algorithms,,https://catalog.gatech.edu/search/?P=CX%204140
+Concentration,CX4220,Introduction to High Performance Computing,,https://catalog.gatech.edu/search/?P=CX%204220
+Concentration,CX4230,Computer Simulation,,https://catalog.gatech.edu/search/?P=CX%204230
+Concentration,CX4640,Numerical Analysis I,,https://catalog.gatech.edu/search/?P=CX%204640
+Other Required Courses,MATH3012,Applied Combinatorics,3,https://catalog.gatech.edu/search/?P=MATH%203012
+Other Required Courses,Select one of the following:,3
+Other Required Courses,MATH3215,Introduction to Probability and Statistics,3,https://catalog.gatech.edu/search/?P=MATH%203215
+Other Required Courses,MATH3670,Probability and Statistics with Applications,3,https://catalog.gatech.edu/search/?P=MATH%203670
+Other Required Courses,CEE3770,Statistics and Applications,3,https://catalog.gatech.edu/search/?P=CEE%203770
+Other Required Courses,ISYE3770,Statistics and Applications,3,https://catalog.gatech.edu/search/?P=ISYE%203770
+Other Required Courses,orISYE2027&ISYE2028,Probability with Applicationsand Basic Statistical Methods,3,3
+Free Electives,Free Electives,15
+Free Electives,Total Credit Hours,126
