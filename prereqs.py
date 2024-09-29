@@ -9,7 +9,7 @@ soup = BeautifulSoup(programsResponse.text, "lxml")
 courses = soup.find("div", id="atozindex")
 titles = courses.find_all("li")
 
-program_courses = {}
+program_courses = {} #dictionary for json file
 
 for i in range(len(titles)):
     titles[i] = titles[i].text.split(".")[0].replace(" ", "_").replace("_&_", "_and_")
@@ -27,20 +27,29 @@ for program in range(len(links)):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "lxml")
     course_titles = soup.find_all("p", class_="courseblocktitle")
+
+    # filters out all courses that contain keywords
+    keywords_to_exclude = ["Special Topics", "Special Problems", "Research", "Internship"]
+    filtered_courses = [course for course in course_titles
+                        if not any(keyword in course.get_text() for keyword in keywords_to_exclude)] 
+    course_titles = filtered_courses
+
     updated_course_titles = []
     for title in course_titles:
         title = title.get_text().split(".")[0]
         title = title.replace('\u00a0', ' ').strip()
+
+        # removes all recitations, labs, and electives
         if title[-1] != 'R' and 'X' not in title[-4:] and title[-1] != 'L':
             updated_course_titles.append(title)
-        else:
-            print(title)
     
     for title in updated_course_titles:
         print(title)
     
-    program_name = str(links[program])  # Or extract program name from URL if needed
+    program_name = str(links[program]).split('/')[-2].upper()  # Or extract program name from URL if needed
     program_courses[program_name] = updated_course_titles  # Store the filtered courses
+
+program_courses = {key: value for key, value in program_courses.items() if len(value) > 0}
 
 with open('program_courses.json', 'w') as json_file:
     json.dump(program_courses, json_file, indent=4)
