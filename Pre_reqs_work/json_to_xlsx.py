@@ -3,18 +3,18 @@ import pandas as pd
 import json
 
 # Define the file path for the Excel file
-excel_file_path = 'program_courses.xlsx'
+excel_file_path = 'Pre_reqs_work/program_courses.xlsx'
 
 # Remove the Excel file if it already exists
 if os.path.exists(excel_file_path):
     os.remove(excel_file_path)
 
 # Load JSON data from the file
-with open('program_courses.json', 'r') as json_file:
+with open('Pre_reqs_work/program_courses.json', 'r') as json_file:
     program_courses = json.load(json_file)
 
 # Create a Pandas Excel writer using openpyxl as the engine
-with pd.ExcelWriter('program_courses.xlsx', engine='openpyxl') as writer:
+with pd.ExcelWriter('Pre_reqs_work/program_courses.xlsx', engine='openpyxl') as writer:
     for program_name, courses in program_courses.items():
         # Create an output DataFrame with empty cells
         num_columns = 10  # Number of columns you want

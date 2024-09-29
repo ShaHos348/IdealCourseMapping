@@ -51,7 +51,7 @@ for program in range(len(links)):
 
 program_courses = {key: value for key, value in program_courses.items() if len(value) > 0}
 
-with open('program_courses.json', 'w') as json_file:
+with open('Pre_reqs_work/program_courses.json', 'w') as json_file:
     json.dump(program_courses, json_file, indent=4)
 
 print("JSON file created successfully.")
