@@ -1,0 +1,44 @@
+{
+    "FILE_NAME": [
+        "INFORMATION",
+        "ORDERED BY WHAT IS USED/CREATED FIRST"
+    ],
+    "prereq.py": [
+        "Goes through undergrad course catalog to retreive all undergraduate courses at GaTech",
+        "Filters out any courses that is special topic/problem, research, internship, recitation, or lab",
+        "Creates program_courses.json file with all the courses found"
+    ],
+    "program_courses.json": [
+        "Lists all courses for all subjects offered at GaTech in a dictionary",
+        "Key is subject and value is array of all courses"
+    ],
+    "json_to_xlsx.py": [
+        "Converts the program_courses.json file to an xlsx file"
+        
+    ],
+    "program_courses.xlsx": [
+        "xlsx file created from json_to_xlsx.py",
+        "Each tab is the subject and the first course in column 1 in each row is the main course"
+    ],
+    "find_prereqs_V1.py": [
+        "Uses program_courses.json file to look for all courses offered this semester",
+        "Uses selenium to navigate through Schedule of Classes to find all available links for course information pages",
+        "These pages include the co-reqs and ore-reqs"
+    ],  
+    "course_links.json": [
+        "Similar to program_courses.json, but each course now has a link with it"
+    ],
+    "parse_reqs_to_excel.py": [
+        "Similar program that takes in text and parses and courses found",
+        "Will be used to get the prereqs from the course information pages"
+    ],
+    "links_to_prereqs.py": [
+        "Goes through course_links.json to retrieve the prereqs for each course from its course page",
+        "Creates prereqs.json file that lists all subjects, its courses, and each courses' prereqs"
+    ],
+    "prereqs.json": [
+        "Json file that lists all subjects, its courses, and each courses' prereqs",
+        "Each key is the subject. Each value is an array of its courses",
+        "Each course is also a key to an an array of values that are its prereqs"
+    ]
+}
