@@ -2,6 +2,7 @@ import os
 from bs4 import BeautifulSoup
 import requests
 import json
+import text_prereq_parser as parser
 
 fileName = 'Pre_reqs_work\prereqs'
 map = {}
@@ -17,17 +18,18 @@ def find_prereqs(link):
     prereq_label = soup.find("span", string="Prerequisites: ")
     #print(prereq_label)
 
-    prereq_text = []
+    prereq_text = ""
     if prereq_label:
-        for sibling in prereq_label.find_next_siblings():
-            if sibling.name == 'br' or sibling == '':
+        for sibling in prereq_label.next_siblings:
+            # Stop when you encounter a break or empty string
+            if sibling.name == 'br':
                 continue
-            prereq_text.append(sibling.get_text())
-    prereqs = '/'.join(prereq_text)
+            # Append text or link text
+            prereq_text = prereq_text + sibling.get_text(strip=True)
+    #print(prereq_text)
 
-    print(prereqs)
-
-    return prereqs.split("/")
+    # Remove empty strings from the list
+    return [course for course in parser.parse_courses(prereq_text) if course]
 
 subject_count0 = 1
 subject_length = len(program_courses.keys())
