@@ -1,0 +1,275 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Core C - Humanities 1": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Core E - Social Sciences 1": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "Any SS",
+      "9",
+      3
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ],
+    [
+      "EAS1600",
+      "Introduction to Environmental Science",
+      4,
+      "https://catalog.gatech.edu/search/?P=EAS%201600"
+    ],
+    [
+      "EAS2600",
+      "Earth Processes",
+      4,
+      "https://catalog.gatech.edu/search/?P=EAS%202600"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "EAS2655",
+      "Quantitative Techniques in Earth and Atmospheric Sciences",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%202655"
+    ],
+    [
+      "EAS3603",
+      "Thermodynamics of Earth Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%203603"
+    ],
+    [
+      "EAS3610",
+      "Introduction to Geophysics",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%203610"
+    ],
+    [
+      "EAS4370",
+      "Physics of Planets",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%204370"
+    ],
+    [
+      "EAS4200",
+      "Structural Geology and Continuum Mechanics",
+      4,
+      "https://catalog.gatech.edu/search/?P=EAS%204200"
+    ],
+    [
+      "EAS4610",
+      "Earth System Modeling",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%204610"
+    ],
+    [
+      "EAS4801",
+      "Special Topics (Career Development Seminar)",
+      1,
+      "https://catalog.gatech.edu/search/?P=EAS%204801"
+    ],
+    [
+      "EAS4814",
+      "Special Topics-Lab (Geophysical Field Methods)",
+      4,
+      "https://catalog.gatech.edu/search/?P=EAS%204814"
+    ],
+    [
+      "orEAS4420",
+      "Environmental Field Methods",
+      4,
+      "https://catalog.gatech.edu/search/?P=EAS%204420"
+    ]
+  ],
+  "SEP Technical Electives12": [
+    [
+      "EAS4312",
+      "Geodynamics",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204312"
+    ],
+    [
+      "EAS4314",
+      "Seismology",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204314"
+    ],
+    [
+      "EAS4316",
+      "Earthquake Physics",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204316"
+    ],
+    [
+      "EAS4360",
+      "Space Physics and Space Instrumentation",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204360"
+    ],
+    [
+      "EAS4375",
+      "Earth and Planetary Materials",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204375"
+    ],
+    [
+      "EAS4480",
+      "Environmental Data Analysis",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204480"
+    ],
+    [
+      "EAS4520",
+      "Seismic Methods in Exploration Geophysics",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204520"
+    ],
+    [
+      "EAS4699",
+      "Undergraduate Research",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204699"
+    ],
+    [
+      "EAS4803",
+      "Special Topics (Earth Evolution)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204803"
+    ],
+    [
+      "EAS4803",
+      "Special Topics (Ice Sheet Dynamics)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204803"
+    ],
+    [
+      "EAS4803",
+      "Special Topics (Geologic History)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204803"
+    ]
+  ],
+  "Upper Division Electives12": [],
+  "Free Electives 19": [
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

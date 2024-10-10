@@ -1,0 +1,917 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ],
+    [
+      "orMATH1554",
+      "Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201554"
+    ],
+    [
+      "orMATH1564",
+      "Linear Algebra with Abstract Vector Spaces",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201564"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "ECON2100",
+      "Economic Analysis and Policy Problems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202100"
+    ],
+    [
+      "PSYC1101",
+      "General Psychology",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%201101"
+    ],
+    [
+      "Any SS",
+      "3",
+      3
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "CS2316",
+      "Data Manipulation for Science and Industry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%202316"
+    ],
+    [
+      "CS4400",
+      "Introduction to Database Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204400"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "orMATH2550",
+      "Introduction to Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202550"
+    ],
+    [
+      "orMATH2561",
+      "Honors Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202561"
+    ],
+    [
+      "MATH2106",
+      "Foundations of Mathematical Proof",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%202106"
+    ],
+    [
+      "ISYE3025",
+      "Essentials of Engineering Economy",
+      1,
+      "https://catalog.gatech.edu/search/?P=ISYE%203025"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "Ethics Requirement",
+      "",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#"
+    ],
+    [
+      "Environmental Requirement",
+      ""
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "ACCT2101",
+      "Accounting I: Financial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ACCT%202101"
+    ],
+    [
+      "orMGT3000",
+      "Financial and Managerial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203000"
+    ],
+    [
+      "MATH3012",
+      "Applied Combinatorics",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203012"
+    ],
+    [
+      "MATH3406",
+      "A Second Course in Linear Algebra",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203406"
+    ],
+    [
+      "ISYE2027",
+      "Probability with Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%202027"
+    ],
+    [
+      "ISYE3030",
+      "Basic Statistical Methods",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%203030"
+    ],
+    [
+      "ISYE3133",
+      "Engineering Optimization",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%203133"
+    ],
+    [
+      "ISYE3232",
+      "Stochastic Manufacturing and Service Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%203232"
+    ],
+    [
+      "ISYE3044",
+      "Simulation Analysis and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%203044"
+    ],
+    [
+      "ISYE4031",
+      "Regression and Forecasting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%204031"
+    ],
+    [
+      "ISYE4106",
+      "Senior Design",
+      4,
+      "https://catalog.gatech.edu/search/?P=ISYE%204106"
+    ]
+  ],
+  "Engineering Electives 8,9": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "ECE2020",
+      "Digital System Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202020"
+    ],
+    [
+      "ECE2026",
+      "Introduction to Signal Processing",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202026"
+    ],
+    [
+      "ECE3710&ECE3741",
+      "Circuits and Electronicsand Instrumentation and Electronics Lab",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203710"
+    ],
+    [
+      "Select at least 5 credits of the following:",
+      "5"
+    ],
+    [
+      "Group 1",
+      ""
+    ],
+    [
+      "AE2220",
+      "Dynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%202220"
+    ],
+    [
+      "AE3450",
+      "Thermodynamics and Compressible Flow",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%203450"
+    ],
+    [
+      "BMED3100",
+      "Systems Physiology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%203100"
+    ],
+    [
+      "CHBE2100",
+      "Chemical Process Principles",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%202100"
+    ],
+    [
+      "CHBE2130",
+      "Chemical Engineering  Thermodynamics I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%202130"
+    ],
+    [
+      "CHBE4763",
+      "Pulping and Chemical Recovery",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%204763"
+    ],
+    [
+      "CHBE4764",
+      "Bleaching and Papermaking",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%204764"
+    ],
+    [
+      "COE2001",
+      "Statics",
+      3,
+      "https://catalog.gatech.edu/search/?P=COE%202001"
+    ],
+    [
+      "COE3001",
+      "Mechanics of Deformable Bodies",
+      3,
+      "https://catalog.gatech.edu/search/?P=COE%203001"
+    ],
+    [
+      "CEE2040",
+      "Dynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%202040"
+    ],
+    [
+      "CEE2300",
+      "Environmental Engineering Principles",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%202300"
+    ],
+    [
+      "CEE3010",
+      "Geomatics",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%203010"
+    ],
+    [
+      "CEE4100",
+      "Construction Engineering and Management",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%204100"
+    ],
+    [
+      "CEE4300",
+      "Environmental Engineering Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%204300"
+    ],
+    [
+      "CEE4600",
+      "Transportation Planning, Operations, and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%204600"
+    ],
+    [
+      "CS2110",
+      "Computer Organization and Programming",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%202110"
+    ],
+    [
+      "CS4641",
+      "Machine Learning",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204641"
+    ],
+    [
+      "CS6505",
+      "Computability, Algorithms, and Complexity",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%206505"
+    ],
+    [
+      "CX4010",
+      "Computational Problem Solving for Scientists and Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CX%204010"
+    ],
+    [
+      "CX4240",
+      "Introduction to Computing for Data Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=CX%204240"
+    ],
+    [
+      "CX4242",
+      "Data and Visual Analytics",
+      3,
+      "https://catalog.gatech.edu/search/?P=CX%204242"
+    ],
+    [
+      "ECE2020",
+      "Digital System Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202020"
+    ],
+    [
+      "ECE2026",
+      "Introduction to Signal Processing",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202026"
+    ],
+    [
+      "ECE2040",
+      "Circuit Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202040"
+    ],
+    [
+      "ECE3035",
+      "Mechanisms for Computing Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203035"
+    ],
+    [
+      "ECE3076",
+      "Computer Communications",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203076"
+    ],
+    [
+      "ECE3090",
+      "Software Fundamentals for Engineering Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203090"
+    ],
+    [
+      "ECE3710",
+      "Circuits and Electronics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203710"
+    ],
+    [
+      "ECE3741",
+      "Instrumentation and Electronics Lab",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203741"
+    ],
+    [
+      "ECE4606",
+      "Wireless Communications",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204606"
+    ],
+    [
+      "ECE4823",
+      "Special Topics (Game Theory and Multiagent Systems)",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204823"
+    ],
+    [
+      "ME2202",
+      "Dynamics of Rigid Bodies",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%202202"
+    ],
+    [
+      "ME3015",
+      "System Dynamics and Control",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%203015"
+    ],
+    [
+      "ME3322",
+      "Thermodynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%203322"
+    ],
+    [
+      "ME3720",
+      "Introduction to Fluid and Thermal Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%203720"
+    ],
+    [
+      "ME4763",
+      "Pulping and Chemical Recovery",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%204763"
+    ],
+    [
+      "ME4764",
+      "Bleaching and Papermaking",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%204764"
+    ],
+    [
+      "MSE2001",
+      "Principles and Applications of Engineering Materials",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%202001"
+    ],
+    [
+      "MSE3012",
+      "Thermal and Transport Properties of Materials",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%203012"
+    ],
+    [
+      "MSE3015",
+      "Electrical, Optical, and Magnetic Properties",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%203015"
+    ],
+    [
+      "NRE3301",
+      "Radiation Physics",
+      3,
+      "https://catalog.gatech.edu/search/?P=NRE%203301"
+    ],
+    [
+      "Group 2",
+      ""
+    ],
+    [
+      "AE4370",
+      "Life Cycle Cost Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204370"
+    ],
+    [
+      "AE4701",
+      "Wind Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204701"
+    ],
+    [
+      "AE4793",
+      "Composite Materials and Processes",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204793"
+    ],
+    [
+      "ARCH6271",
+      "Healthcare Design of the Future",
+      3,
+      "https://catalog.gatech.edu/search/?P=ARCH%206271"
+    ],
+    [
+      "BIOS2400",
+      "Math Models in Biology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%202400"
+    ],
+    [
+      "BIOS4740",
+      "Biologically-Inspired Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%204740"
+    ],
+    [
+      "BMED2300",
+      "Problems in Biomedical Engineering II",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%202300"
+    ],
+    [
+      "BMED3400",
+      "Introduction to Biomechanics",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%203400"
+    ],
+    [
+      "BMED4751",
+      "Introduction to Biomaterials",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%204751"
+    ],
+    [
+      "CHBE4793",
+      "Composite Materials and Processes",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%204793"
+    ],
+    [
+      "COE3002",
+      "Intro to Microelectronics and Nanotechnology Revolution",
+      3,
+      "https://catalog.gatech.edu/search/?P=COE%203002"
+    ],
+    [
+      "CEE4225",
+      "Introduction to Coastal Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%204225"
+    ],
+    [
+      "CEE4330",
+      "Air Pollution Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%204330"
+    ],
+    [
+      "CEE4793",
+      "Composite Materials and Processes",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%204793"
+    ],
+    [
+      "CP4310",
+      "Urban Transportation and Planning",
+      3,
+      "https://catalog.gatech.edu/search/?P=CP%204310"
+    ],
+    [
+      "CP4510",
+      "Fundamentals of Geographic Information Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CP%204510"
+    ],
+    [
+      "ECE2031",
+      "Digital Design Laboratory",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202031"
+    ],
+    [
+      "ECE4755",
+      "Electronic Packaging Substrate Fabrication",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204755"
+    ],
+    [
+      "ISYE4740",
+      "Bio-Inspired Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%204740"
+    ],
+    [
+      "MATH4755",
+      "Mathematical Biology",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204755"
+    ],
+    [
+      "ME2110",
+      "Creative Decisions and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%202110"
+    ],
+    [
+      "ME3057",
+      "Experimental Methodology and Technical Writing",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%203057"
+    ],
+    [
+      "ME4740",
+      "Biologically Inspired Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%204740"
+    ],
+    [
+      "ME4793",
+      "Composite Materials and Processes",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%204793"
+    ],
+    [
+      "MSE2021",
+      "Materials Characterization",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%202021"
+    ],
+    [
+      "MSE3720",
+      "Introduction to Polymer/Fiber Enterprise",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%203720"
+    ],
+    [
+      "MSE4751",
+      "Introduction to Biomaterials",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%204751"
+    ],
+    [
+      "MSE4755",
+      "Electronic Packaging Substrate Fabrication",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%204755"
+    ],
+    [
+      "MSE4793",
+      "Composite Materials and Processing",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%204793"
+    ]
+  ],
+  "Advanced Studies in Operations Research & Statistics Concentration 12": [
+    [
+      "ISYE8813",
+      "Special Topics in Operations Research (Must have title Math of Operations Research)",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%208813"
+    ],
+    [
+      "orMATH4317",
+      "Analysis I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204317"
+    ],
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "ISYE4133",
+      "Advanced Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204133"
+    ],
+    [
+      "ISYE4232",
+      "Advanced Stochastic Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204232"
+    ],
+    [
+      "ISYE6661",
+      "Linear Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206661"
+    ],
+    [
+      "ISYE6662",
+      "Discrete Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206662"
+    ],
+    [
+      "ISYE6663",
+      "Nonlinear Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206663"
+    ],
+    [
+      "ISYE6664",
+      "Stochastic Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206664"
+    ],
+    [
+      "ISYE6761",
+      "Stochastic Processes I",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206761"
+    ],
+    [
+      "ISYE6412",
+      "Theoretical Statistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206412"
+    ],
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "ISYE3103",
+      "Introduction to Supply Chain Modeling: Logistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%203103"
+    ],
+    [
+      "ISYE3104",
+      "Introduction to Supply Chain Modeling: Manufacturing and Warehousing",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%203104"
+    ],
+    [
+      "ISYE3106",
+      "Cornerstone Design for Industrial Engineers",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%203106"
+    ],
+    [
+      "ISYE3039",
+      "Methods of Quality Improvement",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%203039"
+    ],
+    [
+      "ISYE4034",
+      "Decision and Data Analytics",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204034"
+    ],
+    [
+      "ISYE4045",
+      "Advanced Simulation",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204045"
+    ],
+    [
+      "ISYE4111",
+      "Advanced Supply Chain Logistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204111"
+    ],
+    [
+      "ISYE4134",
+      "Constraint Programming",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204134"
+    ],
+    [
+      "ISYE4301",
+      "Supply Chain Economics",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204301"
+    ],
+    [
+      "ISYE4311",
+      "Capital Investment Analysis",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204311"
+    ],
+    [
+      "ISYE4501",
+      "Energy, Efficiency, and Sustainability",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204501"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Advanced Manufacturing)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Facility Layout and Warehousing)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Health Systems Engineering)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Introduction to Machine Learning)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Online Learn/Decision Making)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Reliability Engineering)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Systems Design for IEs)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
+    ]
+  ],
+  "Free Electives 14": [
+    [
+      "Free Electives",
+      "11"
+    ],
+    [
+      "Total Credit Hours",
+      "128"
+    ]
+  ]
+}

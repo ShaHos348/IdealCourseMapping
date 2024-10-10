@@ -1,0 +1,414 @@
+{
+  "Wellness": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Core A - Essential Skills": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ],
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Core B - Institutional Options": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Core C - Humanities": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Core D - Science, Math, & Technology": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ],
+    [
+      "orMATH1554",
+      "Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201554"
+    ],
+    [
+      "orMATH1564",
+      "Linear Algebra with Abstract Vector Spaces",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201564"
+    ]
+  ],
+  "Core E - Social Sciences": [
+    [
+      "Choose one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      "",
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      "",
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      "",
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      "",
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      "",
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ],
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
+    ],
+    [
+      "Any SS",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Core F - Courses Related to Major": [
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ],
+    [
+      "CHEM1310",
+      "General Chemistry",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201310"
+    ],
+    [
+      "orCHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "PHYS2213",
+      "Introduction to Modern Physics",
+      3,
+      "https://catalog.gatech.edu/search/?P=PHYS%202213"
+    ],
+    [
+      "PHYS3201",
+      "Classical Mechanics I",
+      3,
+      "https://catalog.gatech.edu/search/?P=PHYS%203201"
+    ]
+  ],
+  "Upper-Level Physics": [
+    [
+      "PHYS3122",
+      "Electrostatics and Magnetostatics",
+      3,
+      "https://catalog.gatech.edu/search/?P=PHYS%203122"
+    ],
+    [
+      "PHYS3123",
+      "Electrodynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=PHYS%203123"
+    ],
+    [
+      "PHYS3141",
+      "Thermodynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=PHYS%203141"
+    ],
+    [
+      "PHYS3143",
+      "Quantum Mechanics I",
+      3,
+      "https://catalog.gatech.edu/search/?P=PHYS%203143"
+    ],
+    [
+      "PHYS3211",
+      "Electronics I",
+      5,
+      "https://catalog.gatech.edu/search/?P=PHYS%203211"
+    ],
+    [
+      "PHYS3266",
+      "Computational Physics",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%203266"
+    ],
+    [
+      "PHYS4206",
+      "Electronics II",
+      5,
+      "https://catalog.gatech.edu/search/?P=PHYS%204206"
+    ],
+    [
+      "PHYS4321",
+      "Advanced Laboratory I",
+      3,
+      "https://catalog.gatech.edu/search/?P=PHYS%204321"
+    ],
+    [
+      "PHYS4601",
+      "Senior Seminar I",
+      1,
+      "https://catalog.gatech.edu/search/?P=PHYS%204601"
+    ],
+    [
+      "PHYS4602",
+      "Senior Seminar II",
+      1,
+      "https://catalog.gatech.edu/search/?P=PHYS%204602"
+    ]
+  ],
+  "Physics or Technical Electives": [
+    [
+      "Any PHYS or Technical Electives",
+      "14"
+    ]
+  ],
+  "Business Option": [
+    [
+      "ACCT2101",
+      "Accounting I: Financial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ACCT%202101"
+    ],
+    [
+      "orMGT3000",
+      "Financial and Managerial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203000"
+    ],
+    [
+      "MGT3101",
+      "Organizational Behavior",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203101"
+    ],
+    [
+      "orMGT3150",
+      "Principles of Management",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203150"
+    ],
+    [
+      "orPSYC2220",
+      "Industrial/Organizational Psychology",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%202220"
+    ],
+    [
+      "Choose one of the following:",
+      "6"
+    ],
+    [
+      "MGT3062",
+      "Financial Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203062"
+    ],
+    [
+      "MGT3078",
+      "Finance and Investments",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203078"
+    ],
+    [
+      "MGT3300",
+      "Marketing Management I",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203300"
+    ],
+    [
+      "MGT3660",
+      "International Business",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203660"
+    ],
+    [
+      "MGT4015",
+      "Advanced Managerial Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204015"
+    ],
+    [
+      "MGT4026",
+      "Financial Reporting and Analysis I",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204026"
+    ],
+    [
+      "MGT4028",
+      "Financial Analysis and Reporting of Technology Firms",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204028"
+    ],
+    [
+      "MGT4030",
+      "International Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204030"
+    ],
+    [
+      "MGT4190",
+      "Strategic Quality Management and Competitiveness",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204190"
+    ],
+    [
+      "MGT4191",
+      "The Entrepreneurship Forum",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204191"
+    ],
+    [
+      "MGT4192",
+      "Impact Speaker Series Forum",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204192"
+    ],
+    [
+      "MGT4193",
+      "Servant Leadership, Values & Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204193"
+    ],
+    [
+      "MGT4194",
+      "Social Enterprise and Entrepreneurship",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204194"
+    ],
+    [
+      "MGT4303",
+      "Personal Selling and Sales Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204303"
+    ],
+    [
+      "MGT4304",
+      "Strategic Brand Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204304"
+    ],
+    [
+      "MGT4307",
+      "Strategic Marketing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204307"
+    ],
+    [
+      "MGT4335",
+      "International Marketing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204335"
+    ],
+    [
+      "MGT4610",
+      "Law, Management, and Economics",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204610"
+    ],
+    [
+      "MGT4670",
+      "Entrepreneurship",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204670"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "2"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}
