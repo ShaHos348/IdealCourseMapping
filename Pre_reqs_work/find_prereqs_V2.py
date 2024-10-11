@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 import json
+import os
 
 course_links = {}
 
@@ -13,12 +14,14 @@ with open('Pre_reqs_work/course_links.json', 'r') as json_file:
 # Set up the WebDriver (e.g., for Chrome)
 driver = webdriver.Chrome()
 
+term = "Spring 2023 (View only)"
+
 # Merthod to get the term
 def select_term():
     driver.get("https://oscar.gatech.edu/pls/bprod/bwckschd.p_disp_dyn_sched") # Load the webpage
     
     dropdown = Select(driver.find_element(By.NAME, "p_term")) # Select an option from a dropdown
-    dropdown.select_by_visible_text("Spring 2024")
+    dropdown.select_by_visible_text(term)
     
     link = driver.find_element(By.XPATH, "//input[@type='submit' and @value='Submit']") # Submit
     link.click()
@@ -37,8 +40,8 @@ def select_subject():
         subject_list.append(option_value) 
 # Print all options and their values
     print("Available Subjects and their Values:")
-    for subject in subject_list:
-        if subject in subject_courses.keys():
+    for subject in subject_courses.keys():
+        if subject in subject_list:
             print(f"Subject: {subject}")
 
             # Selects subject
@@ -59,7 +62,7 @@ def select_subject():
                 subject_pick.select_by_value(subject)
 
                 #only goes through courses that do not have links
-                if (link == "NONE"): 
+                if (link == 0): 
                     # Enters the course number into the search bar
                     course_num = driver.find_element(By.XPATH, "//*[@id='crse_id']")
                     course_num.clear()
@@ -69,17 +72,22 @@ def select_subject():
 
                     #gets link for course
                     new_link = get_link(course)
-                    courselist[1] = new_link
-                    print(new_link)
+                    
+                    #print(new_link)
                     if new_link != 0: #if there is a link for the course, we will add it to the list
-                        course_links[subject].append((course, courselist[1]))
+                        #course_links[subject].append((course, courselist[1]))
+                        courselist[1] = new_link
+                        print("Subject: ", subject, "--", course_links[subject])
                     else: #if there is no link for the course, we will display NONE
-                        course_links[subject].append((course, "NONE"))
-                    print("Subject: ", subject, "--", course_links[subject])
+                        #course_links[subject].append((course, "NONE"))
+                        courselist[1] = "NONE"
+                        #print("Link not found")
                     driver.find_element(By.XPATH, "/html/body/div[3]/table[2]/tbody/tr/td/a").click() #Return to this page
                 
                 else: #adds courses that already has links to the list
-                    course_links[subject].append((course, link))
+                    #course_links[subject].append((course, link))
+                    #print("Link there")
+                    filler = 0
            
         else:
             print(f"{subject} not there")
@@ -103,8 +111,11 @@ driver.quit()
 
 # Print the final course links dictionary
 print("Final course links dictionary:")
-print(json.dumps(course_links, indent=4))
+print(json.dumps(subject_courses, indent=4))
+
+if os.path.exists('Pre_reqs_work/course_linksV2.json'):
+    os.remove('Pre_reqs_work/course_linksV3.json')
 
 # Optionally save the course_links dictionary to a JSON file
 with open('Pre_reqs_work/course_linksV2.json', 'w') as outfile:
-    json.dump(course_links, outfile, indent=4)
+    json.dump(subject_courses, outfile, indent=4)
