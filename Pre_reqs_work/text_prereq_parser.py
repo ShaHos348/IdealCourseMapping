@@ -2,7 +2,7 @@ import re
 
 def parse_courses(input_text):
     # Regular expression to match course code and number (e.g., MATH 3215 or MATH 2X51)
-    course_pattern = r"([A-Z]{4} \d{4}|[A-Z]{4} [A-Z]\d{3})"
+    course_pattern = r"([A-Z]{2,4} \d{4}|[A-Z]{2,4} [A-Z]\d{3})"
     
     # Split the input text by 'and' and process each section
     and_split = re.split(r'\)\s+and\s+\(', input_text)
