@@ -10,26 +10,35 @@ if os.path.exists(excel_file_path):
     os.remove(excel_file_path)
 
 # Load JSON data from the file
-with open('Pre_reqs_work/program_courses.json', 'r') as json_file:
+with open('Pre_reqs_work/prereqs.json', 'r') as json_file:
     program_courses = json.load(json_file)
 
 # Create a Pandas Excel writer using openpyxl as the engine
-with pd.ExcelWriter('Pre_reqs_work/program_courses.xlsx', engine='openpyxl') as writer:
+with pd.ExcelWriter(excel_file_path, engine='openpyxl') as writer:
     for program_name, courses in program_courses.items():
-        # Create an output DataFrame with empty cells
-        num_columns = 10  # Number of columns you want
-        num_rows = len(courses)  # Total number of courses
+        # Create a DataFrame to hold the courses and their prerequisites
+        data = []
         
-        # Create an empty DataFrame with the desired number of rows and columns
-        output_df = pd.DataFrame(index=range(num_rows), columns=range(num_columns))
+        # Iterate over courses and add the course along with its prerequisites
+        for course, prereqs in courses.items():
+            row = [course]  # Start the row with the course name
+            if isinstance(prereqs, list):  # If prerequisites are a list
+                row.extend(prereqs)  # Add the prerequisites to the row
+            else:
+                row.append("NULL")
+            data.append(row)
 
-        # Fill the first column with the courses
-        output_df[0] = courses
+        # Create the DataFrame, fill NA for missing values, and set up to 10 columns
+        output_df = pd.DataFrame(data).fillna('')
 
-        # Number the first row (columns)
-        output_df.columns = [str(i + 1) for i in range(num_columns)]  # Numbering columns from 1 to num_columns
+        # Ensure there are exactly 10 columns by adding blank columns if necessary
+        num_columns = 10
+        output_df = output_df.reindex(columns=range(num_columns), fill_value='')
 
-        # Write the DataFrame to the corresponding sheet with the program name
+        # Number the first row (columns) from 1 to 10
+        output_df.columns = [str(i + 1) for i in range(num_columns)]
+
+        # Write the DataFrame to the corresponding sheet with the program name as the sheet name
         output_df.to_excel(writer, sheet_name=program_name, index=False)
 
-print("Excel file created successfully.")
+print("Excel file with numbered columns and subject-specific sheets created successfully.")

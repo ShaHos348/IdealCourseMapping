@@ -32,6 +32,7 @@ def find_prereqs(link):
     return [course for course in parser.parse_courses(prereq_text) if course]
 
 subject_count0 = 1
+course_count = 1
 subject_length = len(program_courses.keys())
 for subject in program_courses.keys():
     print(f"Subject = {subject}")
@@ -39,12 +40,13 @@ for subject in program_courses.keys():
         map[subject] = {}
 
     for course, link in program_courses[subject]:
-        print(f"Current Subject Num: {subject_count0}/{subject_length} Course = {course}")
+        print(f"Current Subject Num: {subject_count0}/{subject_length} Course = {course} Course_Count: {course_count}")
         if link != 'NONE':
             prereqs = find_prereqs(link)
         else:
             prereqs = ""
         map[subject][course] = prereqs
+        course_count += 1
     subject_count0 += 1
 
 program_courses = {key: value for key, value in program_courses.items() if len(value) > 0}
