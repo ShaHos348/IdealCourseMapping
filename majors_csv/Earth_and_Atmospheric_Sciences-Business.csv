@@ -1,79 +1,78 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1371,Computing for Engineers,3,https://catalog.gatech.edu/search/?P=CS%201371
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,CHEM1211K,Chemical Principles I,4,https://catalog.gatech.edu/search/?P=CHEM%201211K
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,ECON2106,Principles of Microeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,6,3
-Core F - Courses Related to Major,MATH2551,Multivariable Calculus,4,https://catalog.gatech.edu/search/?P=MATH%202551
-Core F - Courses Related to Major,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
-Core F - Courses Related to Major,CHEM1212K,Chemical Principles II,4,https://catalog.gatech.edu/search/?P=CHEM%201212K
-Core F - Courses Related to Major,orPHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core F - Courses Related to Major,EAS Technical Electives,5
-EAS Core,EAS1600,Introduction to Environmental Science,4,https://catalog.gatech.edu/search/?P=EAS%201600
-EAS Core,EAS2600,Earth Processes,4,https://catalog.gatech.edu/search/?P=EAS%202600
-EAS Core,EAS2655,Quantitative Techniques in Earth and Atmospheric Sciences,3,https://catalog.gatech.edu/search/?P=EAS%202655
-EAS Core,EAS3603,Thermodynamics of Earth Systems,3,https://catalog.gatech.edu/search/?P=EAS%203603
-EAS Core,Select two of the following:,6
-EAS Core,EAS3610,Introduction to Geophysics,,https://catalog.gatech.edu/search/?P=EAS%203610
-EAS Core,EAS4200,Structural Geology and Continuum Mechanics,,https://catalog.gatech.edu/search/?P=EAS%204200
-EAS Core,EAS4220,Environmental Geochemistry,,https://catalog.gatech.edu/search/?P=EAS%204220
-EAS Core,EAS4305,Physical and Chemical Oceanography,,https://catalog.gatech.edu/search/?P=EAS%204305
-EAS Core,EAS4370,Physics of Planets,,https://catalog.gatech.edu/search/?P=EAS%204370
-EAS Core,EAS4655,Atmospheric Dynamics,,https://catalog.gatech.edu/search/?P=EAS%204655
-EAS Core,EAS4740,Atmospheric Chemistry Laboratory,,https://catalog.gatech.edu/search/?P=EAS%204740
-EAS Core,Select one of the following:,1
-EAS Core,EAS4200,Structural Geology and Continuum Mechanics,1,https://catalog.gatech.edu/search/?P=EAS%204200
-EAS Core,EAS4221,Environmental Geochemistry Lab,1,https://catalog.gatech.edu/search/?P=EAS%204221
-EAS Core,EAS4656,Atmospheric Dynamics Practicum,1,https://catalog.gatech.edu/search/?P=EAS%204656
-EAS Core,EAS4420&EAS4610,Environmental Field Methodsand Earth System Modeling,1,https://catalog.gatech.edu/search/?P=EAS%204420
-EAS Technical Electives,Select 8 credit hours from the following:,8
-EAS Technical Electives,CEE4210,Hydrology,,https://catalog.gatech.edu/search/?P=CEE%204210
-EAS Technical Electives,CEE4300,Environmental Engineering Systems,,https://catalog.gatech.edu/search/?P=CEE%204300
-EAS Technical Electives,CEE4330,Air Pollution Engineering,,https://catalog.gatech.edu/search/?P=CEE%204330
-EAS Technical Electives,EAS1601,Habitable Planet,,https://catalog.gatech.edu/search/?P=EAS%201601
-EAS Technical Electives,EAS2420,Environmental Measures of Urban and Regional Change,,https://catalog.gatech.edu/search/?P=EAS%202420
-EAS Technical Electives,EAS2551,Introduction to Meteorological Analysis,,https://catalog.gatech.edu/search/?P=EAS%202551
-EAS Technical Electives,EAS2750,Physics of the Weather,,https://catalog.gatech.edu/search/?P=EAS%202750
-EAS Technical Electives,EAS3000-level or higher,,https://catalog.gatech.edu/search/?P=EAS%203000
-Business Option,ACCT2101,Accounting I: Financial Accounting,3,https://catalog.gatech.edu/search/?P=ACCT%202101
-Business Option,orMGT3000,Financial and Managerial Accounting,3,https://catalog.gatech.edu/search/?P=MGT%203000
-Business Option,MGT3101,Organizational Behavior,3,https://catalog.gatech.edu/search/?P=MGT%203101
-Business Option,orMGT3150,Principles of Management,3,https://catalog.gatech.edu/search/?P=MGT%203150
-Business Option,orPSYC2220,Industrial/Organizational Psychology,3,https://catalog.gatech.edu/search/?P=PSYC%202220
-Business Option,Select two of the following:,6
-Business Option,MGT3062,Financial Management,,https://catalog.gatech.edu/search/?P=MGT%203062
-Business Option,MGT3078,Finance and Investments,,https://catalog.gatech.edu/search/?P=MGT%203078
-Business Option,MGT3300,Marketing Management I,,https://catalog.gatech.edu/search/?P=MGT%203300
-Business Option,MGT3660,International Business,,https://catalog.gatech.edu/search/?P=MGT%203660
-Business Option,MGT4015,Advanced Managerial Accounting,,https://catalog.gatech.edu/search/?P=MGT%204015
-Business Option,MGT4026,Financial Reporting and Analysis I,,https://catalog.gatech.edu/search/?P=MGT%204026
-Business Option,MGT4028,Financial Analysis and Reporting of Technology Firms,,https://catalog.gatech.edu/search/?P=MGT%204028
-Business Option,MGT4030,International Accounting,,https://catalog.gatech.edu/search/?P=MGT%204030
-Business Option,MGT4190,Strategic Quality Management and Competitiveness,,https://catalog.gatech.edu/search/?P=MGT%204190
-Business Option,MGT4191,The Entrepreneurship Forum,,https://catalog.gatech.edu/search/?P=MGT%204191
-Business Option,MGT4192,Impact Speaker Series Forum,,https://catalog.gatech.edu/search/?P=MGT%204192
-Business Option,MGT4193,Servant Leadership, Values & Systems,,https://catalog.gatech.edu/search/?P=MGT%204193
-Business Option,MGT4194,Social Enterprise and Entrepreneurship,,https://catalog.gatech.edu/search/?P=MGT%204194
-Business Option,MGT4303,Personal Selling and Sales Management,,https://catalog.gatech.edu/search/?P=MGT%204303
-Business Option,MGT4304,Strategic Brand Management,,https://catalog.gatech.edu/search/?P=MGT%204304
-Business Option,MGT4307,Strategic Marketing,,https://catalog.gatech.edu/search/?P=MGT%204307
-Business Option,MGT4335,International Marketing,,https://catalog.gatech.edu/search/?P=MGT%204335
-Business Option,MGT4610,Law, Management, and Economics,,https://catalog.gatech.edu/search/?P=MGT%204610
-Business Option,MGT4670,Entrepreneurship,,https://catalog.gatech.edu/search/?P=MGT%204670
-Free Electives,Free Electives,12
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",CHEM1211K,Chemical Principles I,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences,ECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,CHEM1212K,Chemical Principles II,4
+Field of Study,orPHYS2212,Introductory Physics II,4
+Field of Study,EAS Technical Electives,5
+EAS Core,EAS1600,Introduction to Environmental Science,4
+EAS Core,EAS2600,Earth Processes,4
+EAS Core,EAS2655,Quantitative Techniques in Earth and Atmospheric Sciences,3
+EAS Core,EAS3603,Thermodynamics of Earth Systems,3
+EAS Core,Select two of the following:,SELECT,6
+EAS Core,EAS3610,Introduction to Geophysics,
+EAS Core,EAS4200,Structural Geology and Continuum Mechanics,
+EAS Core,EAS4220,Environmental Geochemistry,
+EAS Core,EAS4305,Physical and Chemical Oceanography,
+EAS Core,EAS4370,Physics of Planets,
+EAS Core,EAS4655,Atmospheric Dynamics,
+EAS Core,EAS4740,Atmospheric Chemistry Laboratory,
+EAS Core,Select one of the following:,SELECT,1
+EAS Core,EAS4200,Structural Geology and Continuum Mechanics,1
+EAS Core,EAS4221,Environmental Geochemistry Lab,1
+EAS Core,EAS4656,Atmospheric Dynamics Practicum,1
+EAS Core,EAS4420&EAS4610,Environmental Field Methodsand Earth System Modeling,1
+EAS Technical Electives,Select 8 credit hours from the following:,SELECT,8
+EAS Technical Electives,CEE4210,Hydrology,
+EAS Technical Electives,CEE4300,Environmental Engineering Systems,
+EAS Technical Electives,CEE4330,Air Pollution Engineering,
+EAS Technical Electives,EAS1601,Habitable Planet,
+EAS Technical Electives,EAS2420,Environmental Measures of Urban and Regional Change,
+EAS Technical Electives,EAS2551,Introduction to Meteorological Analysis,
+EAS Technical Electives,EAS2750,Physics of the Weather,
+EAS Technical Electives,EAS 3000-level or higher,
+Business Option,ACCT2101,Accounting I: Financial Accounting,3
+Business Option,orMGT3000,Financial and Managerial Accounting,3
+Business Option,MGT3101,Organizational Behavior,3
+Business Option,orMGT3150,Principles of Management,3
+Business Option,orPSYC2220,Industrial/Organizational Psychology,3
+Business Option,Select two of the following:,SELECT,6
+Business Option,MGT3062,Financial Management,
+Business Option,MGT3078,Finance and Investments,
+Business Option,MGT3300,Marketing Management I,
+Business Option,MGT3660,International Business,
+Business Option,MGT4015,Advanced Managerial Accounting,
+Business Option,MGT4026,Financial Reporting and Analysis I,
+Business Option,MGT4028,Financial Analysis and Reporting of Technology Firms,
+Business Option,MGT4030,International Accounting,
+Business Option,MGT4190,Strategic Quality Management and Competitiveness,
+Business Option,MGT4191,The Entrepreneurship Forum,
+Business Option,MGT4192,Impact Speaker Series Forum,
+Business Option,MGT4193,"Servant Leadership, Values & Systems",
+Business Option,MGT4194,Social Enterprise and Entrepreneurship,
+Business Option,MGT4303,Personal Selling and Sales Management,
+Business Option,MGT4304,Strategic Brand Management,
+Business Option,MGT4307,Strategic Marketing,
+Business Option,MGT4335,International Marketing,
+Business Option,MGT4610,"Law, Management, and Economics",
+Business Option,MGT4670,Entrepreneurship,
+Free Electives,Free Electives,SELECT,12
 Free Electives,Total Credit Hours,122

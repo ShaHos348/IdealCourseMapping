@@ -1,78 +1,77 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core A - Essential Skills,orMATH1712,Survey of Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201712
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core B - Institutional Options,orCS1315,Introduction to Media Computation,3,https://catalog.gatech.edu/search/?P=CS%201315
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,Lab Science,4
-Core D - Science, Math, & Technology,Lab Science,4
-Core D - Science, Math, & Technology,MATH1551&MATH1553,Differential Calculusand Introduction to Linear Algebra,4,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,orMATH1711,Finite Mathematics,4,https://catalog.gatech.edu/search/?P=MATH%201711
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,ECON2105,Principles of Macroeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202105
-Core E - Social Sciences,ECON2106,Principles of Microeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,3,3
-Core F - Courses Related to Major,ACCT2101,Accounting I: Financial Accounting,3,https://catalog.gatech.edu/search/?P=ACCT%202101
-Core F - Courses Related to Major,ACCT2102,Accounting II: Managerial Accounting,3,https://catalog.gatech.edu/search/?P=ACCT%202102
-Core F - Courses Related to Major,MGT2106,Legal, Social, Ethical Aspects of Business,3,https://catalog.gatech.edu/search/?P=MGT%202106
-Core F - Courses Related to Major,MGT2210,Information Systems and Digital Transformation,3,https://catalog.gatech.edu/search/?P=MGT%202210
-Core F - Courses Related to Major,MGT2250,Management Statistics,3,https://catalog.gatech.edu/search/?P=MGT%202250
-Core F - Courses Related to Major,MGT2255,Quantitative Analysis for Business,3,https://catalog.gatech.edu/search/?P=MGT%202255
-Major Requirements,LMC3403,Technical Communication, Theory and Practice,3,https://catalog.gatech.edu/search/?P=LMC%203403
-Major Requirements,MGT3062,Financial Management,3,https://catalog.gatech.edu/search/?P=MGT%203062
-Major Requirements,MGT3101,Organizational Behavior,3,https://catalog.gatech.edu/search/?P=MGT%203101
-Major Requirements,MGT3102,Managing Human Resources within a Regulatory Environment,3,https://catalog.gatech.edu/search/?P=MGT%203102
-Major Requirements,MGT3300,Marketing Management I,3,https://catalog.gatech.edu/search/?P=MGT%203300
-Major Requirements,MGT3501,Operations Management,3,https://catalog.gatech.edu/search/?P=MGT%203501
-Major Requirements,MGT3599,Career Development Workshop,1,https://catalog.gatech.edu/search/?P=MGT%203599
-Major Requirements,MGT3660,International Business,3,https://catalog.gatech.edu/search/?P=MGT%203660
-Major Requirements,MGT3659,Foundations of Strategy,3,https://catalog.gatech.edu/search/?P=MGT%203659
-IT Management Concentration,Select three of the following:,9
-IT Management Concentration,MGT3745,Business Programming,,https://catalog.gatech.edu/search/?P=MGT%203745
-IT Management Concentration,MGT4052,Systems Analysis and Design,,https://catalog.gatech.edu/search/?P=MGT%204052
-IT Management Concentration,MGT4058,Database Management Systems,,https://catalog.gatech.edu/search/?P=MGT%204058
-IT Management Concentration,MGT4450,Project Management,,https://catalog.gatech.edu/search/?P=MGT%204450
-IT Management Concentration,Select three of the following:,9
-IT Management Concentration,MGT3103,Leadership in a Changing Environment,,https://catalog.gatech.edu/search/?P=MGT%203103
-IT Management Concentration,MGT3310,Marketing Research: Analytics,,https://catalog.gatech.edu/search/?P=MGT%203310
-IT Management Concentration,MGT3663,Technology Strategy,,https://catalog.gatech.edu/search/?P=MGT%203663
-IT Management Concentration,MGT3742,Spreadsheet Modeling for Business Decision Support,,https://catalog.gatech.edu/search/?P=MGT%203742
-IT Management Concentration,MGT3743,Analysis of Emerging Technologies,,https://catalog.gatech.edu/search/?P=MGT%203743
-IT Management Concentration,MGT3744,Managing Product, Service & Technology Development,,https://catalog.gatech.edu/search/?P=MGT%203744
-IT Management Concentration,MGT4041,Auditing and Financial Control Systems,,https://catalog.gatech.edu/search/?P=MGT%204041
-IT Management Concentration,MGT4050,Business Analytics,,https://catalog.gatech.edu/search/?P=MGT%204050
-IT Management Concentration,MGT4053,Business Data Communications,,https://catalog.gatech.edu/search/?P=MGT%204053
-IT Management Concentration,MGT4056,Electronic Commerce,,https://catalog.gatech.edu/search/?P=MGT%204056
-IT Management Concentration,MGT4057,Business Process Analysis and Design,,https://catalog.gatech.edu/search/?P=MGT%204057
-IT Management Concentration,MGT4102,Management Consulting,,https://catalog.gatech.edu/search/?P=MGT%204102
-IT Management Concentration,MGT4119,Leading Teams in Organizations,,https://catalog.gatech.edu/search/?P=MGT%204119
-IT Management Concentration,MGT4193,Servant Leadership, Values & Systems,,https://catalog.gatech.edu/search/?P=MGT%204193
-IT Management Concentration,MGT4311,Digital Marketing,,https://catalog.gatech.edu/search/?P=MGT%204311
-IT Management Concentration,MGT4341,Management of Healthcare Operations,,https://catalog.gatech.edu/search/?P=MGT%204341
-IT Management Concentration,MGT4352,Operations Resource Planning and Execution,,https://catalog.gatech.edu/search/?P=MGT%204352
-IT Management Concentration,MGT4360,Global Operations and Supply Chain Management,,https://catalog.gatech.edu/search/?P=MGT%204360
-IT Management Concentration,MGT4366,Service Operations Management,,https://catalog.gatech.edu/search/?P=MGT%204366
-IT Management Concentration,MGT4670,Entrepreneurship,,https://catalog.gatech.edu/search/?P=MGT%204670
-IT Management Concentration,MGT4725,Information Security Strategies and Policy,,https://catalog.gatech.edu/search/?P=MGT%204725
-IT Management Concentration,MGT4726,Privacy, Technology, Policy, and Law,,https://catalog.gatech.edu/search/?P=MGT%204726
-IT Management Concentration,MGT4803,Special Topics in Management,,https://catalog.gatech.edu/search/?P=MGT%204803
-IT Management Concentration,CS3251,Computer Networking I,,https://catalog.gatech.edu/search/?P=CS%203251
-IT Management Concentration,CS4235,Introduction to Information Security,,https://catalog.gatech.edu/search/?P=CS%204235
-IT Management Concentration,VIP2601,Vertically Integrated Project: Multidisciplinary project-based team, sophomore level,,https://catalog.gatech.edu/search/?P=VIP%202601
-IT Management Concentration,VIP3601,Vertically Integrated Project: Multidisciplinary project-based team, junior level,,https://catalog.gatech.edu/search/?P=VIP%203601
-IT Management Concentration,VIP3602,Vertically Integrated Project: Multidisciplinary project-based team, junior level,,https://catalog.gatech.edu/search/?P=VIP%203602
-IT Management Concentration,VIP4601,Vertically Integrated Project: Multidisciplinary project-based team, senior level,,https://catalog.gatech.edu/search/?P=VIP%204601
-IT Management Concentration,VIP4602,Vertically Integrated Project: Multidisciplinary project-based team, senior participation,,https://catalog.gatech.edu/search/?P=VIP%204602
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1315,Introduction to Media Computation,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Mathematics and Quantitative Skills,orMATH1712,Survey of Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",MATH1551&MATH1553,Differential Calculusand Introduction to Linear Algebra,4
+"Technology, Mathematics, and Sciences",orMATH1711,Finite Mathematics,4
+Social Sciences,ECON2105,Principles of Macroeconomics,3
+Social Sciences,ECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,3
+Field of Study,ACCT2101,Accounting I: Financial Accounting,3
+Field of Study,ACCT2102,Accounting II: Managerial Accounting,3
+Field of Study,MGT2106,"Legal, Social, Ethical Aspects of Business",3
+Field of Study,MGT2210,Information Systems and Digital Transformation,3
+Field of Study,MGT2250,Management Statistics,3
+Field of Study,MGT2255,Quantitative Analysis for Business,3
+Major Requirements,LMC3403,"Technical Communication, Theory and Practice",3
+Major Requirements,MGT3062,Financial Management,3
+Major Requirements,MGT3101,Organizational Behavior,3
+Major Requirements,MGT3102,Managing Human Resources within a Regulatory Environment,3
+Major Requirements,MGT3300,Marketing Management I,3
+Major Requirements,MGT3501,Operations Management,3
+Major Requirements,MGT3599,Career Development Workshop,1
+Major Requirements,MGT3660,International Business,3
+Major Requirements,MGT3659,Foundations of Strategy,3
+IT Management Concentration,Select three of the following:,SELECT,9
+IT Management Concentration,MGT3745,Business Programming,
+IT Management Concentration,MGT4052,Systems Analysis and Design,
+IT Management Concentration,MGT4058,Database Management Systems,
+IT Management Concentration,MGT4450,Project Management,
+IT Management Concentration,Select three of the following:,SELECT,9
+IT Management Concentration,MGT3103,Leadership in a Changing Environment,
+IT Management Concentration,MGT3310,Marketing Research: Analytics,
+IT Management Concentration,MGT3663,Technology Strategy,
+IT Management Concentration,MGT3742,Spreadsheet Modeling for Business Decision Support,
+IT Management Concentration,MGT3743,Analysis of Emerging Technologies,
+IT Management Concentration,MGT3744,"Managing Product, Service & Technology Development",
+IT Management Concentration,MGT4041,Auditing and Financial Control Systems,
+IT Management Concentration,MGT4050,Business Analytics,
+IT Management Concentration,MGT4053,Business Data Communications,
+IT Management Concentration,MGT4056,Electronic Commerce,
+IT Management Concentration,MGT4057,Business Process Analysis and Design,
+IT Management Concentration,MGT4102,Management Consulting,
+IT Management Concentration,MGT4119,Leading Teams in Organizations,
+IT Management Concentration,MGT4193,"Servant Leadership, Values & Systems",
+IT Management Concentration,MGT4311,Digital Marketing,
+IT Management Concentration,MGT4341,Management of Healthcare Operations,
+IT Management Concentration,MGT4352,Operations Resource Planning and Execution,
+IT Management Concentration,MGT4360,Global Operations and Supply Chain Management,
+IT Management Concentration,MGT4366,Service Operations Management,
+IT Management Concentration,MGT4670,Entrepreneurship,
+IT Management Concentration,MGT4725,Information Security Strategies and Policy,
+IT Management Concentration,MGT4726,"Privacy, Technology, Policy, and Law",
+IT Management Concentration,MGT4803,Special Topics in Management,
+IT Management Concentration,CS3251,Computer Networking I,
+IT Management Concentration,CS4235,Introduction to Information Security,
+IT Management Concentration,VIP2601,"Vertically Integrated Project: Multidisciplinary project-based team, sophomore level",
+IT Management Concentration,VIP3601,"Vertically Integrated Project: Multidisciplinary project-based team, junior level",
+IT Management Concentration,VIP3602,"Vertically Integrated Project: Multidisciplinary project-based team, junior level",
+IT Management Concentration,VIP4601,"Vertically Integrated Project: Multidisciplinary project-based team, senior level",
+IT Management Concentration,VIP4602,"Vertically Integrated Project: Multidisciplinary project-based team, senior participation",
 Non-MGT Electives,Non-MGT Electives,6
-Free Electives,Free Electives,10
+Free Electives,Free Electives,SELECT,10
 Free Electives,Total Credit Hours,122

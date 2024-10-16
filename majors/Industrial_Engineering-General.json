@@ -1,5 +1,5 @@
 {
-  "Wellness": [
+  "Wellness Requirement": [
     [
       "APPH1040",
       "Scientific Foundations of Health",
@@ -19,7 +19,62 @@
       "https://catalog.gatech.edu/search/?P=APPH%201060"
     ]
   ],
-  "Core A - Essential Skills": [
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
     [
       "ENGL1101",
       "English Composition I",
@@ -31,30 +86,9 @@
       "English Composition II",
       3,
       "https://catalog.gatech.edu/search/?P=ENGL%201102"
-    ],
-    [
-      "MATH1552",
-      "Integral Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201552"
     ]
   ],
-  "Core B - Institutional Options": [
-    [
-      "CS1301",
-      "Introduction to Computing",
-      3,
-      "https://catalog.gatech.edu/search/?P=CS%201301"
-    ]
-  ],
-  "Core C - Humanities": [
-    [
-      "Any HUM",
-      "6",
-      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
-    ]
-  ],
-  "Core D - Science, Math, & Technology": [
+  "Technology, Mathematics, and Sciences": [
     [
       "PHYS2211",
       "Introductory Physics I",
@@ -80,41 +114,7 @@
       "https://catalog.gatech.edu/search/?P=MATH%201553"
     ]
   ],
-  "Core E - Social Sciences": [
-    [
-      "Select one of the following:",
-      "3"
-    ],
-    [
-      "HIST2111",
-      "The United States to 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202111"
-    ],
-    [
-      "HIST2112",
-      "The United States since 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202112"
-    ],
-    [
-      "INTA1200",
-      "American Government in Comparative Perspective",
-      3,
-      "https://catalog.gatech.edu/search/?P=INTA%201200"
-    ],
-    [
-      "POL1101",
-      "Government of the United States",
-      3,
-      "https://catalog.gatech.edu/search/?P=POL%201101"
-    ],
-    [
-      "PUBP3000",
-      "American Constitutional Issues",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203000"
-    ],
+  "Social Sciences": [
     [
       "ECON2100",
       "Economic Analysis and Policy Problems",
@@ -130,10 +130,10 @@
     [
       "Any SS",
       "3",
-      3
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
     ]
   ],
-  "Core F - Courses Related to Major": [
+  "Field of Study": [
     [
       "CS2316",
       "Data Manipulation for Science and Industry",
@@ -155,7 +155,9 @@
     [
       "Lab Science",
       "8"
-    ],
+    ]
+  ],
+  "Major Requirements": [
     [
       "Ethics Requirement",
       "",
@@ -164,9 +166,7 @@
     [
       "Environmental Requirement",
       ""
-    ]
-  ],
-  "Major Requirements": [
+    ],
     [
       "ACCT2101",
       "Accounting I: Financial Accounting",
@@ -416,12 +416,6 @@
       "https://catalog.gatech.edu/search/?P=ECE%203076"
     ],
     [
-      "ECE3090",
-      "Software Fundamentals for Engineering Systems",
-      3,
-      "https://catalog.gatech.edu/search/?P=ECE%203090"
-    ],
-    [
       "ECE3710",
       "Circuits and Electronics",
       3,
@@ -446,12 +440,6 @@
       "https://catalog.gatech.edu/search/?P=ME%202202"
     ],
     [
-      "ME3015",
-      "System Dynamics and Control",
-      3,
-      "https://catalog.gatech.edu/search/?P=ME%203015"
-    ],
-    [
       "ME3322",
       "Thermodynamics",
       3,
@@ -462,18 +450,6 @@
       "Introduction to Fluid and Thermal Engineering",
       3,
       "https://catalog.gatech.edu/search/?P=ME%203720"
-    ],
-    [
-      "ME4763",
-      "Pulping and Chemical Recovery",
-      3,
-      "https://catalog.gatech.edu/search/?P=ME%204763"
-    ],
-    [
-      "ME4764",
-      "Bleaching and Papermaking",
-      3,
-      "https://catalog.gatech.edu/search/?P=ME%204764"
     ],
     [
       "MSE2001",
@@ -680,20 +656,14 @@
   ],
   "General Concentration 10": [
     [
-      "Select five from the following:",
-      "15"
+      "Select three from the following:",
+      "9"
     ],
     [
       "CS4641",
       "Machine Learning",
       "",
       "https://catalog.gatech.edu/search/?P=CS%204641"
-    ],
-    [
-      "CX4010",
-      "Computational Problem Solving for Scientists and Engineers",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204010"
     ],
     [
       "CX4240",
@@ -768,6 +738,12 @@
       "https://catalog.gatech.edu/search/?P=ISYE%204111"
     ],
     [
+      "ISYE4112",
+      "Workflow Modeling, Analysis & Design in Manufacturing & Service",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204112"
+    ],
+    [
       "ISYE4133",
       "Advanced Optimization",
       "",
@@ -806,12 +782,6 @@
     [
       "ISYE4803",
       "Special Topics (Advanced Manufacturing)",
-      "",
-      "https://catalog.gatech.edu/search/?P=ISYE%204803"
-    ],
-    [
-      "ISYE4803",
-      "Special Topics (Linear and Convex Optimization)",
       "",
       "https://catalog.gatech.edu/search/?P=ISYE%204803"
     ],
@@ -858,6 +828,48 @@
       "https://catalog.gatech.edu/search/?P=ISYE%204803"
     ],
     [
+      "ISYE6661",
+      "Linear Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206661"
+    ],
+    [
+      "ISYE6662",
+      "Discrete Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206662"
+    ],
+    [
+      "ISYE6663",
+      "Nonlinear Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206663"
+    ],
+    [
+      "ISYE6664",
+      "Stochastic Optimization",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206664"
+    ],
+    [
+      "ISYE6761",
+      "Stochastic Processes I",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206761"
+    ],
+    [
+      "ISYE6412",
+      "Theoretical Statistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%206412"
+    ],
+    [
+      "ISYE8803",
+      "Special Topics (Math of OR)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%208803"
+    ],
+    [
       "MATH4262",
       "Mathematical Statistics II",
       "",
@@ -874,6 +886,34 @@
       "Finance and Investments",
       "",
       "https://catalog.gatech.edu/search/?P=MGT%203078"
+    ],
+    [
+      "Select two from the above or from the following:",
+      "6"
+    ],
+    [
+      "ISYE3106",
+      "Cornerstone Design for Industrial Engineers",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%203106"
+    ],
+    [
+      "ISYE4501",
+      "Energy, Efficiency, and Sustainability",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204501"
+    ],
+    [
+      "ISYE4510",
+      "Public Health Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204510"
+    ],
+    [
+      "ISYE4803",
+      "Special Topics (Proj Eval-People, Planet, and Profit)",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%204803"
     ]
   ],
   "Free Electives 11": [

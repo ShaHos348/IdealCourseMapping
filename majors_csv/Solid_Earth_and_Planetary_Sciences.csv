@@ -1,0 +1,43 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,INTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+"Arts, Humanities, and Ethics 1",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Scienecs",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Scienecs",CHEM1211K,Chemical Principles I,4
+"Technology, Mathematics, and Scienecs",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Scienecs",MATH1553,Introduction to Linear Algebra,2
+Social Sciences 1,Any SS,SELECT,9
+Field of Study,PHYS2212,Introductory Physics II,4
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,EAS1600,Introduction to Environmental Science,4
+Field of Study,EAS2600,Earth Processes,4
+Major Requirements,EAS2655,Quantitative Techniques in Earth and Atmospheric Sciences,3
+Major Requirements,EAS3603,Thermodynamics of Earth Systems,3
+Major Requirements,EAS3610,Introduction to Geophysics,3
+Major Requirements,EAS4370,Physics of Planets,3
+Major Requirements,EAS4200,Structural Geology and Continuum Mechanics,4
+Major Requirements,EAS4610,Earth System Modeling,3
+Major Requirements,EAS4801,Special Topics (Career Development Seminar),1
+Major Requirements,EAS4814,Special Topics-Lab (Geophysical Field Methods),4
+Major Requirements,orEAS4420,Environmental Field Methods,4
+SEP Technical Electives12,EAS4312,Geodynamics,
+SEP Technical Electives12,EAS4314,Seismology,
+SEP Technical Electives12,EAS4316,Earthquake Physics,
+SEP Technical Electives12,EAS4360,Space Physics and Space Instrumentation,
+SEP Technical Electives12,EAS4375,Earth and Planetary Materials,
+SEP Technical Electives12,EAS4480,Environmental Data Analysis,
+SEP Technical Electives12,EAS4520,Seismic Methods in Exploration Geophysics,
+SEP Technical Electives12,EAS4699,Undergraduate Research,
+SEP Technical Electives12,EAS4803,Special Topics (Earth Evolution),
+SEP Technical Electives12,EAS4803,Special Topics (Ice Sheet Dynamics),
+SEP Technical Electives12,EAS4803,Special Topics (Geologic History),
+Free Electives 19,Total Credit Hours,122

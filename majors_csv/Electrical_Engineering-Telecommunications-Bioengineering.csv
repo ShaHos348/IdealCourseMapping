@@ -1,77 +1,76 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1554,Linear Algebra,4,https://catalog.gatech.edu/search/?P=MATH%201554
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,ECON2100,Economic Analysis and Policy Problems,3,https://catalog.gatech.edu/search/?P=ECON%202100
-Core E - Social Sciences,ECON2101,The Global Economy,3,https://catalog.gatech.edu/search/?P=ECON%202101
-Core E - Social Sciences,ECON2105,Principles of Macroeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202105
-Core E - Social Sciences,ECON2106,Principles of Microeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,6,3
-Core F - Courses Related to Major,MATH2551,Multivariable Calculus,4,https://catalog.gatech.edu/search/?P=MATH%202551
-Core F - Courses Related to Major,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
-Core F - Courses Related to Major,CHEM1310,Principles of General Chemistry for Engineers,4,https://catalog.gatech.edu/search/?P=CHEM%201310
-Core F - Courses Related to Major,orCHEM1211K,Chemical Principles I,4,https://catalog.gatech.edu/search/?P=CHEM%201211K
-Core F - Courses Related to Major,Science Elective,3
-Core F - Courses Related to Major,Ethics Requirement,,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
-Core F - Courses Related to Major,Probability/Statistics,3
-Major Requirements,ECE1100,ECE Discovery Studio,1,https://catalog.gatech.edu/search/?P=ECE%201100
-Major Requirements,ECE2020,Digital System Design,3,https://catalog.gatech.edu/search/?P=ECE%202020
-Major Requirements,ECE2026,Introduction to Signal Processing,3,https://catalog.gatech.edu/search/?P=ECE%202026
-Major Requirements,ECE2031,Digital Design Laboratory,2,https://catalog.gatech.edu/search/?P=ECE%202031
-Major Requirements,ECE2035,Programming for Hardware/Software Systems,4,https://catalog.gatech.edu/search/?P=ECE%202035
-Major Requirements,orECE2036,Engineering Software Design,4,https://catalog.gatech.edu/search/?P=ECE%202036
-Major Requirements,ECE2040,Circuit Analysis,3,https://catalog.gatech.edu/search/?P=ECE%202040
-Major Requirements,ECE3005,Professional and Technical Communications for ECE,1,https://catalog.gatech.edu/search/?P=ECE%203005
-Major Requirements,ECE3025,Electromagnetics,3,https://catalog.gatech.edu/search/?P=ECE%203025
-Major Requirements,ECE3040,Microelectronic Circuits,4,https://catalog.gatech.edu/search/?P=ECE%203040
-Major Requirements,ECE3043,Measurements, Circuits, and Microelectronics Laboratory,2,https://catalog.gatech.edu/search/?P=ECE%203043
-Bioengineering 10,Select one of the following:,3
-Bioengineering 10,ECE4781,Biomedical Instrumentation,3,https://catalog.gatech.edu/search/?P=ECE%204781
-Bioengineering 10,ECE4782,Biosystems Analysis,3,https://catalog.gatech.edu/search/?P=ECE%204782
-Bioengineering 10,ECE4784,Engineering Electrophysiology,3,https://catalog.gatech.edu/search/?P=ECE%204784
-Bioengineering 10,Select two of the following:,6
-Bioengineering 10,ECE3084,Signals and Systems,3,https://catalog.gatech.edu/search/?P=ECE%203084
-Bioengineering 10,ECE4350,Electromagnetic and Microwave Applications,3,https://catalog.gatech.edu/search/?P=ECE%204350
-Bioengineering 10,ECE4370,Antenna Engineering,3,https://catalog.gatech.edu/search/?P=ECE%204370
-Bioengineering 10,ECE4435,Operational Amplifier Design,3,https://catalog.gatech.edu/search/?P=ECE%204435
-Bioengineering 10,ECE4781,Biomedical Instrumentation,3,https://catalog.gatech.edu/search/?P=ECE%204781
-Bioengineering 10,ECE4782,Biosystems Analysis,3,https://catalog.gatech.edu/search/?P=ECE%204782
-Bioengineering 10,ECE4784,Engineering Electrophysiology,3,https://catalog.gatech.edu/search/?P=ECE%204784
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1554,Linear Algebra,4
+Social Sciences,Select one of the following:,SELECT,3
+Social Sciences,ECON2100,Economic Analysis and Policy Problems,3
+Social Sciences,ECON2101,The Global Economy,3
+Social Sciences,ECON2105,Principles of Macroeconomics,3
+Social Sciences,ECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,CHEM1310,Principles of General Chemistry for Engineers,4
+Field of Study,orCHEM1211K,Chemical Principles I,4
+Field of Study,Science Elective,3
+Field of Study,Probability/Statistics,3
+Major Requirements,Ethics Requirement,,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
+Major Requirements,ECE1100,ECE Discovery Studio,1
+Major Requirements,ECE2020,Digital System Design,3
+Major Requirements,ECE2026,Introduction to Signal Processing,3
+Major Requirements,ECE2031,Digital Design Laboratory,2
+Major Requirements,ECE2035,Programming for Hardware/Software Systems,4
+Major Requirements,orECE2036,Engineering Software Design,4
+Major Requirements,ECE2040,Circuit Analysis,3
+Major Requirements,ECE3005,Professional and Technical Communications for ECE,1
+Major Requirements,ECE3025,Electromagnetics,3
+Major Requirements,ECE3040,Microelectronic Circuits,4
+Major Requirements,ECE3043,"Measurements, Circuits, and Microelectronics Laboratory",2
+Bioengineering 10,Select one of the following:,SELECT,3
+Bioengineering 10,ECE4781,Biomedical Instrumentation,3
+Bioengineering 10,ECE4782,Biosystems Analysis,3
+Bioengineering 10,ECE4784,Engineering Electrophysiology,3
+Bioengineering 10,Select two of the following:,SELECT,6
+Bioengineering 10,ECE3084,Signals and Systems,3
+Bioengineering 10,ECE4350,Electromagnetic and Microwave Applications,3
+Bioengineering 10,ECE4370,Antenna Engineering,3
+Bioengineering 10,ECE4435,Operational Amplifier Design,3
+Bioengineering 10,ECE4781,Biomedical Instrumentation,3
+Bioengineering 10,ECE4782,Biosystems Analysis,3
+Bioengineering 10,ECE4784,Engineering Electrophysiology,3
 Bioengineering 10,Bioengineering Electives,
 Bioengineering 10,ECE 3000/4000-level Elective,3
-Telecommunications 10,Select one of the following:,3
-Telecommunications 10,ECE3600,Computer Communications,3,https://catalog.gatech.edu/search/?P=ECE%203600
-Telecommunications 10,CS3251,Computer Networking I,3,https://catalog.gatech.edu/search/?P=CS%203251
-Telecommunications 10,Select one of the following:,3
-Telecommunications 10,ECE4601,Communication Systems,3,https://catalog.gatech.edu/search/?P=ECE%204601
-Telecommunications 10,ECE4606,Wireless Communications,3,https://catalog.gatech.edu/search/?P=ECE%204606
-Telecommunications 10,Select one of the following:,3
-Telecommunications 10,ECE3084,Signals and Systems,3,https://catalog.gatech.edu/search/?P=ECE%203084
-Telecommunications 10,ECE4350,Electromagnetic and Microwave Applications,3,https://catalog.gatech.edu/search/?P=ECE%204350
-Telecommunications 10,ECE4370,Antenna Engineering,3,https://catalog.gatech.edu/search/?P=ECE%204370
-Telecommunications 10,ECE4500,Optical Engineering,3,https://catalog.gatech.edu/search/?P=ECE%204500
-Telecommunications 10,ECE4502,Optical Fiber Communications,3,https://catalog.gatech.edu/search/?P=ECE%204502
-Telecommunications 10,ECE4601,Communication Systems,3,https://catalog.gatech.edu/search/?P=ECE%204601
-Telecommunications 10,ECE4605,Topics in Networks,3,https://catalog.gatech.edu/search/?P=ECE%204605
-Telecommunications 10,ECE4606,Wireless Communications,3,https://catalog.gatech.edu/search/?P=ECE%204606
-Telecommunications 10,ECE4607,Mobile and Wireless Networks,3,https://catalog.gatech.edu/search/?P=ECE%204607
+Telecommunications 10,Select one of the following:,SELECT,3
+Telecommunications 10,ECE3600,Computer Communications,3
+Telecommunications 10,CS3251,Computer Networking I,3
+Telecommunications 10,Select one of the following:,SELECT,3
+Telecommunications 10,ECE4601,Communication Systems,3
+Telecommunications 10,ECE4606,Wireless Communications,3
+Telecommunications 10,Select one of the following:,SELECT,3
+Telecommunications 10,ECE3084,Signals and Systems,3
+Telecommunications 10,ECE4350,Electromagnetic and Microwave Applications,3
+Telecommunications 10,ECE4370,Antenna Engineering,3
+Telecommunications 10,ECE4500,Optical Engineering,3
+Telecommunications 10,ECE4502,Optical Fiber Communications,3
+Telecommunications 10,ECE4601,Communication Systems,3
+Telecommunications 10,ECE4605,Topics in Networks,3
+Telecommunications 10,ECE4606,Wireless Communications,3
+Telecommunications 10,ECE4607,Mobile and Wireless Networks,3
 Telecommunications 10,Telecommunications Electives,
 Telecommunications 10,ECE 3000/4000-level Elective,3
 Culminating Senior Design Options (Capstone),Culminating Senior Design,3
-Free Electives 5,911,Total Credit Hours,129
+"Free Electives 5,911",Total Credit Hours,129

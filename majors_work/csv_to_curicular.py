@@ -85,16 +85,16 @@ def couse_entry_creator(proper_names: str, options: List[str]) -> str:
 
 
 def main():
-    # filepath = "majors_csv/"
-    # majors = returnMajorsCSV(filepath)
-    # categories = categorySeparator(filepath + majors[0])
-    # proper_names = [i for i in categories.keys()]
-    # (proper_names[0], categories[proper_names[0]])
-    # courseEntries = courseEntryCreator(proper_names[0], categories[proper_names[0]])
-    # print(courseEntries)
-    # final_csv_output = curricularMetadata(majors[0])
-    # print(final_csv_output)
     filepath = "majors/"
+    majors = return_all_majors_json(filepath)
+    categories = category_separator(filepath + majors[0])
+    proper_names = [i for i in categories.keys()]
+    (proper_names[0], categories[proper_names[0]])
+    courseEntries = couse_entry_creator(proper_names[0], categories[proper_names[0]])
+    #print(courseEntries)
+    final_csv_output = curricular_metadata(majors[0])
+    print(final_csv_output)
+    """filepath = "majors/"
     majors = return_all_majors_json(filepath)
     categories = category_separator(filepath + majors[0], mode="json")
     all_course_entries = []
@@ -103,7 +103,15 @@ def main():
         if course_entries is not None and len(course_entries) > 0:
             # at this point is when we start writing to the new csv file
             print(course_entries)
-            [all_course_entries.append(j) for j in course_entries]
+            [all_course_entries.append(j) for j in course_entries]"""
+    # Specify the output CSV file path
+    csv_filename = "curricular_metadata_output.csv"
+
+    # Write the string directly to a CSV file
+    with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
+        csvfile.write(final_csv_output)
+
+    print(f"CSV file '{csv_filename}' has been created successfully.")
 
 
 if __name__ == "__main__":

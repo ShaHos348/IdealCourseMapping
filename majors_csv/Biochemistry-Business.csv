@@ -1,87 +1,86 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core B - Institutional Options,orCS1315,Introduction to Media Computation,3,https://catalog.gatech.edu/search/?P=CS%201315
-Core B - Institutional Options,orCS1371,Computing for Engineers,3,https://catalog.gatech.edu/search/?P=CS%201371
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,ECON2106,Principles of Microeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,6,3
-Core F - Courses Related to Major,CHEM1211K,Chemical Principles I,4,https://catalog.gatech.edu/search/?P=CHEM%201211K
-Core F - Courses Related to Major,CHEM1212K,Chemical Principles II,4,https://catalog.gatech.edu/search/?P=CHEM%201212K
-Core F - Courses Related to Major,CHEM2380,Synthesis Laboratory I,2,https://catalog.gatech.edu/search/?P=CHEM%202380
-Core F - Courses Related to Major,MATH2551,Multivariable Calculus,4,https://catalog.gatech.edu/search/?P=MATH%202551
-Core F - Courses Related to Major,BIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,4,https://catalog.gatech.edu/search/?P=BIOS%201107
-Major Requirements,CHEM2216&2216L,Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory,4,https://catalog.gatech.edu/search/?P=CHEM%202216
-Major Requirements,orCHEM2214,Quantitative Chemical Analysis,4,https://catalog.gatech.edu/search/?P=CHEM%202214
-Major Requirements,CHEM2311,Organic Chemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%202311
-Major Requirements,CHEM2312,Organic Chemistry II,3,https://catalog.gatech.edu/search/?P=CHEM%202312
-Major Requirements,orCHEM2313,Organic and Bioorganic Chemistry,3,https://catalog.gatech.edu/search/?P=CHEM%202313
-Major Requirements,CHEM3216&3216L,Analytical Chemistry Lectureand Analytical Chemistry Laboratory,5,https://catalog.gatech.edu/search/?P=CHEM%203216
-Major Requirements,orCHEM3211,Analytical Chemistry,5,https://catalog.gatech.edu/search/?P=CHEM%203211
-Major Requirements,CHEM3371,Organic Chemistry Laboratory,2,https://catalog.gatech.edu/search/?P=CHEM%203371
-Major Requirements,CHEM3411,Physical Chemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%203411
-Major Requirements,CHEM4511,Biochemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%204511
-Major Requirements,orCHEM3521,Biochemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%203521
-Major Requirements,CHEM4512,Biochemistry II,3,https://catalog.gatech.edu/search/?P=CHEM%204512
-Major Requirements,orCHEM3522,Biochemistry II,3,https://catalog.gatech.edu/search/?P=CHEM%203522
-Major Requirements,CHEM4521,Biophysical Chemistry,3,https://catalog.gatech.edu/search/?P=CHEM%204521
-Major Requirements,CHEM4581,Biochemistry Laboratory I,3,https://catalog.gatech.edu/search/?P=CHEM%204581
-Major Requirements,CHEM4582,Biochemistry Laboratory II,3,https://catalog.gatech.edu/search/?P=CHEM%204582
-Major Requirements,CHEM4601,Chemistry Seminar,2,https://catalog.gatech.edu/search/?P=CHEM%204601
-Biology Electives,BIOS2600,Genetics,3,https://catalog.gatech.edu/search/?P=BIOS%202600
-Biology Electives,BIOS3450,Cell and Molecular Biology,3,https://catalog.gatech.edu/search/?P=BIOS%203450
-Biology Electives,Select one of the following:,3
-Biology Electives,BIOS3380,Microbiology,3,https://catalog.gatech.edu/search/?P=BIOS%203380
-Biology Electives,BIOS3450,Cell and Molecular Biology,3,https://catalog.gatech.edu/search/?P=BIOS%203450
-Biology Electives,BIOS4015,Cancer Biology and Biotechnology,3,https://catalog.gatech.edu/search/?P=BIOS%204015
-Biology Electives,BIOS4340,Medical Microbiology,3,https://catalog.gatech.edu/search/?P=BIOS%204340
-Biology Electives,BIOS4400,Human Neuroanatomy,3,https://catalog.gatech.edu/search/?P=BIOS%204400
-Biology Electives,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,3,https://catalog.gatech.edu/search/?P=BIOS%204401
-Biology Electives,BIOS4418,Microbial Physiology,3,https://catalog.gatech.edu/search/?P=BIOS%204418
-Biology Electives,BIOS4464,Developmental Biology,3,https://catalog.gatech.edu/search/?P=BIOS%204464
-Biology Electives,BIOS4570,Immunology,3,https://catalog.gatech.edu/search/?P=BIOS%204570
-Biology Electives,BIOS4607,Molecular Biology of Microbes: Disease, Nature, and Biotechnology,3,https://catalog.gatech.edu/search/?P=BIOS%204607
-Biology Electives,BIOS4668,Eukaryotic Molecular Genetics,3,https://catalog.gatech.edu/search/?P=BIOS%204668
-Biology Electives,CHEM4765,Drug Design, Development, and Delivery,3,https://catalog.gatech.edu/search/?P=CHEM%204765
-Business Option,ACCT2101,Accounting I: Financial Accounting,3,https://catalog.gatech.edu/search/?P=ACCT%202101
-Business Option,orMGT3000,Financial and Managerial Accounting,3,https://catalog.gatech.edu/search/?P=MGT%203000
-Business Option,MGT3101,Organizational Behavior,3,https://catalog.gatech.edu/search/?P=MGT%203101
-Business Option,orMGT3150,Principles of Management,3,https://catalog.gatech.edu/search/?P=MGT%203150
-Business Option,orPSYC2220,Industrial/Organizational Psychology,3,https://catalog.gatech.edu/search/?P=PSYC%202220
-Business Option,Select two of the following:,6
-Business Option,MGT3062,Financial Management,,https://catalog.gatech.edu/search/?P=MGT%203062
-Business Option,MGT3078,Finance and Investments,,https://catalog.gatech.edu/search/?P=MGT%203078
-Business Option,MGT3300,Marketing Management I,,https://catalog.gatech.edu/search/?P=MGT%203300
-Business Option,MGT3660,International Business,,https://catalog.gatech.edu/search/?P=MGT%203660
-Business Option,MGT4015,Advanced Managerial Accounting,,https://catalog.gatech.edu/search/?P=MGT%204015
-Business Option,MGT4026,Financial Reporting and Analysis I,,https://catalog.gatech.edu/search/?P=MGT%204026
-Business Option,MGT4028,Financial Analysis and Reporting of Technology Firms,,https://catalog.gatech.edu/search/?P=MGT%204028
-Business Option,MGT4030,International Accounting,,https://catalog.gatech.edu/search/?P=MGT%204030
-Business Option,MGT4190,Strategic Quality Management and Competitiveness,,https://catalog.gatech.edu/search/?P=MGT%204190
-Business Option,MGT4191,The Entrepreneurship Forum,,https://catalog.gatech.edu/search/?P=MGT%204191
-Business Option,MGT4192,Impact Speaker Series Forum,,https://catalog.gatech.edu/search/?P=MGT%204192
-Business Option,MGT4193,Servant Leadership, Values & Systems,,https://catalog.gatech.edu/search/?P=MGT%204193
-Business Option,MGT4194,Social Enterprise and Entrepreneurship,,https://catalog.gatech.edu/search/?P=MGT%204194
-Business Option,MGT4303,Personal Selling and Sales Management,,https://catalog.gatech.edu/search/?P=MGT%204303
-Business Option,MGT4304,Strategic Brand Management,,https://catalog.gatech.edu/search/?P=MGT%204304
-Business Option,MGT4307,Strategic Marketing,,https://catalog.gatech.edu/search/?P=MGT%204307
-Business Option,MGT4335,International Marketing,,https://catalog.gatech.edu/search/?P=MGT%204335
-Business Option,MGT4610,Law, Management, and Economics,,https://catalog.gatech.edu/search/?P=MGT%204610
-Business Option,MGT4670,Entrepreneurship,,https://catalog.gatech.edu/search/?P=MGT%204670
-Free Electives,Free Electives,1
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1315,Introduction to Media Computation,3
+Institutional Priority,orCS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences,ECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,CHEM1211K,Chemical Principles I,4
+Field of Study,CHEM1212K,Chemical Principles II,4
+Field of Study,CHEM2380,Synthesis Laboratory I,2
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,BIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,4
+Major Requirements,CHEM2216&2216L,Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory,4
+Major Requirements,orCHEM2214,Quantitative Chemical Analysis,4
+Major Requirements,CHEM2311,Organic Chemistry I,3
+Major Requirements,CHEM2312,Organic Chemistry II,3
+Major Requirements,orCHEM2313,Organic and Bioorganic Chemistry,3
+Major Requirements,CHEM3216&3216L,Analytical Chemistry Lectureand Analytical Chemistry Laboratory,5
+Major Requirements,orCHEM3211,Analytical Chemistry,5
+Major Requirements,CHEM3371,Organic Chemistry Laboratory,2
+Major Requirements,CHEM3411,Physical Chemistry I,3
+Major Requirements,CHEM4511,Biochemistry I,3
+Major Requirements,orCHEM3521,Biochemistry I,3
+Major Requirements,CHEM4512,Biochemistry II,3
+Major Requirements,orCHEM3522,Biochemistry II,3
+Major Requirements,CHEM4521,Biophysical Chemistry,3
+Major Requirements,CHEM4581,Biochemistry Laboratory I,3
+Major Requirements,CHEM4582,Biochemistry Laboratory II,3
+Major Requirements,CHEM4601,Chemistry Seminar,2
+Biology Electives,BIOS2600,Genetics,3
+Biology Electives,BIOS3450,Cell and Molecular Biology,3
+Biology Electives,Select one of the following:,SELECT,3
+Biology Electives,BIOS3380,Microbiology,3
+Biology Electives,BIOS3450,Cell and Molecular Biology,3
+Biology Electives,BIOS4015,Cancer Biology and Biotechnology,3
+Biology Electives,BIOS4340,Medical Microbiology,3
+Biology Electives,BIOS4400,Human Neuroanatomy,3
+Biology Electives,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,3
+Biology Electives,BIOS4418,Microbial Physiology,3
+Biology Electives,BIOS4464,Developmental Biology,3
+Biology Electives,BIOS4570,Immunology,3
+Biology Electives,BIOS4607,"Molecular Biology of Microbes: Disease, Nature, and Biotechnology",3
+Biology Electives,BIOS4668,Eukaryotic Molecular Genetics,3
+Biology Electives,CHEM4765,"Drug Design, Development, and Delivery",3
+Business Option,ACCT2101,Accounting I: Financial Accounting,3
+Business Option,orMGT3000,Financial and Managerial Accounting,3
+Business Option,MGT3101,Organizational Behavior,3
+Business Option,orMGT3150,Principles of Management,3
+Business Option,orPSYC2220,Industrial/Organizational Psychology,3
+Business Option,Select two of the following:,SELECT,6
+Business Option,MGT3062,Financial Management,
+Business Option,MGT3078,Finance and Investments,
+Business Option,MGT3300,Marketing Management I,
+Business Option,MGT3660,International Business,
+Business Option,MGT4015,Advanced Managerial Accounting,
+Business Option,MGT4026,Financial Reporting and Analysis I,
+Business Option,MGT4028,Financial Analysis and Reporting of Technology Firms,
+Business Option,MGT4030,International Accounting,
+Business Option,MGT4190,Strategic Quality Management and Competitiveness,
+Business Option,MGT4191,The Entrepreneurship Forum,
+Business Option,MGT4192,Impact Speaker Series Forum,
+Business Option,MGT4193,"Servant Leadership, Values & Systems",
+Business Option,MGT4194,Social Enterprise and Entrepreneurship,
+Business Option,MGT4303,Personal Selling and Sales Management,
+Business Option,MGT4304,Strategic Brand Management,
+Business Option,MGT4307,Strategic Marketing,
+Business Option,MGT4335,International Marketing,
+Business Option,MGT4610,"Law, Management, and Economics",
+Business Option,MGT4670,Entrepreneurship,
+Free Electives,Free Electives,SELECT,1
 Free Electives,Total Credit Hours,122

@@ -1,47 +1,47 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1371,Computing for Engineers,3,https://catalog.gatech.edu/search/?P=CS%201371
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,orHIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,orINTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,orPOL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,orPUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,ECON2100,Economic Analysis and Policy Problems,3,https://catalog.gatech.edu/search/?P=ECON%202100
-Core E - Social Sciences,orECON2101,The Global Economy,3,https://catalog.gatech.edu/search/?P=ECON%202101
-Core E - Social Sciences,orECON2105,Principles of Macroeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202105
-Core E - Social Sciences,orECON2106,Principles of Microeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#
-Core F - Courses Related to Major,MUSI2010,Fundamentals of Musicianship I,3,https://catalog.gatech.edu/search/?P=MUSI%202010
-Core F - Courses Related to Major,MUSI2011,Fundamentals of Musicianship II,3,https://catalog.gatech.edu/search/?P=MUSI%202011
-Core F - Courses Related to Major,MUSI2012,Fundamentals of Musicianship III,3,https://catalog.gatech.edu/search/?P=MUSI%202012
-Core F - Courses Related to Major,MUSI2013,Fundamentals of Musicianship IV,3,https://catalog.gatech.edu/search/?P=MUSI%202013
-Core F - Courses Related to Major,MUSI2015,Laptop Orchestra,3,https://catalog.gatech.edu/search/?P=MUSI%202015
-Core F - Courses Related to Major,MUSI2525,Introduction Audio Technology I,3,https://catalog.gatech.edu/search/?P=MUSI%202525
-Core F - Courses Related to Major,MUSI Ensemble Requirement,
-Major Requirements,MUSI2526,Introduction to Audio Technology II,3,https://catalog.gatech.edu/search/?P=MUSI%202526
-Major Requirements,MUSI4630,Music Recording and Mixing,3,https://catalog.gatech.edu/search/?P=MUSI%204630
-Major Requirements,MUSI3770,Project Studio: Technology,4,https://catalog.gatech.edu/search/?P=MUSI%203770
-Major Requirements,MUSI4677,Music Perception and Cognition,3,https://catalog.gatech.edu/search/?P=MUSI%204677
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences,ECON2100,Economic Analysis and Policy Problems,3
+Social Sciences,orECON2101,The Global Economy,3
+Social Sciences,orECON2105,Principles of Macroeconomics,3
+Social Sciences,orECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,MUSI2010,Fundamentals of Musicianship I,3
+Field of Study,MUSI2011,Fundamentals of Musicianship II,3
+Field of Study,MUSI2012,Fundamentals of Musicianship III,3
+Field of Study,MUSI2013,Fundamentals of Musicianship IV,3
+Field of Study,MUSI2015,Laptop Orchestra,3
+Field of Study,MUSI2525,Introduction Audio Technology I,3
+Major Requirements,MUSI Ensemble Requirement,
+Major Requirements,MUSI2526,Introduction to Audio Technology II,3
+Major Requirements,MUSI4630,Music Recording and Mixing,3
+Major Requirements,MUSI3770,Project Studio: Technology,4
+Major Requirements,MUSI4677,Music Perception and Cognition,3
 Major Requirements,MUSI Upper Division (4000-level) Elective,6
-Major Requirements,MUSI4705,Music Technology Capstone I,4,https://catalog.gatech.edu/search/?P=MUSI%204705
+Major Requirements,MUSI4705,Music Technology Capstone I,4
 Major Requirements,MUSI Additional Electives (any MUSI 4000-level courses or ensemble courses),5
-Concentration: ME/Acoustics and Vibration,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
-Concentration: ME/Acoustics and Vibration,ECE3710,Circuits and Electronics,2,https://catalog.gatech.edu/search/?P=ECE%203710
-Concentration: ME/Acoustics and Vibration,COE2001,Statics,2,https://catalog.gatech.edu/search/?P=COE%202001
-Concentration: ME/Acoustics and Vibration,ME2202,Dynamics of Rigid Bodies,3,https://catalog.gatech.edu/search/?P=ME%202202
-Concentration: ME/Acoustics and Vibration,ME2016,Computer Applications,3,https://catalog.gatech.edu/search/?P=ME%202016
-Concentration: ME/Acoustics and Vibration,ME4760,Engineering Acoustics and Noise Control,3,https://catalog.gatech.edu/search/?P=ME%204760
-Concentration: ME/Acoustics and Vibration,ME3017,System Dynamics,3,https://catalog.gatech.edu/search/?P=ME%203017
-Concentration: ME/Acoustics and Vibration,ME4189,Structural Vibrations,3,https://catalog.gatech.edu/search/?P=ME%204189
-Free Electives,Free Electives,8
+Concentration: ME/Acoustics and Vibration,MATH2552,Differential Equations,4
+Concentration: ME/Acoustics and Vibration,ECE3710,Circuits and Electronics,2
+Concentration: ME/Acoustics and Vibration,COE2001,Statics,2
+Concentration: ME/Acoustics and Vibration,ME2202,Dynamics of Rigid Bodies,3
+Concentration: ME/Acoustics and Vibration,ME2016,Computer Applications,3
+Concentration: ME/Acoustics and Vibration,ME4760,Engineering Acoustics and Noise Control,3
+Concentration: ME/Acoustics and Vibration,ME3017,System Dynamics,3
+Concentration: ME/Acoustics and Vibration,ME4189,Structural Vibrations,3
+Free Electives,Free Electives,SELECT,8
 Free Electives,Total Credit Hours,122

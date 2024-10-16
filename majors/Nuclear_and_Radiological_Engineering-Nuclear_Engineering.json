@@ -1,5 +1,5 @@
 {
-  "Wellness": [
+  "Wellness Requirement": [
     [
       "APPH1040",
       "Scientific Foundations of Health",
@@ -19,7 +19,62 @@
       "https://catalog.gatech.edu/search/?P=APPH%201060"
     ]
   ],
-  "Core A - Essential Skills": [
+  "Institutional Priority": [
+    [
+      "CS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
     [
       "ENGL1101",
       "English Composition I",
@@ -31,30 +86,9 @@
       "English Composition II",
       3,
       "https://catalog.gatech.edu/search/?P=ENGL%201102"
-    ],
-    [
-      "MATH1552",
-      "Integral Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201552"
     ]
   ],
-  "Core B - Institutional Options": [
-    [
-      "CS1371",
-      "Computing for Engineers",
-      3,
-      "https://catalog.gatech.edu/search/?P=CS%201371"
-    ]
-  ],
-  "Core C - Humanities": [
-    [
-      "Any HUM",
-      "6",
-      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
-    ]
-  ],
-  "Core D - Science, Math, & Technology": [
+  "Technology, Mathematics, and Sciences": [
     [
       "PHYS2211",
       "Introductory Physics I",
@@ -92,41 +126,7 @@
       "https://catalog.gatech.edu/search/?P=MATH%201564"
     ]
   ],
-  "Core E - Social Sciences": [
-    [
-      "Select one of the following:",
-      "3"
-    ],
-    [
-      "HIST2111",
-      "The United States to 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202111"
-    ],
-    [
-      "HIST2112",
-      "The United States since 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202112"
-    ],
-    [
-      "INTA1200",
-      "American Government in Comparative Perspective",
-      3,
-      "https://catalog.gatech.edu/search/?P=INTA%201200"
-    ],
-    [
-      "POL1101",
-      "Government of the United States",
-      3,
-      "https://catalog.gatech.edu/search/?P=POL%201101"
-    ],
-    [
-      "PUBP3000",
-      "American Constitutional Issues",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203000"
-    ],
+  "Social Sciences": [
     [
       "Select one of the following:",
       "3"
@@ -161,10 +161,10 @@
       3
     ]
   ],
-  "Core F - Courses Related to Major/Lower Division Courses": [
+  "Field of Study": [
     [
       "CHEM1310",
-      "General Chemistry",
+      "Principles of General Chemistry for Engineers",
       4,
       "https://catalog.gatech.edu/search/?P=CHEM%201310"
     ],
@@ -191,14 +191,14 @@
       "Elements of Nuclear and Radiological Engineering",
       3,
       "https://catalog.gatech.edu/search/?P=NRE%202120"
-    ],
+    ]
+  ],
+  "Major Requirements": [
     [
       "Ethics Requirement",
       "",
       "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#"
-    ]
-  ],
-  "Major Requirements": [
+    ],
     [
       "NRE3026",
       "Experimental Nuclear Reactor Physics",
@@ -284,6 +284,18 @@
       "Probability and Statistics with Applications",
       3,
       "https://catalog.gatech.edu/search/?P=MATH%203670"
+    ],
+    [
+      "orECE3077",
+      "Prob/Stats for ECE",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203077"
+    ],
+    [
+      "orISYE3770",
+      "Statistics and Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%203770"
     ]
   ],
   "Nuclear Energy Concentration requirements 5": [

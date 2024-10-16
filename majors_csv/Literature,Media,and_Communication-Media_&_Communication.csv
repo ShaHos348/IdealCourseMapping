@@ -1,102 +1,101 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1712,Survey of Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201712
-Core A - Essential Skills,orMATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core B - Institutional Options,orCS1315,Introduction to Media Computation,3,https://catalog.gatech.edu/search/?P=CS%201315
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,Lab Science,4
-Core D - Science, Math, & Technology,Lab Science,4
-Core D - Science, Math, & Technology,MATH1711,Finite Mathematics,4,https://catalog.gatech.edu/search/?P=MATH%201711
-Core D - Science, Math, & Technology,orMATH1551&MATH1553,Differential Calculusand Introduction to Linear Algebra,4,https://catalog.gatech.edu/search/?P=MATH%201551
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,International Requirement,3
-Core E - Social Sciences,Any SS,6,3
-Core F - Courses Related to Major,Technical Electives,6
-Core F - Courses Related to Major,Ethics Requirement,3,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
-Core F - Courses Related to Major,LMC2000,Introduction to Literature, Media, and Communication,3,https://catalog.gatech.edu/search/?P=LMC%202000
-Core F - Courses Related to Major,Select two of the following:,6
-Core F - Courses Related to Major,LMC2050,Seminar in Literature, Media, and Communication,,https://catalog.gatech.edu/search/?P=LMC%202050
-Core F - Courses Related to Major,LMC2060,Introduction to Literary Studies,,https://catalog.gatech.edu/search/?P=LMC%202060
-Core F - Courses Related to Major,LMC2100,Introduction to Science, Technology and Culture,,https://catalog.gatech.edu/search/?P=LMC%202100
-Core F - Courses Related to Major,LMC2200,Introduction to Gender Studies,,https://catalog.gatech.edu/search/?P=LMC%202200
-Core F - Courses Related to Major,LMC2350,Introduction to Social Justice,,https://catalog.gatech.edu/search/?P=LMC%202350
-Core F - Courses Related to Major,LMC2400,Introduction to Media Studies,,https://catalog.gatech.edu/search/?P=LMC%202400
-Core F - Courses Related to Major,LMC2450,Introduction to Black Media Studies,,https://catalog.gatech.edu/search/?P=LMC%202450
-Core F - Courses Related to Major,LMC2500,Introduction to Film,,https://catalog.gatech.edu/search/?P=LMC%202500
-Core F - Courses Related to Major,LMC2600,Introduction to Performance Studies,,https://catalog.gatech.edu/search/?P=LMC%202600
-Major Requirements,Select one of the following:,3
-Major Requirements,LMC4000,Senior Seminar in Literature, Media, and Communication,3,https://catalog.gatech.edu/search/?P=LMC%204000
-Major Requirements,orLMC4500,Seminar in Film Studies,3,3
-Major Requirements,orLMC4102,Senior Thesis,3,3
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1315,Introduction to Media Computation,3
+Mathematics and Quantitative Skills,MATH1712,Survey of Calculus,4
+Mathematics and Quantitative Skills,orMATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",MATH1711,Finite Mathematics,4
+"Technology, Mathematics, and Sciences",orMATH1551&MATH1553,Differential Calculusand Introduction to Linear Algebra,4
+Social Sciences,International Requirement,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,Technical Electives,6
+Field of Study,Ethics Requirement,3,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
+Field of Study,LMC2000,"Introduction to Literature, Media, and Communication",3
+Field of Study,Select two of the following:,SELECT,6
+Field of Study,LMC2050,"Seminar in Literature, Media, and Communication",
+Field of Study,LMC2060,Introduction to Literary Studies,
+Field of Study,LMC2100,"Introduction to Science, Technology and Culture",
+Field of Study,LMC2200,Introduction to Gender Studies,
+Field of Study,LMC2350,Introduction to Social Justice,
+Field of Study,LMC2400,Introduction to Media Studies,
+Field of Study,LMC2450,Introduction to Black Media Studies,
+Field of Study,LMC2500,Introduction to Film,
+Field of Study,LMC2600,Introduction to Performance Studies,
+Major Requirements,Select one of the following:,SELECT,3
+Major Requirements,LMC4000,"Senior Seminar in Literature, Media, and Communication",3
+Major Requirements,orLMC4500,Seminar in Film Studies,3
+Major Requirements,orLMC4102,Senior Thesis,3
 Concentration,Communication,
-Concentration,LMC3403,Technical Communication, Theory and Practice,3,https://catalog.gatech.edu/search/?P=LMC%203403
-Concentration,Select two Foundation courses:,6
-Concentration,LMC2400,Introduction to Media Studies,,https://catalog.gatech.edu/search/?P=LMC%202400
-Concentration,LMC2720,Principles of Visual Design,,https://catalog.gatech.edu/search/?P=LMC%202720
-Concentration,LMC3206,Communication and Culture,,https://catalog.gatech.edu/search/?P=LMC%203206
-Concentration,LMC3310,The Rhetoric of Scientific Inquiry,,https://catalog.gatech.edu/search/?P=LMC%203310
-Concentration,LMC3404,Social Media,,https://catalog.gatech.edu/search/?P=LMC%203404
-Concentration,LMC3405,Media, Culture, and Society,,https://catalog.gatech.edu/search/?P=LMC%203405
-Concentration,LMC3406,Video Production,,https://catalog.gatech.edu/search/?P=LMC%203406
-Concentration,LMC3408,The Rhetoric of Technical Narratives,,https://catalog.gatech.edu/search/?P=LMC%203408
-Concentration,LMC3410,The Rhetoric of Nonlinear Documents,,https://catalog.gatech.edu/search/?P=LMC%203410
-Concentration,LMC3412,Communicating Science and Technology to the Public,,https://catalog.gatech.edu/search/?P=LMC%203412
-Concentration,Select three Specialty courses:,9
-Concentration,LMC3214,Science Fiction,,https://catalog.gatech.edu/search/?P=LMC%203214
-Concentration,LMC3215,Science Fiction Film and Television,,https://catalog.gatech.edu/search/?P=LMC%203215
-Concentration,LMC3225,Gender Studies in the Disciplines,,https://catalog.gatech.edu/search/?P=LMC%203225
-Concentration,LMC3236,Writing for the Stage and Screen,,https://catalog.gatech.edu/search/?P=LMC%203236
-Concentration,LMC3252,Studies in Film and Television,,https://catalog.gatech.edu/search/?P=LMC%203252
-Concentration,LMC3302,Science, Technology, and Ideology,,https://catalog.gatech.edu/search/?P=LMC%203302
-Concentration,LMC3314,Technologies of Representation,,https://catalog.gatech.edu/search/?P=LMC%203314
-Concentration,LMC3318,Biomedicine and Culture,,https://catalog.gatech.edu/search/?P=LMC%203318
-Concentration,LMC3402,Graphic and Visual Design,,https://catalog.gatech.edu/search/?P=LMC%203402
-Concentration,LMC3520,Contemporary Issues in Literature & Culture,,https://catalog.gatech.edu/search/?P=LMC%203520
-Concentration,LMC3705,Principles of Information Design,,https://catalog.gatech.edu/search/?P=LMC%203705
-Concentration,LMC3710,Principles of Interaction Design,,https://catalog.gatech.edu/search/?P=LMC%203710
-Concentration,LMC3813,Special Topics,,https://catalog.gatech.edu/search/?P=LMC%203813
-Concentration,LMC4406,Contemporary Issues in Professional Communication,,https://catalog.gatech.edu/search/?P=LMC%204406
-Concentration,LMC4720,Interactive Narrative,,https://catalog.gatech.edu/search/?P=LMC%204720
+Concentration,LMC3403,"Technical Communication, Theory and Practice",3
+Concentration,Select two Foundation courses:,SELECT,6
+Concentration,LMC2400,Introduction to Media Studies,
+Concentration,LMC2720,Principles of Visual Design,
+Concentration,LMC3206,Communication and Culture,
+Concentration,LMC3310,The Rhetoric of Scientific Inquiry,
+Concentration,LMC3404,Social Media,
+Concentration,LMC3405,"Media, Culture, and Society",
+Concentration,LMC3406,Video Production,
+Concentration,LMC3408,The Rhetoric of Technical Narratives,
+Concentration,LMC3410,The Rhetoric of Nonlinear Documents,
+Concentration,LMC3412,Communicating Science and Technology to the Public,
+Concentration,Select three Specialty courses:,SELECT,9
+Concentration,LMC3214,Science Fiction,
+Concentration,LMC3215,Science Fiction Film and Television,
+Concentration,LMC3225,Gender Studies in the Disciplines,
+Concentration,LMC3236,Writing for the Stage and Screen,
+Concentration,LMC3252,Studies in Film and Television,
+Concentration,LMC3302,"Science, Technology, and Ideology",
+Concentration,LMC3314,Technologies of Representation,
+Concentration,LMC3318,Biomedicine and Culture,
+Concentration,LMC3402,Graphic and Visual Design,
+Concentration,LMC3520,Contemporary Issues in Literature & Culture,
+Concentration,LMC3705,Principles of Information Design,
+Concentration,LMC3710,Principles of Interaction Design,
+Concentration,LMC3813,Special Topics,
+Concentration,LMC4406,Contemporary Issues in Professional Communication,
+Concentration,LMC4720,Interactive Narrative,
 Concentration,Media,
-Concentration,LMC2400,Introduction to Media Studies,3,https://catalog.gatech.edu/search/?P=LMC%202400
-Concentration,Select two Foundation courses:,6
-Concentration,LMC2410,Introduction to Game Studies,,https://catalog.gatech.edu/search/?P=LMC%202410
-Concentration,LMC2500,Introduction to Film,,https://catalog.gatech.edu/search/?P=LMC%202500
-Concentration,LMC2600,Introduction to Performance Studies,,https://catalog.gatech.edu/search/?P=LMC%202600
-Concentration,LMC2700,Introduction to Computational Media,,https://catalog.gatech.edu/search/?P=LMC%202700
-Concentration,LMC2720,Principles of Visual Design,,https://catalog.gatech.edu/search/?P=LMC%202720
-Concentration,LMC2730,Constructing the Moving Image,,https://catalog.gatech.edu/search/?P=LMC%202730
-Concentration,LMC3206,Communication and Culture,,https://catalog.gatech.edu/search/?P=LMC%203206
-Concentration,LMC3314,Technologies of Representation,,https://catalog.gatech.edu/search/?P=LMC%203314
-Concentration,LMC3404,Social Media,,https://catalog.gatech.edu/search/?P=LMC%203404
-Concentration,LMC3405,Media, Culture, and Society,,https://catalog.gatech.edu/search/?P=LMC%203405
-Concentration,Select three Specialty courses:,9
-Concentration,LMC3252,Studies in Film and Television,,https://catalog.gatech.edu/search/?P=LMC%203252
-Concentration,LMC3253,Animation,,https://catalog.gatech.edu/search/?P=LMC%203253
-Concentration,LMC3254,Film History,,https://catalog.gatech.edu/search/?P=LMC%203254
-Concentration,LMC3255,Cinema and Digital Culture,,https://catalog.gatech.edu/search/?P=LMC%203255
-Concentration,LMC3256,Major Filmmakers,,https://catalog.gatech.edu/search/?P=LMC%203256
-Concentration,LMC3257,Global Cinema,,https://catalog.gatech.edu/search/?P=LMC%203257
-Concentration,LMC3258,Documentary Film,,https://catalog.gatech.edu/search/?P=LMC%203258
-Concentration,LMC3259,Experimental Film,,https://catalog.gatech.edu/search/?P=LMC%203259
-Concentration,LMC3263,Music, Culture, and Society,,https://catalog.gatech.edu/search/?P=LMC%203263
-Concentration,LMC3352,Film and/as Technology,,https://catalog.gatech.edu/search/?P=LMC%203352
-Concentration,LMC3402,Graphic and Visual Design,,https://catalog.gatech.edu/search/?P=LMC%203402
-Concentration,LMC3406,Video Production,,https://catalog.gatech.edu/search/?P=LMC%203406
-Concentration,LMC3407,Advanced Video Production,,https://catalog.gatech.edu/search/?P=LMC%203407
-Concentration,LMC3813,Special Topics,,https://catalog.gatech.edu/search/?P=LMC%203813
-Concentration,LMC4730,Experimental Digital Art,,https://catalog.gatech.edu/search/?P=LMC%204730
-Concentration,LMC4733,Mixed Reality Experience Design,,https://catalog.gatech.edu/search/?P=LMC%204733
+Concentration,LMC2400,Introduction to Media Studies,3
+Concentration,Select two Foundation courses:,SELECT,6
+Concentration,LMC2410,Introduction to Game Studies,
+Concentration,LMC2500,Introduction to Film,
+Concentration,LMC2600,Introduction to Performance Studies,
+Concentration,LMC2700,Introduction to Computational Media,
+Concentration,LMC2720,Principles of Visual Design,
+Concentration,LMC2730,Constructing the Moving Image,
+Concentration,LMC3206,Communication and Culture,
+Concentration,LMC3314,Technologies of Representation,
+Concentration,LMC3404,Social Media,
+Concentration,LMC3405,"Media, Culture, and Society",
+Concentration,Select three Specialty courses:,SELECT,9
+Concentration,LMC3252,Studies in Film and Television,
+Concentration,LMC3253,Animation,
+Concentration,LMC3254,Film History,
+Concentration,LMC3255,Cinema and Digital Culture,
+Concentration,LMC3256,Major Filmmakers,
+Concentration,LMC3257,Global Cinema,
+Concentration,LMC3258,Documentary Film,
+Concentration,LMC3259,Experimental Film,
+Concentration,LMC3263,"Music, Culture, and Society",
+Concentration,LMC3352,Film and/as Technology,
+Concentration,LMC3402,Graphic and Visual Design,
+Concentration,LMC3406,Video Production,
+Concentration,LMC3407,Advanced Video Production,
+Concentration,LMC3813,Special Topics,
+Concentration,LMC4730,Experimental Digital Art,
+Concentration,LMC4733,Mixed Reality Experience Design,
 Concentration,LMC Electives,6
-Free Electives,Free Electives,14
+Free Electives,Free Electives,SELECT,14
 Free Electives,Total Credit Hours,122

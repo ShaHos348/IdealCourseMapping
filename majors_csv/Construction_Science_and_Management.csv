@@ -1,0 +1,45 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1315,Introduction to Media Computation,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",Lab Science Elective,4
+Social Sciences,Any SS,SELECT,9
+Field of Study,ECON2100,Economic Analysis and Policy Problems,3
+Field of Study,BC2610,Construction Technology I,3
+Field of Study,BC2620,Construction Technology II,3
+Field of Study,BC2631,Introduction to Construction Management,2
+Field of Study,BC2632,Construction Materials and Methods,3
+Field of Study,BC2634,Construction Plans and Estimates,3
+Major Requirements,BC2636,Construction Safety,3
+Major Requirements,BC3600,Construction Cost Management,3
+Major Requirements,BC3610,Construction Law,3
+Major Requirements,BC3630,Project Management I,3
+Major Requirements,BC3640,Construction Mechanics,3
+Major Requirements,BC4050,Building Information Modeling for Multi-disciplinary Integration,3
+Major Requirements,BC4130,Intg Design Constr & Dev,3
+Major Requirements,BC4600,Project Management II,3
+Major Requirements,BC4630,Senior Capstone Project,3
+Major Requirements,BC4660,Entrepreneurship in Construction,3
+Major Requirements,BC4672,"Mechanical, Electrical and Plumbing Systems for Construction Managers",3
+Major Requirements,BC4680,Professional Internship,3
+Major Requirements,BC4710,Green Construction,3
+Major Requirements,MGT2106,"Legal, Social, Ethical Aspects of Business",3
+Major Requirements,MGT3000,Financial and Managerial Accounting,3
+Major Requirements,MGT3078,Finance and Investments,3
+Major Requirements,MGT3101,Organizational Behavior,3
+Free Electives,Free Electives,SELECT,9
+Free Electives,Total Credit Hours,122

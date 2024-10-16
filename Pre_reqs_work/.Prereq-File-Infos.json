@@ -17,6 +17,10 @@
         "Uses selenium to navigate through Schedule of Classes to find all available links for course information pages",
         "These pages include the co-reqs and ore-reqs"
     ],  
+    "find_prereqs_V2.py": [
+        "Update of version 2 that updates the course_links.json file for any NONE link courses",
+        "Uses course_links.json file to look for any courses whose link was not found in another semester"
+    ], 
     "course_links.json": [
         "Similar to program_courses.json, but each course now has a link with it"
     ],
@@ -40,5 +44,12 @@
         "xlsx file created from json_to_xlsx.py",
         "Each tab is the subject and the first course in each row is the main course",
         "The courses following the course in the first column is its prereqs"
+    ],
+    "prereq_chain_maker.py": [
+        "Input a course name and choose a prereq chain for it",
+        "The program will ask for inputs on what prereqs user wants to take for the given course",
+        "If a course prereq already chosen for another course, it gets skipped",
+        "Prints out the chains in the console at the end",
+        "Will be used in later step."
     ]
 }

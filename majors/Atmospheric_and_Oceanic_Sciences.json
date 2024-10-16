@@ -1,0 +1,376 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Art, Humanities, and Ethics 1": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Social Sciences 1": [
+    [
+      "Any SS",
+      "9",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ],
+    [
+      "EAS1600",
+      "Introduction to Environmental Science",
+      4,
+      "https://catalog.gatech.edu/search/?P=EAS%201600"
+    ],
+    [
+      "EAS2750",
+      "Physics of the Weather",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%202750"
+    ],
+    [
+      "EAS2551",
+      "Introduction to Meteorological Analysis",
+      1,
+      "https://catalog.gatech.edu/search/?P=EAS%202551"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "EAS2655",
+      "Quantitative Techniques in Earth and Atmospheric Sciences",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%202655"
+    ],
+    [
+      "EAS3603",
+      "Thermodynamics of Earth Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%203603"
+    ],
+    [
+      "EAS4655&EAS4656",
+      "Atmospheric Dynamicsand Atmospheric Dynamics Practicum",
+      4,
+      "https://catalog.gatech.edu/search/?P=EAS%204655"
+    ],
+    [
+      "EAS4740",
+      "Atmospheric Chemistry Laboratory",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%204740"
+    ],
+    [
+      "orEAS4670",
+      "Atmospheric Dynamics II",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%204670"
+    ],
+    [
+      "orEAS4305",
+      "Physical and Chemical Oceanography",
+      3,
+      "https://catalog.gatech.edu/search/?P=EAS%204305"
+    ],
+    [
+      "EAS4801",
+      "Special Topics (Career Development Seminar)",
+      1,
+      "https://catalog.gatech.edu/search/?P=EAS%204801"
+    ],
+    [
+      "Select 7 credit hours from the following:",
+      "7"
+    ],
+    [
+      "EAS4420",
+      "Environmental Field Methods",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204420"
+    ],
+    [
+      "EAS4814",
+      "Special Topics-Lab (Geophysical Field Methods)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204814"
+    ],
+    [
+      "EAS4610",
+      "Earth System Modeling",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204610"
+    ],
+    [
+      "Research Option",
+      ""
+    ]
+  ],
+  "AOS Technical Electives15": [
+    [
+      "CHEM1212K",
+      "Chemical Principles II",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%201212K"
+    ],
+    [
+      "EAS3110",
+      "Energy, Environment, and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%203110"
+    ],
+    [
+      "EAS4300",
+      "Introduction to Physical and Chemical Oceanography",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204300"
+    ],
+    [
+      "EAS4305",
+      "Physical and Chemical Oceanography",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204305"
+    ],
+    [
+      "EAS4410",
+      "Climate and Global Change",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204410"
+    ],
+    [
+      "EAS4450",
+      "Synoptic Meteorology",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204450"
+    ],
+    [
+      "EAS4525",
+      "Weather Risk and Catastrophe Modeling",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204525"
+    ],
+    [
+      "EAS4470",
+      "Large-scale Atmospheric Circulations",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204470"
+    ],
+    [
+      "EAS4740",
+      "Atmospheric Chemistry Laboratory",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204740"
+    ],
+    [
+      "EAS4420",
+      "Environmental Field Methods",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204420"
+    ],
+    [
+      "EAS4480",
+      "Environmental Data Analysis",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204480"
+    ],
+    [
+      "EAS4610",
+      "Earth System Modeling",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204610"
+    ],
+    [
+      "EAS4651",
+      "Practical Internship",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204651"
+    ],
+    [
+      "EAS4670",
+      "Atmospheric Dynamics II",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204670"
+    ],
+    [
+      "EAS4695",
+      "Undergraduate Internship",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204695"
+    ],
+    [
+      "EAS4698",
+      "Undergraduate Research Assistantship",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204698"
+    ],
+    [
+      "EAS4699",
+      "Undergraduate Research",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204699"
+    ],
+    [
+      "EAS4803",
+      "Special Topics (Tropical Dynamics)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204803"
+    ],
+    [
+      "EAS4803",
+      "Special Topics (Glacial and Ice Sheet Dynamics)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204803"
+    ],
+    [
+      "EAS4813",
+      "Special Topics (Mesoscale Meteorology)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204813"
+    ],
+    [
+      "EAS4814",
+      "Special Topics-Lab (Geophysical Field Methods)",
+      "",
+      "https://catalog.gatech.edu/search/?P=EAS%204814"
+    ]
+  ],
+  "Free Electives 1,221": [
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

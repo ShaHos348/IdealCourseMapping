@@ -1,66 +1,67 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1371,Computing for Engineers,3,https://catalog.gatech.edu/search/?P=CS%201371
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core D - Science, Math, & Technology,orMATH1554,Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201554
-Core D - Science, Math, & Technology,orMATH1564,Linear Algebra with Abstract Vector Spaces,2,https://catalog.gatech.edu/search/?P=MATH%201564
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,ECON2100,Economic Analysis and Policy Problems,3,https://catalog.gatech.edu/search/?P=ECON%202100
-Core E - Social Sciences,ECON2101,The Global Economy,3,https://catalog.gatech.edu/search/?P=ECON%202101
-Core E - Social Sciences,ECON2105,Principles of Macroeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202105
-Core E - Social Sciences,ECON2106,Principles of Microeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,6,3
-Core F - Courses Related to Major,CHEM1310,Principles of General Chemistry for Engineers,4,https://catalog.gatech.edu/search/?P=CHEM%201310
-Core F - Courses Related to Major,ME1670,Introduction to Engineering Graphics and Design,3,https://catalog.gatech.edu/search/?P=ME%201670
-Core F - Courses Related to Major,MATH2551,Multivariable Calculus,4,https://catalog.gatech.edu/search/?P=MATH%202551
-Core F - Courses Related to Major,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
-Core F - Courses Related to Major,MSE2001,Principles and Applications of Engineering Materials,3,https://catalog.gatech.edu/search/?P=MSE%202001
-Core F - Courses Related to Major,Ethics Requirement,,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
-Major Requirements,COE2001,Statics,2,https://catalog.gatech.edu/search/?P=COE%202001
-Major Requirements,ME2016,Computer Applications,3,https://catalog.gatech.edu/search/?P=ME%202016
-Major Requirements,ME2110,Creative Decisions and Design,3,https://catalog.gatech.edu/search/?P=ME%202110
-Major Requirements,ME2202,Dynamics of Rigid Bodies,3,https://catalog.gatech.edu/search/?P=ME%202202
-Major Requirements,ME3017,System Dynamics,3,https://catalog.gatech.edu/search/?P=ME%203017
-Major Requirements,ME3057,Experimental Methodology and Technical Writing,3,https://catalog.gatech.edu/search/?P=ME%203057
-Major Requirements,ME3322,Thermodynamics,3,https://catalog.gatech.edu/search/?P=ME%203322
-Major Requirements,ME3340,Fluid Mechanics,3,https://catalog.gatech.edu/search/?P=ME%203340
-Major Requirements,ME3345,Conduction and Radiation Heat Transfer,3,https://catalog.gatech.edu/search/?P=ME%203345
-Major Requirements,COE3001,Mechanics of Deformable Bodies,3,https://catalog.gatech.edu/search/?P=COE%203001
-Major Requirements,ME3210,Design, Materials, and Manufacture,3,https://catalog.gatech.edu/search/?P=ME%203210
-Major Requirements,ME4056,Mechanical Engineering Systems Laboratory,3,https://catalog.gatech.edu/search/?P=ME%204056
-Major Requirements,ME4182,Mechanical Design Engineering,3,https://catalog.gatech.edu/search/?P=ME%204182
-Major Requirements,orME4723,Interdisciplinary Capstone Design,3,https://catalog.gatech.edu/search/?P=ME%204723
-Other Engineering Requirements,ECE3710,Circuits and Electronics,2,https://catalog.gatech.edu/search/?P=ECE%203710
-Other Engineering Requirements,ECE3741,Instrumentation and Electronics Lab,1,https://catalog.gatech.edu/search/?P=ECE%203741
-Other Engineering Requirements,ISYE3025,Essentials of Engineering Economy,1,https://catalog.gatech.edu/search/?P=ISYE%203025
-Other Engineering Requirements,MATH3670,Probability and Statistics with Applications,3,https://catalog.gatech.edu/search/?P=MATH%203670
-Design Concentration,ME3180,Machine Design,3,https://catalog.gatech.edu/search/?P=ME%203180
-Design Concentration,orME4315,Energy Systems Analysis and Design,3,https://catalog.gatech.edu/search/?P=ME%204315
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1554,Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,2
+Social Sciences,Select one of the following:,SELECT,3
+Social Sciences,ECON2100,Economic Analysis and Policy Problems,3
+Social Sciences,ECON2101,The Global Economy,3
+Social Sciences,ECON2105,Principles of Macroeconomics,3
+Social Sciences,ECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,CHEM1310,Principles of General Chemistry for Engineers,4
+Field of Study,ME1670,Introduction to Engineering Graphics and Design,3
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,MSE2001,Principles and Applications of Engineering Materials,3
+Major Requirements,Ethics Requirement,,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
+Major Requirements,COE2001,Statics,2
+Major Requirements,ME2016,Computer Applications,3
+Major Requirements,ME2110,Creative Decisions and Design,3
+Major Requirements,ME2202,Dynamics of Rigid Bodies,3
+Major Requirements,ME3017,System Dynamics,3
+Major Requirements,ME3057,Experimental Methodology and Technical Writing,3
+Major Requirements,ME3322,Thermodynamics,3
+Major Requirements,ME3340,Fluid Mechanics,3
+Major Requirements,ME3345,Conduction and Radiation Heat Transfer,3
+Major Requirements,COE3001,Mechanics of Deformable Bodies,3
+Major Requirements,ME3210,"Design, Materials, and Manufacture",3
+Major Requirements,ME4056,Mechanical Engineering Systems Laboratory,3
+Major Requirements,ME4182,Mechanical Design Engineering,3
+Major Requirements,orME4723,Interdisciplinary Capstone Design,3
+Other Engineering Requirements,ECE3710,Circuits and Electronics,2
+Other Engineering Requirements,ECE3741,Instrumentation and Electronics Lab,1
+Other Engineering Requirements,ISYE3025,Essentials of Engineering Economy,1
+Other Engineering Requirements,MATH3670,Probability and Statistics with Applications,3
+Other Engineering Requirements,orECE3077,Prob/Stats for ECE,3
+Other Engineering Requirements,orISYE3770,Statistics and Applications,3
+Design Concentration,ME3180,Machine Design,3
+Design Concentration,orME4315,Energy Systems Analysis and Design,3
 Design Concentration,Electives:,12
-Design Concentration,ME4042,Interactive Computer-Aided Design and Computer-Aided Engineering,,https://catalog.gatech.edu/search/?P=ME%204042
-Design Concentration,ME4171,Environmentally Conscious Design and Manufacturing,,https://catalog.gatech.edu/search/?P=ME%204171
-Design Concentration,ME4193,Design and Materials Selection for Tribological Applications,,https://catalog.gatech.edu/search/?P=ME%204193
-Design Concentration,ME3180,Machine Design,,https://catalog.gatech.edu/search/?P=ME%203180
-Design Concentration,orME4315,Energy Systems Analysis and Design,3,https://catalog.gatech.edu/search/?P=ME%204315
-Design Concentration,ME4699,Undergraduate Research,,https://catalog.gatech.edu/search/?P=ME%204699
+Design Concentration,ME4042,Interactive Computer-Aided Design and Computer-Aided Engineering,
+Design Concentration,ME4171,Environmentally Conscious Design and Manufacturing,
+Design Concentration,ME4193,Design and Materials Selection for Tribological Applications,
+Design Concentration,ME3180,Machine Design,
+Design Concentration,orME4315,Energy Systems Analysis and Design,3
+Design Concentration,ME4699,Undergraduate Research,
 Design Concentration,Vertically Integrated Project courses,
-Design Concentration,ME/BIOS/BMED/MSE/ISYE 4740,Biologically Inspired Design,,https://catalog.gatech.edu/search/?P=ME%204740
-Design Concentration,ME/NRE 4725,Probabilistic Risk Assessment,,https://catalog.gatech.edu/search/?P=ME%204725
-Design Concentration,ME/MSE 4790,Materials Selection and Design,,https://catalog.gatech.edu/search/?P=ME%204790
-Free Electives,Free Electives,6
+Design Concentration,ME/BIOS/BMED/MSE/ISYE 4740,Biologically Inspired Design,
+Design Concentration,ME/NRE 4725,Probabilistic Risk Assessment,
+Design Concentration,ME/MSE 4790,Materials Selection and Design,
+Free Electives,Free Electives,SELECT,6
 Free Electives,Total Credit Hours,129

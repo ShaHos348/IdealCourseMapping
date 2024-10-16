@@ -1,5 +1,5 @@
 {
-  "Wellness": [
+  "Wellness Requirement": [
     [
       "APPH1040",
       "Scientific Foundations of Health",
@@ -19,7 +19,62 @@
       "https://catalog.gatech.edu/search/?P=APPH%201060"
     ]
   ],
-  "Core A - Essential Skills": [
+  "Institutional Priority": [
+    [
+      "CS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
     [
       "ENGL1101",
       "English Composition I",
@@ -31,36 +86,9 @@
       "English Composition II",
       3,
       "https://catalog.gatech.edu/search/?P=ENGL%201102"
-    ],
-    [
-      "MATH1552",
-      "Integral Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201552"
     ]
   ],
-  "Core B - Institutional Options": [
-    [
-      "CS1301",
-      "Introduction to Computing",
-      3,
-      "https://catalog.gatech.edu/search/?P=CS%201301"
-    ],
-    [
-      "orCS1371",
-      "Computing for Engineers",
-      3,
-      "https://catalog.gatech.edu/search/?P=CS%201371"
-    ]
-  ],
-  "Core C - Humanities 1": [
-    [
-      "Any HUM",
-      "6",
-      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
-    ]
-  ],
-  "Core D - Science, Math, & Technology": [
+  "Technology, Mathematics, and Sciences": [
     [
       "PHYS2211",
       "Introductory Physics I",
@@ -68,10 +96,10 @@
       "https://catalog.gatech.edu/search/?P=PHYS%202211"
     ],
     [
-      "CHEM1211K",
-      "Chemical Principles I",
+      "PHYS2212",
+      "Introductory Physics II",
       4,
-      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
     ],
     [
       "MATH1551",
@@ -86,36 +114,42 @@
       "https://catalog.gatech.edu/search/?P=MATH%201553"
     ]
   ],
-  "Core E - Social Sciences 1": [
+  "Social Sciences": [
     [
       "Select one of the following:",
       "3"
     ],
     [
-      "INTA1200",
-      "American Government in Comparative Perspective",
+      "ECON2100",
+      "Economic Analysis and Policy Problems",
       3,
-      "https://catalog.gatech.edu/search/?P=INTA%201200"
+      "https://catalog.gatech.edu/search/?P=ECON%202100"
     ],
     [
-      "POL1101",
-      "Government of the United States",
+      "ECON2101",
+      "The Global Economy",
       3,
-      "https://catalog.gatech.edu/search/?P=POL%201101"
+      "https://catalog.gatech.edu/search/?P=ECON%202101"
+    ],
+    [
+      "ECON2105",
+      "Principles of Macroeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202105"
+    ],
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
     ],
     [
       "Any SS",
-      "9",
+      "6",
       3
     ]
   ],
-  "Core F - Courses Related to Major": [
-    [
-      "PHYS2212",
-      "Introductory Physics II",
-      4,
-      "https://catalog.gatech.edu/search/?P=PHYS%202212"
-    ],
+  "Field of Study": [
     [
       "MATH2551",
       "Multivariable Calculus",
@@ -129,147 +163,194 @@
       "https://catalog.gatech.edu/search/?P=MATH%202552"
     ],
     [
-      "EAS1600",
-      "Introduction to Environmental Science",
-      4,
-      "https://catalog.gatech.edu/search/?P=EAS%201600"
+      "MSE2001",
+      "Principles and Applications of Engineering Materials",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%202001"
     ],
     [
-      "EAS2600",
-      "Earth Processes",
+      "CHEM1310",
+      "Principles of General Chemistry for Engineers",
       4,
-      "https://catalog.gatech.edu/search/?P=EAS%202600"
+      "https://catalog.gatech.edu/search/?P=CHEM%201310"
+    ],
+    [
+      "AE1601",
+      "Introduction to Aerospace Engineering",
+      1,
+      "https://catalog.gatech.edu/search/?P=AE%201601"
+    ],
+    [
+      "COE2001",
+      "Statics",
+      2,
+      "https://catalog.gatech.edu/search/?P=COE%202001"
     ]
   ],
   "Major Requirements": [
     [
-      "EAS2655",
-      "Quantitative Techniques in Earth and Atmospheric Sciences",
-      3,
-      "https://catalog.gatech.edu/search/?P=EAS%202655"
-    ],
-    [
-      "EAS3603",
-      "Thermodynamics of Earth Systems",
-      3,
-      "https://catalog.gatech.edu/search/?P=EAS%203603"
-    ],
-    [
-      "EAS3610",
-      "Introduction to Geophysics",
-      3,
-      "https://catalog.gatech.edu/search/?P=EAS%203610"
-    ],
-    [
-      "EAS4370",
-      "Physics of Planets",
-      3,
-      "https://catalog.gatech.edu/search/?P=EAS%204370"
-    ],
-    [
-      "EAS4200",
-      "Structural Geology and Continuum Mechanics",
+      "AE2010",
+      "Thermodynamics & Fluids Fundamentals",
       4,
-      "https://catalog.gatech.edu/search/?P=EAS%204200"
+      "https://catalog.gatech.edu/search/?P=AE%202010"
     ],
     [
-      "EAS4610",
-      "Earth System Modeling",
+      "AE2220",
+      "Dynamics",
       3,
-      "https://catalog.gatech.edu/search/?P=EAS%204610"
+      "https://catalog.gatech.edu/search/?P=AE%202220"
     ],
     [
-      "EAS4801",
-      "Special Topics (Career Development Seminar)",
+      "COE3001",
+      "Mechanics of Deformable Bodies",
+      3,
+      "https://catalog.gatech.edu/search/?P=COE%203001"
+    ],
+    [
+      "AE2610",
+      "Introduction to Experimental Methods in Aerospace",
       1,
-      "https://catalog.gatech.edu/search/?P=EAS%204801"
+      "https://catalog.gatech.edu/search/?P=AE%202610"
     ],
     [
-      "EAS4814",
-      "Special Topics-Lab (Geophysical Field Methods)",
-      4,
-      "https://catalog.gatech.edu/search/?P=EAS%204814"
+      "AE2611",
+      "Technical Communications for Aerospace Engineers",
+      1,
+      "https://catalog.gatech.edu/search/?P=AE%202611"
     ],
     [
-      "orEAS4420",
-      "Environmental Field Methods",
+      "AE3330",
+      "Introduction to Aerospace Vehicle Performance",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%203330"
+    ],
+    [
+      "AE3030",
+      "Aerodynamics",
       4,
-      "https://catalog.gatech.edu/search/?P=EAS%204420"
+      "https://catalog.gatech.edu/search/?P=AE%203030"
+    ],
+    [
+      "AE3140",
+      "Structural  Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%203140"
+    ],
+    [
+      "AE3530",
+      "System Dynamics and Vibration",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%203530"
+    ],
+    [
+      "AE3531",
+      "Control System Analysis and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%203531"
+    ],
+    [
+      "AE3610",
+      "Experiments in Fluid and Solid Mechanics",
+      2,
+      "https://catalog.gatech.edu/search/?P=AE%203610"
+    ],
+    [
+      "AE4311",
+      "Aircraft Design I: Conceptual Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204311"
+    ],
+    [
+      "orAE4321",
+      "Space System Design I: Conceptual Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204321"
+    ],
+    [
+      "orAE4331",
+      "Rotorcraft Design I: Conceptual Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204331"
+    ],
+    [
+      "AE4312",
+      "Aircraft Design II: Preliminary Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204312"
+    ],
+    [
+      "orAE4322",
+      "Space System Design II: Mission Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204322"
+    ],
+    [
+      "orAE4332",
+      "Rotorcraft Design II: Preliminary Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204332"
+    ],
+    [
+      "AE4531",
+      "Aircraft Flight Dynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204531"
+    ],
+    [
+      "orAE4532",
+      "Spacecraft Flight Dynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204532"
+    ],
+    [
+      "AE4451",
+      "Jet and Rocket Propulsion",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204451"
+    ],
+    [
+      "AE4610",
+      "Dynamics and Control Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=AE%204610"
+    ],
+    [
+      "AE Options",
+      "6"
     ]
   ],
-  "SEP Technical Electives12": [
+  "Non-AE Required Courses": [
     [
-      "EAS4312",
-      "Geodynamics",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204312"
+      "ME1670",
+      "Introduction to Engineering Graphics and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%201670"
     ],
     [
-      "EAS4314",
-      "Seismology",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204314"
+      "ECE3710",
+      "Circuits and Electronics",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%203710"
     ],
     [
-      "EAS4316",
-      "Earthquake Physics",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204316"
+      "ECE3741",
+      "Instrumentation and Electronics Lab",
+      1,
+      "https://catalog.gatech.edu/search/?P=ECE%203741"
     ],
     [
-      "EAS4360",
-      "Space Physics and Space Instrumentation",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204360"
-    ],
-    [
-      "EAS4375",
-      "Earth and Planetary Materials",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204375"
-    ],
-    [
-      "EAS4480",
-      "Environmental Data Analysis",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204480"
-    ],
-    [
-      "EAS4520",
-      "Seismic Methods in Exploration Geophysics",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204520"
-    ],
-    [
-      "EAS4699",
-      "Undergraduate Research",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204699"
-    ],
-    [
-      "EAS4803",
-      "Special Topics (Earth Evolution)",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204803"
-    ],
-    [
-      "EAS4803",
-      "Special Topics (Ice Sheet Dynamics)",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204803"
-    ],
-    [
-      "EAS4803",
-      "Special Topics (Geologic History)",
-      "",
-      "https://catalog.gatech.edu/search/?P=EAS%204803"
+      "Math Option",
+      "3"
     ]
   ],
-  "Upper Division Electives12": [],
-  "Free Electives 19": [
+  "Free Electives": [
+    [
+      "Free Electives",
+      "9"
+    ],
     [
       "Total Credit Hours",
-      "122"
+      "131"
     ]
   ]
 }

@@ -20,15 +20,19 @@
       "ME 3322"
     ],
     "AE 2220": [
-      "COE 2001/MATH 2403/MATH 2413/MATH 2552/MATH 2562"
+      "COE 2001",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "AE 2221": [
-      "COE 2001/CEE 2040/MATH 2552/MATH 2562/MATH 2403/MATH 2413"
+      "COE 2001",
+      "CEE 2040/MATH 2552/MATH 2562/MATH 2403/MATH 2413"
     ],
     "AE 2355": [],
     "AE 2610": [
-      "AE 1601/PHYS 2212/PHYS 2232",
-      "MATH 2401/MATH 2411/MATH 2551/MATH 2561/COE 2001"
+      "AE 1601",
+      "PHYS 2212/PHYS 2232",
+      "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
+      "COE 2001"
     ],
     "AE 2611": [],
     "AE 3030": [
@@ -39,21 +43,27 @@
       "COE 3001"
     ],
     "AE 3330": [
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/AE 3030"
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "AE 3030"
     ],
     "AE 3340": [
-      "AE 1601/CS 1371/MATH 2401/MATH 2411/MATH 2551/MATH 2561"
+      "AE 1601",
+      "CS 1371",
+      "MATH 2401/MATH 2411/MATH 2551/MATH 2561"
     ],
     "AE 3355": [],
     "AE 3450": "",
     "AE 3530": [
-      "AE 2220/MATH 2403/MATH 2413/MATH 2552/MATH 2562"
+      "AE 2220",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "AE 3531": [
       "AE 3530"
     ],
     "AE 3610": [
-      "COE 3001/AE 2610/AE 2010"
+      "COE 3001",
+      "AE 2610",
+      "AE 2010"
     ],
     "AE 4040": [
       "AE 3030"
@@ -61,7 +71,8 @@
     "AE 4060": "",
     "AE 4070": "",
     "AE 4071": [
-      "AE 3030/AE 3530"
+      "AE 3030",
+      "AE 3530"
     ],
     "AE 4080": [
       "AE 3030"
@@ -71,7 +82,8 @@
     ],
     "AE 4170": "",
     "AE 4220": [
-      "AE 3140/AE 3530"
+      "AE 3140",
+      "AE 3530"
     ],
     "AE 4311": [
       "AE 3330"
@@ -92,13 +104,16 @@
       "AE 4311/AE 4321/AE 4331"
     ],
     "AE 4341": [
-      "AE 3330/AE 3340"
+      "AE 3330",
+      "AE 3340"
     ],
     "AE 4342": [
-      "AE 3330/AE 3340"
+      "AE 3330",
+      "AE 3340"
     ],
     "AE 4343": [
-      "AE 3330/AE 3340"
+      "AE 3330",
+      "AE 3340"
     ],
     "AE 4355": [],
     "AE 4361": [
@@ -114,20 +129,26 @@
     ],
     "AE 4461": "",
     "AE 4531": [
-      "AE 3030/AE 3531"
+      "AE 3030",
+      "AE 3531"
     ],
     "AE 4532": [
-      "AE 3530/AE 3330"
+      "AE 3530",
+      "AE 3330"
     ],
     "AE 4552": "",
     "AE 4580": [
-      "AE 3530/AE 4531/AE 4532/ECE 3710"
+      "AE 3530/AE 4531/AE 4532",
+      "ECE 3710"
     ],
     "AE 4610": [
-      "AE 2610/AE 2010/AE 3531"
+      "AE 2610",
+      "AE 2010",
+      "AE 3531"
     ],
     "AE 4701": [
-      "MATH 2401/MATH 2411/MATH 2551/MATH 2561/PHYS 2211"
+      "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
+      "PHYS 2211"
     ],
     "AE 4757": "",
     "AE 4758": "",
@@ -138,7 +159,8 @@
       "COE 3001"
     ],
     "AE 4793": [
-      "CHEM 1310/PHYS 2212"
+      "CHEM 1310",
+      "PHYS 2212"
     ],
     "AE 4794": ""
   },
@@ -269,7 +291,8 @@
     "ARCH 4505": "",
     "ARCH 4507": "",
     "ARCH 4508": [
-      "ARCH 2472/ARCH 2474"
+      "ARCH 2472",
+      "ARCH 2474"
     ],
     "ARCH 4510": [
       "ARCH 4507"
@@ -288,77 +311,90 @@
     "BIOS 1220": "",
     "BIOS 2100": "",
     "BIOS 2300": [
-      "BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207/BIOL 1510/BIOL 1511"
+      "BIOS 1107",
+      "BIOS 1207",
+      "BIOL 1510/BIOL 1511"
     ],
     "BIOS 2301": [
-      "BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207/BIOL 1510/BIOL 1511"
+      "BIOS 1107",
+      "BIOS 1207",
+      "BIOL 1510/BIOL 1511"
     ],
     "BIOS 2310": "",
     "BIOS 2311": "",
     "BIOS 2400": "",
     "BIOS 2500": [],
     "BIOS 2600": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207"
     ],
     "BIOS 2601": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207"
     ],
     "BIOS 2610": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207"
     ],
     "BIOS 2611": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207"
     ],
     "BIOS 2694": [],
     "BIOS 3000": "",
     "BIOS 3100": "",
     "BIOS 3380": [
-      "BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207/BIOL 1510/BIOL 1511/CHEM 1212"
+      "BIOS 1107",
+      "BIOS 1207",
+      "BIOL 1510/BIOL 1511",
+      "CHEM 1212"
     ],
     "BIOS 3381": [
-      "CHEM 1212/BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "CHEM 1212",
+      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207"
     ],
     "BIOS 3400": [
       "MATH 1552/MATH 1555",
       "MATH 1553/MATH 1554/MATH 1564/MATH 1522/MATH 1502/MATH 1504/MATH 1512",
       "BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207/BIOL 1510/BIOL 1511"
+      "BIOL 1510/BIOL 1511"
     ],
     "BIOS 3450": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207",
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207",
       "CHEM 2311/CHEM 1315"
     ],
     "BIOS 3451": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207",
-      "CHEM 2311/CHEM 1315/BIOS 3450"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207",
+      "CHEM 2311/CHEM 1315",
+      "BIOS 3450"
     ],
     "BIOS 3600": [
       "BIOL 2344/BIOL 2354/BIOL 2335/BIOL 2337/BIOS 2600/BIOS 2610/BIOS 2300/BIOS 2310"
     ],
     "BIOS 3753": [
-      "BIOS 1108/BIOS 1108/BIOS 1208/BIOS 1208/BIOL 1520/BIOL 1521/CHEM 1211/CHEM 1310"
+      "BIOS 1108",
+      "BIOS 1208",
+      "BIOL 1520/BIOL 1521/CHEM 1211/CHEM 1310"
     ],
     "BIOS 3754": [
-      "BIOS 1108/BIOS 1108/BIOS 1208/BIOS 1208/BIOL 1520/BIOL 1520/CHEM 1211/CHEM 1310"
+      "BIOS 1108",
+      "BIOS 1208",
+      "BIOL 1520/BIOL 1520/CHEM 1211/CHEM 1310"
     ],
     "BIOS 3755": [
       "BIOS 1108/BIOS 1208",
-      "BIOS 1108/BIOS 1208/BIOS 3753/BIOL 3753/APPH 3753/BIOL 1520/BIOL 1521"
+      "BIOS 3753/BIOL 3753/APPH 3753/BIOL 1520/BIOL 1521"
     ],
     "BIOS 3756": [
       "BIOS 1108/BIOS 1208",
-      "BIOS 1108/BIOS 1208/BIOS 3753/BIOL 3753/APPH 3753/BIOL 1520/BIOL 1521"
+      "BIOS 3753/BIOL 3753/APPH 3753/BIOL 1520/BIOL 1521"
     ],
     "BIOS 4012": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207"
     ],
     "BIOS 4015": [
-      "BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207/BIOL 1510/BIOL 1511/CHEM 1310"
+      "BIOS 1107",
+      "BIOS 1207",
+      "BIOL 1510/BIOL 1511/CHEM 1310"
     ],
     "BIOS 4100": [
       "APPH 3755/BIOL 3755/BIOS 3755/BMED 3100/BMED 4853"
@@ -369,12 +405,14 @@
     ],
     "BIOS 4200": [
       "BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207/BIOS 1108/BIOS 1208",
-      "BIOS 1108/BIOS 1208/BIOL 1510/BIOL 1511/BIOL 1520/BIOL 1521/BIOL 3751/APPH 3751/BIOL 3753/APPH 3753/BIOS 3753",
+      "BIOS 1108/BIOS 1208",
+      "BIOL 1510/BIOL 1511/BIOL 1520/BIOL 1521/BIOL 3751/APPH 3751/BIOL 3753/APPH 3753/BIOS 3753",
       "MATH 1113"
     ],
     "BIOS 4221": [
-      "BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207/BIOL 1510/BIOL 1511"
+      "BIOS 1107",
+      "BIOS 1207",
+      "BIOL 1510/BIOL 1511"
     ],
     "BIOS 4225": "",
     "BIOS 4238": [
@@ -384,13 +422,14 @@
       "BIOL 3380/BIOS 3380"
     ],
     "BIOS 4400": [
-      "BIOL 1520/BIOL 1521/BIOS 1108/BIOS 1108/BIOS 1208/BIOS 1208/CHEM 1211/CHEM 1310/NEUR 2001"
+      "BIOL 1520/BIOL 1521/BIOS 1108",
+      "BIOS 1208",
+      "CHEM 1211/CHEM 1310/NEUR 2001"
     ],
     "BIOS 4401": [
       "MATH 1553/MATH 1554/MATH 1564",
       "MATH 1555/MATH 1552",
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1207"
     ],
     "BIOS 4410": [
       "BIOS 3380"
@@ -410,7 +449,10 @@
       "BIOS 2600/BIOS 2610/BIOL 2344/BIOL 2354"
     ],
     "BIOS 4471": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207/BIOL 1520/BIOL 1521/BIOS 1108/BIOS 1108/BIOS 1208/BIOS 1208"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207",
+      "BIOL 1520/BIOL 1521/BIOS 1108",
+      "BIOS 1208"
     ],
     "BIOS 4480": "",
     "BIOS 4500": [
@@ -418,7 +460,6 @@
       "BIOL 4150/BIOS 4150"
     ],
     "BIOS 4505": [
-      "BIOS 1107/BIOS 1207",
       "BIOS 1107/BIOS 1207"
     ],
     "BIOS 4510": [
@@ -426,34 +467,43 @@
     ],
     "BIOS 4515": "",
     "BIOS 4520": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207"
     ],
     "BIOS 4530": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207"
     ],
     "BIOS 4540": [
-      "BIOL 1520/BIOL 1521/BIOS 1108/BIOS 1108/BIOS 1208/BIOS 1208/NEUR 2001"
+      "BIOL 1520/BIOL 1521/BIOS 1108",
+      "BIOS 1208",
+      "NEUR 2001"
     ],
     "BIOS 4545": [
       "BIOL 2344/BIOL 2354/BIOS 2600/BIOS 2610"
     ],
     "BIOS 4550": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207"
     ],
     "BIOS 4560": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207/BIOS 1207"
     ],
     "BIOS 4570": [
       "BIOL 2344/BIOL 2354/BIOS 2600/BIOS 2610/BIOL 3450/BIOS 3450"
     ],
     "BIOS 4607": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207"
     ],
     "BIOS 4620": [
       "BIOS 2300/BIOS 2310/BIOL 2335/BIOL 2337"
     ],
     "BIOS 4651": [
-      "BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207/BIOL 1510/BIOL 1511"
+      "BIOS 1107",
+      "BIOS 1207",
+      "BIOL 1510/BIOL 1511"
     ],
     "BIOS 4668": "",
     "BIOS 4694": [],
@@ -462,13 +512,19 @@
       "CETL 2000"
     ],
     "BIOS 4740": [
-      "BIOS 1108/BIOS 1108/BIOS 1208/BIOS 1208/BIOL 1520/BIOL 1521/BIOS 3600/BIOS 3160/PHYS 2211"
+      "BIOS 1108",
+      "BIOS 1208",
+      "BIOL 1520/BIOL 1521/BIOS 3600/BIOS 3160/PHYS 2211"
     ],
     "BIOS 4744": [
-      "BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "BIOL 1510/BIOL 1511/BIOS 1107",
+      "BIOS 1207"
     ],
     "BIOS 4746": [
-      "BIOS 1107/BIOS 1107/BIOS 1108/BIOS 1108/BIOL 1510/BIOL 1511/CHEM 2311"
+      "BIOS 1107",
+      "BIOS 1108",
+      "BIOL 1510/BIOL 1511",
+      "CHEM 2311"
     ]
   },
   "BIOL": {
@@ -480,25 +536,31 @@
     "BMED 1750": "",
     "BMED 2110": [
       "CHEM 1211/CHEM 1310",
-      "MATH 1552/BMED 1000"
+      "MATH 1552",
+      "BMED 1000"
     ],
     "BMED 2250": [
       "BMED 2210/BMED 2110"
     ],
     "BMED 2300": "",
     "BMED 2310": [
-      "BMED 2210/BMED 2110/BMED 2250/PHYS 2211/PHYS 2231"
+      "BMED 2210/BMED 2110",
+      "BMED 2250",
+      "PHYS 2211/PHYS 2231"
     ],
     "BMED 2400": [
-      "MATH 1501/MATH 1511/MATH 1552/CS 1371/CS 1301"
+      "MATH 1501/MATH 1511/MATH 1552",
+      "CS 1371/CS 1301"
     ],
     "BMED 3100": [
       "CHEM 1315/CHEM 2311"
     ],
     "BMED 3101": "",
     "BMED 3110": [
-      "BMED 3100/BMED 4853/BMED 2400/CEE 3770/ISYE 3770/MATH 3770",
-      "BMED 3400/BMED 3410/CS 1371/CS 1301"
+      "BMED 3100/BMED 4853",
+      "BMED 2400/CEE 3770/ISYE 3770/MATH 3770",
+      "BMED 3400/BMED 3410",
+      "CS 1371/CS 1301"
     ],
     "BMED 3201": [
       "BMED 2400/ISYE 3770/ISYE 3030"
@@ -520,28 +582,34 @@
     ],
     "BMED 3400": "",
     "BMED 3410": [
-      "COE 2001/MATH 2551/MATH 2401"
+      "COE 2001",
+      "MATH 2551/MATH 2401"
     ],
     "BMED 3500": [
       "ECE 3710"
     ],
     "BMED 3510": "",
     "BMED 3520": [
-      "BMED 3100/BMED 4853/BMED 2210/BMED 2110",
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/CS 1371/CS 1301"
+      "BMED 3100/BMED 4853",
+      "BMED 2210/BMED 2110",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "CS 1371/CS 1301"
     ],
     "BMED 3600": [
       "BMED 3100/BMED 4853"
     ],
     "BMED 3610": [
-      "BMED 2400/ISYE 3770/CEE 3770/BMED 3600"
+      "BMED 2400/ISYE 3770/CEE 3770",
+      "BMED 3600"
     ],
     "BMED 4000": [
-      "BMED 1000/BMED 2310"
+      "BMED 1000",
+      "BMED 2310"
     ],
     "BMED 4400": "",
     "BMED 4477": [
-      "BMED 3520/CEE 3770/ISYE 3770/BMED 2400"
+      "BMED 3520",
+      "CEE 3770/ISYE 3770/BMED 2400"
     ],
     "BMED 4478": "",
     "BMED 4500": [
@@ -550,7 +618,8 @@
     "BMED 4600": "",
     "BMED 4601": "",
     "BMED 4602": [
-      "BMED 2310/BMED 3110"
+      "BMED 2310",
+      "BMED 3110"
     ],
     "BMED 4603": [
       "BMED 4602"
@@ -559,7 +628,8 @@
       "BMED 2310/BMED 3110"
     ],
     "BMED 4739": [
-      "BMED 3110/BMED 3410"
+      "BMED 3110",
+      "BMED 3410"
     ],
     "BMED 4740": [
       "BIOL 1520/BIOL 3600/BMED 3100/BMED 4751/PHYS 2211"
@@ -592,7 +662,8 @@
       "BMED 3520"
     ],
     "BMED 4785": [
-      "PHYS 2211/MATH 1552"
+      "PHYS 2211",
+      "MATH 1552"
     ],
     "BMED 4786": [
       "BMED 3110"
@@ -614,13 +685,17 @@
       "BC 3600"
     ],
     "BC 3620": [
-      "BC 2620/BC 2630"
+      "BC 2620",
+      "BC 2630"
     ],
     "BC 3630": [
-      "BC 2631/BC 2632/BC 2634"
+      "BC 2631",
+      "BC 2632",
+      "BC 2634"
     ],
     "BC 3640": [
-      "PHYS 2211/BC 2620"
+      "PHYS 2211",
+      "BC 2620"
     ],
     "BC 4010": "",
     "BC 4050": [],
@@ -637,10 +712,15 @@
     "BC 4610": "",
     "BC 4620": "",
     "BC 4630": [
-      "BC 4130/BC 4710/BC 4680"
+      "BC 4130",
+      "BC 4710",
+      "BC 4680"
     ],
     "BC 4640": [
-      "BC 2630/BC 3600/BC 3610/BC 3620"
+      "BC 2630",
+      "BC 3600",
+      "BC 3610",
+      "BC 3620"
     ],
     "BC 4650": "",
     "BC 4660": [],
@@ -662,91 +742,131 @@
   "CHBE": {
     "CHBE 1750": "",
     "CHBE 2100": [
-      "CS 1371/CHEM 1310/CHEM 1211",
+      "CS 1371",
+      "CHEM 1310/CHEM 1211",
       "MATH 1502/MATH 1512/MATH 1552",
-      "MATH 1552/MATH 1553/MATH 1554/MATH 1564"
+      "MATH 1553/MATH 1554/MATH 1564"
     ],
     "CHBE 2110": "",
     "CHBE 2120": [
-      "CHBE 2100/CS 1371"
+      "CHBE 2100",
+      "CS 1371"
     ],
     "CHBE 2130": [
-      "CHBE 2100/BIOL 1510/BIOS 1107/BIOS 1107/BIOS 1207/BIOS 1207"
+      "CHBE 2100",
+      "BIOL 1510/BIOS 1107",
+      "BIOS 1207"
     ],
     "CHBE 2140": [
-      "CHBE 2100/MATH 2551/BIOL 1510/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "CHBE 2100",
+      "MATH 2551",
+      "BIOL 1510/BIOS 1107/BIOS 1207"
     ],
     "CHBE 3110": "",
     "CHBE 3130": [
-      "CHBE 2120/CHBE 2130/CHBE 2110",
+      "CHBE 2120",
+      "CHBE 2130/CHBE 2110",
       "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "CHBE 3200": [
-      "CHBE 2110/CHBE 2130/CHBE 2120/MATH 2401/MATH 2411/MATH 2551/MATH 2561",
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/PHYS 2211"
+      "CHBE 2110/CHBE 2130",
+      "CHBE 2120",
+      "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "PHYS 2211"
     ],
     "CHBE 3205": [
-      "CHBE 2100/MATH 2551/MATH 2561/PHYS 2211/MATH 2552/MATH 2562"
+      "CHBE 2100",
+      "MATH 2551/MATH 2561",
+      "PHYS 2211",
+      "MATH 2552/MATH 2562"
     ],
     "CHBE 3210": [
-      "CHBE 3110/CHBE 3130/CHBE 3200"
+      "CHBE 3110/CHBE 3130",
+      "CHBE 3200"
     ],
     "CHBE 3215": [
-      "CHBE 3205/MATH 2552"
+      "CHBE 3205",
+      "MATH 2552"
     ],
     "CHBE 3225": [
       "CHBE 3130/CHBE 2140",
-      "CHBE 3200/CHBE 3210/CHBE 3215"
+      "CHBE 3200",
+      "CHBE 3210/CHBE 3215"
     ],
     "CHBE 3300": [
-      "CHEM 1212/CHBE 2100/MATH 2552/MATH 2562"
+      "CHEM 1212",
+      "CHBE 2100",
+      "MATH 2552/MATH 2562"
     ],
     "CHBE 3600": "",
     "CHBE 4020": "",
     "CHBE 4030": [
-      "CHBE 2130/CHBE 2120"
+      "CHBE 2130",
+      "CHBE 2120"
     ],
     "CHBE 4050": [
-      "CHBE 3200/CHBE 3205/CHBE 3130/CHBE 2140"
+      "CHBE 3200/CHBE 3205",
+      "CHBE 3130/CHBE 2140"
     ],
     "CHBE 4200": [
-      "CHBE 3210/CHBE 3215/CHBE 3225/CHBE 4300/CHBE 4320"
+      "CHBE 3210/CHBE 3215",
+      "CHBE 3225",
+      "CHBE 4300/CHBE 4320"
     ],
     "CHBE 4210": [
-      "CHBE 3210/CHBE 3215/CHBE 3225/CHBE 4300/CHBE 4320"
+      "CHBE 3210/CHBE 3215",
+      "CHBE 3225",
+      "CHBE 4300/CHBE 4320"
     ],
     "CHBE 4300": [
-      "CHBE 3130/CHBE 3200/CHBE 3210"
+      "CHBE 3130",
+      "CHBE 3200",
+      "CHBE 3210"
     ],
     "CHBE 4310": [
       "CHEM 3511/CHEM 4511/CHEM 3521",
-      "CHBE 3210/CHBE 3215/CHBE 3225/CHBE 4300/CHBE 4320"
+      "CHBE 3210/CHBE 3215",
+      "CHBE 3225",
+      "CHBE 4300/CHBE 4320"
     ],
     "CHBE 4320": [
-      "CHBE 2140/CHBE 3130/CHBE 3215/CHBE 3300"
+      "CHBE 2140/CHBE 3130",
+      "CHBE 3215",
+      "CHBE 3300"
     ],
     "CHBE 4400": "",
     "CHBE 4411": [
-      "CHBE 3210/CHBE 3215/CHBE 3225/CHBE 4300/CHBE 4320"
+      "CHBE 3210/CHBE 3215",
+      "CHBE 3225",
+      "CHBE 4300/CHBE 4320"
     ],
     "CHBE 4412": [
-      "CHBE 3210/CHBE 3215/CHBE 3225/CHBE 4300/CHBE 4320/CHBE 4411"
+      "CHBE 3210/CHBE 3215",
+      "CHBE 3225",
+      "CHBE 4300/CHBE 4320",
+      "CHBE 4411"
     ],
     "CHBE 4505": "",
     "CHBE 4510": [
-      "CHBE 3210/CHBE 3215/CHBE 3225/CHBE 4300/CHBE 4320"
+      "CHBE 3210/CHBE 3215",
+      "CHBE 3225",
+      "CHBE 4300/CHBE 4320"
     ],
     "CHBE 4515": [
-      "CHBE 3210/CHBE 3215/CHBE 3225/CHBE 4300/CHBE 4320"
+      "CHBE 3210/CHBE 3215",
+      "CHBE 3225",
+      "CHBE 4300/CHBE 4320"
     ],
     "CHBE 4520": [
-      "CHBE 4510/CHBE 4515"
+      "CHBE 4510",
+      "CHBE 4515"
     ],
     "CHBE 4525": "",
     "CHBE 4530": [
-      "CHBE 4510/CHBE 4515"
+      "CHBE 4510",
+      "CHBE 4515"
     ],
     "CHBE 4535": [
       "CHEM 2312/CHEM 2313/CHBE 3120/MSE 2001"
@@ -763,10 +883,15 @@
       "CHBE 2140/CHBE 3130/ME 3322"
     ],
     "CHBE 4743": [
-      "CHBE 3130/CHBE 2140/CHEM 2312/CHEM 2313/CHEM 2380"
+      "CHBE 3130/CHBE 2140",
+      "CHEM 2312/CHEM 2313",
+      "CHEM 2380"
     ],
     "CHBE 4745": [
-      "CHBE 2140/CHBE 2120/MSE 3001/CS 1371/ME 3322/CS 1371/BMED 3310/CS 1371/ISYE 3030/ECE 3025/ECE 3040/ECE 3058"
+      "CHBE 2140/CHBE 2120/MSE 3001",
+      "CS 1371/ME 3322",
+      "BMED 3310",
+      "ISYE 3030/ECE 3025/ECE 3040/ECE 3058"
     ],
     "CHBE 4746": [
       "CHBE 3225"
@@ -803,10 +928,12 @@
       "BMED 3500/CHBE 4411/ECE 2040/ME 3015"
     ],
     "CHBE 4791": [
-      "ME 3201/MSE 2001/CHBE 3200"
+      "ME 3201/MSE 2001",
+      "CHBE 3200"
     ],
     "CHBE 4793": [
-      "CHEM 1310/CHEM 1211/PHYS 2212"
+      "CHEM 1310/CHEM 1211",
+      "PHYS 2212"
     ],
     "CHBE 4794": ""
   },
@@ -832,33 +959,40 @@
     ],
     "CHEM 2313": "",
     "CHEM 2380": [
-      "CHEM 1212/CHEM 1312/CHEM 1313/CHEM 2211/CHEM 2311/CHEM 2312/CHEM 2313"
+      "CHEM 1212/CHEM 1312/CHEM 1313/CHEM 2211",
+      "CHEM 2311",
+      "CHEM 2312/CHEM 2313"
     ],
     "CHEM 2380U": "",
     "CHEM 2601": [],
     "CHEM 2832": "",
     "CHEM 3111": [
-      "CHEM 2312/CHEM 2313/CHEM 1212"
+      "CHEM 2312/CHEM 2313",
+      "CHEM 1212"
     ],
     "CHEM 3211": "",
     "CHEM 3216": [
-      "CHEM 2211/CHEM 2214/CHEM 2216/CHEM 2216"
+      "CHEM 2211/CHEM 2214/CHEM 2216"
     ],
     "CHEM 3281": "",
     "CHEM 3371": [
       "CHEM 2380"
     ],
     "CHEM 3380": [
-      "CHEM 2380/CHEM 3111"
+      "CHEM 2380",
+      "CHEM 3111"
     ],
     "CHEM 3411": [
       "CHEM 1311/CHEM 1212"
     ],
     "CHEM 3412": [
-      "CHEM 1311/CHEM 1212/PHYS 2212"
+      "CHEM 1311/CHEM 1212",
+      "PHYS 2212"
     ],
     "CHEM 3481": [
-      "CHEM 2380/CHEM 3411/CHEM 3412"
+      "CHEM 2380",
+      "CHEM 3411",
+      "CHEM 3412"
     ],
     "CHEM 3482": "",
     "CHEM 3511": [
@@ -871,7 +1005,10 @@
       "CHEM 2312/CHEM 2313"
     ],
     "CHEM 3700": [
-      "CHEM 1310/CHEM 1211/CHEM 1212/PHYS 2211/PHYS 2212"
+      "CHEM 1310/CHEM 1211",
+      "CHEM 1212",
+      "PHYS 2211",
+      "PHYS 2212"
     ],
     "CHEM 4311": [
       "CHEM 2312/CHEM 2313"
@@ -881,7 +1018,8 @@
     ],
     "CHEM 4401": "",
     "CHEM 4452": [
-      "CHEM 3111/CHEM 3412"
+      "CHEM 3111",
+      "CHEM 3412"
     ],
     "CHEM 4485": [
       "CHEM 1212/CHEM 1310"
@@ -890,17 +1028,20 @@
       "CHEM 2311"
     ],
     "CHEM 4512": [
-      "CHEM 4511/CHEM 2312/CHEM 2313"
+      "CHEM 4511",
+      "CHEM 2312/CHEM 2313"
     ],
     "CHEM 4521": [
-      "CHEM 3411/CHEM 3511/CHEM 4511/CHEM 3521"
+      "CHEM 3411",
+      "CHEM 3511/CHEM 4511/CHEM 3521"
     ],
     "CHEM 4581": [
       "CHEM 3211/CHEM 3216",
       "CHEM 4511/CHEM 3521"
     ],
     "CHEM 4582": [
-      "CHEM 4512/CHEM 3522/CHEM 4581"
+      "CHEM 4512/CHEM 3522",
+      "CHEM 4581"
     ],
     "CHEM 4601": [
       "CHEM 4512/CHEM 3522"
@@ -1015,10 +1156,12 @@
     ],
     "CEE 3090": "",
     "CEE 3340": [
-      "CEE 2300/BIOL 1510/BIOL 1511/BIOS 1107/BIOS 1107"
+      "CEE 2300",
+      "BIOL 1510/BIOL 1511/BIOS 1107"
     ],
     "CEE 3400": [
-      "COE 3001/CEE 3040"
+      "COE 3001",
+      "CEE 3040"
     ],
     "CEE 3770": [
       "MATH 2401/MATH 2411/MATH 2551/MATH 2561"
@@ -1053,7 +1196,9 @@
       "CEE 3040"
     ],
     "CEE 4211": [
-      "CEE 3040/CEE 3770/CS 1371"
+      "CEE 3040",
+      "CEE 3770",
+      "CS 1371"
     ],
     "CEE 4225": [
       "CEE 3040"
@@ -1064,10 +1209,12 @@
       "MATH 1502/MATH 1512/MATH 1552"
     ],
     "CEE 4310": [
-      "CEE 2300/CEE 3040/ME 3340"
+      "CEE 2300",
+      "CEE 3040/ME 3340"
     ],
     "CEE 4320": [
-      "CEE 2300/CEE 3040/ME 3340"
+      "CEE 2300",
+      "CEE 3040/ME 3340"
     ],
     "CEE 4330": [
       "CHEM 1310/CHEM 1211",
@@ -1082,7 +1229,8 @@
     ],
     "CEE 4395": "",
     "CEE 4405": [
-      "COE 3001/CEE 3040"
+      "COE 3001",
+      "CEE 3040"
     ],
     "CEE 4406": [
       "CEE 4405"
@@ -1110,10 +1258,12 @@
       "COE 3001/CEE 3051/CEE 3052"
     ],
     "CEE 4552": [
-      "CEE 3055/CS 1371"
+      "CEE 3055",
+      "CS 1371"
     ],
     "CEE 4560": [
-      "MATH 1552/MATH 1553"
+      "MATH 1552",
+      "MATH 1553"
     ],
     "CEE 4600": [
       "CEE 1770/ME 1770/EGR 1770/AE 1770"
@@ -1130,7 +1280,8 @@
       "COE 3001"
     ],
     "CEE 4793": [
-      "CHEM 1310/PHYS 2212"
+      "CHEM 1310",
+      "PHYS 2212"
     ],
     "CEE 4794": "",
     "CEE 4795": ""
@@ -1155,7 +1306,8 @@
     ],
     "COE 2701": [],
     "COE 3001": [
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/COE 2001"
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "COE 2001"
     ],
     "COE 3002": []
   },
@@ -1211,7 +1363,8 @@
       "CS 1331"
     ],
     "CS 2200": [
-      "CS 2110/ECE 2020/ECE 2035"
+      "CS 2110/ECE 2020",
+      "ECE 2035"
     ],
     "CS 2261": [
       "CS 1331"
@@ -1232,7 +1385,8 @@
       "CS 2200/ECE 3057/ECE 3058"
     ],
     "CS 3220": [
-      "CS 2200/ECE 3057/ECE 3058/ECE 2031"
+      "CS 2200/ECE 3057/ECE 3058",
+      "ECE 2031"
     ],
     "CS 3235": [
       "CS 2200/ECE 3057/ECE 3058"
@@ -1248,15 +1402,19 @@
       "CS 2340"
     ],
     "CS 3311": [
-      "CS 2340/CS 3001/CS 4001/CS 4002/CS 4003/CS 4726/SLS 3110"
+      "CS 2340",
+      "CS 3001/CS 4001/CS 4002/CS 4003/CS 4726/SLS 3110"
     ],
     "CS 3312": [
-      "CS 2340/LMC 3432"
+      "CS 2340",
+      "LMC 3432"
     ],
     "CS 3451": [
       "MATH 2605/MATH 2401/MATH 2411/MATH 2551/MATH 2550/MATH 2561",
-      "CS 2110/CS 2261/ECE 2020/ECE 2035",
-      "CS 1332/CS 2340"
+      "CS 2110/CS 2261/ECE 2020",
+      "ECE 2035",
+      "CS 1332",
+      "CS 2340"
     ],
     "CS 3510": [
       "CS 2050/CS 2051/MATH 2106",
@@ -1340,7 +1498,9 @@
       "CS 1301/CS 1315/CS 1371"
     ],
     "CS 4420": [
-      "CS 1332/CS 2200/ECE 3057/ECE 3058/CS 4400"
+      "CS 1332",
+      "CS 2200/ECE 3057/ECE 3058",
+      "CS 4400"
     ],
     "CS 4423": "",
     "CS 4432": "",
@@ -1356,7 +1516,8 @@
     ],
     "CS 4464": "",
     "CS 4470": [
-      "CS 2340/CS 3750/PSYC 3750/CS 3751"
+      "CS 2340",
+      "CS 3750/PSYC 3750/CS 3751"
     ],
     "CS 4472": "",
     "CS 4475": [
@@ -1365,12 +1526,15 @@
     "CS 4476": [
       "MATH 2605/MATH 2401/MATH 2411/MATH 2550/MATH 2551/MATH 2561",
       "MATH 1553/MATH 1554/MATH 1564",
-      "CS 2110/CS 2261/ECE 2020/ECE 2035",
+      "CS 2110/CS 2261/ECE 2020",
+      "ECE 2035",
       "CS 3510/CS 3511"
     ],
     "CS 4480": "",
     "CS 4488": [
-      "CS 1332/CS 2110/CS 2261/CS 2340"
+      "CS 1332",
+      "CS 2110/CS 2261",
+      "CS 2340"
     ],
     "CS 4495": "",
     "CS 4496": [
@@ -1380,20 +1544,23 @@
     "CS 4510": [
       "CS 3510/CS 3511",
       "MATH 3012/MATH 3022",
-      "MATH 3215/MATH 3235/MATH 3225/MATH 3770/MATH 3670/CEE 3770/ISYE 3770/ISYE 2027/ISYE 2028/ISYE 3030"
+      "MATH 3215/MATH 3235/MATH 3225/MATH 3770/MATH 3670/CEE 3770/ISYE 3770/ISYE 2027",
+      "ISYE 2028/ISYE 3030"
     ],
     "CS 4520": "",
     "CS 4530": "",
     "CS 4540": [
       "CS 3510/CS 3511",
       "MATH 3012/MATH 3022",
-      "MATH 3215/MATH 3235/MATH 3225/MATH 3770/MATH 3670/CEE 3770/ISYE 3770/ISYE 2027/ISYE 2028/ISYE 3030"
+      "MATH 3215/MATH 3235/MATH 3225/MATH 3770/MATH 3670/CEE 3770/ISYE 3770/ISYE 2027",
+      "ISYE 2028/ISYE 3030"
     ],
     "CS 4550": "",
     "CS 4560": "",
     "CS 4590": [],
     "CS 4605": [
-      "CS 2110/CS 2261/ECE 2020/ECE 2035"
+      "CS 2110/CS 2261/ECE 2020",
+      "ECE 2035"
     ],
     "CS 4611": "",
     "CS 4613": "",
@@ -1433,7 +1600,8 @@
     ],
     "CS 4710": "",
     "CS 4723": [
-      "CS 2340/CS 3001/CS 4001/CS 4002/CS 4003/CS 4726/SLS 3110"
+      "CS 2340",
+      "CS 3001/CS 4001/CS 4002/CS 4003/CS 4726/SLS 3110"
     ],
     "CS 4725": [],
     "CS 4726": [],
@@ -1581,7 +1749,8 @@
     "EAS 2750": [],
     "EAS 3110": [],
     "EAS 3603": [
-      "PHYS 2211/MATH 2551/MATH 2561"
+      "PHYS 2211",
+      "MATH 2551/MATH 2561"
     ],
     "EAS 3610": [
       "EAS 2600/PHYS 2211"
@@ -1592,18 +1761,24 @@
       "EAS 2600"
     ],
     "EAS 4205": [
-      "EAS 2600/PHYS 2212"
+      "EAS 2600",
+      "PHYS 2212"
     ],
     "EAS 4220": [
-      "MATH 1502/MATH 1512/MATH 1552/CHEM 1212"
+      "MATH 1502/MATH 1512/MATH 1552",
+      "CHEM 1212"
     ],
     "EAS 4221": [
-      "MATH 1502/MATH 1512/MATH 1552/CHEM 1212/CHEM 1315"
+      "MATH 1502/MATH 1512/MATH 1552",
+      "CHEM 1212/CHEM 1315"
     ],
     "EAS 4224": "",
     "EAS 4300": [],
     "EAS 4305": [
-      "MATH 1502/MATH 1512/MATH 1552/MATH 1553/MATH 1554/PHYS 2212/CHEM 1212"
+      "MATH 1502/MATH 1512/MATH 1552",
+      "MATH 1553/MATH 1554",
+      "PHYS 2212",
+      "CHEM 1212"
     ],
     "EAS 4312": "",
     "EAS 4313": "",
@@ -1615,12 +1790,14 @@
       "EAS 3610"
     ],
     "EAS 4331": [
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/PHYS 2211"
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "PHYS 2211"
     ],
     "EAS 4350": [],
     "EAS 4360": "",
     "EAS 4370": [
-      "PHYS 2212/MATH 2403/MATH 2413/MATH 2552/MATH 2562"
+      "PHYS 2212",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "EAS 4375": [
       "EAS 4220"
@@ -1632,16 +1809,19 @@
     ],
     "EAS 4430": "",
     "EAS 4450": [
-      "EAS 2750/EAS 4655"
+      "EAS 2750",
+      "EAS 4655"
     ],
     "EAS 4460": [
-      "PHYS 2212/MATH 2403/MATH 2413/MATH 2552/MATH 2562"
+      "PHYS 2212",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "EAS 4470": [
       "EAS 4655/EAS 6502"
     ],
     "EAS 4480": [
-      "CS 1301/CS 1371/MATH 1553/MATH 1554"
+      "CS 1301/CS 1371",
+      "MATH 1553/MATH 1554"
     ],
     "EAS 4510": "",
     "EAS 4515": "",
@@ -1659,7 +1839,8 @@
     "EAS 4630": "",
     "EAS 4641": "",
     "EAS 4655": [
-      "PHYS 2212/MATH 2401/MATH 2411/MATH 2551/MATH 2561",
+      "PHYS 2212",
+      "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "EAS 4656": [
@@ -1669,7 +1850,9 @@
       "EAS 4655"
     ],
     "EAS 4740": [
-      "CHEM 1310/CHEM 1212/PHYS 2211/MATH 2401/MATH 2411/MATH 2551/MATH 2561",
+      "CHEM 1310/CHEM 1212",
+      "PHYS 2211",
+      "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
       "EAS 3603/CHEM 3411"
     ],
     "EAS 4795": ""
@@ -1709,7 +1892,8 @@
       "ECON 3161"
     ],
     "ECON 4170": [
-      "ECON 3110/ECON 3120"
+      "ECON 3110",
+      "ECON 3120"
     ],
     "ECON 4180": [
       "ECON 2106/ECON 2100/ECON 2101"
@@ -1725,7 +1909,8 @@
     ],
     "ECON 4301": "",
     "ECON 4311": [
-      "ECON 2100/ECON 2105/ECON 2106/ECON 2101"
+      "ECON 2100/ECON 2105",
+      "ECON 2106/ECON 2101"
     ],
     "ECON 4321": "",
     "ECON 4340": [
@@ -1733,7 +1918,8 @@
     ],
     "ECON 4345": "",
     "ECON 4350": [
-      "ECON 2100/ECON 2105/ECON 2106/ECON 2101"
+      "ECON 2100/ECON 2105",
+      "ECON 2106/ECON 2101"
     ],
     "ECON 4351": [
       "ECON 2100/ECON 2105/ECON 2101"
@@ -1775,7 +1961,8 @@
       "ECON 2100/ECON 2101/ECON 2106"
     ],
     "ECON 4610": [
-      "ECON 2100/ECON 2105/ECON 2106/ECON 2101"
+      "ECON 2100/ECON 2105",
+      "ECON 2106/ECON 2101"
     ],
     "ECON 4620": "",
     "ECON 4740": "",
@@ -1792,7 +1979,9 @@
     ],
     "ECE 2025": "",
     "ECE 2026": [
-      "MATH 1502/MATH 1522/MATH 1553/MATH 1512/MATH 1552/MATH 1553/MATH 1554/MATH 1564",
+      "MATH 1502",
+      "MATH 1522/MATH 1553/MATH 1512/MATH 1552",
+      "MATH 1554/MATH 1564",
       "CS 1371/CS 1171/CS 1301"
     ],
     "ECE 2030": "",
@@ -1808,15 +1997,19 @@
       "ECE 2026/ECE 2025"
     ],
     "ECE 2040": [
-      "PHYS 2212/MATH 2552"
+      "PHYS 2212",
+      "MATH 2552"
     ],
     "ECE 2045": "",
     "ECE 3005": [
-      "ECE 2031/ECE 3025/ECE 3040/ECE 3072/ECE 3084/ECE 3020/ECE 3030/ECE 3056/ECE 3057/ECE 3058"
+      "ECE 2031",
+      "ECE 3025/ECE 3040/ECE 3072/ECE 3084/ECE 3020/ECE 3030/ECE 3056/ECE 3057/ECE 3058"
     ],
     "ECE 3006": "",
     "ECE 3011": [
-      "ECE 2031/ECE 2040/ECE 2035/ECE 2036"
+      "ECE 2031",
+      "ECE 2040",
+      "ECE 2035/ECE 2036"
     ],
     "ECE 3020": "",
     "ECE 3025": [
@@ -1826,11 +2019,13 @@
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "ECE 3030": [
-      "ECE 2020/ECE 2030/ECE 2040"
+      "ECE 2020/ECE 2030",
+      "ECE 2040"
     ],
     "ECE 3035": "",
     "ECE 3040": [
-      "ECE 2040/MATH 2401/MATH 2411/MATH 2551/MATH 2561",
+      "ECE 2040",
+      "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "ECE 3043": [
@@ -1840,7 +2035,8 @@
     "ECE 3055": "",
     "ECE 3057": "",
     "ECE 3058": [
-      "ECE 2035/ECE 2031"
+      "ECE 2035",
+      "ECE 2031"
     ],
     "ECE 3060": "",
     "ECE 3065": "",
@@ -1857,17 +2053,24 @@
     ],
     "ECE 3080": "",
     "ECE 3084": [
-      "ECE 2026/ECE 2040/ECE 3710/MATH 2403/MATH 2413/ECE 3710/MATH 2552/MATH 2562"
+      "ECE 2026",
+      "ECE 2040/ECE 3710",
+      "MATH 2403",
+      "MATH 2413",
+      "MATH 2552/MATH 2562"
     ],
     "ECE 3085": "",
     "ECE 3150": [
-      "ECE 2031/ECE 2040"
+      "ECE 2031",
+      "ECE 2040"
     ],
     "ECE 3170": [
-      "ECE 2040/ECE 2031"
+      "ECE 2040",
+      "ECE 2031"
     ],
     "ECE 3251": [
-      "MATH 2551/MATH 2550/CS 1301"
+      "MATH 2551/MATH 2550",
+      "CS 1301"
     ],
     "ECE 3300": [
       "ECE 3025"
@@ -1882,7 +2085,8 @@
       "ECE 2040"
     ],
     "ECE 3600": [
-      "ECE 2020/ECE 2026"
+      "ECE 2020",
+      "ECE 2026"
     ],
     "ECE 3710": [
       "PHYS 2212/PHYS 2232"
@@ -1895,18 +2099,22 @@
     "ECE 4011": "",
     "ECE 4012": "",
     "ECE 4013": [
-      "ECE 3058/ECE 3040/ECE 3025"
+      "ECE 3058/ECE 3040",
+      "ECE 3025"
     ],
     "ECE 4014": [
       "ECE 4013/ECE 4871",
-      "ECE 3025/ECE 3040/ECE 3058"
+      "ECE 3025",
+      "ECE 3040/ECE 3058"
     ],
     "ECE 4015": [
       "ECE 3011",
-      "ECE 3025/ECE 3040/ECE 3058"
+      "ECE 3025",
+      "ECE 3040/ECE 3058"
     ],
     "ECE 4043": [
-      "ECE 3043/ECE 3040"
+      "ECE 3043",
+      "ECE 3040"
     ],
     "ECE 4100": [
       "ECE 3056/ECE 3057/ECE 3058"
@@ -1937,18 +2145,22 @@
       "ECE 3058/ECE 3170"
     ],
     "ECE 4180": [
-      "ECE 2031/ECE 2035/ECE 2036/CS 3510/CS 3511/CS 3240"
+      "ECE 2031",
+      "ECE 2035/ECE 2036/CS 3510/CS 3511/CS 3240"
     ],
     "ECE 4181": "",
     "ECE 4252": [
-      "MATH 2550/MATH 2551/CS 1301"
+      "MATH 2550/MATH 2551",
+      "CS 1301"
     ],
     "ECE 4258": "",
     "ECE 4260": [
-      "ECE 3084/ECE 3077/ISYE 3770/MATH 3770/MATH 3670/CEE 3770"
+      "ECE 3084",
+      "ECE 3077/ISYE 3770/MATH 3770/MATH 3670/CEE 3770"
     ],
     "ECE 4270": [
-      "ECE 2026/CEE 3770/ISYE 3770/MATH 3670/ECE 3077"
+      "ECE 2026",
+      "CEE 3770/ISYE 3770/MATH 3670/ECE 3077"
     ],
     "ECE 4271": [
       "ECE 4270"
@@ -1962,7 +2174,8 @@
     ],
     "ECE 4325": "",
     "ECE 4330": [
-      "ECE 3040/ECE 3043"
+      "ECE 3040",
+      "ECE 3043"
     ],
     "ECE 4335": "",
     "ECE 4350": [
@@ -1979,13 +2192,16 @@
       "ECE 3025"
     ],
     "ECE 4391": [
-      "ECE 3025/ECE 3040"
+      "ECE 3025",
+      "ECE 3040"
     ],
     "ECE 4415": [
-      "ECE 3025/ECE 3050/ECE 3400"
+      "ECE 3025",
+      "ECE 3050/ECE 3400"
     ],
     "ECE 4418": [
-      "ECE 3025/ECE 3400"
+      "ECE 3025",
+      "ECE 3400"
     ],
     "ECE 4420": "",
     "ECE 4430": [
@@ -1995,19 +2211,24 @@
       "ECE 3041/ECE 3043"
     ],
     "ECE 4445": [
-      "ECE 3040/ECE 3741/ECE 3084"
+      "ECE 3040/ECE 3741",
+      "ECE 3084"
     ],
     "ECE 4446": [
-      "ECE 3043/ECE 4445"
+      "ECE 3043",
+      "ECE 4445"
     ],
     "ECE 4448": [
-      "ECE 3043/ECE 3741/ECE 3084"
+      "ECE 3043/ECE 3741",
+      "ECE 3084"
     ],
     "ECE 4450": [
-      "ECE 3043/ECE 3741/ECE 3084"
+      "ECE 3043/ECE 3741",
+      "ECE 3084"
     ],
     "ECE 4452": [
-      "ECE 3030/ECE 3040/ECE 2031"
+      "ECE 3030/ECE 3040",
+      "ECE 2031"
     ],
     "ECE 4460": [],
     "ECE 4470": [
@@ -2058,7 +2279,8 @@
       "ECE 3030/ECE 3040/ECE 3710"
     ],
     "ECE 4755": [
-      "CHEM 1310/CHEM 1211/PHYS 2212"
+      "CHEM 1310/CHEM 1211",
+      "PHYS 2212"
     ],
     "ECE 4761": "",
     "ECE 4781": [
@@ -2079,8 +2301,11 @@
       "ECE 2035/ECE 2036/CS 2110/CS 2261"
     ],
     "ECE 4853": [
-      "ECE 3011/ECE 3025",
-      "ECE 3040/ECE 3043/ECE 3058/ECE 3005"
+      "ECE 3011",
+      "ECE 3025",
+      "ECE 3040",
+      "ECE 3043/ECE 3058",
+      "ECE 3005"
     ]
   },
   "ENGL": {
@@ -2328,38 +2553,47 @@
   },
   "ISYE": {
     "ISYE 2027": [
-      "MATH 2550/MATH 2551/MATH 2561/MATH 1522/MATH 1553/MATH 1554/MATH 1564"
+      "MATH 2550/MATH 2551/MATH 2561",
+      "MATH 1522/MATH 1553/MATH 1554/MATH 1564"
     ],
     "ISYE 2028": "",
     "ISYE 2127": "",
     "ISYE 2128": "",
     "ISYE 3025": [],
     "ISYE 3030": [
-      "ISYE 2027/CS 1301/CS 1371"
+      "ISYE 2027",
+      "CS 1301/CS 1371"
     ],
     "ISYE 3039": [
       "ISYE 3030"
     ],
     "ISYE 3044": [
-      "ISYE 3030/ISYE 3232"
+      "ISYE 3030",
+      "ISYE 3232"
     ],
     "ISYE 3103": [
-      "ISYE 3030/ISYE 3133"
+      "ISYE 3030",
+      "ISYE 3133"
     ],
     "ISYE 3104": [
-      "ISYE 3030/ISYE 3232/ISYE 3133"
+      "ISYE 3030",
+      "ISYE 3232",
+      "ISYE 3133"
     ],
     "ISYE 3106": [
       "ISYE 3030/ISYE 3133"
     ],
     "ISYE 3133": [
-      "ISYE 2027/MATH 2602/MATH 2603/CS 2316/MATH 3215/MATH 3225/MATH 3235/MATH 3236"
+      "ISYE 2027",
+      "MATH 2602/MATH 2603",
+      "CS 2316/MATH 3215/MATH 3225/MATH 3235/MATH 3236"
     ],
     "ISYE 3232": [
       "ISYE 2027/MATH 3215/MATH 3225/MATH 3235/MATH 3236"
     ],
     "ISYE 3770": [
-      "MATH 2550/MATH 2551/MATH 1522/MATH 1553/MATH 1554/MATH 1564"
+      "MATH 2550/MATH 2551",
+      "MATH 1522/MATH 1553/MATH 1554/MATH 1564"
     ],
     "ISYE 3790": "",
     "ISYE 4009": "",
@@ -2367,19 +2601,29 @@
       "ISYE 3030/MATH 3236/MATH 4261"
     ],
     "ISYE 4034": [
-      "ISYE 3133/CS 4400/ISYE 4031"
+      "ISYE 3133",
+      "CS 4400",
+      "ISYE 4031"
     ],
     "ISYE 4045": [
       "ISYE 3044"
     ],
     "ISYE 4106": [
-      "ISYE 3025/ISYE 3133/ISYE 3232/ISYE 3044/ISYE 4031"
+      "ISYE 3025",
+      "ISYE 3133",
+      "ISYE 3232",
+      "ISYE 3044",
+      "ISYE 4031"
     ],
     "ISYE 4111": [
-      "ISYE 3103/ISYE 3133/ISYE 3232"
+      "ISYE 3103",
+      "ISYE 3133",
+      "ISYE 3232"
     ],
     "ISYE 4112": [
-      "ISYE 3232/ISYE 3030/ISYE 3133"
+      "ISYE 3232",
+      "ISYE 3030",
+      "ISYE 3133"
     ],
     "ISYE 4113": [
       "ISYE 3232"
@@ -2388,20 +2632,26 @@
       "ISYE 3133"
     ],
     "ISYE 4134": [
-      "CS 2316/ISYE 3133"
+      "CS 2316",
+      "ISYE 3133"
     ],
     "ISYE 4232": [
       "ISYE 3232"
     ],
     "ISYE 4301": [
-      "ISYE 3232/ISYE 3133"
+      "ISYE 3232",
+      "ISYE 3133"
     ],
     "ISYE 4311": [
-      "ISYE 3025/ISYE 3232/ISYE 3133"
+      "ISYE 3025",
+      "ISYE 3232",
+      "ISYE 3133"
     ],
     "ISYE 4331": "",
     "ISYE 4501": [
-      "ISYE 3025/ISYE 3133/PHYS 2211"
+      "ISYE 3025",
+      "ISYE 3133",
+      "PHYS 2211"
     ],
     "ISYE 4510": "",
     "ISYE 4601": [
@@ -2485,7 +2735,9 @@
       "ID 3301"
     ],
     "ID 3320": [
-      "ID 2012/ID 2401/ID 2320"
+      "ID 2012",
+      "ID 2401",
+      "ID 2320"
     ],
     "ID 3510": [
       "ID 1012"
@@ -2610,7 +2862,8 @@
     "INTA 4500": [],
     "INTA 4694": [],
     "INTA 4740": [
-      "INTA 3301/ECON 2100/ECON 2105/ECON 2106"
+      "INTA 3301",
+      "ECON 2100/ECON 2105/ECON 2106"
     ],
     "INTA 4741": "",
     "INTA 4742": [],
@@ -2712,7 +2965,8 @@
       "ENGL 1102"
     ],
     "LMC 2450": [
-      "ENGL 1101/ENGL 1102"
+      "ENGL 1101",
+      "ENGL 1102"
     ],
     "LMC 2500": [
       "ENGL 1102"
@@ -2727,7 +2981,8 @@
       "ENGL 1102"
     ],
     "LMC 2700": [
-      "ENGL 1102/CS 1315/CS 1316/CS 1301/CS 1321/CS 1371"
+      "ENGL 1102",
+      "CS 1315/CS 1316/CS 1301/CS 1321/CS 1371"
     ],
     "LMC 2720": [
       "ENGL 1102"
@@ -2856,7 +3111,8 @@
       "ENGL 1102"
     ],
     "LMC 3407": [
-      "ENGL 1102/LMC 3406"
+      "ENGL 1102",
+      "LMC 3406"
     ],
     "LMC 3408": [
       "ENGL 1102"
@@ -2875,14 +3131,17 @@
       "ENGL 1102"
     ],
     "LMC 3450": [
-      "ENGL 1101/ENGL 1102"
+      "ENGL 1101",
+      "ENGL 1102"
     ],
     "LMC 3451": [
-      "ENGL 1101/ENGL 1102"
+      "ENGL 1101",
+      "ENGL 1102"
     ],
     "LMC 3452": "",
     "LMC 3453": [
-      "ENGL 1101/ENGL 1102"
+      "ENGL 1101",
+      "ENGL 1102"
     ],
     "LMC 3454": [
       "ENGL 1102"
@@ -2944,7 +3203,8 @@
       "ENGL 1102"
     ],
     "LMC 4710": [
-      "LMC 2700/LMC 2410"
+      "LMC 2700",
+      "LMC 2410"
     ],
     "LMC 4720": [
       "CS 1322/CS 1331",
@@ -3066,10 +3326,13 @@
       "MGT 3000/ACCT 2101"
     ],
     "MGT 4046": [
-      "ACCT 2101/MGT 2210/MGT 2250/BMED 2400/ECON 2250/ISYE 3030/ISYE 3770/MATH 3215/MATH 3670/PSYC 2020/PUBP 3120"
+      "ACCT 2101",
+      "MGT 2210",
+      "MGT 2250/BMED 2400/ECON 2250/ISYE 3030/ISYE 3770/MATH 3215/MATH 3670/PSYC 2020/PUBP 3120"
     ],
     "MGT 4047": [
-      "ACCT 2101/ACCT 2102/MGT 3000"
+      "ACCT 2101",
+      "ACCT 2102/MGT 3000"
     ],
     "MGT 4050": [
       "MGT 2250"
@@ -3206,36 +3469,45 @@
       "MSE 2001"
     ],
     "MSE 3001": [
-      "MSE 2001/MATH 2403/MATH 2413/MATH 2602/MATH 2552/MATH 2562"
+      "MSE 2001",
+      "MATH 2403/MATH 2413/MATH 2602/MATH 2552/MATH 2562"
     ],
     "MSE 3002": [
-      "MSE 3001/MSE 3210"
+      "MSE 3001",
+      "MSE 3210"
     ],
     "MSE 3005": [
-      "MSE 2001/COE 3001"
+      "MSE 2001",
+      "COE 3001"
     ],
     "MSE 3012": "",
     "MSE 3015": [
-      "MSE 2001/PHYS 2212"
+      "MSE 2001",
+      "PHYS 2212"
     ],
     "MSE 3021": [
       "MSE 2021"
     ],
     "MSE 3025": [
-      "CS 1371/MATH 2403/MATH 2413/MATH 2552/MATH 2562/MSE 2001"
+      "CS 1371",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "MSE 2001"
     ],
     "MSE 3210": [
       "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/MSE 3001"
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "MSE 3001"
     ],
     "MSE 3220": [
-      "MSE 2001/MSE 3210/MSE 4775"
+      "MSE 2001",
+      "MSE 3210/MSE 4775"
     ],
     "MSE 3225": [
       "CHBE 3200/ME 3340/MSE 3210"
     ],
     "MSE 3230": [
-      "MSE 3225/MSE 4775"
+      "MSE 3225",
+      "MSE 4775"
     ],
     "MSE 3300": [
       "CHEM 1310/CHEM 1211"
@@ -3248,7 +3520,8 @@
       "MSE 3015"
     ],
     "MSE 4006": [
-      "MSE 2021/MSE 3002"
+      "MSE 2021",
+      "MSE 3002"
     ],
     "MSE 4010": [
       "MSE 2001"
@@ -3263,7 +3536,8 @@
     "MSE 4100": "",
     "MSE 4122": "",
     "MSE 4140": [
-      "MSE 3001/MSE 4775"
+      "MSE 3001",
+      "MSE 4775"
     ],
     "MSE 4230": "",
     "MSE 4315": "",
@@ -3280,7 +3554,13 @@
       "MSE 4410"
     ],
     "MSE 4723": [
-      "MSE 4410/ME 2110/COE 3001/ME 3017/ME 3210/ME 3345/MATH 3670/ME 3180/ME 4315"
+      "MSE 4410/ME 2110",
+      "COE 3001",
+      "ME 3017",
+      "ME 3210",
+      "ME 3345",
+      "MATH 3670",
+      "ME 3180/ME 4315"
     ],
     "MSE 4740": [
       "BIOL 1520/BIOL 3600/BMED 3100/PHYS 2211"
@@ -3293,7 +3573,9 @@
     ],
     "MSE 4755": [
       "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/CHEM 1211/PHYS 2212"
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "CHEM 1211",
+      "PHYS 2212"
     ],
     "MSE 4759": [
       "MSE 2001"
@@ -3314,7 +3596,8 @@
       "MSE 3005"
     ],
     "MSE 4793": [
-      "CHEM 1310/CHEM 1211/PHYS 2212"
+      "CHEM 1310/CHEM 1211",
+      "PHYS 2212"
     ],
     "MSE 4794": "",
     "MSE 4795": ""
@@ -3447,34 +3730,51 @@
   "ME": {
     "ME 1670": [],
     "ME 2016": [
-      "CS 1371/CS 1301/CS 1171/CS 1311/CS 1171/CS 1171/CS 1171/CS 1171/CS 1171",
+      "CS 1371/CS 1301",
+      "CS 1171/CS 1311",
       "MATH 1552/MATH 1502",
       "MATH 1553/MATH 1564/MATH 1554/MATH 1522",
       "MATH 2552/MATH 2562/MATH 2403/MATH 2413"
     ],
     "ME 2110": [
-      "AE 1770/ME 1670/ME 1770/COE 2001"
+      "AE 1770/ME 1670/ME 1770",
+      "COE 2001"
     ],
     "ME 2202": [
-      "COE 2001/MATH 1564/MATH 1553/MATH 1554/MATH 1522/MATH 1502"
+      "COE 2001",
+      "MATH 1564/MATH 1553/MATH 1554/MATH 1522/MATH 1502"
     ],
     "ME 2205": [
-      "CEE 2040/MATH 1553/MATH 1564/MATH 1554/MATH 1522/MATH 1502/MATH 1512"
+      "CEE 2040",
+      "MATH 1553/MATH 1564/MATH 1554/MATH 1522/MATH 1502/MATH 1512"
     ],
     "ME 3017": [
       "MATH 2552/MATH 2403/MATH 2413/MATH 2562",
-      "ME 2202/CEE 2040/ME 2205/AE 2221/AE 2220/ME 2016/ECE 3710/ECE 2040",
+      "ME 2202/CEE 2040",
+      "ME 2205/AE 2221/AE 2220",
+      "ME 2016",
+      "ECE 3710/ECE 2040",
       "PHYS 2212/PHY 2232"
     ],
     "ME 3057": [
-      "ME 3340/CEE 3040/COE 3001/ME 3015/ME 3017/AE 3530/ME 3345/MATH 3770/MATH 3670/ISYE 3770/BMED 2400/ISYE 2027/ISYE 2028/ISYE 2027/ISYE 3030/ECE 3077"
+      "ME 3340/CEE 3040",
+      "COE 3001",
+      "ME 3015/ME 3017/AE 3530",
+      "ME 3345",
+      "MATH 3770/MATH 3670/ISYE 3770/BMED 2400/ISYE 2027",
+      "ISYE 2028",
+      "ISYE 3030/ECE 3077"
     ],
     "ME 3141": [],
     "ME 3180": [
-      "AE 1770/ME 1670/ME 1770/ME 2110/COE 3001"
+      "AE 1770/ME 1670/ME 1770",
+      "ME 2110",
+      "COE 3001"
     ],
     "ME 3210": [
-      "ME 2110/MSE 2001/COE 3001"
+      "ME 2110",
+      "MSE 2001",
+      "COE 3001"
     ],
     "ME 3322": [
       "PHYS 2211/PHYS 2231",
@@ -3482,11 +3782,13 @@
     ],
     "ME 3340": [
       "MATH 2401/MATH 2411/MATH 2551/MATH 2561",
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/COE 2001"
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "COE 2001"
     ],
     "ME 3345": [
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
-      "ME 3340/CEE 3040/ME 3322"
+      "ME 3340/CEE 3040",
+      "ME 3322"
     ],
     "ME 3700": "",
     "ME 3720": "",
@@ -3502,19 +3804,34 @@
       "ECE 3710/ECE 2040"
     ],
     "ME 4014": [
-      "ME 2202/AE 2220/CEE 2040/ME 3322/ECE 3710/ECE 2040"
+      "ME 2202/AE 2220/CEE 2040",
+      "ME 3322",
+      "ECE 3710/ECE 2040"
     ],
     "ME 4042": [
-      "COE 3001/ME 3345"
+      "COE 3001",
+      "ME 3345"
     ],
     "ME 4056": [
-      "ME 3017/ME 3015/AE 3530/ME 3057/ME 3345/MATH 3770/MATH 3670/ECE 3077/BMED 2400/ISYE 2027/ISYE 2028/ISYE 2027/ISYE 3030/ISYE 3770"
+      "ME 3017/ME 3015/AE 3530",
+      "ME 3057",
+      "ME 3345",
+      "MATH 3770/MATH 3670/ECE 3077/BMED 2400/ISYE 2027",
+      "ISYE 2028",
+      "ISYE 3030/ISYE 3770"
     ],
     "ME 4171": [],
     "ME 4172": "",
     "ME 4182": [
-      "ME 2110/ME 3210/ME 3180/ME 4315",
-      "MATH 3770/MATH 3670/ECE 3077/BMED 2400/ISYE 2027/ISYE 2028/ISYE 2027/ISYE 3030/ISYE 3770/COE 3001/ME 3345/ME 3017/AE 3530/ME 3015"
+      "ME 2110",
+      "ME 3210",
+      "ME 3180/ME 4315",
+      "MATH 3770/MATH 3670/ECE 3077/BMED 2400/ISYE 2027",
+      "ISYE 2028",
+      "ISYE 3030/ISYE 3770",
+      "COE 3001",
+      "ME 3345",
+      "ME 3017/AE 3530/ME 3015"
     ],
     "ME 4189": [
       "ME 2202/CEE 2040/AE 2220",
@@ -3525,28 +3842,37 @@
       "COE 3001"
     ],
     "ME 4215": [
-      "COE 3001/ME 3210/ME 3345"
+      "COE 3001",
+      "ME 3210",
+      "ME 3345"
     ],
     "ME 4315": [
-      "AE 1770/ME 1670/ME 1770/ME 2110/ME 3345"
+      "AE 1770/ME 1670/ME 1770",
+      "ME 2110",
+      "ME 3345"
     ],
     "ME 4321": [
-      "ME 3322/ME 3345"
+      "ME 3322",
+      "ME 3345"
     ],
     "ME 4324": "",
     "ME 4325": "",
     "ME 4330": "",
     "ME 4332": [
-      "ME 3322/ME 3340/ME 3345"
+      "ME 3322",
+      "ME 3340",
+      "ME 3345"
     ],
     "ME 4340": [
       "ME 3340/CEE 3040"
     ],
     "ME 4342": [
-      "ME 3322/ME 3340/CEE 3040"
+      "ME 3322",
+      "ME 3340/CEE 3040"
     ],
     "ME 4405": [
-      "ME 3017/AE 3530/ME 3015/ME 3057"
+      "ME 3017/AE 3530/ME 3015",
+      "ME 3057"
     ],
     "ME 4451": [
       "ME 3015/ME 3017/AE 3530"
@@ -3562,11 +3888,19 @@
       "CHBE 3130/ME 3322"
     ],
     "ME 4723": [
-      "ME 2110/COE 3001/ME 3017/AE 3530/ME 3015",
-      "ME 3180/ME 4315/ME 3210/ME 3345/MATH 3670/MATH 3770/BMED 2400/ISYE 3770/ECE 3077/ISYE 2027/ISYE 2028/ISYE 2027/ISYE 3030"
+      "ME 2110",
+      "COE 3001",
+      "ME 3017/AE 3530/ME 3015",
+      "ME 3180/ME 4315",
+      "ME 3210",
+      "ME 3345",
+      "MATH 3670/MATH 3770/BMED 2400/ISYE 3770/ECE 3077/ISYE 2027",
+      "ISYE 2028",
+      "ISYE 3030"
     ],
     "ME 4725": [
-      "MATH 3670/ISYE 3770/BMED 2400/ECE 3077/ISYE 2027/ISYE 2028/ISYE 3030/MATH 3770"
+      "MATH 3670/ISYE 3770/BMED 2400/ECE 3077/ISYE 2027",
+      "ISYE 2028/ISYE 3030/MATH 3770"
     ],
     "ME 4730": [
       "CHBE 3130/ME 3322"
@@ -3703,10 +4037,12 @@
     "MUSI 3621": [],
     "MUSI 3630": [],
     "MUSI 3770": [
-      "MUSI 2013/MUSI 2526"
+      "MUSI 2013",
+      "MUSI 2526"
     ],
     "MUSI 3771": [
-      "MUSI 2013/MUSI 2526"
+      "MUSI 2013",
+      "MUSI 2526"
     ],
     "MUSI 4450": [],
     "MUSI 4455": "",
@@ -3730,7 +4066,8 @@
       "CS 1301/CS 1315/CS 1371"
     ],
     "MUSI 4705": [
-      "MUSI 3770/MUSI 3771"
+      "MUSI 3770",
+      "MUSI 3771"
     ],
     "MUSI 4706": [
       "MUSI 4705"
@@ -3753,21 +4090,24 @@
   "NEUR": {
     "NEUR 2000": "",
     "NEUR 2001": [
-      "PSYC 1101/BIOL 1510/BIOS 1107/BIOS 1207",
-      "BIOS 1107/BIOS 1207"
+      "PSYC 1101",
+      "BIOL 1510/BIOS 1107/BIOS 1207"
     ],
     "NEUR 2010": "",
     "NEUR 3001": [
       "NEUR 2001"
     ],
     "NEUR 3002": [
-      "NEUR 2001/BMED 3100/MATH 1552/MATH 1553/MATH 1554/MATH 1564"
+      "NEUR 2001/BMED 3100",
+      "MATH 1552",
+      "MATH 1553/MATH 1554/MATH 1564"
     ],
     "NEUR 3003": [
       "NEUR 2001"
     ],
     "NEUR 3010": [
-      "NEUR 3001/CS 1301/CS 1315/CS 1371",
+      "NEUR 3001",
+      "CS 1301/CS 1315/CS 1371",
       "BIOS 4401/BMED 2400/ISYE 3770/ECE 3077/PSYC 2020/MATH 3215/MATH 3225/MATH 3670"
     ],
     "NEUR 4100": [
@@ -3785,51 +4125,63 @@
   "NRE": {
     "NRE 2120": [],
     "NRE 3026": [
-      "NRE 3208/NRE 3112"
+      "NRE 3208",
+      "NRE 3112"
     ],
     "NRE 3112": [
       "NRE 3301"
     ],
     "NRE 3208": [
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
-      "NRE 3301/NRE 2120/CS 1371"
+      "NRE 3301/NRE 2120",
+      "CS 1371"
     ],
     "NRE 3301": [
       "MATH 1502/MATH 1512/MATH 1552",
-      "PHYS 2211/PHYS 2231/NRE 2120"
+      "PHYS 2211/PHYS 2231",
+      "NRE 2120"
     ],
     "NRE 3316": [
-      "MATH 2403/MATH 2413/MATH 2552/MATH 2562/NRE 3301"
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
+      "NRE 3301"
     ],
     "NRE 4210": [
-      "MATH 2552/MATH 2562/MATH 2403/MATH 2413/NRE 3208"
+      "MATH 2552/MATH 2562/MATH 2403/MATH 2413",
+      "NRE 3208"
     ],
     "NRE 4214": [
-      "ME 3345/NRE 3208"
+      "ME 3345",
+      "NRE 3208"
     ],
     "NRE 4234": [
       "NRE 3208"
     ],
     "NRE 4266": "",
     "NRE 4328": [
-      "NRE 3112/NRE 3316"
+      "NRE 3112",
+      "NRE 3316"
     ],
     "NRE 4350": [
-      "NRE 3208/NRE 3316"
+      "NRE 3208",
+      "NRE 3316"
     ],
     "NRE 4351": [
-      "NRE 3208/NRE 4350/NRE 4214/NRE 4328"
+      "NRE 3208",
+      "NRE 4350",
+      "NRE 4214/NRE 4328"
     ],
     "NRE 4404": [
       "NRE 3316"
     ],
     "NRE 4407": [
-      "NRE 3301/NRE 3316"
+      "NRE 3301",
+      "NRE 3316"
     ],
     "NRE 4430": "",
     "NRE 4610": [],
     "NRE 4725": [
-      "MATH 3670/ISYE 3770/MATH 3770/BMED 2400/ECE 3077/ISYE 2027/ISYE 2028/ISYE 3030"
+      "MATH 3670/ISYE 3770/MATH 3770/BMED 2400/ECE 3077/ISYE 2027",
+      "ISYE 2028/ISYE 3030"
     ],
     "NRE 4750": [
       "NRE 3112"
@@ -3903,7 +4255,8 @@
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "PHYS 3143": [
-      "PHYS 2213/MATH 2403/MATH 2413/MATH 2552/MATH 2562"
+      "PHYS 2213",
+      "MATH 2403/MATH 2413/MATH 2552/MATH 2562"
     ],
     "PHYS 3151": [
       "MATH 2403/MATH 2413/MATH 2552/MATH 2562",
@@ -3939,7 +4292,8 @@
       "PHYS 2212/PHYS 2232"
     ],
     "PHYS 4142": [
-      "PHYS 3141/PHYS 3143"
+      "PHYS 3141",
+      "PHYS 3143"
     ],
     "PHYS 4143": [
       "PHYS 3143"
@@ -4007,7 +4361,11 @@
       "PSYC 1101"
     ],
     "PSYC 2020": [
-      "PSYC 1101/MATH 1502/MATH 1512/MATH 1522/MATH 1551/MATH 1552/MATH 1551/MATH 1555"
+      "PSYC 1101",
+      "MATH 1502/MATH 1512",
+      "MATH 1522/MATH 1551",
+      "MATH 1552",
+      "MATH 1555"
     ],
     "PSYC 2103": [
       "PSYC 1101"
@@ -4058,20 +4416,26 @@
     ],
     "PSYC 4010": "",
     "PSYC 4011": [
-      "PSYC 2020/PSYC 2015"
+      "PSYC 2020",
+      "PSYC 2015"
     ],
     "PSYC 4020": [
-      "PSYC 1101/BIOL 1520/BIOL 1521/NEUR 2001/BIOS 1108/BIOS 1208",
-      "BIOS 1208/BIOS 1108"
+      "PSYC 1101",
+      "BIOL 1520/BIOL 1521/NEUR 2001/BIOS 1108/BIOS 1208"
     ],
     "PSYC 4025": [
-      "PSYC 1101/PSYC 2015/PSYC 2020"
+      "PSYC 1101",
+      "PSYC 2015",
+      "PSYC 2020"
     ],
     "PSYC 4031": [
-      "PSYC 2015/PSYC 2020"
+      "PSYC 2015",
+      "PSYC 2020"
     ],
     "PSYC 4041": [
-      "PSYC 2015/PSYC 1101/PSYC 2020"
+      "PSYC 2015",
+      "PSYC 1101",
+      "PSYC 2020"
     ],
     "PSYC 4050": [
       "PSYC 1101"
@@ -4080,7 +4444,9 @@
       "PSYC 3011/PSYC 3012/PSYC 4011"
     ],
     "PSYC 4100": [
-      "PSYC 1101/BIOL 1520/BIOS 1108/BIOS 1108/BIOS 1208/BIOS 1208",
+      "PSYC 1101",
+      "BIOL 1520/BIOS 1108",
+      "BIOS 1208",
       "CHEM 1310/CHEM 1211"
     ],
     "PSYC 4200": "",
@@ -4088,10 +4454,12 @@
       "PSYC 1101"
     ],
     "PSYC 4270": [
-      "PSYC 1101/BIOS 4401/BMED 2400/ISYE 3770/ECE 3077/PSYC 2020/MATH 3215/MATH 3225/MATH 3670"
+      "PSYC 1101",
+      "BIOS 4401/BMED 2400/ISYE 3770/ECE 3077/PSYC 2020/MATH 3215/MATH 3225/MATH 3670"
     ],
     "PSYC 4600": [
-      "PSYC 2015/PSYC 2020"
+      "PSYC 2015",
+      "PSYC 2020"
     ],
     "PSYC 4601": [
       "PSYC 4600"
@@ -4104,7 +4472,7 @@
       "CETL 2000"
     ],
     "PSYC 4740": [
-      "PSYC 1101/PHIL 2010/BIOS 1107/BIOS 1107"
+      "PSYC 1101/PHIL 2010/BIOS 1107"
     ],
     "PSYC 4770": "",
     "PSYC 4790": "",
@@ -4123,10 +4491,14 @@
     "PUBP 3000": [],
     "PUBP 3016": [],
     "PUBP 3020": [
-      "PUBP 2010/PUBP 2030/ECON 2106"
+      "PUBP 2010",
+      "PUBP 2030",
+      "ECON 2106"
     ],
     "PUBP 3030": [
-      "PUBP 2010/PUBP 2030/ECON 2106"
+      "PUBP 2010",
+      "PUBP 2030",
+      "ECON 2106"
     ],
     "PUBP 3042": [],
     "PUBP 3120": [],
@@ -4147,10 +4519,13 @@
     "PUBP 3600": "",
     "PUBP 3610": [],
     "PUBP 4010": [
-      "PUBP 3030/PUBP 3130/PUBP 3120/MGT 2250"
+      "PUBP 3030",
+      "PUBP 3130",
+      "PUBP 3120/MGT 2250"
     ],
     "PUBP 4020": [
-      "PUBP 4010/MGT 2250/PUBP 3120"
+      "PUBP 4010",
+      "MGT 2250/PUBP 3120"
     ],
     "PUBP 4111": [],
     "PUBP 4130": "",

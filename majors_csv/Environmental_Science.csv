@@ -1,0 +1,104 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1315,Introduction to Media Computation,3
+Institutional Priority,orCS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,INTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+"Arts, Humanities, and Ethics 1",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",CHEM1211K,Chemical Principles I,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences 1,Any SS,SELECT,9
+Field of Study,CHEM1212K,Chemical Principles II,4
+Field of Study,orCHEM1315,Survey of Organic Chemistry for Engineers,4
+Field of Study,EAS1600,Introduction to Environmental Science,4
+Field of Study,EAS2600,Earth Processes,4
+Field of Study,Must complete one:,4
+Field of Study,BIOS1207&1207L,Biological Principles for Majorsand Biological Principles Project Laboratory,
+Field of Study,BIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,
+Field of Study,Must complete one:,4
+Field of Study,BIOS2300&BIOS2301,Ecologyand Ecology Laboratory,
+Field of Study,BIOS2310&BIOS2311,Problems in Ecologyand Problems in Ecology Laboratory,
+Major Requirements,EAS4480,Environmental Data Analysis,3
+Major Requirements,PUBP4530,Introduction to Geographic Information Systems,3
+Major Requirements,orCP4510,Fundamentals of Geographic Information Systems,3
+Major Requirements,orEAS4380,Land Remote Sensing,3
+Major Requirements,PUBP3315,Environmental Policy and Politics,3
+Major Requirements,EAS4410,Climate and Global Change,3
+Major Requirements,EAS4420,Environmental Field Methods,4
+Major Requirements,Must complete one:,4
+Major Requirements,BIOS3380&BIOS3381,Microbiologyand Microbiology Lab,
+Major Requirements,EAS4220&EAS4221,Environmental Geochemistryand Environmental Geochemistry Lab,
+Environmental Science Electives9,BIOS3100,Ecology & Evolution: An Australian Perspective,
+Environmental Science Electives9,BIOS3380,Microbiology,
+Environmental Science Electives9,BIOS3600,Evolutionary Biology,
+Environmental Science Electives9,BIOS4221,Biological Oceanography,
+Environmental Science Electives9,BIOS4340,Medical Microbiology,
+Environmental Science Electives9,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,
+Environmental Science Electives9,BIOS4417,Marine Ecology,
+Environmental Science Electives9,BIOS4418,Microbial Physiology,
+Environmental Science Electives9,BIOS4428,Population Dynamics,
+Environmental Science Electives9,BIOS4515,Community Ecology,
+Environmental Science Electives9,BIOS4607,"Molecular Biology of Microbes: Disease, Nature, and Biotechnology",
+Environmental Science Electives9,BIOS4620,Aquatic Chemical Ecology,
+Environmental Science Electives9,BIOS4651,Bioethics,
+Environmental Science Electives9,BIOS4690,Independent Research Project,
+Environmental Science Electives9,BIOS4699,Undergraduate Research,
+Environmental Science Electives9,BIOS4803,Special Topics (Conservation Biology),
+Environmental Science Electives9,BIOS4803,Special Topics (Biology of Terrestrial Vertebrates),
+Environmental Science Electives9,BIOS4803,Special Topics (Ornithology),
+Environmental Science Electives9,BIOS4813,Special Topics (Biodiversity on a Changing Planet),
+Environmental Science Electives9,CEE4300,Environmental Engineering Systems,
+Environmental Science Electives9,CEE4330,Air Pollution Engineering,
+Environmental Science Electives9,CEE4350,Environmental Technology in the Developing World,
+Environmental Science Electives9,CEE4360,Energy and Resource Recovery,
+Environmental Science Electives9,CHEM3700,The Science of Alternative Energy,
+Environmental Science Electives9,CHEM4740,Atmospheric Chemistry,
+Environmental Science Electives9,CP4052,Sustainable Cities Studio,
+Environmental Science Electives9,CP4105,Land Conservation,
+Environmental Science Electives9,CP4190,Introduction to Climate Change Planning,
+Environmental Science Electives9,CP4210,Environmental Planning and Impact Assessment,
+Environmental Science Electives9,EAS3110,"Energy, Environment, and Society",
+Environmental Science Electives9,EAS3603,Thermodynamics of Earth Systems,
+Environmental Science Electives9,EAS3803,Special Topics (Geologic History),
+Environmental Science Electives9,EAS4205,Geomorphology,
+Environmental Science Electives9,EAS4220,Environmental Geochemistry,
+Environmental Science Electives9,EAS4221,Environmental Geochemistry Lab,
+Environmental Science Electives9,EAS4224,Mineral Surface Geochemistry,
+Environmental Science Electives9,EAS4300,Introduction to Physical and Chemical Oceanography,
+Environmental Science Electives9,EAS4305,Physical and Chemical Oceanography,
+Environmental Science Electives9,EAS4350,Paleoclimatology and Paleoceanography,
+Environmental Science Electives9,EAS4375,Earth and Planetary Materials,
+Environmental Science Electives9,EAS4380,Land Remote Sensing,
+Environmental Science Electives9,EAS4430,Remote Sensing and Data Analysis,
+Environmental Science Electives9,EAS4515,Fluids in the Earth's Crust I,
+Environmental Science Electives9,EAS4525,Weather Risk and Catastrophe Modeling,
+Environmental Science Electives9,EAS4602,Biogeochemical Cycles,
+Environmental Science Electives9,EAS4699,Undergraduate Research,
+Environmental Science Electives9,EAS4740,Atmospheric Chemistry Laboratory,
+Environmental Science Electives9,EAS4795,Groundwater Hydrology,
+Environmental Science Electives9,EAS4803,Special Topics (Glacier and Ice Sheet Dynamics),
+Environmental Science Electives9,EAS4803,Special Topics (Basics of Geoengineering),
+Environmental Science Electives9,EAS4803,Special Topics (Sea-level Rise and Coastal Engineering),
+Environmental Science Electives9,EAS4813,Special Topics (Extreme Atlanta: Climate Change in Urban Spaces),
+Environmental Science Electives9,ECON3300,Economics of International Energy Markets,
+Environmental Science Electives9,ECON4440,Economics of Natural Resources and the Environment,
+Environmental Science Electives9,HTS3005,American Environmental History,
+Environmental Science Electives9,HTS3081,Technology and the Environment,
+Environmental Science Electives9,INTA3040,"Energy, Environment, and Policy",
+Environmental Science Electives9,INTA4040,Environmental Politics,
+Environmental Science Electives9,PHIL4176,Environmental Ethics,
+Environmental Science Electives9,PUBP3320,Climate Policy,
+Environmental Science Electives9,PUBP3350,Energy Policy,
+Environmental Science Electives9,PUBP3600,"Sustainability, Technology, and Policy",
+Environmental Science Electives9,PUBP4440,"Science, Technology, and Regulation",
+Environmental Science Electives9,PUBP4530,Introduction to Geographic Information Systems,
+Environmental Science Electives9,PUBP4620,Environmental Law,
+Free Electives21,Total Credit Hours,122
