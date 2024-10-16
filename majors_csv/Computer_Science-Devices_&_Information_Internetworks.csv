@@ -1,103 +1,102 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,Lab Science,4
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1554,Linear Algebra,4,https://catalog.gatech.edu/search/?P=MATH%201554
-Core D - Science, Math, & Technology,orMATH1564,Linear Algebra with Abstract Vector Spaces,4,https://catalog.gatech.edu/search/?P=MATH%201564
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Any SS,9,3
-Core F - Courses Related to Major,Lab Science,4
-Core F - Courses Related to Major,CS1100,Freshman Leap Seminar,1,https://catalog.gatech.edu/search/?P=CS%201100
-Core F - Courses Related to Major,CS1331,Introduction to Object Oriented Programming,3,https://catalog.gatech.edu/search/?P=CS%201331
-Core F - Courses Related to Major,CS1332,Data Structures and Algorithms for Applications,3,https://catalog.gatech.edu/search/?P=CS%201332
-Core F - Courses Related to Major,CS2050,Introduction to Discrete Mathematics for Computer Science,3,https://catalog.gatech.edu/search/?P=CS%202050
-Core F - Courses Related to Major,orCS2051,Honors - Induction to Discrete Mathematics for Computer Science,3,https://catalog.gatech.edu/search/?P=CS%202051
-Core F - Courses Related to Major,MATH2550,Introduction to Multivariable Calculus,2,https://catalog.gatech.edu/search/?P=MATH%202550
-Major Requirements,CS2340,Objects and Design,3,https://catalog.gatech.edu/search/?P=CS%202340
-Major Requirements,Select one for Professionalism/Ethics Requirement:,3
-Major Requirements,CS3001,Computing, Society, and Professionalism,3,https://catalog.gatech.edu/search/?P=CS%203001
-Major Requirements,CS4001,Computing, Society, and Professionalism,3,https://catalog.gatech.edu/search/?P=CS%204001
-Major Requirements,CS4002,Robots and Society,3,https://catalog.gatech.edu/search/?P=CS%204002
-Major Requirements,CS4003,AI, Ethics, and Society,3,https://catalog.gatech.edu/search/?P=CS%204003
-Major Requirements,CS4726,Privacy, Technology, Policy, and Law,3,https://catalog.gatech.edu/search/?P=CS%204726
-Major Requirements,SLS3110,Technology and Sustainable Community Development,3,https://catalog.gatech.edu/search/?P=SLS%203110
-Junior Design Options (Capstone),Junior Design Option,6
-Concentration,CS2110,Computer Organization and Programming,4,https://catalog.gatech.edu/search/?P=CS%202110
-Concentration,CS2200,Computer Systems and Networks,4,https://catalog.gatech.edu/search/?P=CS%202200
-Concentration,CS3251,Computer Networking I,3,https://catalog.gatech.edu/search/?P=CS%203251
-Concentration,CS3510,Design and Analysis of Algorithms,3,https://catalog.gatech.edu/search/?P=CS%203510
-Concentration,orCS3511,Design and Analysis of Algorithms, Honors,3,https://catalog.gatech.edu/search/?P=CS%203511
-Concentration,ECE2031,Digital Design Laboratory,2,https://catalog.gatech.edu/search/?P=ECE%202031
-Concentration,Select one for Building Devices:,4
-Concentration,CS3651,Prototyping Intelligent Devices,4,https://catalog.gatech.edu/search/?P=CS%203651
-Concentration,ECE4180,Embedded Systems Design,4,https://catalog.gatech.edu/search/?P=ECE%204180
-Concentration,Select one for Devices in the Real World:,3
-Concentration,CS3630,Introduction to Perception and Robotics,3,https://catalog.gatech.edu/search/?P=CS%203630
-Concentration,CS4261,Mobile Applications and Services for Converged Networks,3,https://catalog.gatech.edu/search/?P=CS%204261
-Concentration,CS4605,Mobile and Ubiquitous Computing,3,https://catalog.gatech.edu/search/?P=CS%204605
-Concentration,CS4476,Introduction to Computer Vision,3,https://catalog.gatech.edu/search/?P=CS%204476
-Concentration,Select one for Introduction to Information Management:,3
-Concentration,CS4235,Introduction to Information Security,3,https://catalog.gatech.edu/search/?P=CS%204235
-Concentration,CS4400,Introduction to Database Systems,3,https://catalog.gatech.edu/search/?P=CS%204400
-Concentration,Select one of the following for Advanced Information Management:,3
-Concentration,CS4235,Introduction to Information Security (if not taken for Intro to Mgt requirement),3,https://catalog.gatech.edu/search/?P=CS%204235
-Concentration,CS4251,Computer Networking II,3,https://catalog.gatech.edu/search/?P=CS%204251
-Concentration,CS4255,Introduction to Network Management,3,https://catalog.gatech.edu/search/?P=CS%204255
-Concentration,CS4261,Mobile Applications and Services for Converged Networks,3,https://catalog.gatech.edu/search/?P=CS%204261
-Concentration,CS4262,Network Security,3,https://catalog.gatech.edu/search/?P=CS%204262
-Concentration,CS4270,Data Communications Laboratory,3,https://catalog.gatech.edu/search/?P=CS%204270
-Concentration,CS4365,Introduction to Enterprise Computing,3,https://catalog.gatech.edu/search/?P=CS%204365
-Concentration,CS4400,Introduction to Database Systems (if not taken for Intro to Info Mgt requirement),3,https://catalog.gatech.edu/search/?P=CS%204400
-Concentration,CS4420,Database System Implementation,3,https://catalog.gatech.edu/search/?P=CS%204420
-Concentration,CS4440,Emerging Database Technologies and Applications,3,https://catalog.gatech.edu/search/?P=CS%204440
-Concentration,CS4675,Internet Computing Systems, Services and Applications,3,https://catalog.gatech.edu/search/?P=CS%204675
-Concentration,Select one of the following for Thread elective:,3
-Concentration,CS3220,Computer Structures: Hardware/Software Codesign of a Processor,3,https://catalog.gatech.edu/search/?P=CS%203220
-Concentration,CS3240,Languages and Computation,3,https://catalog.gatech.edu/search/?P=CS%203240
-Concentration,CS3600,Introduction to Artificial Intelligence,3,https://catalog.gatech.edu/search/?P=CS%203600
-Concentration,CS3630,Introduction to Perception and Robotics,3,https://catalog.gatech.edu/search/?P=CS%203630
-Concentration,CS3651,Prototyping Intelligent Devices,3,https://catalog.gatech.edu/search/?P=CS%203651
-Concentration,CS4210,Advanced Operating Systems,3,https://catalog.gatech.edu/search/?P=CS%204210
-Concentration,CS4220,Programming Embedded Systems,3,https://catalog.gatech.edu/search/?P=CS%204220
-Concentration,CS4235,Introduction to Information Security,3,https://catalog.gatech.edu/search/?P=CS%204235
-Concentration,CS4237,Computer and Network Security,3,https://catalog.gatech.edu/search/?P=CS%204237
-Concentration,CS4251,Computer Networking II,3,https://catalog.gatech.edu/search/?P=CS%204251
-Concentration,CS4255,Introduction to Network Management,3,https://catalog.gatech.edu/search/?P=CS%204255
-Concentration,CS4261,Mobile Applications and Services for Converged Networks,3,https://catalog.gatech.edu/search/?P=CS%204261
-Concentration,CS4270,Data Communications Laboratory,3,https://catalog.gatech.edu/search/?P=CS%204270
-Concentration,CS4365,Introduction to Enterprise Computing,3,https://catalog.gatech.edu/search/?P=CS%204365
-Concentration,CS4400,Introduction to Database Systems,3,https://catalog.gatech.edu/search/?P=CS%204400
-Concentration,CS4420,Database System Implementation,3,https://catalog.gatech.edu/search/?P=CS%204420
-Concentration,CS4440,Emerging Database Technologies and Applications,3,https://catalog.gatech.edu/search/?P=CS%204440
-Concentration,CS4470,Introduction to User Interface Software,3,https://catalog.gatech.edu/search/?P=CS%204470
-Concentration,CS4476,Introduction to Computer Vision,3,https://catalog.gatech.edu/search/?P=CS%204476
-Concentration,CS4605,Mobile and Ubiquitous Computing,3,https://catalog.gatech.edu/search/?P=CS%204605
-Concentration,CS4616,Pattern Recognition,3,https://catalog.gatech.edu/search/?P=CS%204616
-Concentration,CS4632,Advanced Intelligent Robotics,3,https://catalog.gatech.edu/search/?P=CS%204632
-Concentration,CS4641,Machine Learning,3,https://catalog.gatech.edu/search/?P=CS%204641
-Concentration,CS4649,Robot Intelli Planning,3,https://catalog.gatech.edu/search/?P=CS%204649
-Concentration,CS4675,Internet Computing Systems, Services and Applications,3,https://catalog.gatech.edu/search/?P=CS%204675
-Concentration,CS4685,Pervasive Systems and Networking,3,https://catalog.gatech.edu/search/?P=CS%204685
-Concentration,ECE4180,Embedded Systems Design,3,https://catalog.gatech.edu/search/?P=ECE%204180
-Other Required Courses,MATH3012,Applied Combinatorics,3,https://catalog.gatech.edu/search/?P=MATH%203012
-Other Required Courses,Select one of the following:,3
-Other Required Courses,MATH3215,Introduction to Probability and Statistics,3,https://catalog.gatech.edu/search/?P=MATH%203215
-Other Required Courses,MATH3670,Probability and Statistics with Applications,3,https://catalog.gatech.edu/search/?P=MATH%203670
-Other Required Courses,CEE3770,Statistics and Applications,3,https://catalog.gatech.edu/search/?P=CEE%203770
-Other Required Courses,ISYE3770,Statistics and Applications,3,https://catalog.gatech.edu/search/?P=ISYE%203770
-Other Required Courses,ISYE2027&ISYE2028,Probability with Applicationsand Basic Statistical Methods,3,https://catalog.gatech.edu/search/?P=ISYE%202027
-Free Electives,Free Electives,13
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1554,Linear Algebra,4
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,4
+Social Sciences,Any SS,SELECT,9
+Field of Study,Lab Science,4
+Field of Study,CS1100,Freshman Leap Seminar,1
+Field of Study,CS1331,Introduction to Object Oriented Programming,3
+Field of Study,CS1332,Data Structures and Algorithms for Applications,3
+Field of Study,CS2050,Introduction to Discrete Mathematics for Computer Science,3
+Field of Study,orCS2051,Honors - Induction to Discrete Mathematics for Computer Science,3
+Field of Study,MATH2550,Introduction to Multivariable Calculus,2
+Major Requirements,CS2340,Objects and Design,3
+Major Requirements,Select one for Professionalism/Ethics Requirement:,SELECT,3
+Major Requirements,CS3001,"Computing, Society, and Professionalism",3
+Major Requirements,CS4001,"Computing, Society, and Professionalism",3
+Major Requirements,CS4002,Robots and Society,3
+Major Requirements,CS4003,"AI, Ethics, and Society",3
+Major Requirements,CS4726,"Privacy, Technology, Policy, and Law",3
+Major Requirements,SLS3110,Technology and Sustainable Community Development,3
+Junior Design Options (Capstone),Junior Design Option,SELECT,6
+Concentration,CS2110,Computer Organization and Programming,4
+Concentration,CS2200,Computer Systems and Networks,4
+Concentration,CS3251,Computer Networking I,3
+Concentration,CS3510,Design and Analysis of Algorithms,3
+Concentration,orCS3511,"Design and Analysis of Algorithms, Honors",3
+Concentration,ECE2031,Digital Design Laboratory,2
+Concentration,Select one for Building Devices:,SELECT,4
+Concentration,CS3651,Prototyping Intelligent Devices,4
+Concentration,ECE4180,Embedded Systems Design,4
+Concentration,Select one for Devices in the Real World:,SELECT,3
+Concentration,CS3630,Introduction to Perception and Robotics,3
+Concentration,CS4261,Mobile Applications and Services for Converged Networks,3
+Concentration,CS4605,Mobile and Ubiquitous Computing,3
+Concentration,CS4476,Introduction to Computer Vision,3
+Concentration,Select one for Introduction to Information Management:,SELECT,3
+Concentration,CS3235,Introduction to Information Security,3
+Concentration,CS4400,Introduction to Database Systems,3
+Concentration,Select one of the following for Advanced Information Management:,SELECT,3
+Concentration,CS3235,Introduction to Information Security (if not taken for Introduction to Information Management),3
+Concentration,CS4251,Computer Networking II,3
+Concentration,CS4255,Introduction to Network Management,3
+Concentration,CS4261,Mobile Applications and Services for Converged Networks,3
+Concentration,CS4262,Network Security,3
+Concentration,CS4270,Data Communications Laboratory,3
+Concentration,CS4365,Introduction to Enterprise Computing,3
+Concentration,CS4400,Introduction to Database Systems (if not taken for Intro to Info Mgt requirement),3
+Concentration,CS4420,Database System Implementation,3
+Concentration,CS4440,Emerging Database Technologies and Applications,3
+Concentration,CS4675,"Internet Computing Systems, Services and Applications",3
+Concentration,Select one of the following for Thread elective:,SELECT,3
+Concentration,CS3220,Computer Structures: Hardware/Software Codesign of a Processor,3
+Concentration,CS3235,Introduction to Information Security,3
+Concentration,CS3240,Languages and Computation,3
+Concentration,CS3600,Introduction to Artificial Intelligence,3
+Concentration,CS3630,Introduction to Perception and Robotics,3
+Concentration,CS3651,Prototyping Intelligent Devices,3
+Concentration,CS4210,Advanced Operating Systems,3
+Concentration,CS4220,Programming Embedded Systems,3
+Concentration,CS4237,Computer and Network Security,3
+Concentration,CS4251,Computer Networking II,3
+Concentration,CS4255,Introduction to Network Management,3
+Concentration,CS4261,Mobile Applications and Services for Converged Networks,3
+Concentration,CS4270,Data Communications Laboratory,3
+Concentration,CS4365,Introduction to Enterprise Computing,3
+Concentration,CS4400,Introduction to Database Systems,3
+Concentration,CS4420,Database System Implementation,3
+Concentration,CS4440,Emerging Database Technologies and Applications,3
+Concentration,CS4470,Introduction to User Interface Software,3
+Concentration,CS4476,Introduction to Computer Vision,3
+Concentration,CS4605,Mobile and Ubiquitous Computing,3
+Concentration,CS4616,Pattern Recognition,3
+Concentration,CS4632,Advanced Intelligent Robotics,3
+Concentration,CS4641,Machine Learning,3
+Concentration,CS4649,Robot Intelli Planning,3
+Concentration,CS4675,"Internet Computing Systems, Services and Applications",3
+Concentration,CS4685,Pervasive Systems and Networking,3
+Concentration,ECE4180,Embedded Systems Design,3
+Other Required Courses,MATH3012,Applied Combinatorics,3
+Other Required Courses,Select one of the following:,SELECT,3
+Other Required Courses,MATH3215,Introduction to Probability and Statistics,3
+Other Required Courses,MATH3670,Probability and Statistics with Applications,3
+Other Required Courses,CEE3770,Statistics and Applications,3
+Other Required Courses,ISYE3770,Statistics and Applications,3
+Other Required Courses,ISYE2027&ISYE2028,Probability with Applicationsand Basic Statistical Methods,3
+Free Electives,Free Electives,SELECT,13
 Free Electives,Total Credit Hours,126

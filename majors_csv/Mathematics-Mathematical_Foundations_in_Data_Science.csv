@@ -1,57 +1,56 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,orMATH1550,Introduction to Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201550
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core D - Science, Math, & Technology,orMATH1554,Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201554
-Core D - Science, Math, & Technology,orMATH1564,Linear Algebra with Abstract Vector Spaces,2,https://catalog.gatech.edu/search/?P=MATH%201564
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Any SS,9,3
-Core F - Courses Related to Major,CS1331,Introduction to Object Oriented Programming,3,https://catalog.gatech.edu/search/?P=CS%201331
-Core F - Courses Related to Major,Lab Science,4
-Core F - Courses Related to Major,MATH2551,Multivariable Calculus,4,https://catalog.gatech.edu/search/?P=MATH%202551
-Core F - Courses Related to Major,orMATH2561,Honors Multivariable Calculus,4,https://catalog.gatech.edu/search/?P=MATH%202561
-Core F - Courses Related to Major,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
-Core F - Courses Related to Major,orMATH2562,Honors Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202562
-Core F - Courses Related to Major,MATH2106,Foundations of Mathematical Proof,3,https://catalog.gatech.edu/search/?P=MATH%202106
-Bridging Courses,MATH3012,Applied Combinatorics,3,https://catalog.gatech.edu/search/?P=MATH%203012
-Bridging Courses,MATH3235,Probability Theory,3,https://catalog.gatech.edu/search/?P=MATH%203235
-Bridging Courses,MATH3406,A Second Course in Linear Algebra,3,https://catalog.gatech.edu/search/?P=MATH%203406
-Upper Level Foundation Courses,MATH4107,Introduction to Abstract Algebra I,3,https://catalog.gatech.edu/search/?P=MATH%204107
-Upper Level Foundation Courses,MATH4317,Analysis I,3,https://catalog.gatech.edu/search/?P=MATH%204317
-Upper Level Foundation Courses,MATH4320,Complex Analysis,3,https://catalog.gatech.edu/search/?P=MATH%204320
-Mathematical Foundations in Data Science Concentration,MATH3236,Statistical Theory,3,https://catalog.gatech.edu/search/?P=MATH%203236
-Mathematical Foundations in Data Science Concentration,orMATH4261,Mathematical Statistics I,3,https://catalog.gatech.edu/search/?P=MATH%204261
-Mathematical Foundations in Data Science Concentration,MATH4210,Mathematical Foundations of Data Science,3,https://catalog.gatech.edu/search/?P=MATH%204210
-Mathematical Foundations in Data Science Concentration,MATH4640,Numerical Analysis I,3,https://catalog.gatech.edu/search/?P=MATH%204640
-Mathematical Foundations in Data Science Concentration,Select nine credits:,9
-Mathematical Foundations in Data Science Concentration,MATH4022,Introduction to Graph Theory,,https://catalog.gatech.edu/search/?P=MATH%204022
-Mathematical Foundations in Data Science Concentration,MATH4032,Combinatorial Analysis,,https://catalog.gatech.edu/search/?P=MATH%204032
-Mathematical Foundations in Data Science Concentration,MATH4221,Stochastic Processes I,,https://catalog.gatech.edu/search/?P=MATH%204221
-Mathematical Foundations in Data Science Concentration,MATH4222,Stochastic Processes II,,https://catalog.gatech.edu/search/?P=MATH%204222
-Mathematical Foundations in Data Science Concentration,MATH4255,Monte Carlo Methods,,https://catalog.gatech.edu/search/?P=MATH%204255
-Mathematical Foundations in Data Science Concentration,MATH4262,Mathematical Statistics II,,https://catalog.gatech.edu/search/?P=MATH%204262
-Mathematical Foundations in Data Science Concentration,MATH4641,Numerical Analysis II,,https://catalog.gatech.edu/search/?P=MATH%204641
-Mathematical Foundations in Data Science Concentration,MATH4280,Introduction to Information Theory,,https://catalog.gatech.edu/search/?P=MATH%204280
-Mathematical Foundations in Data Science Concentration,CS4641,Machine Learning,,https://catalog.gatech.edu/search/?P=CS%204641
-Mathematical Foundations in Data Science Concentration,CX4240,Introduction to Computing for Data Analysis,,https://catalog.gatech.edu/search/?P=CX%204240
-Mathematical Foundations in Data Science Concentration,ISYE3133,Engineering Optimization,,https://catalog.gatech.edu/search/?P=ISYE%203133
-Mathematical Foundations in Data Science Concentration,orMATH4580,Linear Programming,3,https://catalog.gatech.edu/search/?P=MATH%204580
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",orMATH1550,Introduction to Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1554,Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,2
+Social Sciences,Any SS,SELECT,9
+Field of Study,CS1331,Introduction to Object Oriented Programming,3
+Field of Study,Lab Science,4
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,orMATH2561,Honors Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,orMATH2562,Honors Differential Equations,4
+Field of Study,MATH2106,Foundations of Mathematical Proof,3
+Bridging Courses,MATH3012,Applied Combinatorics,3
+Bridging Courses,MATH3235,Probability Theory,3
+Bridging Courses,MATH3406,A Second Course in Linear Algebra,3
+Upper Level Foundation Courses,MATH4107,Introduction to Abstract Algebra I,3
+Upper Level Foundation Courses,MATH4317,Analysis I,3
+Upper Level Foundation Courses,MATH4320,Complex Analysis,3
+Mathematical Foundations in Data Science Concentration,MATH3236,Statistical Theory,3
+Mathematical Foundations in Data Science Concentration,orMATH4261,Mathematical Statistics I,3
+Mathematical Foundations in Data Science Concentration,MATH4210,Mathematical Foundations of Data Science,3
+Mathematical Foundations in Data Science Concentration,MATH4640,Numerical Analysis I,3
+Mathematical Foundations in Data Science Concentration,Select nine credits:,SELECT,9
+Mathematical Foundations in Data Science Concentration,MATH4022,Introduction to Graph Theory,
+Mathematical Foundations in Data Science Concentration,MATH4032,Combinatorial Analysis,
+Mathematical Foundations in Data Science Concentration,MATH4221,Stochastic Processes I,
+Mathematical Foundations in Data Science Concentration,MATH4222,Stochastic Processes II,
+Mathematical Foundations in Data Science Concentration,MATH4255,Monte Carlo Methods,
+Mathematical Foundations in Data Science Concentration,MATH4262,Mathematical Statistics II,
+Mathematical Foundations in Data Science Concentration,MATH4641,Numerical Analysis II,
+Mathematical Foundations in Data Science Concentration,MATH4280,Introduction to Information Theory,
+Mathematical Foundations in Data Science Concentration,CS4641,Machine Learning,
+Mathematical Foundations in Data Science Concentration,CX4240,Introduction to Computing for Data Analysis,
+Mathematical Foundations in Data Science Concentration,ISYE3133,Engineering Optimization,
+Mathematical Foundations in Data Science Concentration,orMATH4580,Linear Programming,3
 Mathematical Foundations in Data Science Concentration,Mathematics Elective,3
-Engineering or Science Electives 7,BIOS, CHEM, EAS, PHYS, PSYC, ECON, CS, AE, BMED, CEE, CHBE, ECE, ISYE, MSE, ME 3000-level or higher courses,9
-Free Electives,Free Electives,11
+Engineering or Science Electives 7,"BIOS, CHEM, EAS, PHYS, PSYC, ECON, CS, CX, AE, BMED, CEE, CHBE, ECE, ISYE, MSE, ME 3000-level or higher courses",9
+Free Electives,Free Electives,SELECT,11
 Free Electives,Total Credit Hours,122

@@ -1,0 +1,40 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1315,Introduction to Media Computation,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,Select one of the following:,SELECT,3
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,HIST2112,The United States since 1877,3
+Political Science and U.S. History,INTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,POL1101,Government of the United States,3
+Political Science and U.S. History,PUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences,Any SS,SELECT,9
+Field of Study,ARCH1016,Foundation Studio 1,4
+Field of Study,ARCH1017,Architecture Design Studio 1,5
+Field of Study,ARCH1020,Media + Modeling 1,3
+Field of Study,ARCH1060,Introduction to Design and the Built Environment,3
+Field of Study,ARCH2111,History of Architecture I,3
+Major Requirements,ARCH2016,Architecture Design Studio 2,5
+Major Requirements,ARCH2017,Architecture Design Studio 3,5
+Major Requirements,ARCH2020,Media + Modeling 2,3
+Major Requirements,ARCH2112,History of Architecture II,3
+Major Requirements,ARCH2211,Construction Technology and Design Integration I,3
+Major Requirements,ARCH3016,Architecture Design Studio 4,5
+Major Requirements,ARCH3017,Architecture Design Studio 5,5
+Major Requirements,ARCH3231,Environmental Systems and Design Integration I,3
+Major Requirements,ARCH4015,Structures 1,3
+Major Requirements,ARCH4016,Architecture Design Studio 6,5
+Major Requirements,ARCH4017,Architecture Design Studio 7,6
+Major Requirements,ARCH3010,Design Strategies,3
+Free Electives,Free Electives,SELECT,12
+Free Electives,Total Credit Hours,124

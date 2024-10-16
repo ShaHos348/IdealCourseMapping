@@ -1,5 +1,5 @@
 {
-  "Wellness": [
+  "Wellness Requirement": [
     [
       "APPH1040",
       "Scientific Foundations of Health",
@@ -19,27 +19,7 @@
       "https://catalog.gatech.edu/search/?P=APPH%201060"
     ]
   ],
-  "Core A - Essential Skills": [
-    [
-      "ENGL1101",
-      "English Composition I",
-      3,
-      "https://catalog.gatech.edu/search/?P=ENGL%201101"
-    ],
-    [
-      "ENGL1102",
-      "English Composition II",
-      3,
-      "https://catalog.gatech.edu/search/?P=ENGL%201102"
-    ],
-    [
-      "MATH1552",
-      "Integral Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201552"
-    ]
-  ],
-  "Core B - Institutional Options": [
+  "Institutional Priority": [
     [
       "CS1371",
       "Computing for Engineers",
@@ -47,40 +27,15 @@
       "https://catalog.gatech.edu/search/?P=CS%201371"
     ]
   ],
-  "Core C - Humanities": [
+  "Mathematics and Quantitative Skills": [
     [
-      "Any HUM",
-      "6",
-      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
     ]
   ],
-  "Core D - Science, Math, & Technology": [
-    [
-      "PHYS2211",
-      "Introductory Physics I",
-      4,
-      "https://catalog.gatech.edu/search/?P=PHYS%202211"
-    ],
-    [
-      "PHYS2212",
-      "Introductory Physics II",
-      4,
-      "https://catalog.gatech.edu/search/?P=PHYS%202212"
-    ],
-    [
-      "MATH1551",
-      "Differential Calculus",
-      2,
-      "https://catalog.gatech.edu/search/?P=MATH%201551"
-    ],
-    [
-      "MATH1553",
-      "Introduction to Linear Algebra",
-      2,
-      "https://catalog.gatech.edu/search/?P=MATH%201553"
-    ]
-  ],
-  "Core E - Social Sciences": [
+  "Political Science and U.S. History": [
     [
       "HIST2111",
       "The United States to 1877",
@@ -110,7 +65,56 @@
       "American Constitutional Issues",
       3,
       "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
     ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Social Sciences": [
     [
       "ECON2100",
       "Economic Analysis and Policy Problems",
@@ -141,7 +145,7 @@
       "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
     ]
   ],
-  "Core F - Courses Related to Major": [
+  "Field of Study": [
     [
       "MUSI2010",
       "Fundamentals of Musicianship I",
@@ -177,13 +181,13 @@
       "Introduction Audio Technology I",
       3,
       "https://catalog.gatech.edu/search/?P=MUSI%202525"
-    ],
-    [
-      "MUSI Ensemble Requirement",
-      ""
     ]
   ],
   "Major Requirements": [
+    [
+      "MUSI Ensemble Requirement",
+      ""
+    ],
     [
       "MUSI2526",
       "Introduction to Audio Technology II",

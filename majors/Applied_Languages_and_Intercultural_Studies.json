@@ -1,5 +1,5 @@
 {
-  "Wellness": [
+  "Wellness Requirement": [
     [
       "APPH1040",
       "Scientific Foundations of Health",
@@ -19,7 +19,63 @@
       "https://catalog.gatech.edu/search/?P=APPH%201060"
     ]
   ],
-  "Core A - Essential Skills": [
+  "Core IMPACTS": [],
+  "Institutional Priority": [
+    [
+      "CS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
     [
       "ENGL1101",
       "English Composition I",
@@ -31,71 +87,57 @@
       "English Composition II",
       3,
       "https://catalog.gatech.edu/search/?P=ENGL%201102"
-    ],
-    [
-      "MATH1712",
-      "Survey of Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201712"
-    ],
-    [
-      "orMATH1552",
-      "Integral Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201552"
     ]
   ],
-  "Core B - Institutional Options": [
+  "Technology, Mathematics, and Sciences": [
     [
-      "CS1315",
-      "Introduction to Media Computation",
-      3,
-      "https://catalog.gatech.edu/search/?P=CS%201315"
-    ]
-  ],
-  "Core C - Humanities": [
-    [
-      "Any HUM",
-      "6",
-      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
-    ]
-  ],
-  "Core D - Science, Math, & Technology": [
-    [
-      "Lab Science",
-      "4"
-    ],
-    [
-      "Lab Science",
-      "4"
-    ],
-    [
-      "MATH1711",
-      "Finite Mathematics",
+      "PHYS2211",
+      "Introductory Physics I",
       4,
-      "https://catalog.gatech.edu/search/?P=MATH%201711"
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
     ],
     [
-      "orMATH1551&MATH1553",
-      "Differential Calculusand Introduction to Linear Algebra",
+      "PHYS2212",
+      "Introductory Physics II",
       4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
       "https://catalog.gatech.edu/search/?P=MATH%201551"
-    ]
-  ],
-  "Core E - Social Sciences": [
-    [
-      "POL1101",
-      "Government of the United States",
-      3,
-      "https://catalog.gatech.edu/search/?P=POL%201101"
     ],
     [
-      "Any SS",
-      "9",
-      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
     ]
   ],
-  "Core F - Courses Related to Major": [
+  "Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "ECON2100",
+      "Economic Analysis and Policy Problems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202100"
+    ],
+    [
+      "ECON2101",
+      "The Global Economy",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202101"
+    ],
+    [
+      "ECON2105",
+      "Principles of Macroeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202105"
+    ],
     [
       "ECON2106",
       "Principles of Microeconomics",
@@ -103,98 +145,213 @@
       "https://catalog.gatech.edu/search/?P=ECON%202106"
     ],
     [
-      "PHIL2025",
-      "Philosophical Analysis of Policy Choices",
-      3,
-      "https://catalog.gatech.edu/search/?P=PHIL%202025"
+      "Any SS",
+      "6",
+      3
+    ]
+  ],
+  "Field of Study": [
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
     ],
     [
-      "PUBP2010",
-      "Political Processes",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%202010"
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
     ],
     [
-      "PUBP2030",
-      "Organizations and Policy",
+      "MSE2001",
+      "Principles and Applications of Engineering Materials",
       3,
-      "https://catalog.gatech.edu/search/?P=PUBP%202030"
+      "https://catalog.gatech.edu/search/?P=MSE%202001"
     ],
     [
-      "Science, Computing, or Engineering Elective",
-      "6"
+      "CHEM1310",
+      "Principles of General Chemistry for Engineers",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201310"
+    ],
+    [
+      "AE1601",
+      "Introduction to Aerospace Engineering",
+      1,
+      "https://catalog.gatech.edu/search/?P=AE%201601"
+    ],
+    [
+      "COE2001",
+      "Statics",
+      2,
+      "https://catalog.gatech.edu/search/?P=COE%202001"
     ]
   ],
   "Major Requirements": [
     [
-      "PUBP3020",
-      "Applied Political Economy",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203020"
+      "AE2010",
+      "Thermodynamics & Fluids Fundamentals",
+      4,
+      "https://catalog.gatech.edu/search/?P=AE%202010"
     ],
     [
-      "PUBP3030",
-      "Policy Analysis",
+      "AE2220",
+      "Dynamics",
       3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203030"
+      "https://catalog.gatech.edu/search/?P=AE%202220"
     ],
     [
-      "PUBP3120",
-      "Statistical Analysis for Public Policy",
+      "COE3001",
+      "Mechanics of Deformable Bodies",
       3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203120"
+      "https://catalog.gatech.edu/search/?P=COE%203001"
     ],
     [
-      "PUBP3130",
-      "Research Methods and  Problem Solving",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203130"
+      "AE2610",
+      "Introduction to Experimental Methods in Aerospace",
+      1,
+      "https://catalog.gatech.edu/search/?P=AE%202610"
     ],
     [
-      "PUBP4010",
-      "Policy Task Force I",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%204010"
+      "AE2611",
+      "Technical Communications for Aerospace Engineers",
+      1,
+      "https://catalog.gatech.edu/search/?P=AE%202611"
     ],
     [
-      "PUBP4020",
-      "Policy Task Force II",
+      "AE3330",
+      "Introduction to Aerospace Vehicle Performance",
       3,
-      "https://catalog.gatech.edu/search/?P=PUBP%204020"
+      "https://catalog.gatech.edu/search/?P=AE%203330"
     ],
     [
-      "PUBP2651",
-      "Public Policy Internship",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%202651"
+      "AE3030",
+      "Aerodynamics",
+      4,
+      "https://catalog.gatech.edu/search/?P=AE%203030"
     ],
     [
-      "orPUBP4651",
-      "Public Policy Internship",
+      "AE3140",
+      "Structural  Analysis",
       3,
-      "https://catalog.gatech.edu/search/?P=PUBP%204651"
+      "https://catalog.gatech.edu/search/?P=AE%203140"
+    ],
+    [
+      "AE3530",
+      "System Dynamics and Vibration",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%203530"
+    ],
+    [
+      "AE3531",
+      "Control System Analysis and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%203531"
+    ],
+    [
+      "AE3610",
+      "Experiments in Fluid and Solid Mechanics",
+      2,
+      "https://catalog.gatech.edu/search/?P=AE%203610"
+    ],
+    [
+      "AE4311",
+      "Aircraft Design I: Conceptual Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204311"
+    ],
+    [
+      "orAE4321",
+      "Space System Design I: Conceptual Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204321"
+    ],
+    [
+      "orAE4331",
+      "Rotorcraft Design I: Conceptual Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204331"
+    ],
+    [
+      "AE4312",
+      "Aircraft Design II: Preliminary Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204312"
+    ],
+    [
+      "orAE4322",
+      "Space System Design II: Mission Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204322"
+    ],
+    [
+      "orAE4332",
+      "Rotorcraft Design II: Preliminary Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204332"
+    ],
+    [
+      "AE4531",
+      "Aircraft Flight Dynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204531"
+    ],
+    [
+      "orAE4532",
+      "Spacecraft Flight Dynamics",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204532"
+    ],
+    [
+      "AE4451",
+      "Jet and Rocket Propulsion",
+      3,
+      "https://catalog.gatech.edu/search/?P=AE%204451"
+    ],
+    [
+      "AE4610",
+      "Dynamics and Control Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=AE%204610"
+    ],
+    [
+      "AE Options",
+      "6"
     ]
   ],
-  "Clusters": [
+  "Non-AE Required Courses": [
     [
-      "Students must select nine hours each from two clusters. See Cluster Electives below for options.",
-      "18"
-    ]
-  ],
-  "Non-Major Cluster": [
+      "ME1670",
+      "Introduction to Engineering Graphics and Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ME%201670"
+    ],
     [
-      "Any POL, PHIL, or PUBP course",
+      "ECE3710",
+      "Circuits and Electronics",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%203710"
+    ],
+    [
+      "ECE3741",
+      "Instrumentation and Electronics Lab",
+      1,
+      "https://catalog.gatech.edu/search/?P=ECE%203741"
+    ],
+    [
+      "Math Option",
       "3"
     ]
   ],
   "Free Electives": [
     [
       "Free Electives",
-      "17"
+      "9"
     ],
     [
       "Total Credit Hours",
-      "122"
+      "131"
     ]
   ]
 }

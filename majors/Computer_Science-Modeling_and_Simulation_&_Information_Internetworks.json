@@ -1,5 +1,5 @@
 {
-  "Wellness": [
+  "Wellness Requirement": [
     [
       "APPH1040",
       "Scientific Foundations of Health",
@@ -19,7 +19,62 @@
       "https://catalog.gatech.edu/search/?P=APPH%201060"
     ]
   ],
-  "Core A - Essential Skills": [
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
     [
       "ENGL1101",
       "English Composition I",
@@ -31,30 +86,9 @@
       "English Composition II",
       3,
       "https://catalog.gatech.edu/search/?P=ENGL%201102"
-    ],
-    [
-      "MATH1552",
-      "Integral Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201552"
     ]
   ],
-  "Core B - Institutional Options": [
-    [
-      "CS1301",
-      "Introduction to Computing",
-      3,
-      "https://catalog.gatech.edu/search/?P=CS%201301"
-    ]
-  ],
-  "Core C - Humanities": [
-    [
-      "Any HUM",
-      "6",
-      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
-    ]
-  ],
-  "Core D - Science, Math, & Technology": [
+  "Technology, Mathematics, and Sciences": [
     [
       "PHYS2211",
       "Introductory Physics I",
@@ -84,48 +118,14 @@
       "https://catalog.gatech.edu/search/?P=MATH%201564"
     ]
   ],
-  "Core E - Social Sciences": [
-    [
-      "Select one of the following:",
-      "3"
-    ],
-    [
-      "HIST2111",
-      "The United States to 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202111"
-    ],
-    [
-      "HIST2112",
-      "The United States since 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202112"
-    ],
-    [
-      "INTA1200",
-      "American Government in Comparative Perspective",
-      3,
-      "https://catalog.gatech.edu/search/?P=INTA%201200"
-    ],
-    [
-      "POL1101",
-      "Government of the United States",
-      3,
-      "https://catalog.gatech.edu/search/?P=POL%201101"
-    ],
-    [
-      "PUBP3000",
-      "American Constitutional Issues",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203000"
-    ],
+  "Social Sciences": [
     [
       "Any SS",
       "9",
-      3
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
     ]
   ],
-  "Core F - Courses Related to Major": [
+  "Field of Study": [
     [
       "Lab Science",
       "4"
@@ -257,16 +257,16 @@
       "6"
     ],
     [
+      "CS3235",
+      "Introduction to Information Security",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%203235"
+    ],
+    [
       "CS3251",
       "Computer Networking I",
       "",
       "https://catalog.gatech.edu/search/?P=CS%203251"
-    ],
-    [
-      "CS4235",
-      "Introduction to Information Security",
-      "",
-      "https://catalog.gatech.edu/search/?P=CS%204235"
     ],
     [
       "CS4400",
@@ -279,16 +279,16 @@
       "3"
     ],
     [
+      "CS3235",
+      "Introduction to Information Security (if not taken for Introduction to Information Management)",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203235"
+    ],
+    [
       "CS3251",
       "Computer Networking I (if not taken for Introduction to Information Management)",
       3,
       "https://catalog.gatech.edu/search/?P=CS%203251"
-    ],
-    [
-      "CS4235",
-      "Introduction to Information Security (if not taken for Introduction to Information Management)",
-      3,
-      "https://catalog.gatech.edu/search/?P=CS%204235"
     ],
     [
       "CS4251",

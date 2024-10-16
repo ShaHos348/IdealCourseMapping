@@ -1,5 +1,5 @@
 {
-  "Wellness": [
+  "Wellness Requirement": [
     [
       "APPH1040",
       "Scientific Foundations of Health",
@@ -19,33 +19,7 @@
       "https://catalog.gatech.edu/search/?P=APPH%201060"
     ]
   ],
-  "Core A - Essential Skills": [
-    [
-      "ENGL1101",
-      "English Composition I",
-      3,
-      "https://catalog.gatech.edu/search/?P=ENGL%201101"
-    ],
-    [
-      "ENGL1102",
-      "English Composition II",
-      3,
-      "https://catalog.gatech.edu/search/?P=ENGL%201102"
-    ],
-    [
-      "MATH1712",
-      "Survey of Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201712"
-    ],
-    [
-      "orMATH1552",
-      "Integral Calculus",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%201552"
-    ]
-  ],
-  "Core B - Institutional Options": [
+  "Institutional Priority": [
     [
       "CS1301",
       "Introduction to Computing",
@@ -59,14 +33,74 @@
       "https://catalog.gatech.edu/search/?P=CS%201315"
     ]
   ],
-  "Core C - Humanities": [
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1712",
+      "Survey of Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201712"
+    ],
+    [
+      "orMATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
     [
       "Any HUM",
       "6",
       "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
     ]
   ],
-  "Core D - Science, Math, & Technology": [
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
     [
       "Lab Science",
       "4"
@@ -88,41 +122,7 @@
       "https://catalog.gatech.edu/search/?P=MATH%201551"
     ]
   ],
-  "Core E - Social Sciences": [
-    [
-      "Select one of the following:",
-      "3"
-    ],
-    [
-      "HIST2111",
-      "The United States to 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202111"
-    ],
-    [
-      "HIST2112",
-      "The United States since 1877",
-      3,
-      "https://catalog.gatech.edu/search/?P=HIST%202112"
-    ],
-    [
-      "INTA1200",
-      "American Government in Comparative Perspective",
-      3,
-      "https://catalog.gatech.edu/search/?P=INTA%201200"
-    ],
-    [
-      "POL1101",
-      "Government of the United States",
-      3,
-      "https://catalog.gatech.edu/search/?P=POL%201101"
-    ],
-    [
-      "PUBP3000",
-      "American Constitutional Issues",
-      3,
-      "https://catalog.gatech.edu/search/?P=PUBP%203000"
-    ],
+  "Social Sciences": [
     [
       "International Requirement",
       "3"
@@ -130,10 +130,10 @@
     [
       "Any SS",
       "6",
-      3
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
     ]
   ],
-  "Core F - Courses Related to Major": [
+  "Field of Study": [
     [
       "Technical Electives",
       "6"

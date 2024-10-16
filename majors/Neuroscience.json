@@ -1,0 +1,542 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ],
+    [
+      "orCS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ],
+    [
+      "orMATH1555",
+      "Calculus for Life Sciences",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201555"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "orMATH1550",
+      "Introduction to Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201550"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ],
+    [
+      "orMATH1554",
+      "Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201554"
+    ],
+    [
+      "orMATH1564",
+      "Linear Algebra with Abstract Vector Spaces",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201564"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "PSYC1101",
+      "General Psychology",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%201101"
+    ],
+    [
+      "Any SS",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "CHEM1310",
+      "Principles of General Chemistry for Engineers",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201310"
+    ],
+    [
+      "orCHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "CHEM1315",
+      "Survey of Organic Chemistry for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%201315"
+    ],
+    [
+      "orCHEM2311",
+      "Organic Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202311"
+    ],
+    [
+      "BIOS1107",
+      "Biological Principles",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%201107"
+    ],
+    [
+      "orBIOS1207",
+      "Biological Principles for Majors",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%201207"
+    ],
+    [
+      "BIOS1107L",
+      "Biological Principles Laboratory",
+      1,
+      "https://catalog.gatech.edu/search/?P=BIOS%201107L"
+    ],
+    [
+      "orBIOS1207L",
+      "Biological Principles Project Laboratory",
+      1,
+      "https://catalog.gatech.edu/search/?P=BIOS%201207L"
+    ],
+    [
+      "CHEM3511",
+      "Survey of Biochemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203511"
+    ],
+    [
+      "NEUR2001",
+      "Principles in Neuroscience",
+      4,
+      "https://catalog.gatech.edu/search/?P=NEUR%202001"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "NEUR3001",
+      "Cell and Molecular Neuroscience",
+      3,
+      "https://catalog.gatech.edu/search/?P=NEUR%203001"
+    ],
+    [
+      "NEUR3002",
+      "Neural Systems, Networks, and Behavior",
+      3,
+      "https://catalog.gatech.edu/search/?P=NEUR%203002"
+    ],
+    [
+      "NEUR3003",
+      "Neuroscience of Behavior",
+      3,
+      "https://catalog.gatech.edu/search/?P=NEUR%203003"
+    ],
+    [
+      "NEUR3010",
+      "Methods in Neuroscience",
+      3,
+      "https://catalog.gatech.edu/search/?P=NEUR%203010"
+    ]
+  ],
+  "Neuroscience Depth Electives18": [
+    [
+      "Select one research based elective:",
+      ""
+    ],
+    [
+      "NEUR4001",
+      "Neuroscience Research Project",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%204001"
+    ],
+    [
+      "NEUR Thesis Option",
+      ""
+    ],
+    [
+      "Select one statistics elective:",
+      ""
+    ],
+    [
+      "BIOS4401",
+      "Experimental Design and Statistical Methods in Biological Sciences",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204401"
+    ],
+    [
+      "BMED2400",
+      "Introduction to Bioengineering Statistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=BMED%202400"
+    ],
+    [
+      "ISYE 3770/ECE3077",
+      "Statistics and Applications",
+      "",
+      "https://catalog.gatech.edu/search/?P=ISYE%203770"
+    ],
+    [
+      "PSYC2020",
+      "Psychological Statistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%202020"
+    ],
+    [
+      "MATH3215",
+      "Introduction to Probability and Statistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%203215"
+    ],
+    [
+      "MATH3225",
+      "Honors Probability and Statistics",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%203225"
+    ],
+    [
+      "MATH3670",
+      "Probability and Statistics with Applications",
+      "",
+      "https://catalog.gatech.edu/search/?P=MATH%203670"
+    ],
+    [
+      "10-11 credits of additional Neuroscience electives",
+      ""
+    ],
+    [
+      "BIOS2600",
+      "Genetics",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%202600"
+    ],
+    [
+      "BIOS2610",
+      "Integrative Genetics",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%202610"
+    ],
+    [
+      "BIOS3450",
+      "Cell and Molecular Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203450"
+    ],
+    [
+      "BIOS3451",
+      "Cell and Molecular Biology Lab",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203451"
+    ],
+    [
+      "BIOS3753",
+      "Human Anatomy",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203753"
+    ],
+    [
+      "BIOS3754",
+      "Laboratory in Human Anatomy",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203754"
+    ],
+    [
+      "BIOS3755",
+      "Human Physiology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203755"
+    ],
+    [
+      "BIOS3756",
+      "Physiology Laboratory",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%203756"
+    ],
+    [
+      "BIOS4200",
+      "Kinesiological Basis of Human Movement",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204200"
+    ],
+    [
+      "BIOS4238",
+      "Ion Channels",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204238"
+    ],
+    [
+      "BIOS4400",
+      "Human Neuroanatomy",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204400"
+    ],
+    [
+      "BIOS4464",
+      "Developmental Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204464"
+    ],
+    [
+      "BIOS4471",
+      "Behavioral Biology",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204471"
+    ],
+    [
+      "BIOS4480",
+      "Evolutionary Developmental Biology \u2013 How to Build an Organism",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204480"
+    ],
+    [
+      "BIOS4651",
+      "Bioethics",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204651"
+    ],
+    [
+      "BIOS4746",
+      "Signaling Molecules",
+      "",
+      "https://catalog.gatech.edu/search/?P=BIOS%204746"
+    ],
+    [
+      "CHEM4511",
+      "Biochemistry I",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204511"
+    ],
+    [
+      "CHEM4512",
+      "Biochemistry II",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204512"
+    ],
+    [
+      "NEUR2699",
+      "Undergraduate Research",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%202699"
+    ],
+    [
+      "NEUR4100",
+      "Neurodevelopment",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%204100"
+    ],
+    [
+      "NEUR4740",
+      "Neuroethics",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%204740"
+    ],
+    [
+      "NEUR4300",
+      "Neuroscience of Memory",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%204300"
+    ],
+    [
+      "NEUR4400",
+      "Neuroendocrinology",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%204400"
+    ],
+    [
+      "NEUR4699",
+      "Undergraduate Research",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%204699"
+    ],
+    [
+      "NEUR4803",
+      "Special Topics",
+      "",
+      "https://catalog.gatech.edu/search/?P=NEUR%204803"
+    ],
+    [
+      "PHYS3804",
+      "Special Topics (Neurophysics)",
+      "",
+      "https://catalog.gatech.edu/search/?P=PHYS%203804"
+    ],
+    [
+      "PHYS4803",
+      "Special Topics (Physical Principles of Living Systems)",
+      "",
+      "https://catalog.gatech.edu/search/?P=PHYS%204803"
+    ],
+    [
+      "PSYC2015",
+      "Research Methods",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%202015"
+    ],
+    [
+      "PSYC2103",
+      "Human Development Over the Life Span",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%202103"
+    ],
+    [
+      "PSYC2230",
+      "Abnormal Psychology",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%202230"
+    ],
+    [
+      "PSYC3011",
+      "Cognitive Psychology",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%203011"
+    ],
+    [
+      "PSYC3012",
+      "Introduction to Cognitive Psychology",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%203012"
+    ],
+    [
+      "PSYC3040",
+      "Sensation and Perception",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%203040"
+    ],
+    [
+      "PSYC3041",
+      "Human Sensation and Perception",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%203041"
+    ],
+    [
+      "PSYC4100",
+      "Behavioral Pharmacology",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%204100"
+    ],
+    [
+      "PSYC4090",
+      "Cognitive Neuroscience",
+      "",
+      "https://catalog.gatech.edu/search/?P=PSYC%204090"
+    ]
+  ],
+  "Free Electives14": [
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

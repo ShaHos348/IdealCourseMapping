@@ -1,55 +1,56 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1371,Computing for Engineers,3,https://catalog.gatech.edu/search/?P=CS%201371
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core D - Science, Math, & Technology,orMATH1554,Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201554
-Core D - Science, Math, & Technology,orMATH1564,Linear Algebra with Abstract Vector Spaces,2,https://catalog.gatech.edu/search/?P=MATH%201564
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,ECON2100,Economic Analysis and Policy Problems,3,https://catalog.gatech.edu/search/?P=ECON%202100
-Core E - Social Sciences,ECON2101,The Global Economy,3,https://catalog.gatech.edu/search/?P=ECON%202101
-Core E - Social Sciences,ECON2105,Principles of Macroeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202105
-Core E - Social Sciences,ECON2106,Principles of Microeconomics,3,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,6,3
-Core F - Courses Related to Major/Lower Division Courses,CHEM1310,General Chemistry,4,https://catalog.gatech.edu/search/?P=CHEM%201310
-Core F - Courses Related to Major/Lower Division Courses,MATH2551,Multivariable Calculus,4,https://catalog.gatech.edu/search/?P=MATH%202551
-Core F - Courses Related to Major/Lower Division Courses,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
-Core F - Courses Related to Major/Lower Division Courses,MSE2001,Principles and Applications of Engineering Materials,3,https://catalog.gatech.edu/search/?P=MSE%202001
-Core F - Courses Related to Major/Lower Division Courses,NRE2120,Elements of Nuclear and Radiological Engineering,3,https://catalog.gatech.edu/search/?P=NRE%202120
-Core F - Courses Related to Major/Lower Division Courses,Ethics Requirement,,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
-Major Requirements,NRE3026,Experimental Nuclear Reactor Physics,3,https://catalog.gatech.edu/search/?P=NRE%203026
-Major Requirements,NRE3112,Nuclear Radiation Detection,3,https://catalog.gatech.edu/search/?P=NRE%203112
-Major Requirements,NRE3208,Nuclear Reactor Phys I,3,https://catalog.gatech.edu/search/?P=NRE%203208
-Major Requirements,NRE3301,Radiation Physics,3,https://catalog.gatech.edu/search/?P=NRE%203301
-Major Requirements,NRE3316,Radiation Protection Engineering,3,https://catalog.gatech.edu/search/?P=NRE%203316
-Major Requirements,NRE4350,Design Methods & Tools,3,https://catalog.gatech.edu/search/?P=NRE%204350
-Major Requirements,NRE4351,Design of Nuclear and Radiological Systems,3,https://catalog.gatech.edu/search/?P=NRE%204351
-Non-NRE Requirements,COE2001,Statics,2,https://catalog.gatech.edu/search/?P=COE%202001
-Non-NRE Requirements,ECE3710,Circuits and Electronics,2,https://catalog.gatech.edu/search/?P=ECE%203710
-Non-NRE Requirements,ECE3741,Instrumentation and Electronics Lab,1,https://catalog.gatech.edu/search/?P=ECE%203741
-Non-NRE Requirements,ISYE3025,Essentials of Engineering Economy,1,https://catalog.gatech.edu/search/?P=ISYE%203025
-Non-NRE Requirements,ME3322,Thermodynamics,3,https://catalog.gatech.edu/search/?P=ME%203322
-Non-NRE Requirements,ME3340,Fluid Mechanics,3,https://catalog.gatech.edu/search/?P=ME%203340
-Non-NRE Requirements,MATH3670,Probability and Statistics with Applications,3,https://catalog.gatech.edu/search/?P=MATH%203670
-Nuclear Energy Concentration requirements 5,ME3345,Conduction and Radiation Heat Transfer,3,https://catalog.gatech.edu/search/?P=ME%203345
-Nuclear Energy Concentration requirements 5,NRE4210,Nuclear Reactor Theory,3,https://catalog.gatech.edu/search/?P=NRE%204210
-Nuclear Energy Concentration requirements 5,NRE4214,Reactor Engineering,3,https://catalog.gatech.edu/search/?P=NRE%204214
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1554,Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,2
+Social Sciences,Select one of the following:,SELECT,3
+Social Sciences,ECON2100,Economic Analysis and Policy Problems,3
+Social Sciences,ECON2101,The Global Economy,3
+Social Sciences,ECON2105,Principles of Macroeconomics,3
+Social Sciences,ECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,CHEM1310,Principles of General Chemistry for Engineers,4
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,MSE2001,Principles and Applications of Engineering Materials,3
+Field of Study,NRE2120,Elements of Nuclear and Radiological Engineering,3
+Major Requirements,Ethics Requirement,,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#
+Major Requirements,NRE3026,Experimental Nuclear Reactor Physics,3
+Major Requirements,NRE3112,Nuclear Radiation Detection,3
+Major Requirements,NRE3208,Nuclear Reactor Phys I,3
+Major Requirements,NRE3301,Radiation Physics,3
+Major Requirements,NRE3316,Radiation Protection Engineering,3
+Major Requirements,NRE4350,Design Methods & Tools,3
+Major Requirements,NRE4351,Design of Nuclear and Radiological Systems,3
+Non-NRE Requirements,COE2001,Statics,2
+Non-NRE Requirements,ECE3710,Circuits and Electronics,2
+Non-NRE Requirements,ECE3741,Instrumentation and Electronics Lab,1
+Non-NRE Requirements,ISYE3025,Essentials of Engineering Economy,1
+Non-NRE Requirements,ME3322,Thermodynamics,3
+Non-NRE Requirements,ME3340,Fluid Mechanics,3
+Non-NRE Requirements,MATH3670,Probability and Statistics with Applications,3
+Non-NRE Requirements,orECE3077,Prob/Stats for ECE,3
+Non-NRE Requirements,orISYE3770,Statistics and Applications,3
+Nuclear Energy Concentration requirements 5,ME3345,Conduction and Radiation Heat Transfer,3
+Nuclear Energy Concentration requirements 5,NRE4210,Nuclear Reactor Theory,3
+Nuclear Energy Concentration requirements 5,NRE4214,Reactor Engineering,3
 Nuclear Energy Concentration requirements 5,Math/Science Elective,3
 Nuclear Energy Concentration requirements 5,Engineering Elective,3
-Free Electives,Free Electives (1000-level or higher),3
-Free Electives,Free Electives (2000-level or higher),9
+Free Electives,Free Electives (1000-level or higher),SELECT,3
+Free Electives,Free Electives (2000-level or higher),SELECT,9
 Free Electives,Total Credit Hours,126

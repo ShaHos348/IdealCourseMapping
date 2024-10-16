@@ -1,0 +1,49 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1554,Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,2
+Social Sciences,Any SS,SELECT,9
+Field of Study,BMED1000,Introduction to Biomedical Engineering,1
+Field of Study,BMED2110,Conservation Principles in Biomedical Engineering,3
+Field of Study,COE2001,Statics,2
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,CHEM1211K,Chemical Principles I,4
+Major Requirements,BMED2250,Problems in Biomedical Engineering,3
+Major Requirements,BMED2310,Intro to Biomedical Engineering Design,3
+Major Requirements,BMED3100,Systems Physiology,3
+Major Requirements,BMED3110,Quantitative Engineering Physiology Laboratory I,2
+Major Requirements,BMED3310,Biotransport,3
+Major Requirements,BMED3410,Introduction to Biomechanics,3
+Major Requirements,BMED3520,Biomedical Systems and Modeling,3
+Major Requirements,BMED3600,Physiology of Cellular and Molecular Systems,3
+Major Requirements,BMED3610,Quantitative Engineering Physiology Laboratory II,2
+Major Requirements,BMED4000,The Art of Telling Your Story,1
+Major Requirements,BMED4602,Capstone Design,3
+Major Requirements,orBMED4723,Interdisciplinary Capstone Design,3
+Other Engineering and Science Requirements,CHEM1315,Survey of Organic Chemistry for Engineers,3
+Other Engineering and Science Requirements,BMED2400,Introduction to Bioengineering Statistics,3
+Other Engineering and Science Requirements,orISYE3770,Statistics and Applications,3
+Other Engineering and Science Requirements,orCEE3770,Statistics and Applications,3
+Other Engineering and Science Requirements,MSE2001,Principles and Applications of Engineering Materials,3
+Other Engineering and Science Requirements,ECE3710,Circuits and Electronics,2
+Other Engineering and Science Requirements,ECE3741,Instrumentation and Electronics Lab,1
+BMED Depth Electives,BMED Depth Electives,9
+BMED Breadth Electives,BMED Breadth Electives,15
+BMED Breadth Electives,Total Credit Hours,128

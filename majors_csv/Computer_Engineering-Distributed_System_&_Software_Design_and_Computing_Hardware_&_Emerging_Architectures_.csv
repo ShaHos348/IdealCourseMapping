@@ -1,65 +1,64 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1554,Linear Algebra,4,https://catalog.gatech.edu/search/?P=MATH%201554
-Core E - Social Sciences,Choose one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Choose one of the following:,3
-Core E - Social Sciences,ECON2100,Economic Analysis and Policy Problems,,https://catalog.gatech.edu/search/?P=ECON%202100
-Core E - Social Sciences,ECON2101,The Global Economy,,https://catalog.gatech.edu/search/?P=ECON%202101
-Core E - Social Sciences,ECON2105,Principles of Macroeconomics,,https://catalog.gatech.edu/search/?P=ECON%202105
-Core E - Social Sciences,ECON2106,Principles of Microeconomics,,https://catalog.gatech.edu/search/?P=ECON%202106
-Core E - Social Sciences,Any SS,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#
-Core F - Courses Related to Major,ECE1100,ECE Discovery Studio,1,https://catalog.gatech.edu/search/?P=ECE%201100
-Core F - Courses Related to Major,ECE2020,Digital System Design,3,https://catalog.gatech.edu/search/?P=ECE%202020
-Core F - Courses Related to Major,ECE3005,Professional and Technical Communications for ECE,1,https://catalog.gatech.edu/search/?P=ECE%203005
-Core F - Courses Related to Major,CS1331,Introduction to Object Oriented Programming,3,https://catalog.gatech.edu/search/?P=CS%201331
-Core F - Courses Related to Major,CS1332,Data Structures and Algorithms for Applications,3,https://catalog.gatech.edu/search/?P=CS%201332
-Core F - Courses Related to Major,CS2050,Introduction to Discrete Mathematics for Computer Science,3,https://catalog.gatech.edu/search/?P=CS%202050
-Core F - Courses Related to Major,orCS2051,Honors - Induction to Discrete Mathematics for Computer Science,3,https://catalog.gatech.edu/search/?P=CS%202051
-Core F - Courses Related to Major,MATH2550,Introduction to Multivariable Calculus,2,https://catalog.gatech.edu/search/?P=MATH%202550
-Core F - Courses Related to Major,MATH2552,Differential Equations,4,https://catalog.gatech.edu/search/?P=MATH%202552
-Core F - Courses Related to Major,CHEM1310,Principles of General Chemistry for Engineers,4,https://catalog.gatech.edu/search/?P=CHEM%201310
-Core F - Courses Related to Major,orCHEM1211K,Chemical Principles I,4,https://catalog.gatech.edu/search/?P=CHEM%201211K
-Core F - Courses Related to Major,Ethics,
-Core F - Courses Related to Major,Probability/Statistics,3
-Major Requirements,ECE2031,Digital Design Laboratory,2,https://catalog.gatech.edu/search/?P=ECE%202031
-Major Requirements,ECE2035,Programming for Hardware/Software Systems,4,https://catalog.gatech.edu/search/?P=ECE%202035
-Major Requirements,ECE2040,Circuit Analysis,3,https://catalog.gatech.edu/search/?P=ECE%202040
-Major Requirements,ECE3058,Architecture, Systems, Concurrency, and Energy in Computation,4,https://catalog.gatech.edu/search/?P=ECE%203058
-Distributed System & Software Design 2,6,9,CS3251,Computer Networking I,3,https://catalog.gatech.edu/search/?P=CS%203251
-Distributed System & Software Design 2,6,9,Select three of the following (Advanced Software):,9
-Distributed System & Software Design 2,6,9,CS4220,Programming Embedded Systems,,https://catalog.gatech.edu/search/?P=CS%204220
-Distributed System & Software Design 2,6,9,ECE4122,Advanced Programming Techniques for Engineering Applications,,https://catalog.gatech.edu/search/?P=ECE%204122
-Distributed System & Software Design 2,6,9,ECE4795,GPU Programming for Video Games,,https://catalog.gatech.edu/search/?P=ECE%204795
-Distributed System & Software Design 2,6,9,ECE4150,Cloud Computing,,https://catalog.gatech.edu/search/?P=ECE%204150
-Distributed System & Software Design 2,6,9,ECE4180,Embedded Systems Design,,https://catalog.gatech.edu/search/?P=ECE%204180
-Distributed System & Software Design 2,6,9,CS4605,Mobile and Ubiquitous Computing,,https://catalog.gatech.edu/search/?P=CS%204605
-Distributed System & Software Design 2,6,9,CS3651,Prototyping Intelligent Devices,,https://catalog.gatech.edu/search/?P=CS%203651
-Computing Hardware & Emerging Architectures 2,6,9,ECE3150,VLSI and Advanced Digital Design,4,https://catalog.gatech.edu/search/?P=ECE%203150
-Computing Hardware & Emerging Architectures 2,6,9,ECE3030,Physical Foundations of Computer Engineering,3,https://catalog.gatech.edu/search/?P=ECE%203030
-Computing Hardware & Emerging Architectures 2,6,9,Select three of the following:,9
-Computing Hardware & Emerging Architectures 2,6,9,CS4220,Programming Embedded Systems,,https://catalog.gatech.edu/search/?P=CS%204220
-Computing Hardware & Emerging Architectures 2,6,9,ECE4180,Embedded Systems Design,,https://catalog.gatech.edu/search/?P=ECE%204180
-Computing Hardware & Emerging Architectures 2,6,9,ECE4181,Embedded Computing Systems,,https://catalog.gatech.edu/search/?P=ECE%204181
-Computing Hardware & Emerging Architectures 2,6,9,ECE4130,Advanced VLSI Systems,,https://catalog.gatech.edu/search/?P=ECE%204130
-Computing Hardware & Emerging Architectures 2,6,9,ECE4420,Digital Integrated Circuits,,https://catalog.gatech.edu/search/?P=ECE%204420
-Computing Hardware & Emerging Architectures 2,6,9,ECE4452,IC Fabrication,,https://catalog.gatech.edu/search/?P=ECE%204452
-Computing Hardware & Emerging Architectures 2,6,9,ECE4460,Introduction to Electronic Systems Packaging,,https://catalog.gatech.edu/search/?P=ECE%204460
-Computing Hardware & Emerging Architectures 2,6,9,ECE4100,Advanced Computer Architecture,,https://catalog.gatech.edu/search/?P=ECE%204100
-Computing Hardware & Emerging Architectures 2,6,9,ECE4150,Cloud Computing,,https://catalog.gatech.edu/search/?P=ECE%204150
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1554,Linear Algebra,4
+Social Sciences,Choose one of the following:,3
+Social Sciences,ECON2100,Economic Analysis and Policy Problems,
+Social Sciences,ECON2101,The Global Economy,
+Social Sciences,ECON2105,Principles of Macroeconomics,
+Social Sciences,ECON2106,Principles of Microeconomics,
+Social Sciences,Any SS,SELECT,6
+Field of Study,ECE1100,ECE Discovery Studio,1
+Field of Study,ECE2020,Digital System Design,3
+Field of Study,ECE3005,Professional and Technical Communications for ECE,1
+Field of Study,CS1331,Introduction to Object Oriented Programming,3
+Field of Study,CS1332,Data Structures and Algorithms for Applications,3
+Field of Study,CS2050,Introduction to Discrete Mathematics for Computer Science,3
+Field of Study,orCS2051,Honors - Induction to Discrete Mathematics for Computer Science,3
+Field of Study,MATH2550,Introduction to Multivariable Calculus,2
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,CHEM1310,Principles of General Chemistry for Engineers,4
+Field of Study,orCHEM1211K,Chemical Principles I,4
+Major Requirements,Ethics,
+Major Requirements,Probability/Statistics,3
+Major Requirements,ECE2031,Digital Design Laboratory,2
+Major Requirements,ECE2035,Programming for Hardware/Software Systems,4
+Major Requirements,ECE2040,Circuit Analysis,3
+Major Requirements,ECE3058,"Architecture, Systems, Concurrency, and Energy in Computation",4
+"Distributed System & Software Design 2,6,9",CS3251,Computer Networking I,3
+"Distributed System & Software Design 2,6,9",Select three of the following (Advanced Software):,SELECT,9
+"Distributed System & Software Design 2,6,9",CS4220,Programming Embedded Systems,
+"Distributed System & Software Design 2,6,9",ECE4122,Advanced Programming Techniques for Engineering Applications,
+"Distributed System & Software Design 2,6,9",ECE4795,GPU Programming for Video Games,
+"Distributed System & Software Design 2,6,9",ECE4150,Cloud Computing,
+"Distributed System & Software Design 2,6,9",ECE4180,Embedded Systems Design,
+"Distributed System & Software Design 2,6,9",CS4605,Mobile and Ubiquitous Computing,
+"Distributed System & Software Design 2,6,9",CS3651,Prototyping Intelligent Devices,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE3150,VLSI and Advanced Digital Design,4
+"Computing Hardware & Emerging Architectures 2,6,9",ECE3030,Physical Foundations of Computer Engineering,3
+"Computing Hardware & Emerging Architectures 2,6,9",Select three of the following:,SELECT,9
+"Computing Hardware & Emerging Architectures 2,6,9",CS4220,Programming Embedded Systems,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4180,Embedded Systems Design,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4181,Embedded Computing Systems,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4130,Advanced VLSI Systems,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4420,Digital Integrated Circuits,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4452,IC Fabrication,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4460,Introduction to Electronic Systems Packaging,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4100,Advanced Computer Architecture,
+"Computing Hardware & Emerging Architectures 2,6,9",ECE4150,Cloud Computing,
 Culminating Senior Design Options (Capstone),Culminating Senior Design,3
-Free Electives 3,711,Total Credit Hours,129
+"Free Electives 3,711",Total Credit Hours,129

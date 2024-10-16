@@ -1,53 +1,51 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core A - Essential Skills,orMATH1555,Calculus for Life Sciences,4,https://catalog.gatech.edu/search/?P=MATH%201555
-Core B - Institutional Options,Select one of the following:,3
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core B - Institutional Options,CS1315,Introduction to Media Computation,3,https://catalog.gatech.edu/search/?P=CS%201315
-Core B - Institutional Options,CS1371,Computing for Engineers,3,https://catalog.gatech.edu/search/?P=CS%201371
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Any SS,9,3
-Core F - Courses Related to Major,BIOS1207&1207L,Biological Principles for Majorsand Biological Principles Project Laboratory,4,https://catalog.gatech.edu/search/?P=BIOS%201207
-Core F - Courses Related to Major,orBIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,4,https://catalog.gatech.edu/search/?P=BIOS%201107
-Core F - Courses Related to Major,CHEM1211K,Chemical Principles I,4,https://catalog.gatech.edu/search/?P=CHEM%201211K
-Core F - Courses Related to Major,CHEM1212K,Chemical Principles II,4,https://catalog.gatech.edu/search/?P=CHEM%201212K
-Core F - Courses Related to Major,CHEM2311,Organic Chemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%202311
-Core F - Courses Related to Major,CHEM2312,Organic Chemistry II,3,https://catalog.gatech.edu/search/?P=CHEM%202312
-Core F - Courses Related to Major,orCHEM2313,Organic and Bioorganic Chemistry,3,https://catalog.gatech.edu/search/?P=CHEM%202313
-Major Requirements,BIOS1208&1208L,Organismal Biology for Majorsand Organismal Biology Project Laboratory,4,https://catalog.gatech.edu/search/?P=BIOS%201208
-Major Requirements,orBIOS1108&1108L,Organismal Biologyand Organismal Biology Laboratory,4,https://catalog.gatech.edu/search/?P=BIOS%201108
-Major Requirements,BIOS2300,Ecology,3,https://catalog.gatech.edu/search/?P=BIOS%202300
-Major Requirements,orBIOS2310,Problems in Ecology,3,https://catalog.gatech.edu/search/?P=BIOS%202310
-Major Requirements,BIOS3450,Cell and Molecular Biology,3,https://catalog.gatech.edu/search/?P=BIOS%203450
-Major Requirements,BIOS2600,Genetics,3,https://catalog.gatech.edu/search/?P=BIOS%202600
-Major Requirements,orBIOS2610,Integrative Genetics,3,https://catalog.gatech.edu/search/?P=BIOS%202610
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priortiy,CS1301,Introduction to Computing,3
+Institutional Priortiy,orCS1315,Introduction to Media Computation,3
+Institutional Priortiy,orCS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Mathematics and Quantitative Skills,orMATH1555,Calculus for Life Sciences,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Science",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Science",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Science",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Science",MATH1553,Introduction to Linear Algebra,2
+Social Sciences,Any SS,SELECT,9
+Field of Study,BIOS1207&1207L,Biological Principles for Majorsand Biological Principles Project Laboratory,4
+Field of Study,orBIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,4
+Field of Study,CHEM1211K,Chemical Principles I,4
+Field of Study,CHEM1212K,Chemical Principles II,4
+Field of Study,CHEM2311,Organic Chemistry I,3
+Field of Study,CHEM2312,Organic Chemistry II,3
+Field of Study,orCHEM2313,Organic and Bioorganic Chemistry,3
+Major Requirements,BIOS1208&1208L,Organismal Biology for Majorsand Organismal Biology Project Laboratory,4
+Major Requirements,orBIOS1108&1108L,Organismal Biologyand Organismal Biology Laboratory,4
+Major Requirements,BIOS2300,Ecology,3
+Major Requirements,orBIOS2310,Problems in Ecology,3
+Major Requirements,BIOS3450,Cell and Molecular Biology,3
+Major Requirements,BIOS2600,Genetics,3
+Major Requirements,orBIOS2610,Integrative Genetics,3
 Major Requirements,Biology Lab,2
-Major Requirements,BIOS3600,Evolutionary Biology,3,https://catalog.gatech.edu/search/?P=BIOS%203600
-Major Requirements,BIOS4460,Communicating Biological Research,1,https://catalog.gatech.edu/search/?P=BIOS%204460
-Major Requirements,Select one of the following:,3
-Major Requirements,BIOS4590,Research Project Lab,3,https://catalog.gatech.edu/search/?P=BIOS%204590
-Major Requirements,BIOS4690,Independent Research Project,3,https://catalog.gatech.edu/search/?P=BIOS%204690
-Non-Biology Courses,CHEM2380,Synthesis Laboratory I,2,https://catalog.gatech.edu/search/?P=CHEM%202380
-Non-Biology Courses,orCHEM2380U,Synthesis Laboratory I,2,https://catalog.gatech.edu/search/?P=CHEM%202380U
-Non-Biology Courses,Select one of the following:,3
-Non-Biology Courses,BIOS3400,Mathematical Models in Biology,3,https://catalog.gatech.edu/search/?P=BIOS%203400
-Non-Biology Courses,BIOS4150,Genomics and Applied Bioinformatics,3,https://catalog.gatech.edu/search/?P=BIOS%204150
-Non-Biology Courses,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,3,https://catalog.gatech.edu/search/?P=BIOS%204401
+Major Requirements,BIOS3600,Evolutionary Biology,3
+Major Requirements,BIOS4460,Communicating Biological Research,1
+Major Requirements,Select one of the following:,SELECT,3
+Major Requirements,BIOS4590,Research Project Lab,3
+Major Requirements,BIOS4690,Independent Research Project,3
+Non-Biology Courses,CHEM2380,Synthesis Laboratory I,2
+Non-Biology Courses,orCHEM2380U,Synthesis Laboratory I,2
+Non-Biology Courses,Select one of the following:,SELECT,3
+Non-Biology Courses,BIOS3400,Mathematical Models in Biology,3
+Non-Biology Courses,BIOS4150,Genomics and Applied Bioinformatics,3
+Non-Biology Courses,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,3
 Biology Electives,Biology Electives 3000-level or higher,21
-Free Electives,Free Electives,11
+Free Electives,Free Electives,SELECT,11
 Free Electives,Total Credit Hours,122

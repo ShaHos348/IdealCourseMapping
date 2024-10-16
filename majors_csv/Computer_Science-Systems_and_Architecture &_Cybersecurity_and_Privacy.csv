@@ -1,0 +1,72 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1554,Linear Algebra,4
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,4
+Social Sciences,Any SS,SELECT,9
+Field of Study,Lab Science,4
+Field of Study,CS1100,Freshman Leap Seminar,1
+Field of Study,CS1331,Introduction to Object Oriented Programming,3
+Field of Study,CS1332,Data Structures and Algorithms for Applications,3
+Field of Study,CS2050,Introduction to Discrete Mathematics for Computer Science,3
+Field of Study,orCS2051,Honors - Induction to Discrete Mathematics for Computer Science,3
+Field of Study,MATH2550,Introduction to Multivariable Calculus,2
+Major Requirements,CS2340,Objects and Design,3
+Major Requirements,Select one for Professionalism/Ethics requirement:,SELECT,3
+Major Requirements,CS3001,"Computing, Society, and Professionalism",3
+Major Requirements,CS4001,"Computing, Society, and Professionalism",3
+Major Requirements,CS4002,Robots and Society,3
+Major Requirements,CS4003,"AI, Ethics, and Society",3
+Major Requirements,CS4726,"Privacy, Technology, Policy, and Law",3
+Major Requirements,SLS3110,Technology and Sustainable Community Development,3
+Junior Design Options (Capstone),Junior Design Option,SELECT,6
+Concentration,CS2110,Computer Organization and Programming,4
+Concentration,CS2200,Computer Systems and Networks,4
+Concentration,CS3210,Design of Operating Systems,3
+Concentration,CS3220,Computer Structures: Hardware/Software Codesign of a Processor,3
+Concentration,CS3235,Introduction to Information Security,3
+Concentration,CS3237,"Human Dimension of Cybersecurity: People, Organizations, Societies",3
+Concentration,CS3510,Design and Analysis of Algorithms,3
+Concentration,orCS3511,"Design and Analysis of Algorithms, Honors",3
+Concentration,ECE2031,Digital Design Laboratory,2
+Concentration,Select nine credit hours of the following for Society and Systems:,SELECT,9
+Concentration,CS4117,Introduction to Malware Reverse Engineering,
+Concentration,CS4238,Computer Systems Security,
+Concentration,CS4239,Enterprise Cybersecurity Management,
+Concentration,CS4243,Cyber Warfare,
+Concentration,CS4262,Network Security,
+Concentration,CS4263,Psychology of Cybersecurity,
+Concentration,CS4265,Technical Introduction to Blockchain and Cryptocurrencies,
+Concentration,CS4267,Critical Infrastructures Security and Resilience,
+Concentration,CS4725,Information Security Strategies and Policies,
+Concentration,CS4726,"Privacy, Technology, Policy, and Law",
+Concentration,Select one of the following for Systems Software Tools:,SELECT,3
+Concentration,CS3300,Introduction to Software Engineering,3
+Concentration,CS4240,"Compilers, Interpreters, and Program Analyzers",3
+Concentration,Select one of the following for Advanced Systems Architectures:,SELECT,3
+Concentration,CS4210,Advanced Operating Systems,3
+Concentration,CS4220,Programming Embedded Systems,3
+Concentration,CS4290,Advanced Computer Organization,3
+Other Required Courses,MATH3012,Applied Combinatorics,3
+Other Required Courses,Select one of the following:,SELECT,3
+Other Required Courses,MATH3215,Introduction to Probability and Statistics,3
+Other Required Courses,MATH3670,Probability and Statistics with Applications,3
+Other Required Courses,CEE3770,Statistics and Applications,3
+Other Required Courses,ISYE3770,Statistics and Applications,3
+Other Required Courses,orISYE2027&ISYE2028,Probability with Applicationsand Basic Statistical Methods,3
+Free Electives,Free Electives,SELECT,5
+Free Electives,Total Credit Hours,126

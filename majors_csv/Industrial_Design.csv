@@ -1,0 +1,55 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1315,Introduction to Media Computation,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Art, Humanities, and Ethics",Any HUM,SELECT,3
+"Art, Humanities, and Ethics",ID2242,History of Art 2,3
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",Lab Science,4
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences,Any SS,SELECT,9
+Field of Study,ID1011,Industrial Design Fundamentals 1,2
+Field of Study,ID1012,Industrial Design Fundamentals 2,2
+Field of Study,ID1101,Introduction to Industrial Design 1,1
+Field of Study,ID1102,Introduction to Industrial Design 2,1
+Field of Study,ID1401,Introduction to Graphic Communications 1,1
+Field of Study,ID1402,Introduction to Graphic Communications 2,1
+Field of Study,ID1418,Introduction to Sketching and Modeling 1,1
+Field of Study,ID1419,Introduction to Sketching and Modeling 2,1
+Field of Study,ID2023,Industrial Design Studio 1,3
+Field of Study,ID2024,Industrial Design Studio 2,3
+Major Requirements,ID2101,Digital Design Methods,3
+Major Requirements,ID2102,3D Modeling,2
+Major Requirements,ID2202,History of Modern Industrial Design,3
+Major Requirements,ID2320,Human Factors in Design,3
+Major Requirements,ID2325,User Centered Design Methods,3
+Major Requirements,ID2510,Introduction to Smart Product Design,3
+Major Requirements,ID3031,Health Design Studio 1,4
+Major Requirements,orID3041,Product Development Studio 1,4
+Major Requirements,orID3051,Interactive Product Design Studio 1,4
+Major Requirements,ID3032,Health Design Studio 2,4
+Major Requirements,orID3042,Product Development Studio 2,4
+Major Requirements,orID3052,Interactive Product Design Studio 2,4
+Major Requirements,ID3301,Materials I: Renewables,3
+Major Requirements,ID3302,Materials and Processes II: Nonrenewables,3
+Major Requirements,ID4061,ID Capstone Design Studio 1,4
+Major Requirements,orID4071,Invention Studio 1,4
+Major Requirements,orID4081,ID/ME Collaborative Design Studio 1,4
+Major Requirements,ID4062,ID Capstone Design Studio 2,4
+Major Requirements,orID4072,Invention Studio 2,4
+Major Requirements,orID4082,ID/ME Collaborative Design Studio 2,4
+Major Requirements,ID3320,Design Methods: User Centered Design,3
+Major Requirements,ID4206,Culture of Objects:  A Seminar on the Design and Culture of Objects,3
+Departmental Electives,Any ID course,SELECT,12
+Free Electives,Free Electives,SELECT,12
+Free Electives,Total Credit Hours,130

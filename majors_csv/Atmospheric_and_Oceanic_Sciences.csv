@@ -1,0 +1,61 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,Select one of the following:,SELECT,3
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,HIST2112,The United States since 1877,3
+Political Science and U.S. History,INTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,POL1101,Government of the United States,3
+Political Science and U.S. History,PUBP3000,American Constitutional Issues,3
+"Art, Humanities, and Ethics 1",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",CHEM1211K,Chemical Principles I,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences 1,Any SS,SELECT,9
+Field of Study,PHYS2212,Introductory Physics II,4
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,EAS1600,Introduction to Environmental Science,4
+Field of Study,EAS2750,Physics of the Weather,3
+Field of Study,EAS2551,Introduction to Meteorological Analysis,1
+Major Requirements,EAS2655,Quantitative Techniques in Earth and Atmospheric Sciences,3
+Major Requirements,EAS3603,Thermodynamics of Earth Systems,3
+Major Requirements,EAS4655&EAS4656,Atmospheric Dynamicsand Atmospheric Dynamics Practicum,4
+Major Requirements,EAS4740,Atmospheric Chemistry Laboratory,3
+Major Requirements,orEAS4670,Atmospheric Dynamics II,3
+Major Requirements,orEAS4305,Physical and Chemical Oceanography,3
+Major Requirements,EAS4801,Special Topics (Career Development Seminar),1
+Major Requirements,Select 7 credit hours from the following:,SELECT,7
+Major Requirements,EAS4420,Environmental Field Methods,
+Major Requirements,EAS4814,Special Topics-Lab (Geophysical Field Methods),
+Major Requirements,EAS4610,Earth System Modeling,
+Major Requirements,Research Option,SELECT,
+AOS Technical Electives15,CHEM1212K,Chemical Principles II,
+AOS Technical Electives15,EAS3110,"Energy, Environment, and Society",
+AOS Technical Electives15,EAS4300,Introduction to Physical and Chemical Oceanography,
+AOS Technical Electives15,EAS4305,Physical and Chemical Oceanography,
+AOS Technical Electives15,EAS4410,Climate and Global Change,
+AOS Technical Electives15,EAS4450,Synoptic Meteorology,
+AOS Technical Electives15,EAS4525,Weather Risk and Catastrophe Modeling,
+AOS Technical Electives15,EAS4470,Large-scale Atmospheric Circulations,
+AOS Technical Electives15,EAS4740,Atmospheric Chemistry Laboratory,
+AOS Technical Electives15,EAS4420,Environmental Field Methods,
+AOS Technical Electives15,EAS4480,Environmental Data Analysis,
+AOS Technical Electives15,EAS4610,Earth System Modeling,
+AOS Technical Electives15,EAS4651,Practical Internship,
+AOS Technical Electives15,EAS4670,Atmospheric Dynamics II,
+AOS Technical Electives15,EAS4695,Undergraduate Internship,
+AOS Technical Electives15,EAS4698,Undergraduate Research Assistantship,
+AOS Technical Electives15,EAS4699,Undergraduate Research,
+AOS Technical Electives15,EAS4803,Special Topics (Tropical Dynamics),
+AOS Technical Electives15,EAS4803,Special Topics (Glacial and Ice Sheet Dynamics),
+AOS Technical Electives15,EAS4813,Special Topics (Mesoscale Meteorology),
+AOS Technical Electives15,EAS4814,Special Topics-Lab (Geophysical Field Methods),
+"Free Electives 1,221",Total Credit Hours,122

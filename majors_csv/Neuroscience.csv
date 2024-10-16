@@ -1,0 +1,89 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Institutional Priority,orCS1315,Introduction to Media Computation,3
+Institutional Priority,orCS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Mathematics and Quantitative Skills,orMATH1555,Calculus for Life Sciences,4
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",orMATH1550,Introduction to Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1554,Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,2
+Social Sciences,PSYC1101,General Psychology,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,CHEM1310,Principles of General Chemistry for Engineers,4
+Field of Study,orCHEM1211K,Chemical Principles I,4
+Field of Study,CHEM1315,Survey of Organic Chemistry for Engineers,3
+Field of Study,orCHEM2311,Organic Chemistry I,3
+Field of Study,BIOS1107,Biological Principles,3
+Field of Study,orBIOS1207,Biological Principles for Majors,3
+Field of Study,BIOS1107L,Biological Principles Laboratory,1
+Field of Study,orBIOS1207L,Biological Principles Project Laboratory,1
+Field of Study,CHEM3511,Survey of Biochemistry,3
+Field of Study,NEUR2001,Principles in Neuroscience,4
+Major Requirements,NEUR3001,Cell and Molecular Neuroscience,3
+Major Requirements,NEUR3002,"Neural Systems, Networks, and Behavior",3
+Major Requirements,NEUR3003,Neuroscience of Behavior,3
+Major Requirements,NEUR3010,Methods in Neuroscience,3
+Neuroscience Depth Electives18,Select one research based elective:,SELECT,
+Neuroscience Depth Electives18,NEUR4001,Neuroscience Research Project,
+Neuroscience Depth Electives18,NEUR Thesis Option,SELECT,
+Neuroscience Depth Electives18,Select one statistics elective:,SELECT,
+Neuroscience Depth Electives18,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,
+Neuroscience Depth Electives18,BMED2400,Introduction to Bioengineering Statistics,
+Neuroscience Depth Electives18,ISYE 3770/ECE3077,Statistics and Applications,
+Neuroscience Depth Electives18,PSYC2020,Psychological Statistics,
+Neuroscience Depth Electives18,MATH3215,Introduction to Probability and Statistics,
+Neuroscience Depth Electives18,MATH3225,Honors Probability and Statistics,
+Neuroscience Depth Electives18,MATH3670,Probability and Statistics with Applications,
+Neuroscience Depth Electives18,10-11 credits of additional Neuroscience electives,
+Neuroscience Depth Electives18,BIOS2600,Genetics,
+Neuroscience Depth Electives18,BIOS2610,Integrative Genetics,
+Neuroscience Depth Electives18,BIOS3450,Cell and Molecular Biology,
+Neuroscience Depth Electives18,BIOS3451,Cell and Molecular Biology Lab,
+Neuroscience Depth Electives18,BIOS3753,Human Anatomy,
+Neuroscience Depth Electives18,BIOS3754,Laboratory in Human Anatomy,
+Neuroscience Depth Electives18,BIOS3755,Human Physiology,
+Neuroscience Depth Electives18,BIOS3756,Physiology Laboratory,
+Neuroscience Depth Electives18,BIOS4200,Kinesiological Basis of Human Movement,
+Neuroscience Depth Electives18,BIOS4238,Ion Channels,
+Neuroscience Depth Electives18,BIOS4400,Human Neuroanatomy,
+Neuroscience Depth Electives18,BIOS4464,Developmental Biology,
+Neuroscience Depth Electives18,BIOS4471,Behavioral Biology,
+Neuroscience Depth Electives18,BIOS4480,Evolutionary Developmental Biology – How to Build an Organism,
+Neuroscience Depth Electives18,BIOS4651,Bioethics,
+Neuroscience Depth Electives18,BIOS4746,Signaling Molecules,
+Neuroscience Depth Electives18,CHEM4511,Biochemistry I,
+Neuroscience Depth Electives18,CHEM4512,Biochemistry II,
+Neuroscience Depth Electives18,NEUR2699,Undergraduate Research,
+Neuroscience Depth Electives18,NEUR4100,Neurodevelopment,
+Neuroscience Depth Electives18,NEUR4740,Neuroethics,
+Neuroscience Depth Electives18,NEUR4300,Neuroscience of Memory,
+Neuroscience Depth Electives18,NEUR4400,Neuroendocrinology,
+Neuroscience Depth Electives18,NEUR4699,Undergraduate Research,
+Neuroscience Depth Electives18,NEUR4803,Special Topics,
+Neuroscience Depth Electives18,PHYS3804,Special Topics (Neurophysics),
+Neuroscience Depth Electives18,PHYS4803,Special Topics (Physical Principles of Living Systems),
+Neuroscience Depth Electives18,PSYC2015,Research Methods,
+Neuroscience Depth Electives18,PSYC2103,Human Development Over the Life Span,
+Neuroscience Depth Electives18,PSYC2230,Abnormal Psychology,
+Neuroscience Depth Electives18,PSYC3011,Cognitive Psychology,
+Neuroscience Depth Electives18,PSYC3012,Introduction to Cognitive Psychology,
+Neuroscience Depth Electives18,PSYC3040,Sensation and Perception,
+Neuroscience Depth Electives18,PSYC3041,Human Sensation and Perception,
+Neuroscience Depth Electives18,PSYC4100,Behavioral Pharmacology,
+Neuroscience Depth Electives18,PSYC4090,Cognitive Neuroscience,
+Free Electives14,Total Credit Hours,122

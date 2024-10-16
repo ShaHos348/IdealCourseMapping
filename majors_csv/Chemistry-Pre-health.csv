@@ -1,86 +1,85 @@
-Category,Course Code,Course Name,Credits,URL
-Wellness,APPH1040,Scientific Foundations of Health,2,https://catalog.gatech.edu/search/?P=APPH%201040
-Wellness,orAPPH1050,The Science of Physical Activity and Health,2,https://catalog.gatech.edu/search/?P=APPH%201050
-Wellness,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2,https://catalog.gatech.edu/search/?P=APPH%201060
-Core A - Essential Skills,ENGL1101,English Composition I,3,https://catalog.gatech.edu/search/?P=ENGL%201101
-Core A - Essential Skills,ENGL1102,English Composition II,3,https://catalog.gatech.edu/search/?P=ENGL%201102
-Core A - Essential Skills,MATH1552,Integral Calculus,4,https://catalog.gatech.edu/search/?P=MATH%201552
-Core B - Institutional Options,CS1301,Introduction to Computing,3,https://catalog.gatech.edu/search/?P=CS%201301
-Core C - Humanities,Any HUM,6,https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#
-Core D - Science, Math, & Technology,PHYS2211,Introductory Physics I,4,https://catalog.gatech.edu/search/?P=PHYS%202211
-Core D - Science, Math, & Technology,PHYS2212,Introductory Physics II,4,https://catalog.gatech.edu/search/?P=PHYS%202212
-Core D - Science, Math, & Technology,MATH1551,Differential Calculus,2,https://catalog.gatech.edu/search/?P=MATH%201551
-Core D - Science, Math, & Technology,MATH1553,Introduction to Linear Algebra,2,https://catalog.gatech.edu/search/?P=MATH%201553
-Core E - Social Sciences,Select one of the following:,3
-Core E - Social Sciences,HIST2111,The United States to 1877,3,https://catalog.gatech.edu/search/?P=HIST%202111
-Core E - Social Sciences,HIST2112,The United States since 1877,3,https://catalog.gatech.edu/search/?P=HIST%202112
-Core E - Social Sciences,INTA1200,American Government in Comparative Perspective,3,https://catalog.gatech.edu/search/?P=INTA%201200
-Core E - Social Sciences,POL1101,Government of the United States,3,https://catalog.gatech.edu/search/?P=POL%201101
-Core E - Social Sciences,PUBP3000,American Constitutional Issues,3,https://catalog.gatech.edu/search/?P=PUBP%203000
-Core E - Social Sciences,Any SS,9,3
-Core F - Courses Related to Major,CHEM1211K,Chemical Principles I,4,https://catalog.gatech.edu/search/?P=CHEM%201211K
-Core F - Courses Related to Major,CHEM1212K,Chemical Principles II,4,https://catalog.gatech.edu/search/?P=CHEM%201212K
-Core F - Courses Related to Major,CHEM2380,Synthesis Laboratory I,2,https://catalog.gatech.edu/search/?P=CHEM%202380
-Core F - Courses Related to Major,BIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,4,https://catalog.gatech.edu/search/?P=BIOS%201107
-Core F - Courses Related to Major,BIOS1108&1108L,Organismal Biologyand Organismal Biology Laboratory,4,https://catalog.gatech.edu/search/?P=BIOS%201108
-Major Requirements,CHEM2216&2216L,Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory,4,https://catalog.gatech.edu/search/?P=CHEM%202216
-Major Requirements,orCHEM2214,Quantitative Chemical Analysis,4,https://catalog.gatech.edu/search/?P=CHEM%202214
-Major Requirements,CHEM2311,Organic Chemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%202311
-Major Requirements,CHEM2312,Organic Chemistry II,3,https://catalog.gatech.edu/search/?P=CHEM%202312
-Major Requirements,orCHEM2312,Organic Chemistry II,3,https://catalog.gatech.edu/search/?P=CHEM%202312
-Major Requirements,CHEM2601,Professional Skills for Chemists and Biochemists,1,https://catalog.gatech.edu/search/?P=CHEM%202601
-Major Requirements,CHEM3111,Inorganic Chemistry,3,https://catalog.gatech.edu/search/?P=CHEM%203111
-Major Requirements,CHEM3216&3216L,Analytical Chemistry Lectureand Analytical Chemistry Laboratory,5,https://catalog.gatech.edu/search/?P=CHEM%203216
-Major Requirements,orCHEM3211,Analytical Chemistry,5,https://catalog.gatech.edu/search/?P=CHEM%203211
-Major Requirements,CHEM3411,Physical Chemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%203411
-Major Requirements,CHEM3412,Physical Chemistry II,3,https://catalog.gatech.edu/search/?P=CHEM%203412
-Major Requirements,CHEM3511,Survey of Biochemistry,3,https://catalog.gatech.edu/search/?P=CHEM%203511
-Major Requirements,orCHEM4511,Biochemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%204511
-Major Requirements,orCHEM3521,Biochemistry I,3,https://catalog.gatech.edu/search/?P=CHEM%203521
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1301,Introduction to Computing,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+Social Sciences,Any SS,SELECT,9
+Field of Study,CHEM1211K,Chemical Principles I,4
+Field of Study,CHEM1212K,Chemical Principles II,4
+Field of Study,CHEM2380,Synthesis Laboratory I,2
+Field of Study,BIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,4
+Field of Study,BIOS1108&1108L,Organismal Biologyand Organismal Biology Laboratory,4
+Major Requirements,CHEM2216&2216L,Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory,4
+Major Requirements,orCHEM2214,Quantitative Chemical Analysis,4
+Major Requirements,CHEM2311,Organic Chemistry I,3
+Major Requirements,CHEM2312,Organic Chemistry II,3
+Major Requirements,orCHEM2312,Organic Chemistry II,3
+Major Requirements,CHEM2601,Professional Skills for Chemists and Biochemists,1
+Major Requirements,CHEM3111,Inorganic Chemistry,3
+Major Requirements,CHEM3216&3216L,Analytical Chemistry Lectureand Analytical Chemistry Laboratory,5
+Major Requirements,orCHEM3211,Analytical Chemistry,5
+Major Requirements,CHEM3411,Physical Chemistry I,3
+Major Requirements,CHEM3412,Physical Chemistry II,3
+Major Requirements,CHEM3511,Survey of Biochemistry,3
+Major Requirements,orCHEM4511,Biochemistry I,3
+Major Requirements,orCHEM3521,Biochemistry I,3
 Pre-Health Option,Lab Electives:,6
-Pre-Health Option,CHEM3380,Synthesis Laboratory II,,https://catalog.gatech.edu/search/?P=CHEM%203380
-Pre-Health Option,CHEM3481,Physical Chemistry Laboratory I,,https://catalog.gatech.edu/search/?P=CHEM%203481
-Pre-Health Option,CHEM4699,Undergraduate Research,,https://catalog.gatech.edu/search/?P=CHEM%204699
-Pre-Health Option,orCHEM4694,Intern Assistantship (Undergraduate Internship for Pay),-1,https://catalog.gatech.edu/search/?P=CHEM%204694
-Pre-Health Option,orCHEM4695,Undergraduate Internship (Undergraduate Internship for Academic Credit),-1,https://catalog.gatech.edu/search/?P=CHEM%204695
-Pre-Health Option,orCHEM4698,Undergraduate Research Assistantship,-1,https://catalog.gatech.edu/search/?P=CHEM%204698
+Pre-Health Option,CHEM3380,Synthesis Laboratory II,
+Pre-Health Option,CHEM3481,Physical Chemistry Laboratory I,
+Pre-Health Option,CHEM4699,Undergraduate Research,
+Pre-Health Option,orCHEM4694,Intern Assistantship (Undergraduate Internship for Pay),-1
+Pre-Health Option,orCHEM4695,Undergraduate Internship (Undergraduate Internship for Academic Credit),-1
+Pre-Health Option,orCHEM4698,Undergraduate Research Assistantship,-1
 Pre-Health Option,Technical electives,3
 Pre-Health Option,Pre-Health Electives:,12
-Pre-Health Option,BIOS2600,Genetics,,https://catalog.gatech.edu/search/?P=BIOS%202600
-Pre-Health Option,BIOS2601,Genetics Laboratory,,https://catalog.gatech.edu/search/?P=BIOS%202601
-Pre-Health Option,BIOS2610&BIOS2611,Integrative Geneticsand Integrative Genetics Lab,,https://catalog.gatech.edu/search/?P=BIOS%202610
-Pre-Health Option,BIOS3000,Survey of Medicine,,https://catalog.gatech.edu/search/?P=BIOS%203000
-Pre-Health Option,BIOS3380,Microbiology,,https://catalog.gatech.edu/search/?P=BIOS%203380
-Pre-Health Option,BIOS3381,Microbiology Lab,,https://catalog.gatech.edu/search/?P=BIOS%203381
-Pre-Health Option,BIOS3450,Cell and Molecular Biology,,https://catalog.gatech.edu/search/?P=BIOS%203450
-Pre-Health Option,BIOS3451,Cell and Molecular Biology Lab,,https://catalog.gatech.edu/search/?P=BIOS%203451
-Pre-Health Option,BIOS3753,Human Anatomy,,https://catalog.gatech.edu/search/?P=BIOS%203753
-Pre-Health Option,BIOS3754,Laboratory in Human Anatomy,,https://catalog.gatech.edu/search/?P=BIOS%203754
-Pre-Health Option,BIOS3755,Human Physiology,,https://catalog.gatech.edu/search/?P=BIOS%203755
-Pre-Health Option,BIOS3756,Physiology Laboratory,,https://catalog.gatech.edu/search/?P=BIOS%203756
-Pre-Health Option,BIOS4012,Protein Biology,,https://catalog.gatech.edu/search/?P=BIOS%204012
-Pre-Health Option,BIOS4015,Cancer Biology and Biotechnology,,https://catalog.gatech.edu/search/?P=BIOS%204015
-Pre-Health Option,BIOS 4150/BIOL6150,Genomics and Applied Bioinformatics,,https://catalog.gatech.edu/search/?P=BIOS%204150
-Pre-Health Option,BIOS4200,Kinesiological Basis of Human Movement,,https://catalog.gatech.edu/search/?P=BIOS%204200
-Pre-Health Option,BIOS 4238/APPH6238,Ion Channels,,https://catalog.gatech.edu/search/?P=BIOS%204238
-Pre-Health Option,BIOS4340,Medical Microbiology,,https://catalog.gatech.edu/search/?P=BIOS%204340
-Pre-Health Option,BIOS4400,Human Neuroanatomy,,https://catalog.gatech.edu/search/?P=BIOS%204400
-Pre-Health Option,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,,https://catalog.gatech.edu/search/?P=BIOS%204401
-Pre-Health Option,BIOS4440,Human Pathology,,https://catalog.gatech.edu/search/?P=BIOS%204440
-Pre-Health Option,BIOS4464,Developmental Biology,,https://catalog.gatech.edu/search/?P=BIOS%204464
-Pre-Health Option,BIOS4471,Behavioral Biology,,https://catalog.gatech.edu/search/?P=BIOS%204471
-Pre-Health Option,BIOS4500,Drug Discovery,,https://catalog.gatech.edu/search/?P=BIOS%204500
-Pre-Health Option,BIOS 4510/BIOL8510,Epigenetics,  Stem Cells, and Development,,https://catalog.gatech.edu/search/?P=BIOS%204510
-Pre-Health Option,BIOS4520,Health Genes Society,,https://catalog.gatech.edu/search/?P=BIOS%204520
-Pre-Health Option,BIOS 4530/BIOL8530,Human Evolutionary Genomics,,https://catalog.gatech.edu/search/?P=BIOS%204530
-Pre-Health Option,BIOS 4560/BIOL8560,RNA Biology and Biotechnology,,https://catalog.gatech.edu/search/?P=BIOS%204560
-Pre-Health Option,BIOS4545,Genetics of Complex Human Traits and Diseases,,https://catalog.gatech.edu/search/?P=BIOS%204545
-Pre-Health Option,BIOS4570,Immunology,,https://catalog.gatech.edu/search/?P=BIOS%204570
-Pre-Health Option,BIOS 4607/BIOL6607,Molecular Biology of Microbes: Disease, Nature, and Biotechnology,,https://catalog.gatech.edu/search/?P=BIOS%204607
-Pre-Health Option,BIOS4651,Bioethics,,https://catalog.gatech.edu/search/?P=BIOS%204651
-Pre-Health Option,BMED3100,Systems Physiology,,https://catalog.gatech.edu/search/?P=BMED%203100
-Pre-Health Option,BMED3600,Physiology of Cellular and Molecular Systems,,https://catalog.gatech.edu/search/?P=BMED%203600
-Pre-Health Option,CHEM4521,Biophysical Chemistry,,https://catalog.gatech.edu/search/?P=CHEM%204521
-Pre-Health Option,CHEM4765,Drug Design, Development, and Delivery,,https://catalog.gatech.edu/search/?P=CHEM%204765
-Free Electives,Free Electives,10
+Pre-Health Option,BIOS2600,Genetics,
+Pre-Health Option,BIOS2601,Genetics Laboratory,
+Pre-Health Option,BIOS2610&BIOS2611,Integrative Geneticsand Integrative Genetics Lab,
+Pre-Health Option,BIOS3000,Survey of Medicine,
+Pre-Health Option,BIOS3380,Microbiology,
+Pre-Health Option,BIOS3381,Microbiology Lab,
+Pre-Health Option,BIOS3450,Cell and Molecular Biology,
+Pre-Health Option,BIOS3451,Cell and Molecular Biology Lab,
+Pre-Health Option,BIOS3753,Human Anatomy,
+Pre-Health Option,BIOS3754,Laboratory in Human Anatomy,
+Pre-Health Option,BIOS3755,Human Physiology,
+Pre-Health Option,BIOS3756,Physiology Laboratory,
+Pre-Health Option,BIOS4012,Protein Biology,
+Pre-Health Option,BIOS4015,Cancer Biology and Biotechnology,
+Pre-Health Option,BIOS 4150/BIOL6150,Genomics and Applied Bioinformatics,
+Pre-Health Option,BIOS4200,Kinesiological Basis of Human Movement,
+Pre-Health Option,BIOS 4238/APPH6238,Ion Channels,
+Pre-Health Option,BIOS4340,Medical Microbiology,
+Pre-Health Option,BIOS4400,Human Neuroanatomy,
+Pre-Health Option,BIOS4401,Experimental Design and Statistical Methods in Biological Sciences,
+Pre-Health Option,BIOS4440,Human Pathology,
+Pre-Health Option,BIOS4464,Developmental Biology,
+Pre-Health Option,BIOS4471,Behavioral Biology,
+Pre-Health Option,BIOS4500,Drug Discovery,
+Pre-Health Option,BIOS 4510/BIOL8510,"Epigenetics,  Stem Cells, and Development",
+Pre-Health Option,BIOS4520,Health Genes Society,
+Pre-Health Option,BIOS 4530/BIOL8530,Human Evolutionary Genomics,
+Pre-Health Option,BIOS 4560/BIOL8560,RNA Biology and Biotechnology,
+Pre-Health Option,BIOS4545,Genetics of Complex Human Traits and Diseases,
+Pre-Health Option,BIOS4570,Immunology,
+Pre-Health Option,BIOS 4607/BIOL6607,"Molecular Biology of Microbes: Disease, Nature, and Biotechnology",
+Pre-Health Option,BIOS4651,Bioethics,
+Pre-Health Option,BMED3100,Systems Physiology,
+Pre-Health Option,BMED3600,Physiology of Cellular and Molecular Systems,
+Pre-Health Option,CHEM4521,Biophysical Chemistry,
+Pre-Health Option,CHEM4765,"Drug Design, Development, and Delivery",
+Free Electives,Free Electives,SELECT,10
 Free Electives,Total Credit Hours,122
