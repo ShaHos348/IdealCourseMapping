@@ -1,0 +1,21 @@
+{
+    "FILE_NAME": [
+        "INFORMATION",
+        "ORDERED BY WHAT IS USED/CREATED FIRST"
+    ],
+    "majors_scrapper.py": [
+        "This is a code fix of script.py",
+        "Goes through the course catalog to retreive all majors at GaTech",
+        "Finds all the courses required for each major puts in json files",
+        "The json files are put into the majors_json folder"
+    ],
+    "json_to_csvV2.py": [
+        "Goes through the majors_json folder and coverts them all to csv files and stores in majors_csv folder",
+        "These files will be used to assist csv_to_curicular.py"
+    ],
+    "csv_to_curricular.py": [
+        "Will make the csv files in the format required for curricular analytics site",
+        "Will use prereq_chain_maker.py and the specific course's csv file from the majors_csv folder",
+        "It will not bulk create the files and will be implemented into our site"
+    ]
+}
