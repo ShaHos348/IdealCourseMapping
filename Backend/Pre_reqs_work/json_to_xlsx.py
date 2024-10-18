@@ -3,14 +3,14 @@ import pandas as pd
 import json
 
 # Define the file path for the Excel file
-excel_file_path = 'Pre_reqs_work/program_courses.xlsx'
+excel_file_path = 'Backend/pre_reqs_work/program_courses.xlsx'
 
 # Remove the Excel file if it already exists
 if os.path.exists(excel_file_path):
     os.remove(excel_file_path)
 
 # Load JSON data from the file
-with open('Pre_reqs_work/prereqs.json', 'r') as json_file:
+with open('Backend/pre_reqs_work/prereqs.json', 'r') as json_file:
     program_courses = json.load(json_file)
 
 # Create a Pandas Excel writer using openpyxl as the engine

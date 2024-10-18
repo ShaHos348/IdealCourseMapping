@@ -21,7 +21,7 @@ links.remove(None)
 
 def make_json(fileName, map):
     map = {key: value for key, value in map.items() if value}  # Remove keys with empty lists
-    with open("./majors/" + fileName + ".json", "w") as f:
+    with open("./Backend/majors/" + fileName + ".json", "w") as f:
         f.write(json.dumps(map, indent=2))
 
 for program in range(len(links)):

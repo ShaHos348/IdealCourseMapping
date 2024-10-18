@@ -118,7 +118,7 @@ for program in range(len(links)):
                     .replace("Bachelor_of_Science_in_", "")
                     .replace("_Option", "")
                 )
-            with open("./majors/" + fileName + ".json", "w") as f:
+            with open("./Backend/majors/" + fileName + ".json", "w") as f:
                 f.write(json.dumps(map, indent=2))
     elif threads != None:
         thread_titles = threads.find_all("a")
@@ -184,7 +184,7 @@ for program in range(len(links)):
                 .replace(",_", ",")
                 .strip()
             )
-            with open("./majors/" + fileName + ".json", "w") as f:
+            with open("./Backend/majors/" + fileName + ".json", "w") as f:
                 f.write(json.dumps(map, indent=2))
     else:
         table = soup.find("table", "sc_courselist")
@@ -229,5 +229,5 @@ for program in range(len(links)):
                 if currCourse[0][0:2] == "or":
                     currCourse.insert(2, creditHour)
             creditHour = -1
-        with open("./majors/" + titles[i] + ".json", "w") as f:
+        with open("./Backend/majors/" + titles[i] + ".json", "w") as f:
             f.write(json.dumps(map, indent=2))

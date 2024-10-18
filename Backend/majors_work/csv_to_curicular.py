@@ -5,7 +5,7 @@ from typing import List, Tuple
 import json
 
 
-def return_all_majors_json(filepath="majors/"):
+def return_all_majors_json(filepath="Backend/majors/"):
     f = []
     for (dirpath, dirnames, filenames) in os.walk(filepath):
         f.extend(filenames)

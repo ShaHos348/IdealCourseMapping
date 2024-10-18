@@ -7,7 +7,7 @@ import json
 course_links = {}
 
 # Load JSON data from the file
-with open('Pre_reqs_work/program_courses.json', 'r') as json_file:
+with open('Backend/pre_reqs_work/program_courses.json', 'r') as json_file:
     subject_courses = json.load(json_file)
 
 # Set up the WebDriver (e.g., for Chrome)
@@ -99,5 +99,5 @@ print("Final course links dictionary:")
 print(json.dumps(course_links, indent=4))
 
 # Optionally save the course_links dictionary to a JSON file
-with open('Pre_reqs_work/course_links.json', 'w') as outfile:
+with open('Backend/pre_reqs_work/course_links.json', 'w') as outfile:
     json.dump(course_links, outfile, indent=4)

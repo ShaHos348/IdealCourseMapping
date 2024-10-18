@@ -3,7 +3,7 @@ import json
 
  
 sheets_to_parse = [0, 14, 17, 25, 28, 31]
-fileName = 'prereqs'
+fileName = 'Backend/prereqs'
 map = {}
 
 for sheet in sheets_to_parse:

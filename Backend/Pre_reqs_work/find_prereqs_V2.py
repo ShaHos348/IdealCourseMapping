@@ -8,7 +8,7 @@ import os
 course_links = {}
 
 # Load JSON data from the file
-with open('Pre_reqs_work/course_links.json', 'r') as json_file:
+with open('Backend/pre_reqs_work/course_links.json', 'r') as json_file:
     subject_courses = json.load(json_file)
 
 # Set up the WebDriver (e.g., for Chrome)
@@ -113,9 +113,9 @@ driver.quit()
 print("Final course links dictionary:")
 print(json.dumps(subject_courses, indent=4))
 
-if os.path.exists('Pre_reqs_work/course_linksV2.json'):
-    os.remove('Pre_reqs_work/course_linksV3.json')
+if os.path.exists('Backend/pre_reqs_work/course_linksV2.json'):
+    os.remove('Backend/pre_reqs_work/course_linksV3.json')
 
 # Optionally save the course_links dictionary to a JSON file
-with open('Pre_reqs_work/course_linksV2.json', 'w') as outfile:
+with open('Backend/pre_reqs_work/course_linksV2.json', 'w') as outfile:
     json.dump(subject_courses, outfile, indent=4)

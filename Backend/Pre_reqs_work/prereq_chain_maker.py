@@ -1,7 +1,7 @@
 import json
 
 # Load JSON data from the file
-with open('Pre_reqs_work/prereqs.json', 'r') as json_file:
+with open('Backend/pre_reqs_work/prereqs.json', 'r') as json_file:
     program_courses = json.load(json_file)
 
 # Define a function to let the user choose options and find prerequisites recursively

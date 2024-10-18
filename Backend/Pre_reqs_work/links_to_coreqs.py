@@ -4,11 +4,11 @@ import requests
 import json
 import text_prereq_parser as parser
 
-fileName = 'Pre_reqs_work\coreqs'
+fileName = 'Backend/pre_reqs_work\coreqs'
 map = {}
 
 # Load JSON data from the file
-with open('Pre_reqs_work/course_links.json', 'r') as json_file:
+with open('Backend/pre_reqs_work/course_links.json', 'r') as json_file:
     program_courses = json.load(json_file)
 
 def find_coreqs(link):

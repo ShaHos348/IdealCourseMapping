@@ -12,8 +12,8 @@ def convert_json_to_csv(json_file, csv_file):
                     course_info = [category] + course[:4]
                     cf.write(','.join(map(str, course_info)) + '\n')
 
-json_folder = 'majors'
-csv_folder = 'majors_csv'
+json_folder = 'Backend/majors'
+csv_folder = 'Backend/majors_csv'
 
 if not os.path.exists(csv_folder):
     os.makedirs(csv_folder)

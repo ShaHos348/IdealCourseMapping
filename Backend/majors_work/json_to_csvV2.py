@@ -25,8 +25,8 @@ def convert_json_to_csv(json_file, csv_file):
                     writer.writerow(course_info)  # Write the course information
 
 # Directory paths
-json_folder = 'majors'
-csv_folder = 'majors_csv'
+json_folder = 'Backend/majors'
+csv_folder = 'Backend/majors_csv'
 
 # Create CSV folder if it doesn't exist
 if not os.path.exists(csv_folder):
