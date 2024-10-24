@@ -1,0 +1,75 @@
+Category,Course Code,Course Name,Credits
+Wellness Requirement,APPH1040,Scientific Foundations of Health,2
+Wellness Requirement,orAPPH1050,The Science of Physical Activity and Health,2
+Wellness Requirement,orAPPH1060,Flourishing: Strategies for Well-being and Resilience,2
+Institutional Priority,CS1371,Computing for Engineers,3
+Mathematics and Quantitative Skills,MATH1552,Integral Calculus,4
+Political Science and U.S. History,HIST2111,The United States to 1877,3
+Political Science and U.S. History,orHIST2112,The United States since 1877,3
+Political Science and U.S. History,orINTA1200,American Government in Comparative Perspective,3
+Political Science and U.S. History,orPOL1101,Government of the United States,3
+Political Science and U.S. History,orPUBP3000,American Constitutional Issues,3
+"Arts, Humanities, and Ethics",Any HUM,SELECT,6
+Communicating in Writing,ENGL1101,English Composition I,3
+Communicating in Writing,ENGL1102,English Composition II,3
+"Technology, Mathematics, and Sciences",PHYS2211,Introductory Physics I,4
+"Technology, Mathematics, and Sciences",PHYS2212,Introductory Physics II,4
+"Technology, Mathematics, and Sciences",MATH1551,Differential Calculus,2
+"Technology, Mathematics, and Sciences",MATH1553,Introduction to Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1554,Linear Algebra,2
+"Technology, Mathematics, and Sciences",orMATH1564,Linear Algebra with Abstract Vector Spaces,2
+Social Sciences,Select one of the following:,SELECT,3
+Social Sciences,ECON2100,Economic Analysis and Policy Problems,3
+Social Sciences,ECON2101,The Global Economy,3
+Social Sciences,ECON2105,Principles of Macroeconomics,3
+Social Sciences,ECON2106,Principles of Microeconomics,3
+Social Sciences,Any SS,SELECT,6
+Field of Study,COE2001,Statics,2
+Field of Study,MATH2551,Multivariable Calculus,4
+Field of Study,MATH2552,Differential Equations,4
+Field of Study,CHEM1310,Principles of General Chemistry for Engineers,4
+Field of Study,Select one of the following:,SELECT,4
+Field of Study,BIOS1107&1107L,Biological Principlesand Biological Principles Laboratory,4
+Field of Study,BIOS1108&1108L,Organismal Biologyand Organismal Biology Laboratory,4
+Field of Study,EAS2600,Earth Processes,4
+Field of Study,Ethics Requirement (Civil Engineering approved),
+Major Requirements,CEE1070,Engineering Graphics for Civil and Environmental Engineering,1
+Major Requirements,CEE1090,Exploring Civil and Environmental Engineering,2
+Major Requirements,CEE2040,Dynamics,2
+Major Requirements,CEE2090,Civil and Environmental Engineering Systems,3
+Major Requirements,CEE2300,Environmental Engineering Principles,3
+Major Requirements,CEE3020,Civil Engineering Materials,3
+Major Requirements,CEE3040,Fluid Mechanics,3
+Major Requirements,CEE3090,Data Analytics in Civil and Environmental Engineering,3
+Major Requirements,Select one of the following:,SELECT,3
+Major Requirements,CEE3770,Statistics and Applications,3
+Major Requirements,ISYE3770,Statistics and Applications,3
+Major Requirements,MATH3670,Probability and Statistics with Applications,3
+Major Requirements,CEE4090,Capstone Design,3
+College of Engineering Requirements,COE3001,Mechanics of Deformable Bodies,3
+Construction and Infrastructure Systems Engineering Concentration,CEE4100,Construction Engineering and Management,3
+Construction and Infrastructure Systems Engineering Concentration,Concentration electives,9
+Construction and Infrastructure Systems Engineering Concentration,CEE4050,Infrastructure System Management,
+Construction and Infrastructure Systems Engineering Concentration,CEE4110,"Construction Planning, Estimating, and Scheduling",
+Construction and Infrastructure Systems Engineering Concentration,CEE4120,Construction Operations,
+Construction and Infrastructure Systems Engineering Concentration,CEE4130,Construction Safety and Health,
+Construction and Infrastructure Systems Engineering Concentration,CEE4140,Bldg Info Model Constr,
+Construction and Infrastructure Systems Engineering Concentration,CEE4150,Construction Management & Megaprojects,
+Construction and Infrastructure Systems Engineering Concentration,CEE4160,Smart and Sustainable Cities,
+Construction and Infrastructure Systems Engineering Concentration,CEE4170,Construction Law,
+Construction and Infrastructure Systems Engineering Concentration,CEE4005,Innovation & Entrepreneurship in CEE Systems,
+Construction and Infrastructure Systems Engineering Concentration,CEE6651,Infrastructure Systems Management,
+Construction and Infrastructure Systems Engineering Concentration,CEE6652,Infrastructure Management: IT Applications,
+Construction and Infrastructure Systems Engineering Concentration,CEE8813,Special Topics (Data Analytics for CEE Systems),
+Construction and Infrastructure Systems Engineering Concentration,CEE8813,Special Topics (Sustainable Buildings),
+CE Breadth Electives,Select two of the following:,SELECT,6
+CE Breadth Electives,CEE3051,Introduction to Structural Engineering,
+CE Breadth Electives,CEE4200,Hydraulic Engineering,
+CE Breadth Electives,CEE4300,Environmental Engineering Systems,
+CE Breadth Electives,CEE3400,Introduction to Geotechnical Engineering,
+CE Breadth Electives,CEE4600,"Transportation Planning, Operations, and Design",
+CE Breadth Electives,CEE4200,Hydraulic Engineering,3
+CE Breadth Electives,orCEE3400,Introduction to Geotechnical Engineering,3
+CE Technical Electives,CE Electives,9
+Approved Electives,Approved Electives,6
+Approved Electives,Total Credit Hours,128

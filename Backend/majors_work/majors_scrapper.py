@@ -1,3 +1,4 @@
+import re
 from bs4 import BeautifulSoup
 import requests
 import json
@@ -29,7 +30,7 @@ for program in range(len(links)):
     print(url)
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "lxml")
-    concentration = soup.find("div", id="concentrationstextcontainer")
+    concentration = soup.find("div", id=re.compile("concentration"))
     threads = soup.find("div", id="threadstextcontainer")
     if concentration != None:
         concentration_titles = concentration.find_all("li")
