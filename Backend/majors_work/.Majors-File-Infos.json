@@ -17,5 +17,18 @@
         "Will make the csv files in the format required for curricular analytics site",
         "Will use prereq_chain_maker.py and the specific course's csv file from the majors_csv folder",
         "It will not bulk create the files and will be implemented into our site"
+    ],
+    "humanities.py": [
+        "Creates json file with all humanity courses for Core Area C"
+    ],
+    "social_sciences.py": [
+        "Creates json file with all social science courses for Core Area E"
+    ],
+    "college_data.py": [
+        "Used by frontend to list all colleges, each of their majors, and each major's threads/concentrations/requirements"
+    ],
+    "demo_run.py": [
+        "A console runthrough of all site",
+        "Will mimic how the user interface will work using files from backend"
     ]
 }

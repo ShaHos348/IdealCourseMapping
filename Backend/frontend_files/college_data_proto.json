@@ -1,0 +1,39 @@
+{
+    "college-of-computing": {
+      "name": "College of Computing",
+      "majors": {
+        "computer-science": {
+          "name": "Computer Science",
+          "threads": [
+            { "value": "devices", "label": "Devices", "description": "Focus on the interface between hardware and software" },
+            { "value": "info-internetworks", "label": "Information Internetworks", "description": "Emphasizes computer networks and related technologies" },
+            { "value": "intelligence", "label": "Intelligence", "description": "Concentrates on AI and machine learning" },
+            { "value": "media", "label": "Media", "description": "Explores graphics, animation, and digital media" },
+            { "value": "modeling-simulation", "label": "Modeling and Simulation", "description": "Focuses on computational modeling and data analytics" },
+            { "value": "people", "label": "People", "description": "Emphasizes social computing and human-computer interaction" },
+            { "value": "systems-architecture", "label": "Systems and Architecture", "description": "Covers computer systems design and implementation" },
+            { "value": "theory", "label": "Theory", "description": "Explores theoretical computer science and algorithms" }
+          ]
+        }
+      }
+    },
+    "college-of-engineering": {
+      "name": "College of Engineering",
+      "majors": {
+        "aerospace-engineering": {
+          "name": "Aerospace Engineer",
+          "requirements": [
+            { "value": "requirements", "label": "Requirements", "description": "Focuses on the engineering space of aeros" }
+          ]
+        },
+        "civil-engineering": {
+          "name": "Civil Engineering",
+          "concentrations": [
+            { "value": "standard", "label": "Devices", "description": "Standard civil people who are engineers" },
+            { "value": "construction-and-infrastructure-systems-engineering", "label": "Construction and Infrastructure Systems Engineering", "description": "Contructs the engineers for civil" },
+            { "value": "structural-engineering,-mechanics,-and-materials", "label": "Structural Engineering, Mechanics, and Materials", "description": "Structures the materials" }
+          ]
+        }
+      }
+    }
+  }

@@ -9,6 +9,7 @@ def return_all_majors_json(filepath="Backend/majors/"):
     f = []
     for (dirpath, dirnames, filenames) in os.walk(filepath):
         f.extend(filenames)
+        print(f)
         break
     return f
 
@@ -85,7 +86,7 @@ def couse_entry_creator(proper_names: str, options: List[str]) -> str:
 
 
 def main():
-    filepath = "majors/"
+    filepath = "Backend/majors/"
     majors = return_all_majors_json(filepath)
     categories = category_separator(filepath + majors[0])
     proper_names = [i for i in categories.keys()]
@@ -105,7 +106,7 @@ def main():
             print(course_entries)
             [all_course_entries.append(j) for j in course_entries]"""
     # Specify the output CSV file path
-    csv_filename = "curricular_metadata_output.csv"
+    csv_filename = "Backend/frontend_files/curricular_metadata_output.csv"
 
     # Write the string directly to a CSV file
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
@@ -116,3 +117,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+List of courses
+finds the prereqs
+find coreqs
+"""
