@@ -51,5 +51,5 @@ and when a college is done, append it to the collegeData dictionary.
 """
 
 #Coverts the dictionary into a json file
-with open("./Backend/majors_work/college_data.json", "w") as f:
+with open("./Backend/frontend_files/college_data.json", "w") as f:
     f.write(json.dumps(collegeData, indent=2))

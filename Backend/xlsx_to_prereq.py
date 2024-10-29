@@ -8,7 +8,7 @@ map = {}
 
 for sheet in sheets_to_parse:
 
-    dataframe1 = pd.read_excel('Pre-req Chains.xlsx', sheet_name=sheet)
+    dataframe1 = pd.read_excel('Backend/Pre-req Chains.xlsx', sheet_name=sheet)
     
     column_lists = []
     

@@ -14,12 +14,12 @@ every_social_science = []
 for tr_entry in table[-2].find('tbody').find_all('tr'):
     course_entry = []
     for td_entry in tr_entry.find_all('td'):
-        course_entry.append(td_entry.text.replace("\xa0", "").strip())
+        course_entry.append(td_entry.text.replace("\xa0", " ").strip())
     link = tr_entry.find('a')
     if link is not None:
         course_entry.append(catalog_base_url + link.get('href'))
     every_social_science.append(course_entry)
 
 print("Every social science:", every_social_science)
-with (open("social_sciences.json", "w")) as f:
+with (open("Backend/frontend_files/social_sciences.json", "w")) as f:
     f.write(json.dumps(every_social_science, indent=2))

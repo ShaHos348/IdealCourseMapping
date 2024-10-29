@@ -9,6 +9,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+//import collegeData from "../../Backend/frontend_files/college_data_proto.json";
 
 // Structured data for colleges and majors
 const collegeData = {
