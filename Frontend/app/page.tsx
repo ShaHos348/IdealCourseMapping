@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
@@ -8,8 +9,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-//import collegeData from "../../Backend/frontend_files/college_data_proto.json";
+} from "@/components/ui/select";  
 
 // Structured data for colleges and majors
 const collegeData = {
@@ -29,13 +29,12 @@ const collegeData = {
           { value: 'theory', label: 'Theory', description: 'Explores theoretical computer science and algorithms' }
         ]
       }
-      // Future majors can be added here
     }
   }
-  // Future colleges can be added here
 };
 
 export default function GTCoursePicker() {
+  const router = useRouter();
   const [selectedCollege, setSelectedCollege] = useState("");
   const [selectedMajor, setSelectedMajor] = useState("");
   const [thread1, setThread1] = useState("");
@@ -65,6 +64,19 @@ export default function GTCoursePicker() {
   const getCurrentThreads = () => {
     if (!selectedCollege || !selectedMajor) return [];
     return collegeData[selectedCollege].majors[selectedMajor].threads;
+  };
+
+  const handleContinue = () => {
+    // Create a query string with the selected data
+    const queryParams = new URLSearchParams({
+      college: selectedCollege,
+      major: selectedMajor,
+      thread1: thread1,
+      thread2: thread2
+    }).toString();
+    
+    // Navigate to the course selection page with the parameters
+    router.push(`/course-selection?${queryParams}`);
   };
 
   return (
@@ -166,7 +178,7 @@ export default function GTCoursePicker() {
           )}
 
           {thread1 && thread2 && (
-            <Button className="w-full">
+            <Button className="w-full" onClick={handleContinue}>
               Continue to Course Map
             </Button>
           )}
