@@ -1,24 +1,24 @@
 "use client";
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function CourseSelectionPage() {
   const router = useRouter();
   const [courseData, setCourseData] = useState({});
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
   const [selectedCourses, setSelectedCourses] = useState(new Set());
-  const [expandedDepts, setExpandedDepts] = useState(new Set(['CS']));
+  const [expandedDepts, setExpandedDepts] = useState(new Set(["CS"]));
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const loadCourseData = async () => {
       try {
-        const response = await fetch('/data/program_courses.json');
+        const response = await fetch("/data/full_program_courses.json");
         const data = await response.json();
         setCourseData(data);
         setLoading(false);
       } catch (error) {
-        console.error('Error loading course data:', error);
+        console.error("Error loading course data:", error);
         setLoading(false);
       }
     };
@@ -30,8 +30,8 @@ export default function CourseSelectionPage() {
     .map(([dept, courses]) => ({
       department: dept,
       courses: courses.filter((course) =>
-        course.toLowerCase().includes(searchQuery.toLowerCase())
-      )
+        course["name"].toLowerCase().includes(searchQuery.toLowerCase())
+      ),
     }))
     .filter(({ courses }) => courses.length > 0);
 
@@ -92,26 +92,31 @@ export default function CourseSelectionPage() {
                   {department} ({courses.length} courses)
                 </span>
                 <span className="text-xl">
-                  {expandedDepts.has(department) ? '−' : '+'}
+                  {expandedDepts.has(department) ? "−" : "+"}
                 </span>
               </button>
 
               {expandedDepts.has(department) && (
                 <div className="p-3 space-y-2">
                   {courses.map((course) => (
-                    <div key={course} className="flex items-center space-x-2">
-                      <input
-                        type="checkbox"
-                        id={course}
-                        checked={selectedCourses.has(course)}
-                        onChange={() => handleCourseToggle(course)}
-                        className="rounded"
-                      />
-                      <label
-                        htmlFor={course}
-                        className="cursor-pointer hover:text-blue-600"
-                      >
-                        {course}
+                    <div
+                      key={course["name"]}
+                      className="flex items-center space-x-2"
+                    >
+                      <label className="flex items-center cursor-pointer hover:text-blue-600">
+                        <input
+                          type="checkbox"
+                          id={course["name"]}
+                          checked={selectedCourses.has(course["name"])}
+                          onChange={() => handleCourseToggle(course["name"])}
+                          className="rounded cursor-pointer" // Ensuring cursor is pointer
+                        />
+                        <span className="ml-2">
+                          {" "}
+                          {/* Optional spacing between checkbox and text */}
+                          {course["name"]} - {course["long_name"]} (
+                          {course["hours"]} hours)
+                        </span>
                       </label>
                     </div>
                   ))}
@@ -131,7 +136,7 @@ export default function CourseSelectionPage() {
           </button>
           <button
             onClick={() => {
-              console.log('Selected courses:', [...selectedCourses]);
+              console.log("Selected courses:", [...selectedCourses]);
               // Handle continuing to next step
             }}
             className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"

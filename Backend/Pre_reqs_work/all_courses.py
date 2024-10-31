@@ -1,0 +1,62 @@
+from bs4 import BeautifulSoup
+import requests
+import json
+
+baseURL = "https://catalog.gatech.edu"
+programsURL = baseURL + "/courses-undergrad"
+programsResponse = requests.get(programsURL)
+soup = BeautifulSoup(programsResponse.text, "lxml")
+courses = soup.find("div", id="atozindex")
+titles = courses.find_all("li")
+
+program_courses = {} #dictionary for json file
+
+for i in range(len(titles)):
+    titles[i] = titles[i].text.split(".")[0].replace(" ", "_").replace("_&_", "_and_")
+links = courses.find_all("a")
+
+for i in range(len(links)):
+    links[i] = links[i].get("href")
+    if links[i] != None and "www.catalog.gatech.edu" in links[i]:
+        links[i] = links[i].split(".edu")[1]
+links = [link for link in links if link is not None]
+
+for program in range(len(links)):
+    url = baseURL + str(links[program])
+    print(url)
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "lxml")
+    course_titles = soup.find_all("p", class_="courseblocktitle")
+
+    # filters out all courses that contain keywords
+    """keywords_to_exclude = ["Special Topics", "Special Problems", "Research", "Internship"]
+    filtered_courses = [course for course in course_titles
+                        if not any(keyword in course.get_text() for keyword in keywords_to_exclude)] 
+    course_titles = filtered_courses """
+
+    updated_course_titles = []
+    for title in course_titles:
+        title = title.get_text().split(".")
+        name = title[0]
+        long_name = title[1]
+        hours = title[2].strip().split(" ")[0]
+        name = name.replace('\u00a0', ' ').strip()
+        long_name = long_name.replace('\u00a0', ' ').strip()
+        hours = hours.replace('\u00a0', ' ').strip()
+
+        # removes all recitations, labs, and electives"""and 'X' not in name[-4:]"""
+        if name[-1] != 'R' and name[-1] != 'L':
+            updated_course_titles.append({"name": name, "long_name": long_name, "hours": hours})
+    
+    for title in updated_course_titles:
+        print(title)
+    
+    program_name = str(links[program]).split('/')[-2].upper()  # Or extract program name from URL if needed
+    program_courses[program_name] = updated_course_titles  # Store the filtered courses
+
+program_courses = {key: value for key, value in program_courses.items() if len(value) > 0}
+
+with open('Backend/pre_reqs_work/full_program_courses.json', 'w') as json_file:
+    json.dump(program_courses, json_file, indent=2)
+
+print("JSON file created successfully.")

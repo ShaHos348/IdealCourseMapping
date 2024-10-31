@@ -8,9 +8,15 @@
         "Filters out any courses that is special topic/problem, research, internship, recitation, or lab",
         "Creates program_courses.json file with all the courses found"
     ],
+    "all_courses.py": [
+        "prereq.py but each entry is a dictionary that includes name, long_name, and hours"
+    ],
     "program_courses.json": [
         "Lists all courses for all subjects offered at GaTech in a dictionary",
         "Key is subject and value is array of all courses"
+    ],
+    "full_program_courses.json": [
+        "program_courses.json but all values are an array of dictionaries with name, long_name, hours"
     ],
     "find_prereqs_V1.py": [
         "Uses program_courses.json file to look for all courses offered this semester",
