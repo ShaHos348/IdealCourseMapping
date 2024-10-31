@@ -4,15 +4,10 @@ import typing
 from typing import List, Tuple
 import json
 
+with open("Backend/majors_work/courses_picked.json", 'r') as jsonfile:
+    courses_picked = json.load(jsonfile)
 
-def return_all_majors_json(filepath="Backend/majors/"):
-    f = []
-    for (dirpath, dirnames, filenames) in os.walk(filepath):
-        f.extend(filenames)
-        print(f)
-        break
-    return f
-
+print(courses_picked)
 
 def curricular_metadata(filename):
     # TODO: Convert filename to actually readable format
@@ -20,7 +15,7 @@ def curricular_metadata(filename):
     answer += "Curriculum," + filename + ",,,,,,,," + "\n"
     answer += "Institution,Georgia Institute of Technology,,,,,,,," + "\n"
     answer += "Degree Type, BS,,,,,,,," + "\n"
-    answer += "Semester Type, Semester,,,,,,,," + "\n"
+    answer += "System Type, Semester,,,,,,,," + "\n"
     answer += "CIP,,,,,,,,," + "\n"
     answer += "Courses,,,,,,,,," + "\n"
     answer += ("Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,"
@@ -86,14 +81,8 @@ def couse_entry_creator(proper_names: str, options: List[str]) -> str:
 
 
 def main():
-    filepath = "Backend/majors/"
-    majors = return_all_majors_json(filepath)
-    categories = category_separator(filepath + majors[0])
-    proper_names = [i for i in categories.keys()]
-    (proper_names[0], categories[proper_names[0]])
-    courseEntries = couse_entry_creator(proper_names[0], categories[proper_names[0]])
     #print(courseEntries)
-    final_csv_output = curricular_metadata(majors[0])
+    final_csv_output = curricular_metadata(list(courses_picked.keys())[0])
     print(final_csv_output)
     """filepath = "majors/"
     majors = return_all_majors_json(filepath)
