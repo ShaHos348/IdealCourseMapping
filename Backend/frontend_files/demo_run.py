@@ -10,6 +10,8 @@ Next page goes through the json file for major and asks which course to take for
 
 """
 import json
+from prereq_chooser import get_prereqs 
+import re
 
 with open('Backend/frontend_files/program_courses.json', 'r') as json_file:
     courses = json.load(json_file)
@@ -256,6 +258,7 @@ def course_formatter():
         while i < courses_length:
             course = courses[i]
             code = course[0]
+            print(code)
             if "Select" in code:
                 selection_group = ["Select", []]
                 j = i + 1
@@ -276,10 +279,34 @@ def course_formatter():
                 else:
                     courses_needed[area].append(course[0])
             i += 1
-    with open("./Backend/majors_work/courses_needed.json", "w") as f:
+    with open("./Backend/frontend_files/courses_needed.json", "w") as f:
         f.write(json.dumps(courses_needed, indent=2))
 
 courses_to_take = []
+
+def has_space(s):
+    return s.find(' ') != -1
+
+def format_course_code(course_code):
+    # Use regex to find the position of the first digit
+    match = re.search(r'\d', course_code)
+    if not has_space(course_code) and match:
+        split_index = match.start()  # Get the index of the first digit
+        # Create the formatted course code with a space
+        formatted_code = course_code[:split_index] + " " + course_code[split_index:]
+        return formatted_code
+    else:
+        return course_code  # Return the original if no digits found
+
+def is_course_taken(target_string):
+    for course in courses_taken:
+        # Remove spaces from the course string
+        formatted_course = course.replace(" ", "")
+        
+        # Check if the formatted course is in the target string
+        if formatted_course in target_string:
+            return True  # Return True if any course is found
+    return False  # Return False if no courses are found
 
 def select_humanities():
     print("Pick humanity courses:")
@@ -292,12 +319,52 @@ def choose_courses():
     for area, course_list in courses_needed.items():
         if area == "Free Electives":
             continue
+        if "Capstone" in area:
+            courses_to_take.append("Capstone")
+            continue
         #print(f"{area}: {course_list}")
         for course in course_list:
+            print(course)
             if course == "Any HUM": select_humanities()
             elif course == "Any SS": select_social_sciences()
             else:
-                print()
+                # If option is a list with "Select", prompt the user to select one course from the list
+                if isinstance(course, list) and course[0] == "Select":
+                    if is_course_taken(course[1]):
+                        continue
+                    print(f"\nSelect one course for {area}:")
+                    for idx, cour in enumerate(course[1], start=1):
+                        print(f"  {idx}. {cour}")
+                    choice = input(f"Enter the number of your choice (1-{len(course[1])}): ")
+                    while not choice.isdigit() or not (1 <= int(choice) <= len(course[1])):
+                        choice = input(f"Invalid choice. Please enter a valid option (1-{len(course[1])}): ")
+                    course = format_course_code(course[1][int(choice) - 1])
+                    courses_to_take.append(course)
+                
+                # If option contains "or", split and prompt user to choose one
+                elif 'or' in course:
+                    if is_course_taken(course):
+                        continue
+                    choices = course.split('or')
+                    print(f"\nChoose one course for {area}:")
+                    for idx, course in enumerate(choices, start=1):
+                        print(f"  {idx}. {course.strip()}")
+                    choice = input(f"Enter the number of your choice (1-{len(choices)}): ")
+                    while not choice.isdigit() or not (1 <= int(choice) <= len(choices)):
+                        choice = input(f"Invalid choice. Please enter a valid option (1-{len(choices)}): ")
+                    course = format_course_code(choices[int(choice) - 1].strip())
+                    courses_to_take.append(course)
+                
+                # If option is a single course, automatically add it
+                else:
+                    if is_course_taken(course):
+                        continue
+                    course = format_course_code(course)
+                    courses_to_take.append(course)
+                prereqs = get_prereqs(course, courses_to_take)
+                if type(prereqs) == "list":
+                    for prereq in prereqs:
+                        courses_to_take.append(prereq)
 
 print("Welcome to Ideal Course Mapping")
 # Function call to choose the program user
@@ -313,6 +380,11 @@ course_formatter()
 
 # function call to choose courses to take
 choose_courses()
+courses_to_take = list(set(courses_to_take))
+#courses_to_take.sort()
+print(courses_to_take)
+with open("./Backend/frontend_files/courses_picked.json", "w") as f:
+    f.write(json.dumps(courses_to_take, indent=2))
 
 
 
