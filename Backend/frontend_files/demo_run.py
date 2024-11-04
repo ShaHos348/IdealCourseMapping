@@ -12,6 +12,7 @@ Next page goes through the json file for major and asks which course to take for
 import json
 from prereq_chooser import get_prereqs 
 import re
+from graph_maker import main
 
 with open('Backend/frontend_files/program_courses.json', 'r') as json_file:
     courses = json.load(json_file)
@@ -386,5 +387,5 @@ print(courses_to_take)
 with open("./Backend/frontend_files/courses_picked.json", "w") as f:
     f.write(json.dumps(courses_to_take, indent=2))
 
-
+main()
 

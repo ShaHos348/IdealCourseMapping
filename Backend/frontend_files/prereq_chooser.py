@@ -13,7 +13,7 @@ def get_prereqs(course, chosen_prereqs):
     print(code)
     if code not in list(program_courses.keys()):
         return
-    prereqs = program_courses[code][course]
+    prereqs = program_courses[code].get(course)
 
     # Output the prerequisites for this course
     print(f"\nCourse: {course}")
