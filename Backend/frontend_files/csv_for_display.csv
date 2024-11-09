@@ -1,0 +1,35 @@
+Curriculum,Major
+Institution,Georgia Institute of Technology
+Degree Type,BS
+System Type,Semester
+CIP,
+Courses,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name
+1,CS 2050,CS,2050,,,,3,GT,Introduction to Discrete Mathematics for Computer Science
+2,CS 4420,CS,4420,13;21;20,,,3,GT,Database System Implementation
+3,CS 1100,CS,1100,,,,1,GT,Freshman Leap Seminar
+4,MATH 3012,MATH,3012,26;23,,,3,GT,Applied Combinatorics
+5,CS 1301,CS,1301,,,,3,GT,Introduction to Computing
+6,CS 4001,CS,4001,,,,3,GT,"Computing, Society, and Professionalism"
+7,MATH 1551,MATH,1551,18,,,2,GT,Differential Calculus
+8,MATH 2550,MATH,2550,26;23,,,2,GT,Introduction to Multivariable Calculus
+9,MATH 2411,MATH,2411,,,,,GT,
+10,CS 4475,CS,4475,5,,,3,GT,Computational Photography
+11,CS 2110,CS,2110,16,,,4,GT,Computer Organization and Programming
+12,APPH 1040,APPH,1040,,,,2,GT,Scientific Foundations of Health
+13,CS 1332,CS,1332,16,,,3,GT,Data Structures and Algorithms for Applications
+14,PHYS 2211,PHYS,2211,26,,,4,GT,Introductory Physics I
+15,ENGL 1101,ENGL,1101,,,,3,GT,English Composition I
+16,CS 1331,CS,1331,5,,,3,GT,Introduction to Object Oriented Programming
+17,CS 2340,CS,2340,16,,,3,GT,Objects and Design
+18,MATH 1113,MATH,1113,,,,4,GT,Precalculus
+19,Capstone,,,,,,,GT,
+20,CS 4400,CS,4400,5,,,3,GT,Introduction to Database Systems
+21,CS 2200,CS,2200,11,,,4,GT,Computer Systems and Networks
+22,POL 1101,POL,1101,,,,3,GT,Government of the United States
+23,MATH 1554,MATH,1554,18;26;7,,,4,GT,Linear Algebra
+24,CEE 3770,CEE,3770,9,,,3,GT,Statistics and Applications
+25,ENGL 1102,ENGL,1102,15,,,3,GT,English Composition II
+26,MATH 1552,MATH,1552,7,,,4,GT,Integral Calculus
+27,CS 3510,CS,3510,1;13;4,,,3,GT,Design and Analysis of Algorithms
+28,Lab Science,,,,,,,GT,
