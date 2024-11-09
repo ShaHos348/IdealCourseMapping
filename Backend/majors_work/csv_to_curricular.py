@@ -5,7 +5,7 @@ from typing import List, Tuple, Dict, Union, Any
 import json
 import pandas as pd
 
-def return_all_courses_json(filepath=str) -> List[Dict[str, Any]]:
+def return_all_courses_json(filepath=str) -> List[Dict[str, Any]]: # retrieves the courses picked
     file_path = "Backend/frontend_files/courses_picked.json"
     try:
         with open(file_path, 'r') as jsonfile:
@@ -55,7 +55,7 @@ def info_courses(all_courses: Dict[int, List[str]]): #finds the information need
             course_name = course["name"]
             for index, name in all_courses.items():
                 coursename = name[0]
-                if (course_name == coursename):
+                if (course_name == coursename): # adds credit hours and long_name if course found
                     credits = course["hours"]
                     long_name = course["long_name"]
                     all_courses[index][6] = credits
@@ -76,11 +76,11 @@ def prereq_courses(all_courses: Dict[int, List[str]]): #finds the prereqs for ea
                     prereq_list = []
                     prereq_list = find_prereq_index(all_courses, prereqs, course)
                     prereq_string = ""
-                    for prereq in prereq_list:
+                    for prereq in prereq_list: # adds list of prereqs
                         prereq_string += str(prereq) + ";"
                     if (len(prereq_string) != 0):
                         prereq_string = prereq_string[:-1]
-                    all_courses[index][3] = prereq_string
+                    all_courses[index][3] = prereq_string # adds prereqs to array of courses to be taken
 
 def prefix_courses(all_courses: Dict[int, List[str]]): #finds the prefix and abbreviation for each course
     for index, name in all_courses.items():
@@ -94,40 +94,40 @@ def find_prereq_index(all_courses: Dict[int, List[str]], prereqs: List[str], cou
     if (len(prereqs) == 0):
         return prereqlist
     for prereq in prereqs:
-        if "/" in prereq:
+        if "/" in prereq: # checks if there are multiple options
             small_list = prereq.split("/")
             orlist = ""
             for small in small_list:
                 for index, name in all_courses.items():
-                    if (small == name[0]):
+                    if (small == name[0]): # adds if course is found
                         orlist += str(index) + ";"
             if (len(orlist) != 0):
                 orlist = orlist[:-1]
                 prereqlist.append(orlist)
         else:
             for index, name in all_courses.items():
-                if (prereq == name[0]):
+                if (prereq == name[0]): # adds if course is found
                     prereqlist.append(index)
     return prereqlist
 
-def save_to_excel(df: pd.DataFrame, df2: pd.DataFrame, filename: str): #creates an excel file that is in the correct format
-    with pd.ExcelWriter(filename, engine="openpyxl") as writer:
-        df2.to_excel(writer, index=False, header=False, sheet_name="data", startrow = 0, startcol = 0)
-        df.to_excel(writer, index=False, sheet_name="data", startrow = len(df2), startcol = 0)
+def save_to_csv(df: pd.DataFrame, df2: pd.DataFrame, filename: str): #creates an csv file that is in the correct format
+    df2.to_csv(filename, index=False, header=False, mode='w')  # 'w' mode overwrites any existing content
+    df.to_csv(filename, index=False, header=True, mode='a')    # 'a' mode appends below df2
 
 
 def main():
     filepath = "frontend_files/"
-    output_folder = "Backend/"
+    output_folder = "Backend/frontend_files/"
     courses = return_all_courses_json(filepath)
     all_courses = index_courses(courses)
     info_courses(all_courses)
     prereq_courses(all_courses)
     prefix_courses(all_courses)
+
+    # Makes list of all courses for csv file
     courses_info = []
     for index, course in all_courses.items():
-        if (course[6] == ''):
-            course_entry = {
+        course_entry = {
             "Course ID": index,
             "Course Name": course[0],
             "Prefix": course[1],
@@ -139,20 +139,8 @@ def main():
             "Institution": "GT",
             "Canonical Name": course[8]
         }
-        else:
-            course_entry = {
-            "Course ID": index,
-            "Course Name": course[0],
-            "Prefix": course[1],
-            "Number": course[2],
-            "Prerequisites": course[3],
-            "Corequisites": course[4],
-            "Strict-Corequisites": course[5],
-            "Credit Hours": int(course[6]),
-            "Institution": "GT",
-            "Canonical Name": course[8]
-        }
         courses_info.append(course_entry)
+    # metadata at start of csv file
     metadata = [
             {"Field": "Curriculum", "Value": "Major"},
             {"Field": "Institution", "Value": "Georgia Institute of Technology"},
@@ -161,10 +149,12 @@ def main():
             {"Field": "CIP", "Value": ""},
             {"Field": "Courses", "Value": ""}
         ]
+    
+    # process to export csv file
     df2 = pd.DataFrame(metadata)
     df = pd.DataFrame(courses_info)
-    output_file = os.path.join(output_folder, f"test_prereqs.xlsx")
-    save_to_excel(df, df2, output_file)
+    output_file = os.path.join(output_folder, f"csv_for_display.csv")
+    save_to_csv(df, df2, output_file)
 
 
 if __name__ == "__main__":

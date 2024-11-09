@@ -9,10 +9,15 @@ Next page goes through the json file for major and asks which course to take for
     
 
 """
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+
 import json
 from prereq_chooser import get_prereqs 
 import re
-from graph_maker import main
+from graph_maker import main as graph_maker
+from Backend.majors_work.csv_to_curricular import main as csv_maker
 
 with open('Backend/frontend_files/program_courses.json', 'r') as json_file:
     courses = json.load(json_file)
@@ -387,5 +392,6 @@ print(courses_to_take)
 with open("./Backend/frontend_files/courses_picked.json", "w") as f:
     f.write(json.dumps(courses_to_take, indent=2))
 
-main()
+graph_maker()
+csv_maker()
 
