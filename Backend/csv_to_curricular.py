@@ -32,8 +32,8 @@ def grab_prefix_number(course_name_combo: str) -> Tuple[str, str]: #separates th
     prefix = "".join(prefix)
     number = "".join(number)
     if len(number) == 0:
-        prefix = course_name_combo
-        number = "0000"
+        prefix = ''
+        number = ''
     # print(course_name_combo)
     return prefix, number
 
@@ -77,10 +77,17 @@ def prereq_courses(all_courses: Dict[int, List[str]]): #finds the prereqs for ea
                     prereq_list = find_prereq_index(all_courses, prereqs, course)
                     prereq_string = ""
                     for prereq in prereq_list:
-                        prereq_string += str(prereq) + ","
+                        prereq_string += str(prereq) + ";"
                     if (len(prereq_string) != 0):
                         prereq_string = prereq_string[:-1]
                     all_courses[index][3] = prereq_string
+
+def prefix_courses(all_courses: Dict[int, List[str]]): #finds the prefix and abbreviation for each course
+    for index, name in all_courses.items():
+        courseTuple = grab_prefix_number(name[0])
+        all_courses[index][1] = courseTuple[0]
+        all_courses[index][2] = courseTuple[1]
+        
 
 def find_prereq_index(all_courses: Dict[int, List[str]], prereqs: List[str], course: str) -> List[str]: #finds the index for the prereqs
     prereqlist = []
@@ -116,6 +123,7 @@ def main():
     all_courses = index_courses(courses)
     info_courses(all_courses)
     prereq_courses(all_courses)
+    prefix_courses(all_courses)
     courses_info = []
     for index, course in all_courses.items():
         if (course[6] == ''):
