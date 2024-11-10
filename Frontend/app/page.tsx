@@ -75,15 +75,16 @@ export default function GTCoursePicker() {
 
   const handleContinue = () => {
     // Create a query string with the selected data
-    const queryParams = new URLSearchParams({
+    const selections = {
       college: selectedCollege,
       major: selectedMajor,
       thread1: thread1,
-      thread2: thread2
-    }).toString();
+      thread2: thread2,
+    };
     
     // Navigate to the course selection page with the parameters
-    router.push(`/course-selection?${queryParams}`);
+    localStorage.setItem("gtCourseSelections", JSON.stringify(selections));
+    router.push(`/course-selection`);
   };
 
   return (

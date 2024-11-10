@@ -17,6 +17,7 @@ export default function CourseSelectionPage() {
   const [selectedCourses, setSelectedCourses] = useState(new Set());
   const [expandedDepts, setExpandedDepts] = useState(new Set(["CS"]));
   const [loading, setLoading] = useState(true);
+  const [selectionData, setSelectionData] = useState<any>(null); // State for college/major/thread data
 
   useEffect(() => {
     const loadCourseData = async () => {
@@ -32,7 +33,21 @@ export default function CourseSelectionPage() {
     };
 
     loadCourseData();
+
+    // Retrieve college/major/thread data from localStorage
+    let storedSelectionData = localStorage.getItem("gtCourseSelections");
+    if (storedSelectionData) {
+      storedSelectionData = JSON.parse(storedSelectionData)
+      setSelectionData(storedSelectionData);
+    }
   }, []);
+
+  // Log updated selection data when it changes
+  useEffect(() => {
+    if (selectionData) {
+      console.log("Updated selection data:", selectionData); // This will log updated value
+    }
+  }, [selectionData]); // Dependency array means this runs when selectionData changes
 
   const filteredDepartments = Object.entries(courseData)
     .map(([dept, courses]) => ({
@@ -64,8 +79,11 @@ export default function CourseSelectionPage() {
   };
 
   const handleContinue = () => {
-    const coursesParam = encodeURIComponent([...selectedCourses].join(','));
-    router.push(`/course-map?courses=${coursesParam}`);
+    // Store selected courses in localStorage before navigating
+    const selectedCoursesArray = [...selectedCourses];
+    localStorage.setItem("takenCourses", JSON.stringify(selectedCoursesArray));
+
+    router.push(`/course-map`);
   };
 
   if (loading) {

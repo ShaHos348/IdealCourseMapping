@@ -11,13 +11,13 @@ import {
 } from "@/components/ui/card";
 
 const CourseMapPage = () => {
-  const searchParams = useSearchParams();
   const router = useRouter();
   const [selectedCourses, setSelectedCourses] = useState(new Set());
   const [courseData, setCourseData] = useState({});
   const [searchQuery, setSearchQuery] = useState('');
   const [showSearch, setShowSearch] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [takenData, setTakenData] = useState<any>(null); // State for college/major/thread data
 
   useEffect(() => {
     const loadInitialData = async () => {
@@ -26,20 +26,31 @@ const CourseMapPage = () => {
         const data = await response.json();
         setCourseData(data);
         
-        const coursesParam = searchParams.get('courses');
-        if (coursesParam) {
-          setSelectedCourses(new Set(decodeURIComponent(coursesParam).split(',')));
-        }
-        
         setLoading(false);
       } catch (error) {
         console.error('Error loading data:', error);
         setLoading(false);
       }
+
+      // Retrieve the selected courses from localStorage
+      let storedCourses = localStorage.getItem("takenCourses");
+      if (storedCourses) {
+        // Parse the stored courses and use them
+        const coursesArray = JSON.parse(storedCourses);
+        setTakenData(coursesArray);
+      }
     };
 
     loadInitialData();
-  }, [searchParams]);
+  }, []);
+
+  // Log updated taken data when it changes
+  useEffect(() => {
+    if (takenData) {
+      console.log(takenData);
+    }
+  }, [takenData]);
+
 
   const filteredCourses = Object.entries(courseData)
     .flatMap(([dept, courses]) => 
