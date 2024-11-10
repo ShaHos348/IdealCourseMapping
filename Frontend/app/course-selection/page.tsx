@@ -15,9 +15,10 @@ export default function CourseSelectionPage() {
   const [courseData, setCourseData] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCourses, setSelectedCourses] = useState(new Set());
-  const [expandedDepts, setExpandedDepts] = useState(new Set(["CS"]));
+  const [expandedDepts, setExpandedDepts] = useState(new Set([]));
   const [loading, setLoading] = useState(true);
   const [selectionData, setSelectionData] = useState<any>(null); // State for college/major/thread data
+  const [tableData, setTableData] = useState({}); // State for college/major/thread data
 
   useEffect(() => {
     const loadCourseData = async () => {
@@ -25,6 +26,52 @@ export default function CourseSelectionPage() {
         const response = await fetch("/data/full_program_courses.json");
         const data = await response.json();
         setCourseData(data);
+        //setLoading(false);
+      } catch (error) {
+        console.error("Error loading course data:", error);
+        setLoading(false);
+      }
+    };
+
+    // Retrieve college/major/thread data from localStorage
+    let storedSelectionData = localStorage.getItem("gtCourseSelections");
+    if (storedSelectionData) {
+      storedSelectionData = JSON.parse(storedSelectionData);
+      setSelectionData(storedSelectionData);
+    }
+
+    loadCourseData();
+  }, []);
+
+  // Log updated selection data when it changes
+  useEffect(() => {
+    if (!selectionData) {
+      return;
+    }
+
+    //console.log("Updated selection data:", selectionData); // This will log updated value
+    const loadTableData = async () => {
+      let program = {
+        major: selectionData.major,
+        focus: [selectionData.thread1, selectionData.thread2],
+      };
+
+      const json_file_path =
+        selectionData.major.replace(" ", "_") +
+        (program.focus && program.focus.length > 0
+          ? "-" +
+            program.focus.map((focus) => focus.replace(" ", "_")).join("_&_")
+          : "");
+
+      //console.log(json_file_path);
+
+      try {
+        const response = await fetch(
+          "/data/majors/" + json_file_path + ".json"
+        );
+        const data = await response.json();
+        setTableData(data);
+        //console.log(data);
         setLoading(false);
       } catch (error) {
         console.error("Error loading course data:", error);
@@ -32,21 +79,7 @@ export default function CourseSelectionPage() {
       }
     };
 
-    loadCourseData();
-
-    // Retrieve college/major/thread data from localStorage
-    let storedSelectionData = localStorage.getItem("gtCourseSelections");
-    if (storedSelectionData) {
-      storedSelectionData = JSON.parse(storedSelectionData)
-      setSelectionData(storedSelectionData);
-    }
-  }, []);
-
-  // Log updated selection data when it changes
-  useEffect(() => {
-    if (selectionData) {
-      console.log("Updated selection data:", selectionData); // This will log updated value
-    }
+    loadTableData();
   }, [selectionData]); // Dependency array means this runs when selectionData changes
 
   const filteredDepartments = Object.entries(courseData)
@@ -95,8 +128,89 @@ export default function CourseSelectionPage() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto p-4">
-      <Card>
+    <div className="max-w-6xl mx-auto p-4 flex space-x-4">
+      <Card className="flex-1">
+        <CardHeader className="space-y-6">
+          <CardTitle className="text-2xl">Program Requirements</CardTitle>
+        </CardHeader>
+
+        <CardContent className="max-h-[600px] overflow-y-auto space-y-4">
+          {Object.entries(tableData).map(([category, courses]) => (
+            <div key={category}>
+              <h3 className="font-bold text-lg">{category}</h3>
+              <table className="min-w-full table-fixed border border-gray-300 border-collapse">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-2 text-left w-1/4 border border-gray-300">
+                      Code
+                    </th>
+                    <th className="px-4 py-2 text-left w-2/4 border border-gray-300">
+                      Title
+                    </th>
+                    <th className="px-4 py-2 text-left w-1/4 border border-gray-300">
+                      Credits
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {courses.map((course, index) => {
+                    const [code, title, credits, link] = course;
+                    return (
+                      <tr key={index} className="border-b border-gray-300">
+                        {course.length >= 3 && (
+                          <td className="px-4 py-2 border border-gray-300">
+                            {code}
+                          </td>
+                        )}
+
+                        {/* Conditionally render title based on course length */}
+
+                        {/* Length 4 */}
+                        {course.length === 4 && (
+                          <td className="px-4 py-2 border border-gray-300">
+                            {title}
+                          </td>
+                        )}
+                        {course.length === 4 && (
+                          <td className="px-4 py-2 border border-gray-300">
+                            {credits}
+                          </td>
+                        )}
+
+                        {/* Length 3 */}
+                        {course.length === 3 && (
+                          <td className="px-4 py-2 border border-gray-300"></td>
+                        )}
+                        {course.length === 3 && (
+                          <td className="px-4 py-2 border border-gray-300">
+                            {title}
+                          </td>
+                        )}
+
+                        {/* Length 2 */}
+                        {course.length === 2 && (
+                          <td
+                            colSpan="2"
+                            className="px-4 py-2 border border-gray-300"
+                          >
+                            {code}
+                          </td>
+                        )}
+                        {course.length === 2 && (
+                          <td className="px-4 py-2 border border-gray-300">
+                            {title}
+                          </td>
+                        )}
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          ))}
+        </CardContent>
+      </Card>
+      <Card className="flex-1">
         <CardHeader className="space-y-6">
           <CardTitle className="text-2xl">Select Completed Courses</CardTitle>
           <div>
@@ -123,14 +237,17 @@ export default function CourseSelectionPage() {
                     {department} ({courses.length} courses)
                   </span>
                   <span className="text-xl">
-                    {expandedDepts.has(department) ? '−' : '+'}
+                    {expandedDepts.has(department) ? "+" : "-"}
                   </span>
                 </Button>
 
-                {expandedDepts.has(department) && (
+                {!expandedDepts.has(department) && (
                   <CardContent className="space-y-2">
                     {courses.map((course) => (
-                      <div key={course["name"]} className="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded">
+                      <div
+                        key={course["name"]}
+                        className="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded"
+                      >
                         <input
                           type="checkbox"
                           id={course["name"]}
@@ -142,7 +259,8 @@ export default function CourseSelectionPage() {
                           htmlFor={course["name"]}
                           className="cursor-pointer hover:text-blue-600 flex-1"
                         >
-                          {course["name"]} - {course["long_name"]} ({course["hours"]} hours)
+                          {course["name"]} - {course["long_name"]} (
+                          {course["hours"]} hours)
                         </label>
                       </div>
                     ))}
@@ -161,10 +279,7 @@ export default function CourseSelectionPage() {
           >
             Back to Thread Selection
           </Button>
-          <Button
-            onClick={handleContinue}
-            className="px-6"
-          >
+          <Button onClick={handleContinue} className="px-6">
             Continue ({selectedCourses.size} selected)
           </Button>
         </CardFooter>

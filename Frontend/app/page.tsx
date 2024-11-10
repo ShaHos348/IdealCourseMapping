@@ -76,10 +76,10 @@ export default function GTCoursePicker() {
   const handleContinue = () => {
     // Create a query string with the selected data
     const selections = {
-      college: selectedCollege,
-      major: selectedMajor,
-      thread1: thread1,
-      thread2: thread2,
+      college: collegeData[selectedCollege]['name'],
+      major: collegeData[selectedCollege]['majors'][selectedMajor]['name'],
+      thread1:  collegeData[selectedCollege]['majors'][selectedMajor]['threads'].find(t => t.value === thread1).label,
+      thread2: collegeData[selectedCollege]['majors'][selectedMajor]['threads'].find(t => t.value === thread2).label,
     };
     
     // Navigate to the course selection page with the parameters
