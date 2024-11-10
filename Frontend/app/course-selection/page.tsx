@@ -1,6 +1,14 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
 
 export default function CourseSelectionPage() {
   const router = useRouter();
@@ -55,6 +63,11 @@ export default function CourseSelectionPage() {
     setSelectedCourses(newSelected);
   };
 
+  const handleContinue = () => {
+    const coursesParam = encodeURIComponent([...selectedCourses].join(','));
+    router.push(`/course-map?courses=${coursesParam}`);
+  };
+
   if (loading) {
     return (
       <div className="max-w-4xl mx-auto p-4 text-center">
@@ -65,11 +78,10 @@ export default function CourseSelectionPage() {
 
   return (
     <div className="max-w-4xl mx-auto p-4">
-      <div className="bg-white rounded-lg shadow border">
-        {/* Header */}
-        <div className="p-4 border-b">
-          <h1 className="text-xl font-semibold">Select Completed Courses</h1>
-          <div className="mt-4">
+      <Card>
+        <CardHeader className="space-y-6">
+          <CardTitle className="text-2xl">Select Completed Courses</CardTitle>
+          <div>
             <input
               type="text"
               placeholder="Search courses (e.g. CS 1301)"
@@ -78,32 +90,29 @@ export default function CourseSelectionPage() {
               className="w-full p-2 border rounded"
             />
           </div>
-        </div>
+        </CardHeader>
 
-        {/* Course List */}
-        <div className="max-h-[600px] overflow-y-auto p-4">
+        <CardContent className="max-h-[600px] overflow-y-auto space-y-4">
           {filteredDepartments.map(({ department, courses }) => (
-            <div key={department} className="mb-4 border rounded">
-              <button
-                onClick={() => toggleDepartment(department)}
-                className="w-full p-3 text-left bg-gray-50 hover:bg-gray-100 flex justify-between items-center"
-              >
-                <span className="font-medium">
-                  {department} ({courses.length} courses)
-                </span>
-                <span className="text-xl">
-                  {expandedDepts.has(department) ? "−" : "+"}
-                </span>
-              </button>
+            <div key={department}>
+              <Card>
+                <Button
+                  variant="ghost"
+                  onClick={() => toggleDepartment(department)}
+                  className="w-full justify-between h-auto p-4 font-medium"
+                >
+                  <span>
+                    {department} ({courses.length} courses)
+                  </span>
+                  <span className="text-xl">
+                    {expandedDepts.has(department) ? '−' : '+'}
+                  </span>
+                </Button>
 
-              {expandedDepts.has(department) && (
-                <div className="p-3 space-y-2">
-                  {courses.map((course) => (
-                    <div
-                      key={course["name"]}
-                      className="flex items-center space-x-2"
-                    >
-                      <label className="flex items-center cursor-pointer hover:text-blue-600">
+                {expandedDepts.has(department) && (
+                  <CardContent className="space-y-2">
+                    {courses.map((course) => (
+                      <div key={course["name"]} className="flex items-center space-x-2 p-2 hover:bg-gray-50 rounded">
                         <input
                           type="checkbox"
                           id={course["name"]}
@@ -111,40 +120,37 @@ export default function CourseSelectionPage() {
                           onChange={() => handleCourseToggle(course["name"])}
                           className="rounded cursor-pointer" // Ensuring cursor is pointer
                         />
-                        <span className="ml-2">
-                          {" "}
-                          {/* Optional spacing between checkbox and text */}
-                          {course["name"]} - {course["long_name"]} (
-                          {course["hours"]} hours)
-                        </span>
-                      </label>
-                    </div>
-                  ))}
-                </div>
-              )}
+                        <label
+                          htmlFor={course["name"]}
+                          className="cursor-pointer hover:text-blue-600 flex-1"
+                        >
+                          {course["name"]} - {course["long_name"]} ({course["hours"]} hours)
+                        </label>
+                      </div>
+                    ))}
+                  </CardContent>
+                )}
+              </Card>
             </div>
           ))}
-        </div>
+        </CardContent>
 
-        {/* Footer */}
-        <div className="p-4 border-t flex justify-between">
-          <button
+        <CardFooter className="flex justify-between border-t p-6">
+          <Button
+            variant="outline"
             onClick={() => router.back()}
-            className="px-4 py-2 border rounded hover:bg-gray-100"
+            className="px-6"
           >
             Back to Thread Selection
-          </button>
-          <button
-            onClick={() => {
-              console.log("Selected courses:", [...selectedCourses]);
-              // Handle continuing to next step
-            }}
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          </Button>
+          <Button
+            onClick={handleContinue}
+            className="px-6"
           >
             Continue ({selectedCourses.size} selected)
-          </button>
-        </div>
-      </div>
+          </Button>
+        </CardFooter>
+      </Card>
     </div>
   );
 }

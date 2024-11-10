@@ -19,14 +19,14 @@ const collegeData = {
       'computer-science': {
         name: 'Computer Science',
         threads: [
-          { value: 'devices', label: 'Devices', description: 'Focus on the interface between hardware and software' },
-          { value: 'info-internetworks', label: 'Information Internetworks', description: 'Emphasizes computer networks and related technologies' },
-          { value: 'intelligence', label: 'Intelligence', description: 'Concentrates on AI and machine learning' },
-          { value: 'media', label: 'Media', description: 'Explores graphics, animation, and digital media' },
-          { value: 'modeling-simulation', label: 'Modeling and Simulation', description: 'Focuses on computational modeling and data analytics' },
-          { value: 'people', label: 'People', description: 'Emphasizes social computing and human-computer interaction' },
-          { value: 'systems-architecture', label: 'Systems and Architecture', description: 'Covers computer systems design and implementation' },
-          { value: 'theory', label: 'Theory', description: 'Explores theoretical computer science and algorithms' }
+          { value: 'devices', label: 'Devices' },
+          { value: 'info-internetworks', label: 'Information Internetworks' },
+          { value: 'intelligence', label: 'Intelligence' },
+          { value: 'media', label: 'Media' },
+          { value: 'modeling-simulation', label: 'Modeling and Simulation' },
+          { value: 'people', label: 'People' },
+          { value: 'systems-architecture', label: 'Systems and Architecture' },
+          { value: 'theory', label: 'Theory' }
         ]
       }
     }
@@ -66,6 +66,13 @@ export default function GTCoursePicker() {
     return collegeData[selectedCollege].majors[selectedMajor].threads;
   };
 
+  const getThreadLabel = (threadValue) => {
+    if (!threadValue || !selectedCollege || !selectedMajor) return "";
+    const thread = collegeData[selectedCollege].majors[selectedMajor].threads
+      .find(t => t.value === threadValue);
+    return thread ? thread.label : "";
+  };
+
   const handleContinue = () => {
     // Create a query string with the selected data
     const queryParams = new URLSearchParams({
@@ -93,7 +100,9 @@ export default function GTCoursePicker() {
             </label>
             <Select value={selectedCollege} onValueChange={handleCollegeChange}>
               <SelectTrigger id="college">
-                <SelectValue placeholder="Select a college" />
+                <SelectValue placeholder="Select a college">
+                  {selectedCollege ? collegeData[selectedCollege].name : "Select a college"}
+                </SelectValue>
               </SelectTrigger>
               <SelectContent>
                 {Object.entries(collegeData).map(([value, college]) => (
@@ -113,7 +122,9 @@ export default function GTCoursePicker() {
               </label>
               <Select value={selectedMajor} onValueChange={handleMajorChange}>
                 <SelectTrigger id="major">
-                  <SelectValue placeholder="Select a major" />
+                  <SelectValue placeholder="Select a major">
+                    {selectedMajor ? collegeData[selectedCollege].majors[selectedMajor].name : "Select a major"}
+                  </SelectValue>
                 </SelectTrigger>
                 <SelectContent>
                   {Object.entries(collegeData[selectedCollege].majors).map(([value, major]) => (
@@ -135,7 +146,9 @@ export default function GTCoursePicker() {
                 </label>
                 <Select value={thread1} onValueChange={setThread1}>
                   <SelectTrigger id="thread1">
-                    <SelectValue placeholder="Select your first thread" />
+                    <SelectValue placeholder="Select your first thread">
+                      {getThreadLabel(thread1) || "Select your first thread"}
+                    </SelectValue>
                   </SelectTrigger>
                   <SelectContent>
                     {getAvailableThreads(thread2).map(thread => (
@@ -145,11 +158,6 @@ export default function GTCoursePicker() {
                     ))}
                   </SelectContent>
                 </Select>
-                {thread1 && (
-                  <p className="mt-1 text-sm text-gray-500">
-                    {getCurrentThreads().find(t => t.value === thread1)?.description}
-                  </p>
-                )}
               </div>
 
               <div>
@@ -158,7 +166,9 @@ export default function GTCoursePicker() {
                 </label>
                 <Select value={thread2} onValueChange={setThread2}>
                   <SelectTrigger id="thread2">
-                    <SelectValue placeholder="Select your second thread" />
+                    <SelectValue placeholder="Select your second thread">
+                      {getThreadLabel(thread2) || "Select your second thread"}
+                    </SelectValue>
                   </SelectTrigger>
                   <SelectContent>
                     {getAvailableThreads(thread1).map(thread => (
@@ -168,11 +178,6 @@ export default function GTCoursePicker() {
                     ))}
                   </SelectContent>
                 </Select>
-                {thread2 && (
-                  <p className="mt-1 text-sm text-gray-500">
-                    {getCurrentThreads().find(t => t.value === thread2)?.description}
-                  </p>
-                )}
               </div>
             </div>
           )}
