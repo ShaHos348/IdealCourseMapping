@@ -19,6 +19,7 @@ export default function CourseSelectionPage() {
   const [loading, setLoading] = useState(true);
   const [selectionData, setSelectionData] = useState<any>(null); // State for college/major/thread data
   const [tableData, setTableData] = useState({}); // State for college/major/thread data
+  const [program, setProgram] = useState(""); // State for college/major/thread data
 
   useEffect(() => {
     const loadCourseData = async () => {
@@ -37,7 +38,13 @@ export default function CourseSelectionPage() {
     let storedSelectionData = localStorage.getItem("gtCourseSelections");
     if (storedSelectionData) {
       storedSelectionData = JSON.parse(storedSelectionData);
-      setSelectionData(storedSelectionData);
+      if (storedSelectionData) {
+        storedSelectionData = {
+          major: storedSelectionData.major,
+          focus: [storedSelectionData.thread1, storedSelectionData.thread2],
+        };
+        setSelectionData(storedSelectionData);
+      }
     }
 
     loadCourseData();
@@ -51,17 +58,19 @@ export default function CourseSelectionPage() {
 
     //console.log("Updated selection data:", selectionData); // This will log updated value
     const loadTableData = async () => {
-      let program = {
-        major: selectionData.major,
-        focus: [selectionData.thread1, selectionData.thread2],
-      };
+      console.log(selectionData.focus);
 
-      const json_file_path =
-        selectionData.major.replace(" ", "_") +
-        (program.focus && program.focus.length > 0
-          ? "-" +
-            program.focus.map((focus) => focus.replace(" ", "_")).join("_&_")
+      const program =
+        selectionData.major + // Replace all spaces in major with underscores
+        (selectionData.focus && selectionData.focus.length > 0
+          ? ": " +
+            selectionData.focus
+              .map((focus) => focus)
+              .join(" & ") // Replace all spaces in focus terms with underscores, and join with "_&_"
           : "");
+      setProgram(program);
+
+      const json_file_path = program.replace(": ","-").replace(/ /g, "_");
 
       //console.log(json_file_path);
 
@@ -115,6 +124,8 @@ export default function CourseSelectionPage() {
     // Store selected courses in localStorage before navigating
     const selectedCoursesArray = [...selectedCourses];
     localStorage.setItem("takenCourses", JSON.stringify(selectedCoursesArray));
+    //localStorage.setItem("neededCourses", "/data/majors/" + program.replace(": ","-").replace(/ /g, "_") + ".json");
+    localStorage.setItem("neededCourses", JSON.stringify(tableData));
 
     router.push(`/course-map`);
   };
@@ -135,6 +146,9 @@ export default function CourseSelectionPage() {
         </CardHeader>
 
         <CardContent className="max-h-[600px] overflow-y-auto space-y-4">
+          <h1>
+            {program}
+          </h1>
           {Object.entries(tableData).map(([category, courses]) => (
             <div key={category}>
               <h3 className="font-bold text-lg">{category}</h3>
