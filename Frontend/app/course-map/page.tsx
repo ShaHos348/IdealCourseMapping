@@ -9,6 +9,7 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
+import axios from "axios";
 
 const CourseMapPage = () => {
   const router = useRouter();
@@ -17,8 +18,10 @@ const CourseMapPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [showSearch, setShowSearch] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [loadingGraph, setLoadingGraph] = useState(true);
   const [neededCourses, setNeededCourses] = useState("");
   const [takenCourses, setTakenCourses] = useState<any>(null);
+  const [imageSrc, setImageSrc] = useState<string | null>(null);
 
   useEffect(() => {
     const loadInitialData = async () => {
@@ -32,6 +35,8 @@ const CourseMapPage = () => {
         console.error("Error loading data:", error);
         setLoading(false);
       }
+
+      setLoadingGraph(false);
 
       // Retrieve the selected courses from localStorage
       let storedCourses = localStorage.getItem("takenCourses");
@@ -64,6 +69,10 @@ const CourseMapPage = () => {
   const toggleCourse = (course) => {
     course = course.trim();
     if (course.length > 0) {
+      if (takenCourses.includes(course)) {
+        alert("Course already taken!");
+        return;
+      }
       const newSelected = new Set(selectedCourses);
       if (newSelected.has(course)) {
         newSelected.delete(course);
@@ -74,18 +83,50 @@ const CourseMapPage = () => {
     }
   };
 
-  const handleMakeGraph = () => {
-    // This will be implemented later
-    console.log("Making graph with courses:", [...selectedCourses]);
+  const handleMakeGraph = async () => {
+    if (selectedCourses.size == 0) {
+      setImageSrc(null);
+      //alert("No Courses Selected!");
+      return;
+    }
+
+    try {
+      setLoadingGraph(true);
+      console.log(selectedCourses);
+
+      const selectedCoursesArray = Array.from(selectedCourses);
+
+      const response = await axios.post(
+        "http://127.0.0.1:5000/generate-graph/",
+        {
+          selected_courses: selectedCoursesArray,
+        }
+      );
+
+      if (response.data.image) {
+        setImageSrc(`data:image/png;base64,${response.data.image}`);
+        setLoadingGraph(false);
+        //console.log("image set", response.data.image);
+      }
+    } catch (error) {
+      console.error("Error generating graph:", error);
+    }
   };
 
   const handleEnterCourses = () => {
     // This will be implemented later
-    if (searchQuery) {
-      toggleCourse(searchQuery);
+    // Check if searchQuery matches any course name in filteredCourses
+    const courseExists = filteredCourses.some(
+      (course) => course.name.toUpperCase() === searchQuery.toUpperCase()
+    );
+
+    if (courseExists) {
+      toggleCourse(searchQuery.toUpperCase());
       setSearchQuery(""); // Clear input after entering the course
+      console.log("Entering courses:", [...selectedCourses]);
+    } else {
+      console.log(`Course "${searchQuery}" not found in available courses.`);
     }
-    console.log("Entering courses:", [...selectedCourses]);
   };
 
   if (loading) {
@@ -112,10 +153,16 @@ const CourseMapPage = () => {
           <Button onClick={handleMakeGraph}>Make Graph</Button>
         </CardHeader>
         <CardContent>
-          <div className="h-96 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">
-              Graph visualization will be implemented here
-            </p>
+          <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+            {imageSrc ? (
+              <img src={imageSrc} alt="Course Prerequisite Graph" />
+            ) : (
+              <p className="text-gray-500">
+                {loadingGraph
+                  ? "Graph loading!"
+                  : "Graph visualization will display here!"}
+              </p>
+            )}
           </div>
         </CardContent>
       </Card>
@@ -132,7 +179,7 @@ const CourseMapPage = () => {
         </CardContent>
       </Card>
 
-      {/* Course Box 
+      {/* Course Box }
       <Card>
         <CardHeader>
           <CardTitle>Courses</CardTitle>
