@@ -53,5 +53,16 @@ def generate_graph():
 
     return jsonify({"image": image_base64})
 
+# TODO
+# Endpoint to generate CSV file
+@app.route("/make-csv/", methods=["POST"])
+def generate_csv():
+    # Get the JSON data from the request
+    data = request.get_json()
+
+    selected_courses = data.get("selected_courses", [])
+
+    return
+
 if __name__ == "__main__":
     app.run(debug=True)

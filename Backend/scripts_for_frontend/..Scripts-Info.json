@@ -1,0 +1,19 @@
+{
+    "FILE_NAME": [
+        "INFORMATION",
+        "ORDERED BY WHAT IS USED/CREATED FIRST"
+    ],
+    "main_script_for_backend.py": [
+        "Script that will be run to start the backend server",
+        "This script will also include all the endpoints for frontend"
+    ],
+    "csv_to_curricular.py": [
+        "Script to make the csv file in the format required for curricular analytics site"
+    ],
+    "graph_maker_v2.py": [
+        "Script to make graph image with courses  connected with their prereqs if any"
+    ],
+    "prereq_chooser.py": [
+        "Script to return prereqs for a course"
+    ]
+}

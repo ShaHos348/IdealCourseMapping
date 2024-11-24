@@ -1,0 +1,26 @@
+{
+    "FILE_NAME": [
+        "INFORMATION"
+    ],
+    "college_data_proto.json": [
+        "Dictionary of colleges, their majors,and the majors' threads/concentrations if any"
+    ],
+    "full_program_courses.json": [
+        "Dictionary of all courses with their long names and credit hours"
+    ],
+    "program_courses.json": [
+        "Dictionary of all courses names"
+    ],
+    "prereqs.json": [
+        "Dictionary of courses and their prereqs if any"
+    ],
+    "coreqs.json": [
+        "Dictionary of courses and their coreqs if any"
+    ],
+    "humanities.json": [
+        "full_program_courses but with all humanity courses for Core Area C"
+    ],
+    "social_sciences.py": [
+        "full_program_courses but with all social science courses for Core Area E"
+    ]
+}
