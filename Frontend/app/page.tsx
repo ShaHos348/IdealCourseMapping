@@ -11,6 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";  
 
+// TODO: replace with college_programs.json
 // Structured data for colleges and majors
 const collegeData = {
   'college-of-computing': {

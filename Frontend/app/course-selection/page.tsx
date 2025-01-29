@@ -56,7 +56,8 @@ export default function CourseSelectionPage() {
       return;
     }
 
-    //console.log("Updated selection data:", selectionData); // This will log updated value
+    // TODO: Change this to an server request
+    console.log("Updated selection data:", selectionData); // This will log updated value
     const loadTableData = async () => {
       console.log(selectionData.focus);
 
@@ -87,7 +88,7 @@ export default function CourseSelectionPage() {
         setLoading(false);
       }
     };
-
+    
     loadTableData();
   }, [selectionData]); // Dependency array means this runs when selectionData changes
 

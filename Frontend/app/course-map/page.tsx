@@ -151,6 +151,7 @@ const CourseMapPage = () => {
         <CardHeader className="flex flex-row items-center justify-between space-y-0">
           <CardTitle>Course Prerequisites Graph</CardTitle>
           <Button onClick={handleMakeGraph}>Make Graph</Button>
+          {/*TODO: Add buttons to handle downloading csv file and going to CA site */}
         </CardHeader>
         <CardContent>
           <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
@@ -167,29 +168,79 @@ const CourseMapPage = () => {
         </CardContent>
       </Card>
 
-      {/* Messages Box }
+      {selectedCourses.size > 0 && (
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between space-y-0">
+            <CardTitle>Selected Courses</CardTitle>
+          </CardHeader>
+          <CardContent>{[...selectedCourses].join(" | ")}</CardContent>
+        </Card>
+      )}
+
+      {/* TODO: Course Prereq Box */}
       <Card>
         <CardHeader>
-          <CardTitle>Messages</CardTitle>
+          <CardTitle>Course Prereqs</CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="h-32 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Messages will appear here</p>
+          <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+            <p className="text-gray-500">Course Prereqs will appear here for a selected course</p>
           </div>
         </CardContent>
       </Card>
 
-      {/* Course Box }
+      {/* Search Section */}
       <Card>
-        <CardHeader>
-          <CardTitle>Courses</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-48 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Course suggestions will appear here</p>
+        <CardHeader className="flex flex-row items-center justify-between space-y-0">
+          <CardTitle>Course Search</CardTitle>
+          <div className="flex gap-4">
+            <Button onClick={() => handleEnterCourses()} variant="outline">
+              Enter Courses
+            </Button>
+            <Button onClick={() => setShowSearch(!showSearch)}>
+              {showSearch ? "Hide Search" : "Search Courses"}
+            </Button>
           </div>
-        </CardContent>
-      </Card>*/}
+        </CardHeader>
+
+        {showSearch && (
+          <CardContent>
+            <div className="space-y-4">
+              <input
+                type="text"
+                placeholder="Search courses (e.g. CS 1301)"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full p-2 border rounded"
+              />
+              <div className="max-h-60 overflow-y-auto border rounded">
+                {filteredCourses.map((course) => (
+                  <div
+                    key={course["name"]}
+                    className="flex items-center p-2 hover:bg-gray-50 border-b last:border-b-0"
+                    onClick={() => toggleCourse(course["name"])}
+                  >
+                    <input
+                      type="checkbox"
+                      id={course}
+                      checked={selectedCourses.has(course["name"])}
+                      onChange={() => {}}
+                      className="mr-3"
+                    />
+                    <label
+                      htmlFor={course["name"]}
+                      className="flex-1 cursor-pointer hover:text-blue-600"
+                    >
+                      {course["name"]} - {course["long_name"]} (
+                      {course["hours"]} hours)
+                    </label>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </CardContent>
+        )}
+      </Card>
 
       {/*Lists the courses for the program. Will be Changed Next Semester */}
       <Card className="flex-1">
@@ -275,67 +326,7 @@ const CourseMapPage = () => {
         </CardContent>
       </Card>
 
-      {selectedCourses.size > 0 && (
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0">
-            <CardTitle>Selected Courses</CardTitle>
-          </CardHeader>
-          <CardContent>{[...selectedCourses].join(" | ")}</CardContent>
-        </Card>
-      )}
-
-      {/* Search Section */}
-      <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0">
-          <CardTitle>Course Search</CardTitle>
-          <div className="flex gap-4">
-            <Button onClick={() => handleEnterCourses()} variant="outline">
-              Enter Courses
-            </Button>
-            <Button onClick={() => setShowSearch(!showSearch)}>
-              {showSearch ? "Hide Search" : "Search Courses"}
-            </Button>
-          </div>
-        </CardHeader>
-
-        {showSearch && (
-          <CardContent>
-            <div className="space-y-4">
-              <input
-                type="text"
-                placeholder="Search courses (e.g. CS 1301)"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full p-2 border rounded"
-              />
-              <div className="max-h-60 overflow-y-auto border rounded">
-                {filteredCourses.map((course) => (
-                  <div
-                    key={course["name"]}
-                    className="flex items-center p-2 hover:bg-gray-50 border-b last:border-b-0"
-                    onClick={() => toggleCourse(course["name"])}
-                  >
-                    <input
-                      type="checkbox"
-                      id={course}
-                      checked={selectedCourses.has(course["name"])}
-                      onChange={() => {}}
-                      className="mr-3"
-                    />
-                    <label
-                      htmlFor={course["name"]}
-                      className="flex-1 cursor-pointer hover:text-blue-600"
-                    >
-                      {course["name"]} - {course["long_name"]} (
-                      {course["hours"]} hours)
-                    </label>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </CardContent>
-        )}
-      </Card>
+      
     </div>
   );
 };
