@@ -13,7 +13,7 @@ import axios from "axios";
 
 const CourseMapPage = () => {
   const router = useRouter();
-  const [selectedCourses, setSelectedCourses] = useState(new Set());
+  const [selectedCourses, setSelectedCourses] = useState<Array<string>>([]);
   const [courseData, setCourseData] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
   const [showSearch, setShowSearch] = useState(false);
@@ -22,6 +22,9 @@ const CourseMapPage = () => {
   const [neededCourses, setNeededCourses] = useState("");
   const [takenCourses, setTakenCourses] = useState<any>(null);
   const [imageSrc, setImageSrc] = useState<string | null>(null);
+  const [pickedCourseForPrereqs, setPickedCourseForPrereqs] = useState("");
+  const [coursePrereqs, setCoursePrereqs] = useState("");
+  const [coursePrereqData, setCoursePrereqData] = useState({});
 
   useEffect(() => {
     const loadInitialData = async () => {
@@ -29,6 +32,10 @@ const CourseMapPage = () => {
         const response = await fetch("/data/full_program_courses.json");
         const data = await response.json();
         setCourseData(data);
+
+        const prereqResponse = await fetch("/data/prereqs.json");
+        const prereqData = await prereqResponse.json();
+        setCoursePrereqData(prereqData);
 
         setLoading(false);
       } catch (error) {
@@ -48,7 +55,6 @@ const CourseMapPage = () => {
 
       // Retrieve the needed courses from localStorage
       let needCourses = localStorage.getItem("neededCourses");
-      //console.log(needCourses);
       if (needCourses) {
         // Parse the stored courses and use them
         const coursesArray = JSON.parse(needCourses);
@@ -66,25 +72,49 @@ const CourseMapPage = () => {
       )
   );
 
-  const toggleCourse = (course) => {
+  const toggleCourse = (course: string) => {
     course = course.trim();
     if (course.length > 0) {
       if (takenCourses.includes(course)) {
         alert("Course already taken!");
         return;
       }
-      const newSelected = new Set(selectedCourses);
-      if (newSelected.has(course)) {
-        newSelected.delete(course);
-      } else {
-        newSelected.add(course);
-      }
-      setSelectedCourses(newSelected);
+
+      setSelectedCourses((prevSelectedCourses) => {
+        const newSelected = new Set(prevSelectedCourses);
+        if (newSelected.has(course)) {
+          newSelected.delete(course);
+        } else {
+          newSelected.add(course);
+        }
+        return Array.from(newSelected); // Convert back to an array
+      });
     }
   };
 
+  const togglePrereqs = (course: string) => {
+    if (pickedCourseForPrereqs === course) {
+      setPickedCourseForPrereqs("");
+      setCoursePrereqs("");
+      return;
+    }
+
+    setPickedCourseForPrereqs(course);
+
+    // Find the course in the nested coursePrereqData structure
+    let foundPrereqs = [];
+    for (const dept in coursePrereqData) {
+      if (coursePrereqData[dept][course] !== undefined) {
+        foundPrereqs = coursePrereqData[dept][course];
+        break;
+      }
+    }
+
+    setCoursePrereqs(Array.isArray(foundPrereqs) ? foundPrereqs.join(" | ") : foundPrereqs || "No prerequisites");
+  };
+
   const handleMakeGraph = async () => {
-    if (selectedCourses.size == 0) {
+    if (selectedCourses.length === 0) {
       setImageSrc(null);
       //alert("No Courses Selected!");
       return;
@@ -92,9 +122,7 @@ const CourseMapPage = () => {
 
     try {
       setLoadingGraph(true);
-      console.log(selectedCourses);
-
-      const selectedCoursesArray = Array.from(selectedCourses);
+      const selectedCoursesArray = selectedCourses;
 
       const response = await axios.post(
         "http://127.0.0.1:5000/generate-graph/",
@@ -106,7 +134,6 @@ const CourseMapPage = () => {
       if (response.data.image) {
         setImageSrc(`data:image/png;base64,${response.data.image}`);
         setLoadingGraph(false);
-        //console.log("image set", response.data.image);
       }
     } catch (error) {
       console.error("Error generating graph:", error);
@@ -123,7 +150,6 @@ const CourseMapPage = () => {
     if (courseExists) {
       toggleCourse(searchQuery.toUpperCase());
       setSearchQuery(""); // Clear input after entering the course
-      console.log("Entering courses:", [...selectedCourses]);
     } else {
       console.log(`Course "${searchQuery}" not found in available courses.`);
     }
@@ -168,33 +194,58 @@ const CourseMapPage = () => {
         </CardContent>
       </Card>
 
-      {selectedCourses.size > 0 && (
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0">
-            <CardTitle>Selected Courses</CardTitle>
-          </CardHeader>
-          <CardContent>{[...selectedCourses].join(" | ")}</CardContent>
-        </Card>
+      {selectedCourses.length > 0 && (
+        <>
+          {/*Courses selected Box */}
+          <Card>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0">
+              <CardTitle>Selected Courses</CardTitle>
+            </CardHeader>
+
+
+            <CardContent>
+              {selectedCourses.map((course, index) => (
+                <span
+                  key={course}
+                  className="cursor-pointer hover:text-blue-600"
+                  onClick={() => togglePrereqs(course)}
+                >
+                  {course}
+                  {index < selectedCourses.length - 1 && " | "}
+                </span>
+              ))}
+            </CardContent>
+          </Card>
+
+          {/*Prereqs Box */}
+          <Card>
+            <CardHeader>
+              <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+                {pickedCourseForPrereqs ? (
+                  <p className="text-gray-500">{coursePrereqs}</p>
+                ) : (
+                  <p className="text-gray-500">
+                    Course Prereqs will appear here for a selected course
+                  </p>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+        </>
       )}
 
-      {/* TODO: Course Prereq Box */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Course Prereqs</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">Course Prereqs will appear here for a selected course</p>
-          </div>
-        </CardContent>
-      </Card>
+
+
 
       {/* Search Section */}
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-0">
           <CardTitle>Course Search</CardTitle>
           <div className="flex gap-4">
-            <Button onClick={() => handleEnterCourses()} variant="outline">
+            <Button onClick={handleEnterCourses} variant="outline">
               Enter Courses
             </Button>
             <Button onClick={() => setShowSearch(!showSearch)}>
@@ -217,26 +268,20 @@ const CourseMapPage = () => {
                 {filteredCourses.map((course) => (
                   <div
                     key={course["name"]}
-                    className="flex items-center p-2 hover:bg-gray-50 border-b last:border-b-0"
+                    className="flex items-center p-2 hover:bg-gray-50 border-b last:border-b-0 cursor-pointer w-full"
                     onClick={() => toggleCourse(course["name"])}
                   >
                     <input
                       type="checkbox"
-                      id={course}
-                      checked={selectedCourses.has(course["name"])}
-                      onChange={() => {}}
+                      checked={selectedCourses.includes(course["name"])}
+                      readOnly
                       className="mr-3"
                     />
-                    <label
-                      htmlFor={course["name"]}
-                      className="flex-1 cursor-pointer hover:text-blue-600"
-                    >
-                      {course["name"]} - {course["long_name"]} (
-                      {course["hours"]} hours)
-                    </label>
+                    <div className="flex-1">{course["name"]} - {course["long_name"]} ({course["hours"]} hours)</div>
                   </div>
                 ))}
               </div>
+
             </div>
           </CardContent>
         )}
@@ -326,7 +371,7 @@ const CourseMapPage = () => {
         </CardContent>
       </Card>
 
-      
+
     </div>
   );
 };
