@@ -1,8 +1,11 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_file
 from graph_maker_v2 import build_prereq_graph, build_selected_courses_graph, visualize_selected_courses_graph
 import json
 from flask_cors import CORS
 import os
+from csv_to_curricular import return_all_courses_json
+import csv
+import io
 
 
 app = Flask(__name__)
@@ -59,10 +62,29 @@ def generate_graph():
 def generate_csv():
     # Get the JSON data from the request
     data = request.get_json()
+    selected_courses = data.get("courses", [])
 
-    selected_courses = data.get("selected_courses", [])
+    # Retrieve all courses data
+    all_courses = return_all_courses_json()
 
-    return
+    # Filter the selected courses
+    filtered_courses = [course for course in all_courses if course['courseId'] in selected_courses]
+
+    # Create a CSV file in memory
+    output = io.StringIO()
+    writer = csv.writer(output)
+    
+    # Write the header
+    writer.writerow(["courseId", "courseName", "courseDescription"])
+    
+    # Write the course data
+    for course in filtered_courses:
+        writer.writerow([course["courseId"], course["courseName"], course["courseDescription"]])
+
+    output.seek(0)
+
+    # Send the CSV file as a response
+    return send_file(output, mimetype='text/csv', as_attachment=True, attachment_filename='courses.csv')
 
 # TODO endpoint that takes program and returns the program table for it
 

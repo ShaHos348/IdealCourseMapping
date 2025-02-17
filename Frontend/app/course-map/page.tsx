@@ -10,6 +10,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import axios from "axios";
+import FileSaver from 'file-saver';
 
 const CourseMapPage = () => {
   const router = useRouter();
@@ -83,6 +84,23 @@ const CourseMapPage = () => {
     }
   };
 
+  const handleCSVExport = async () => {
+    try {
+      const selectedCoursesArray = Array.from(selectedCourses);
+  
+      const response = await axios.post(
+        "http://localhost:5000/make-csv/",
+        { courses: selectedCoursesArray },
+        { responseType: 'blob' }
+      );
+  
+      const blob = new Blob([response.data], { type: 'text/csv' });
+      FileSaver.saveAs(blob, 'courses.csv');
+    } catch (error) {
+      console.error("Error downloading CSV:", error);
+    }
+  };
+
   const handleMakeGraph = async () => {
     if (selectedCourses.size == 0) {
       setImageSrc(null);
@@ -151,7 +169,7 @@ const CourseMapPage = () => {
         <CardHeader className="flex flex-row items-center justify-between space-y-0">
           <CardTitle>Course Prerequisites Graph</CardTitle>
           <Button onClick={handleMakeGraph}>Make Graph</Button>
-          {/*TODO: Add buttons to handle downloading csv file and going to CA site */}
+          <Button onClick={handleCSVExport}>Export CSV</Button>
         </CardHeader>
         <CardContent>
           <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
