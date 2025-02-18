@@ -1,6 +1,6 @@
-
 import json
 import csv
+import pandas as pd
 from typing import List, Dict, Any
 
 def read_json_data(file_path: str) -> List[Dict[str, Any]]:
@@ -22,7 +22,8 @@ def save_courses_to_csv(courses: List[Dict[str, Any]], output_csv: str):
         print("No courses provided to save.")
         return
     
-    keys = courses[0].keys()
+    keys = courses[0].keys()  # Assumes all course dictionaries have the same keys
+    
     with open(output_csv, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=keys)
         writer.writeheader()
