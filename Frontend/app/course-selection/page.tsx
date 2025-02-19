@@ -64,31 +64,31 @@ export default function CourseSelectionPage() {
       const program =
         selectionData.major + // Replace all spaces in major with underscores
         (selectionData.focus && selectionData.focus.length > 0
-          ? ": " +
-            selectionData.focus
-              .map((focus) => focus)
-              .join(" & ") // Replace all spaces in focus terms with underscores, and join with "_&_"
+          ? ": " + selectionData.focus.map((focus) => focus).join(" & ") // Replace all spaces in focus terms with underscores, and join with "_&_"
           : "");
       setProgram(program);
 
-      const json_file_path = program.replace(": ","-").replace(/ /g, "_");
+      const json_file_path = program.replace(": ", "-").replace(/ /g, "_");
 
-      //console.log(json_file_path);
+      console.log(json_file_path);
 
       try {
-        const response = await fetch(
-          "/data/majors/" + json_file_path + ".json"
-        );
+        const response = await fetch(`/api/majors/${json_file_path}`);
+        console.log("Response: ", response);
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.statusText}`);
+        }
         const data = await response.json();
         setTableData(data);
         //console.log(data);
-        setLoading(false);
       } catch (error) {
         console.error("Error loading course data:", error);
         setLoading(false);
+      } finally {
+        setLoading(false);
       }
     };
-    
+
     loadTableData();
   }, [selectionData]); // Dependency array means this runs when selectionData changes
 
@@ -147,9 +147,7 @@ export default function CourseSelectionPage() {
         </CardHeader>
 
         <CardContent className="max-h-[600px] overflow-y-auto space-y-4">
-          <h1>
-            {program}
-          </h1>
+          <h1>{program}</h1>
           {Object.entries(tableData).map(([category, courses]) => (
             <div key={category}>
               <h3 className="font-bold text-lg">{category}</h3>
