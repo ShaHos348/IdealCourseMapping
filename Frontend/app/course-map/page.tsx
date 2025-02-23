@@ -101,6 +101,10 @@ const CourseMapPage = () => {
     }
   };
 
+  const redirectToCurricularAnalytics = () => {
+    window.open("https://curricularanalytics.org/home");
+  };
+
   const handleMakeGraph = async () => {
     if (selectedCourses.size == 0) {
       setImageSrc(null);
@@ -170,6 +174,7 @@ const CourseMapPage = () => {
           <CardTitle>Course Prerequisites Graph</CardTitle>
           <Button onClick={handleMakeGraph}>Make Graph</Button>
           <Button onClick={handleCSVExport}>Export CSV</Button>
+          <Button onClick={redirectToCurricularAnalytics} variant="outline">Go to Curricular Analytics</Button>
         </CardHeader>
         <CardContent>
           <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
