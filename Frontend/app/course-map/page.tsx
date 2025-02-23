@@ -158,7 +158,7 @@ const CourseMapPage = () => {
   return (
     <div className="max-w-6xl mx-auto p-4 space-y-6">
       {/* Header with Back Button */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center space-x-2">
         <Button
           variant="outline"
           onClick={() => router.back()}
@@ -170,11 +170,13 @@ const CourseMapPage = () => {
 
       {/* Graph Area */}
       <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0">
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 space-x-2">
           <CardTitle>Course Prerequisites Graph</CardTitle>
-          <Button onClick={handleMakeGraph}>Make Graph</Button>
-          <Button onClick={handleCSVExport}>Export CSV</Button>
-          <Button onClick={redirectToCurricularAnalytics} variant="outline">Go to Curricular Analytics</Button>
+          <div className="flex space-x-2">
+            <Button onClick={handleCSVExport}>Export CSV</Button>
+            <Button onClick={redirectToCurricularAnalytics}>Go to Curricular Analytics</Button>
+            <Button onClick={handleMakeGraph}>Make Graph</Button>
+        </div>
         </CardHeader>
         <CardContent>
           <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
