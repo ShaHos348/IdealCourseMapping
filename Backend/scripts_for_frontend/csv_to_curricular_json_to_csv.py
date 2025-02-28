@@ -1,49 +1,83 @@
+import os
 import json
-import csv
 import pandas as pd
 from typing import List, Dict, Any
 
-def read_json_data(file_path: str) -> List[Dict[str, Any]]:
-    """Reads the JSON file containing picked courses."""
+def return_all_courses_json(filepath: str) -> List[Dict[str, Any]]:
+    """ Retrieves selected courses from JSON file. """
+    file_path = "Backend/frontend_files/courses_picked.json"
     try:
         with open(file_path, 'r') as jsonfile:
-            data = json.load(jsonfile)
-        return data
+            return json.load(jsonfile)
     except FileNotFoundError:
         print(f"File not found: {file_path}")
         return []
-    except json.JSONDecodeError:
-        print(f"Error decoding JSON from file: {file_path}")
-        return []
 
-def save_courses_to_csv(courses: List[Dict[str, Any]], output_csv: str):
-    """Saves the courses to a CSV file."""
-    if not courses:
-        print("No courses provided to save.")
+def index_courses(courses: List[str]) -> Dict[int, List[str]]:
+    """ Creates a dictionary of indexed courses. """
+    return {index: [course] + [''] * 8 for index, course in enumerate(courses, start=1)}
+
+def info_courses(all_courses: Dict[int, List[str]]):
+    """ Adds course information like credit hours and long name. """
+    filepath = "Backend/frontend_files/full_program_courses.json"
+    try:
+        with open(filepath, 'r') as jsonfile:
+            data = json.load(jsonfile)
+    except FileNotFoundError:
+        print(f"File not found: {filepath}")
         return
-    
-    keys = courses[0].keys()  # Assumes all course dictionaries have the same keys
-    
-    with open(output_csv, 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=keys)
-        writer.writeheader()
-        for course in courses:
-            writer.writerow(course)
-    print(f"Courses saved to {output_csv}")
+    for department, course_list in data.items():
+        for course in course_list:
+            course_name = course["name"]
+            for index, name in all_courses.items():
+                if course_name == name[0]:
+                    name[6] = course["hours"]
+                    name[8] = course["long_name"]
 
-def main(input_json: str, output_csv: str):
-    courses = read_json_data(input_json)
-    if not courses:
-        print("No valid courses found in JSON.")
-        return
-    save_courses_to_csv(courses, output_csv)
+def save_to_csv(df: pd.DataFrame, df2: pd.DataFrame, filename: str):
+    """ Saves metadata and course data to a CSV file. """
+    df2.to_csv(filename, index=False, header=False, mode='w')  # Metadata
+    df.to_csv(filename, index=False, header=True, mode='a')  # Courses
 
-if __name__ == "__main__":
-    import argparse
 
-    parser = argparse.ArgumentParser(description="Convert picked courses from JSON to CSV.")
-    parser.add_argument("input_json", type=str, help="Path to the JSON file containing picked courses")
-    parser.add_argument("output_csv", type=str, help="Path to save the generated CSV file")
+def generate_curricular_csv(selected_courses: List[str]) -> str:
+   # generates CSV for curricular analytics site based on selected courses
+    output_file = "Backend/frontend_files/csv_for_display.csv"
 
-    args = parser.parse_args()
-    main(args.input_json, args.output_csv)
+    # process course data using selected courses
+    all_courses = index_courses(selected_courses)
+    info_courses(all_courses)
+
+    # prepare course data for CSV
+    courses_info = [
+        {
+            "Course ID": index,
+            "Course Name": course[0],
+            "Prefix": course[1],
+            "Number": course[2],
+            "Prerequisites": course[3],
+            "Corequisites": course[4],
+            "Strict-Corequisites": course[5],
+            "Credit Hours": course[6],
+            "Institution": "GT",
+            "Canonical Name": course[8]
+        }
+        for index, course in all_courses.items()
+    ]
+
+    # prepare metadata for CSV
+    metadata = [
+        {"Field": "Curriculum", "Value": "Major"},
+        {"Field": "Institution", "Value": "Georgia Institute of Technology"},
+        {"Field": "Degree Type", "Value": "BS"},
+        {"Field": "System Type", "Value": "Semester"},
+        {"Field": "CIP", "Value": ""},
+        {"Field": "Courses", "Value": ""}
+    ]
+
+    # save CSV
+    df2 = pd.DataFrame(metadata)
+    df = pd.DataFrame(courses_info)
+    save_to_csv(df, df2, output_file)
+
+    return output_file  # return the path to the generated CSV file
