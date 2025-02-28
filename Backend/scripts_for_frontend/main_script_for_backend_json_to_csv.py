@@ -3,7 +3,7 @@ from graph_maker_v2 import build_prereq_graph, build_selected_courses_graph, vis
 from flask_cors import CORS
 import os
 import json
-import csv_to_curricular  # Import CSV generation script
+import csv_to_curricular  
 
 app = Flask(__name__)
 CORS(app)
