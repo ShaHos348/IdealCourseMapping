@@ -57,14 +57,21 @@ def generate_graph():
 # Endpoint to generate CSV file
 @app.route("/make-csv/", methods=["POST"])
 def generate_csv():
-    # Get the JSON data from the request
     data = request.get_json()
-
     selected_courses = data.get("selected_courses", [])
 
-    return
+    if not selected_courses:
+        return jsonify({"error": "No selected courses provided"}), 400
 
-# TODO endpoint that takes program and returns the program table for it
+    try:
+        # generate the CSV using function created
+        output_file = generate_curricular_csv(selected_courses)
+
+        # return the CSV file
+        return send_file(output_file, mimetype="text/csv", as_attachment=True, download_name="curriculum.csv")
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
     app.run(debug=True)
