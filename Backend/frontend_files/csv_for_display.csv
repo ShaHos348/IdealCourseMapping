@@ -1,0 +1,39 @@
+Curriculum,Major
+Institution,Georgia Institute of Technology
+Degree Type,BS
+System Type,Semester
+CIP,
+Courses,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name
+1,CS 1301,CS,1301,,,,3,GT,Introduction to Computing
+2,CS 1100,CS,1100,,,,1,GT,Freshman Leap Seminar
+3,APPH 1050,APPH,1050,,,,2,GT,The Science of Physical Activity and Health
+4,CS 2340,CS,2340,25,,,3,GT,Objects and Design
+5,MATH 3012,MATH,3012,16;17,,,3,GT,Applied Combinatorics
+6,CS 4476,CS,4476,13;17;29;20,,,3,GT,Introduction to Computer Vision
+7,MATH 1113,MATH,1113,,,,4,GT,Precalculus
+8,Lab Science,,,,,,,GT,
+9,CS 3651,CS,3651,22,,,4,GT,Prototyping Intelligent Devices
+10,ECE 4180,ECE,4180,22;20,,,4,GT,Embedded Systems Design
+11,ENGL 1101,ENGL,1101,,,,3,GT,English Composition I
+12,CS 4420,CS,4420,21;31,,,3,GT,Database System Implementation
+13,MATH 2550,MATH,2550,16;17,,,2,GT,Introduction to Multivariable Calculus
+14,Capstone,,,,,,,GT,
+15,ECE 2030,ECE,2030,,,,3,GT,Introduction to Computer Engineering
+16,MATH 1552,MATH,1552,27,,,4,GT,Integral Calculus
+17,MATH 1554,MATH,1554,7;16;27,,,4,GT,Linear Algebra
+18,PHYS 2211,PHYS,2211,16,,,4,GT,Introductory Physics I
+19,HIST 2112,HIST,2112,,,,3,GT,The United States since 1877
+20,CS 3510,CS,3510,23;21;5,,,3,GT,Design and Analysis of Algorithms
+21,CS 1332,CS,1332,25,,,3,GT,Data Structures and Algorithms for Applications
+22,ECE 2031,ECE,2031,15;29,,,2,GT,Digital Design Laboratory
+23,CS 2051,CS,2051,,,,3,GT,Honors - Induction to Discrete Mathematics for Computer Science
+24,CS 3235,CS,3235,31,,,3,GT,Introduction to Information Security
+25,CS 1331,CS,1331,1,,,3,GT,Introduction to Object Oriented Programming
+26,CS 3251,CS,3251,31,,,3,GT,Computer Networking I
+27,MATH 1551,MATH,1551,7,,,2,GT,Differential Calculus
+28,ISYE 3770,ISYE,3770,13;17,,,3,GT,Statistics and Applications
+29,CS 2110,CS,2110,25,,,4,GT,Computer Organization and Programming
+30,ENGL 1102,ENGL,1102,11,,,3,GT,English Composition II
+31,CS 2200,CS,2200,29,,,4,GT,Computer Systems and Networks
+32,CS 4726,CS,4726,,,,3,GT,"Privacy, Technology, Policy, and Law"

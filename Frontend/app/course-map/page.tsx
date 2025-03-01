@@ -10,6 +10,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import axios from "axios";
+import FileSaver from 'file-saver';
 
 const CourseMapPage = () => {
   const router = useRouter();
@@ -113,6 +114,27 @@ const CourseMapPage = () => {
     setCoursePrereqs(Array.isArray(foundPrereqs) ? foundPrereqs.join(" | ") : foundPrereqs || "No prerequisites");
   };
 
+  const handleCSVExport = async () => {
+    try {
+      const selectedCoursesArray = Array.from(selectedCourses);
+  
+      const response = await axios.post(
+        "http://localhost:5000/make-csv/",
+        { courses: selectedCoursesArray },
+        { responseType: 'blob' }
+      );
+  
+      const blob = new Blob([response.data], { type: 'text/csv' });
+      FileSaver.saveAs(blob, 'courses.csv');
+    } catch (error) {
+      console.error("Error downloading CSV:", error);
+    }
+  };
+
+  const redirectToCurricularAnalytics = () => {
+    window.open("https://curricularanalytics.org/home");
+  };
+
   const handleMakeGraph = async () => {
     if (selectedCourses.length === 0) {
       setImageSrc(null);
@@ -162,7 +184,7 @@ const CourseMapPage = () => {
   return (
     <div className="max-w-6xl mx-auto p-4 space-y-6">
       {/* Header with Back Button */}
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center space-x-2">
         <Button
           variant="outline"
           onClick={() => router.back()}
@@ -174,10 +196,13 @@ const CourseMapPage = () => {
 
       {/* Graph Area */}
       <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0">
+        <CardHeader className="flex flex-row items-center justify-between space-y-0 space-x-2">
           <CardTitle>Course Prerequisites Graph</CardTitle>
-          <Button onClick={handleMakeGraph}>Make Graph</Button>
-          {/*TODO: Add buttons to handle downloading csv file and going to CA site */}
+          <div className="flex space-x-2">
+            <Button onClick={handleCSVExport}>Export CSV</Button>
+            <Button onClick={redirectToCurricularAnalytics}>Go to Curricular Analytics</Button>
+            <Button onClick={handleMakeGraph}>Make Graph</Button>
+        </div>
         </CardHeader>
         <CardContent>
           <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
