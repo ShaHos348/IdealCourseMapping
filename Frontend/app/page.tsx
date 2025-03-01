@@ -15,53 +15,59 @@ import college_data_proto from "../public/data/college_data_proto.json";
 // TODO: replace with college_programs.json
 //const collegeData = college_data_proto;
 // Structured data for colleges and majors
-const collegeData = {
-  'college-of-computing': {
-    name: 'College of Computing',
-    majors: {
-      'computer-science': {
-        name: 'Computer Science',
-        threads: [
-          { value: 'devices', label: 'Devices' },
-          { value: 'info-internetworks', label: 'Information Internetworks' },
-          { value: 'intelligence', label: 'Intelligence' },
-          { value: 'media', label: 'Media' },
-          { value: 'modeling-simulation', label: 'Modeling and Simulation' },
-          { value: 'people', label: 'People' },
-          { value: 'systems-architecture', label: 'Systems and Architecture' },
-          { value: 'theory', label: 'Theory' }
-        ]
-      }
-    }
-  }
-};
+const collegeData = college_data_proto;
 
 export default function GTCoursePicker() {
   const router = useRouter();
   const [selectedCollege, setSelectedCollege] = useState("");
   const [selectedMajor, setSelectedMajor] = useState("");
+  const [hasThreads, setHasThreads] = useState(false);
+  const [hasConcentration, setHasConcentration] = useState(false);
   const [thread1, setThread1] = useState("");
   const [thread2, setThread2] = useState("");
+  const [concentration, setConcentraion] = useState("");
 
   const handleCollegeChange = (value) => {
     setSelectedCollege(value);
     setSelectedMajor("");
+    setHasThreads(false);
+    setHasConcentration(false);
     setThread1("");
     setThread2("");
+    setConcentraion("");
   };
 
-  const handleMajorChange = (value) => {
+  const handleMajorChange = (value, college, collegeData) => {    
     setSelectedMajor(value);
     setThread1("");
     setThread2("");
+
+    if ("threads" in collegeData[college].majors[value])
+      setHasThreads(true);
+    if ("concentrations" in collegeData[college].majors[value])
+      setHasConcentration(true);
   };
 
-  const getAvailableThreads = (selectedThread) => {
-    if (!selectedCollege || !selectedMajor) return [];
+  const getAvailableThreads = () => {
+    if (
+      !selectedCollege || !selectedMajor || 
+      !("threads" in collegeData[selectedCollege].majors[selectedMajor])
+    ) 
+      return [];
     const threads = collegeData[selectedCollege].majors[selectedMajor].threads;
     return threads.filter(thread => 
       thread.value !== thread1 && thread.value !== thread2
     );
+  };
+
+  const getAvailableConcentrations = () => {
+    if (
+      !selectedCollege || !selectedMajor || 
+      !("concentrations" in collegeData[selectedCollege].majors[selectedMajor])
+    ) 
+      return [];
+    const concentrations = collegeData[selectedCollege].majors[selectedMajor].concentrations;
+    return concentrations.filter(c => c.value !== concentration);
   };
 
   const getCurrentThreads = () => {
@@ -69,20 +75,23 @@ export default function GTCoursePicker() {
     return collegeData[selectedCollege].majors[selectedMajor].threads;
   };
 
-  const getThreadLabel = (threadValue) => {
+  const getLabel = (threadValue, field) => {
     if (!threadValue || !selectedCollege || !selectedMajor) return "";
-    const thread = collegeData[selectedCollege].majors[selectedMajor].threads
+    const data = collegeData[selectedCollege].majors[selectedMajor][field]
       .find(t => t.value === threadValue);
-    return thread ? thread.label : "";
+    return data ? data.label : "";
   };
 
   const handleContinue = () => {
     // Create a query string with the selected data
+    const majorObj = collegeData[selectedCollege]['majors'][selectedMajor];
+
     const selections = {
       college: collegeData[selectedCollege]['name'],
       major: collegeData[selectedCollege]['majors'][selectedMajor]['name'],
-      thread1:  collegeData[selectedCollege]['majors'][selectedMajor]['threads'].find(t => t.value === thread1).label,
-      thread2: collegeData[selectedCollege]['majors'][selectedMajor]['threads'].find(t => t.value === thread2).label,
+      concentration: hasConcentration ? majorObj['concentrations'].find(t => t.value === concentration).label : null,
+      thread1: hasThreads ? majorObj['threads'].find(t => t.value === thread1).label : null,
+      thread2: hasThreads ? majorObj['threads'].find(t => t.value === thread2).label : null,
     };
     
     // Navigate to the course selection page with the parameters
@@ -124,7 +133,9 @@ export default function GTCoursePicker() {
               <label htmlFor="major" className="block text-sm font-medium mb-2">
                 Major
               </label>
-              <Select value={selectedMajor} onValueChange={handleMajorChange}>
+              <Select 
+                value={selectedMajor} 
+                onValueChange={(major) => handleMajorChange(major, selectedCollege, collegeData)}>
                 <SelectTrigger id="major">
                   <SelectValue placeholder="Select a major">
                     {selectedMajor ? collegeData[selectedCollege].majors[selectedMajor].name : "Select a major"}
@@ -140,9 +151,33 @@ export default function GTCoursePicker() {
               </Select>
             </div>
           )}
+          {/* Concentration Selection */}
+          {selectedMajor && hasConcentration && (
+            <div>
+              <label htmlFor="concentration" className="block text-sm font-medium mb-2">
+              Concentration
+              </label>
+              <Select 
+                value={concentration} 
+                onValueChange={setConcentraion}>
+                <SelectTrigger id="concentration">
+                  <SelectValue placeholder="Select a concentration">
+                  {getLabel(concentration, "concentrations") || "Select a concentration"}
+                  </SelectValue>
+                </SelectTrigger>
+                <SelectContent>
+                  {getAvailableConcentrations().map(c => (
+                    <SelectItem key={c.value} value={c.value}>
+                      {c.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          )}
 
           {/* Thread Selection */}
-          {selectedMajor && (
+          {selectedMajor && hasThreads && (
             <div className="space-y-4">
               <div>
                 <label htmlFor="thread1" className="block text-sm font-medium mb-2">
@@ -151,11 +186,11 @@ export default function GTCoursePicker() {
                 <Select value={thread1} onValueChange={setThread1}>
                   <SelectTrigger id="thread1">
                     <SelectValue placeholder="Select your first thread">
-                      {getThreadLabel(thread1) || "Select your first thread"}
+                      {getLabel(thread1, "threads") || "Select your first thread"}
                     </SelectValue>
                   </SelectTrigger>
                   <SelectContent>
-                    {getAvailableThreads(thread2).map(thread => (
+                    {getAvailableThreads().map(thread => (
                       <SelectItem key={thread.value} value={thread.value}>
                         {thread.label}
                       </SelectItem>
@@ -171,11 +206,11 @@ export default function GTCoursePicker() {
                 <Select value={thread2} onValueChange={setThread2}>
                   <SelectTrigger id="thread2">
                     <SelectValue placeholder="Select your second thread">
-                      {getThreadLabel(thread2) || "Select your second thread"}
+                      {getLabel(thread2, "threads") || "Select your second thread"}
                     </SelectValue>
                   </SelectTrigger>
                   <SelectContent>
-                    {getAvailableThreads(thread1).map(thread => (
+                    {getAvailableThreads().map(thread => (
                       <SelectItem key={thread.value} value={thread.value}>
                         {thread.label}
                       </SelectItem>
@@ -186,7 +221,10 @@ export default function GTCoursePicker() {
             </div>
           )}
 
-          {thread1 && thread2 && (
+          {(
+            (thread1 && thread2) || concentration || 
+            (!thread1 && !thread2 && !concentration)
+          ) && (
             <Button className="w-full" onClick={handleContinue}>
               Continue to Course Map
             </Button>
