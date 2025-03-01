@@ -64,27 +64,8 @@ def generate_csv():
     data = request.get_json()
     selected_courses = data.get("courses", [])
 
-    # Retrieve all courses data
-    all_courses = return_all_courses_json()
-
-    # Filter the selected courses
-    filtered_courses = [course for course in all_courses if course['courseId'] in selected_courses]
-
-    # Create a CSV file in memory
-    output = io.StringIO()
-    writer = csv.writer(output)
-    
-    # Write the header
-    writer.writerow(["courseId", "courseName", "courseDescription"])
-    
-    # Write the course data
-    for course in filtered_courses:
-        writer.writerow([course["courseId"], course["courseName"], course["courseDescription"]])
-
-    output.seek(0)
-
     # Send the CSV file as a response
-    return send_file(output, mimetype='text/csv', as_attachment=True, attachment_filename='courses.csv')
+    return selected_courses
 
 # TODO endpoint that takes program and returns the program table for it
 
