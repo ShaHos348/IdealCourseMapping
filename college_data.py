@@ -63,6 +63,8 @@ for college in colleges:
 
     program_list = program_container.find_all("li")  # Creates list of majors
 
+    print("Working...")
+
     for program in program_list:
         program_name = program.text.split('.')[0].strip().replace(",", "")
         links = program.find_all("a", href=True)
@@ -79,8 +81,30 @@ for college in colleges:
 
             major_info = {"name": program_name}
 
-            concentration_container = major_soup.find("div", id = "concentrationstextcontainer")
+            conc_container = major_soup.find("div", id = "concentrationstextcontainer")
             thread_container = major_soup.find("div", id = "threadstextcontainer")
+
+            if conc_container:
+                conc_list = conc_container.find_all("li")  # Extract all list items
+                concentrations = [{ "value": "-".join(item.text.strip().split(" - ", 1)[-1].lower().split()).replace("---", "-"),
+                                    "label": item.text.strip().split(" - ", 1)[-1]}
+                                    for item in conc_list]
+
+                major_info["Concentrations"] = concentrations
+
+            elif thread_container:
+                thread_list = thread_container.find_all("li")  # Extract all list items
+                threads = [
+                    {"value": item.text.strip().replace(" ", "-").lower(), "label": item.text.strip()}
+                    for item in thread_list
+                ]
+                major_info["Threads"] = threads
+
+            else:
+                major_info["Requirements"] = [{"value": "requirements", "label": "Requirements"}]
+
+            # Save the formatted major info
+            collegeData[college_key]["majors"][program_key] = major_info
 
             # if concentration_container:
             #     print(f"{program_key} has Concentrations!")
@@ -89,10 +113,12 @@ for college in colleges:
             # else:
             #     print(f"{program_key} has neither (just Requirements).")
 
+
+
 print(collegeData)
 
 #Coverts the dictionary into a json file
-# with open("./Backend/frontend_files/college_data.json", "w") as f:
-#     f.write(json.dumps(collegeData, indent=2))
+with open("./Backend/frontend_files/college_data.json", "w") as f:
+    f.write(json.dumps(collegeData, indent=2))
 
 
