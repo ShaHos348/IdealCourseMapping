@@ -27,6 +27,17 @@ export default function GTCoursePicker() {
   const [thread2, setThread2] = useState("");
   const [concentration, setConcentraion] = useState("");
 
+  const canContinue = () => {
+    if (!selectedCollege || !selectedMajor)
+      return false;
+    if ("threads" in collegeData[selectedCollege].majors[selectedMajor])
+      return (thread1 !== "" && thread2 !== "");
+    else if ("concentrations" in collegeData[selectedCollege].majors[selectedMajor])
+      return concentration !== "";
+    else
+      return true;
+  }
+
   const handleCollegeChange = (value) => {
     setSelectedCollege(value);
     setSelectedMajor("");
@@ -224,14 +235,9 @@ export default function GTCoursePicker() {
             </div>
           )}
 
-          {(
-            (thread1 && thread2) || concentration || 
-            (!thread1 && !thread2 && !concentration)
-          ) && (
-            <Button className="w-full" onClick={handleContinue}>
-              Continue to Course Map
-            </Button>
-          )}
+          <Button className="w-full" onClick={handleContinue} disabled={!canContinue()}>
+            Continue to Course Map
+          </Button>
         </CardContent>
       </Card>
     </div>
