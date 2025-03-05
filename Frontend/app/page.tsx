@@ -39,8 +39,11 @@ export default function GTCoursePicker() {
 
   const handleMajorChange = (value, college, collegeData) => {    
     setSelectedMajor(value);
+    setHasThreads(false);
+    setHasConcentration(false);
     setThread1("");
     setThread2("");
+    setConcentraion("");
 
     if ("threads" in collegeData[college].majors[value])
       setHasThreads(true);
