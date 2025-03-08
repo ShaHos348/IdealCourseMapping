@@ -60,12 +60,17 @@ export default function CourseSelectionPage() {
     console.log("Updated selection data:", selectionData); // This will log updated value
     const loadTableData = async () => {
       console.log(selectionData.focus);
-
-      const program =
-        selectionData.major + // Replace all spaces in major with underscores
-        (selectionData.focus && selectionData.focus.length > 0
-          ? ": " + selectionData.focus.map((focus) => focus).join(" & ") // Replace all spaces in focus terms with underscores, and join with "_&_"
-          : "");
+      console.log("CHECKING");
+      let program = selectionData.major;
+      const focus1 = selectionData.focus[0];
+      const focus2 = selectionData.focus[1];
+      if (focus1 && focus2) {
+        program += ": " + focus1 + " & " + focus2;
+      } else if (focus1) {
+        program += ": " + focus1;
+      } else if (focus2) {
+        program += ": " + focus2;
+      }
       setProgram(program);
 
       const json_file_path = program.replace(": ", "-").replace(/ /g, "_");
