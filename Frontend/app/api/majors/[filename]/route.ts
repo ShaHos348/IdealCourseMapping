@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import path from "path";
 import { promises as fs } from "fs";
-console.log("HELLOOOO");
 export async function GET(
   req: NextRequest,
   { params }: { params: { filename: string } }
