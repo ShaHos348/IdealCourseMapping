@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import json
 from urllib.parse import urljoin
-
+import pprint
 
 #NOTE: Please look at majors_scrapper.py to see how soup works and Frontend\app\page.tsx on how collegeData is structured
 
@@ -48,7 +48,7 @@ collegesContainer = soup.find("div", id="textcontainer")
 colleges = collegesContainer.find_all("a")
 
 for college in colleges:
-    college_name = college.text.strip()
+    college_name = college.text.strip().replace("\xa0", " ")
     college_key = college_name.replace(" ", "-").lower()
 
     # create structure for this college
@@ -66,7 +66,7 @@ for college in colleges:
     print("Working...")
 
     for program in program_list:
-        program_name = program.text.split('.')[0].strip().replace(",", "")
+        program_name = program.text.split('.')[0].strip().replace(",", "").replace("\xa0", " ")
         links = program.find_all("a", href=True)
         bs_link = [urljoin(baseURL, link["href"]) for link in links if link.text.strip() == "BS"]  # Finds links for BS majors
 
@@ -85,19 +85,29 @@ for college in colleges:
             thread_container = major_soup.find("div", id = "threadstextcontainer")
 
             if conc_container:
-                conc_list = conc_container.find_all("li")  # Extract all list items
-                concentrations = [{ "value": "-".join(item.text.strip().split(" - ", 1)[-1].lower().split()).replace("---", "-"),
-                                    "label": item.text.strip().split(" - ", 1)[-1]}
-                                    for item in conc_list]
+                li_elements = conc_container.find_all("li")  # Check for <li> elements first
+
+                if li_elements:
+                    # Extract only from <li> elements if they exist
+                    conc_list = li_elements
+                else:
+                    # Fallback to <p> elements if no <li> elements exist
+                    conc_list = [p for p in conc_container.find_all("p") if p.find("a")]
+
+                concentrations = [{
+                    "value": "-".join(item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").split(" - ", 1)[-1].lower().split()).replace("---", "-"),
+                    "label": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").split(" - ", 1)[-1]
+                } for item in conc_list]
 
                 major_info["Concentrations"] = concentrations
 
             elif thread_container:
-                thread_list = thread_container.find_all("li")  # Extract all list items
-                threads = [
-                    {"value": item.text.strip().replace(" ", "-").lower(), "label": item.text.strip()}
-                    for item in thread_list
-                ]
+                thread_list = thread_container.find_all(["li", "p"])
+                threads = [{
+                    "value": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").replace(" ", "-").lower().replace("---", "-"),
+                    "label": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ") }
+                    for item in thread_list if item.name == "li" or item.find("a")]  # Filter <p> that contain links
+
                 major_info["Threads"] = threads
 
             else:
@@ -106,6 +116,7 @@ for college in colleges:
             # Save the formatted major info
             collegeData[college_key]["majors"][program_key] = major_info
 
+            # To help with seeing which majors have concentrations, threads, or neither.
             # if concentration_container:
             #     print(f"{program_key} has Concentrations!")
             # elif thread_container:
@@ -114,11 +125,11 @@ for college in colleges:
             #     print(f"{program_key} has neither (just Requirements).")
 
 
-
-print(collegeData)
+print(json.dumps(collegeData, indent=4))
+#print(collegeData)
 
 #Coverts the dictionary into a json file
 with open("./Backend/frontend_files/college_data.json", "w") as f:
     f.write(json.dumps(collegeData, indent=2))
-
+#\u2013, \u00a0
 
