@@ -175,7 +175,7 @@
       "https://catalog.gatech.edu/search/?P=CS%202340"
     ],
     [
-      "Select one for Ethics/Professionalism:",
+      "Select one for Professionalism/Ethics requirement:",
       "3"
     ],
     [
@@ -259,10 +259,90 @@
       "https://catalog.gatech.edu/search/?P=CS%203511"
     ],
     [
-      "MATH2552",
-      "Differential Equations",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%202552"
+      "Select three credit hours of the following for Introduction to Information Management:",
+      "3"
+    ],
+    [
+      "CS3251",
+      "Computer Networking I",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%203251"
+    ],
+    [
+      "CS4400",
+      "Introduction to Database Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204400"
+    ],
+    [
+      "Select two of the following for Advanced Information Management:",
+      "6"
+    ],
+    [
+      "CS3251",
+      "Computer Networking I (if not taken for Introduction to Information Management)",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%203251"
+    ],
+    [
+      "CS4251",
+      "Computer Networking II",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204251"
+    ],
+    [
+      "CS4255",
+      "Introduction to Network Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204255"
+    ],
+    [
+      "CS4261",
+      "Mobile Applications and Services for Converged Networks",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204261"
+    ],
+    [
+      "CS4262",
+      "Network Security",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204262"
+    ],
+    [
+      "CS4270",
+      "Data Communications Laboratory",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204270"
+    ],
+    [
+      "CS4365",
+      "Introduction to Enterprise Computing",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204365"
+    ],
+    [
+      "CS4400",
+      "Introduction to Database Systems (if not taken for Introduction for Information Management)",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204400"
+    ],
+    [
+      "CS4420",
+      "Database System Implementation",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204420"
+    ],
+    [
+      "CS4440",
+      "Emerging Database Technologies and Applications",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204440"
+    ],
+    [
+      "CS4675",
+      "Internet Computing Systems, Services and Applications",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204675"
     ],
     [
       "Select nine credit hours of the following for Society and Systems:",
@@ -327,40 +407,6 @@
       "Privacy, Technology, Policy, and Law",
       "",
       "https://catalog.gatech.edu/search/?P=CS%204726"
-    ],
-    [
-      "Select two of the following for Computational Science and Engineering:",
-      "6"
-    ],
-    [
-      "CS4641",
-      "Machine Learning",
-      "",
-      "https://catalog.gatech.edu/search/?P=CS%204641"
-    ],
-    [
-      "CX4140",
-      "Computational Modeling Algorithms",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204140"
-    ],
-    [
-      "CX4220",
-      "Introduction to High Performance Computing",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204220"
-    ],
-    [
-      "CX4230",
-      "Computer Simulation",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204230"
-    ],
-    [
-      "CX4640",
-      "Numerical Analysis I",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204640"
     ]
   ],
   "Other Required Courses": [
@@ -408,7 +454,7 @@
   "Free Electives": [
     [
       "Free Electives",
-      "9"
+      "10"
     ],
     [
       "Total Credit Hours",

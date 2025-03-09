@@ -25,6 +25,12 @@
       "Introduction to Computing",
       3,
       "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
     ]
   ],
   "Mathematics and Quantitative Skills": [
@@ -120,8 +126,14 @@
   ],
   "Social Sciences": [
     [
+      "PSYC1101",
+      "General Psychology",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%201101"
+    ],
+    [
       "Any SS",
-      "9",
+      "6",
       "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
     ]
   ],
@@ -175,7 +187,7 @@
       "https://catalog.gatech.edu/search/?P=CS%202340"
     ],
     [
-      "Select one for Ethics/Professionalism:",
+      "Select one for the Professionalism/Ethics requirement:",
       "3"
     ],
     [
@@ -259,108 +271,154 @@
       "https://catalog.gatech.edu/search/?P=CS%203511"
     ],
     [
-      "MATH2552",
-      "Differential Equations",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%202552"
+      "CS3600",
+      "Introduction to Artificial Intelligence",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203600"
     ],
     [
-      "Select nine credit hours of the following for Society and Systems:",
+      "Select one of the following for Embodied Intelligence:",
+      "3"
+    ],
+    [
+      "CS3630",
+      "Introduction to Perception and Robotics",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203630"
+    ],
+    [
+      "CS3790",
+      "Introduction to Cognitive Science",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203790"
+    ],
+    [
+      "PSYC3040",
+      "Sensation and Perception",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%203040"
+    ],
+    [
+      "Select three of the following for Approaches to Intelligence:",
+      "9"
+    ],
+    [
+      "CS4510",
+      "Automata and Complexity Theory",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204510"
+    ],
+    [
+      "CS4635",
+      "Knowledge-Based Artificial Intelligence",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204635"
+    ],
+    [
+      "CS4476",
+      "Introduction to Computer Vision",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204476"
+    ],
+    [
+      "CS4641",
+      "Machine Learning",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204641"
+    ],
+    [
+      "CS4644",
+      "Deep Learning",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204644"
+    ],
+    [
+      "CS4646",
+      "Machine Learning for Trading",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204646"
+    ],
+    [
+      "CS4649",
+      "Robot Intelli Planning",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204649"
+    ],
+    [
+      "CS4650",
+      "Natural Language Understanding",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204650"
+    ],
+    [
+      "CS4731",
+      "Game AI",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204731"
+    ],
+    [
+      "Select nine credits hours of the following for Society and Systems:",
       "9"
     ],
     [
       "CS4117",
       "Introduction to Malware Reverse Engineering",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204117"
     ],
     [
       "CS4238",
       "Computer Systems Security",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204238"
     ],
     [
       "CS4239",
       "Enterprise Cybersecurity Management",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204239"
     ],
     [
       "CS4243",
       "Cyber Warfare",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204243"
     ],
     [
       "CS4262",
       "Network Security",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204262"
     ],
     [
       "CS4263",
       "Psychology of Cybersecurity",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204263"
     ],
     [
       "CS4265",
       "Technical Introduction to Blockchain and Cryptocurrencies",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204265"
     ],
     [
       "CS4267",
       "Critical Infrastructures Security and Resilience",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204267"
     ],
     [
       "CS4725",
       "Information Security Strategies and Policies",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204725"
     ],
     [
       "CS4726",
       "Privacy, Technology, Policy, and Law",
-      "",
+      3,
       "https://catalog.gatech.edu/search/?P=CS%204726"
-    ],
-    [
-      "Select two of the following for Computational Science and Engineering:",
-      "6"
-    ],
-    [
-      "CS4641",
-      "Machine Learning",
-      "",
-      "https://catalog.gatech.edu/search/?P=CS%204641"
-    ],
-    [
-      "CX4140",
-      "Computational Modeling Algorithms",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204140"
-    ],
-    [
-      "CX4220",
-      "Introduction to High Performance Computing",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204220"
-    ],
-    [
-      "CX4230",
-      "Computer Simulation",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204230"
-    ],
-    [
-      "CX4640",
-      "Numerical Analysis I",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204640"
     ]
   ],
   "Other Required Courses": [
@@ -408,7 +466,7 @@
   "Free Electives": [
     [
       "Free Electives",
-      "9"
+      "4"
     ],
     [
       "Total Credit Hours",
