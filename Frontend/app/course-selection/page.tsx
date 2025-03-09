@@ -41,7 +41,7 @@ export default function CourseSelectionPage() {
       if (storedSelectionData) {
         storedSelectionData = {
           major: storedSelectionData.major,
-          focus: [storedSelectionData.thread1, storedSelectionData.thread2],
+          focus: [storedSelectionData.thread1 || storedSelectionData.concentration, storedSelectionData.thread2],
         };
         setSelectionData(storedSelectionData);
       }
