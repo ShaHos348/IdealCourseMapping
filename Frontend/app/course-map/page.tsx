@@ -177,6 +177,20 @@ const CourseMapPage = () => {
     }
   };
 
+  const handleClearSelectedCourses = () => {
+    setSelectedCourses([]);
+    setPickedCourseForPrereqs(""); // Clear the picked course for prerequisites
+    setCoursePrereqs(""); // Clear the course prerequisites
+  };
+
+  const handleRemoveCourse = (course: string) => {
+    setSelectedCourses((prevSelectedCourses) => {
+      const newSelected = new Set(prevSelectedCourses);
+      newSelected.delete(course);
+      return Array.from(newSelected); // Convert back to an array
+    });
+  };
+  
   if (loading) {
     return <div className="p-8 text-center">Loading course map...</div>;
   }
@@ -220,50 +234,53 @@ const CourseMapPage = () => {
       </Card>
 
       {selectedCourses.length > 0 && (
-        <>
-          {/*Courses selected Box */}
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0">
-              <CardTitle>Selected Courses</CardTitle>
-            </CardHeader>
+      <>
+        {/* Courses selected Box */}
+        <Card>
+          <CardHeader className="flex flex-row items-center justify-between space-y-0">
+            <CardTitle>Selected Courses</CardTitle>
+            <Button onClick={handleClearSelectedCourses} variant="outline">
+              Clear All
+            </Button>
+          </CardHeader>
 
+          <CardContent>
+            {selectedCourses.map((course, index) => (
+              <span
+                key={course}
+                className="cursor-pointer hover:text-blue-600"
+                onClick={() => togglePrereqs(course)}
+                onContextMenu={(e) => {
+                  e.preventDefault();
+                  handleRemoveCourse(course);
+                }}
+              >
+                {course}
+                {index < selectedCourses.length - 1 && " | "}
+              </span>
+            ))}
+          </CardContent>
+        </Card>
+      </>
+    )}
 
-            <CardContent>
-              {selectedCourses.map((course, index) => (
-                <span
-                  key={course}
-                  className="cursor-pointer hover:text-blue-600"
-                  onClick={() => togglePrereqs(course)}
-                >
-                  {course}
-                  {index < selectedCourses.length - 1 && " | "}
-                </span>
-              ))}
-            </CardContent>
-          </Card>
-
-          {/*Prereqs Box */}
-          <Card>
-            <CardHeader>
-              <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-                {pickedCourseForPrereqs ? (
-                  <p className="text-gray-500">{coursePrereqs}</p>
-                ) : (
-                  <p className="text-gray-500">
-                    Course Prereqs will appear here for a selected course
-                  </p>
-                )}
-              </div>
-            </CardContent>
-          </Card>
-        </>
-      )}
-
-
-
+ {/* Prereqs Box */}
+ <Card>
+      <CardHeader>
+        <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+          {pickedCourseForPrereqs ? (
+            <p className="text-gray-500">{coursePrereqs}</p>
+          ) : (
+            <p className="text-gray-500">
+              Course Prereqs will appear here for a selected course
+            </p>
+          )}
+        </div>
+      </CardContent>
+    </Card>
 
       {/* Search Section */}
       <Card>
