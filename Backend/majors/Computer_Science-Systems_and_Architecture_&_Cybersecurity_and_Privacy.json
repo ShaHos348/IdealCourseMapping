@@ -175,7 +175,7 @@
       "https://catalog.gatech.edu/search/?P=CS%202340"
     ],
     [
-      "Select one for Ethics/Professionalism:",
+      "Select one for Professionalism/Ethics requirement:",
       "3"
     ],
     [
@@ -235,6 +235,18 @@
       "https://catalog.gatech.edu/search/?P=CS%202200"
     ],
     [
+      "CS3210",
+      "Design of Operating Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203210"
+    ],
+    [
+      "CS3220",
+      "Computer Structures: Hardware/Software Codesign of a Processor",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203220"
+    ],
+    [
       "CS3235",
       "Introduction to Information Security",
       3,
@@ -259,10 +271,10 @@
       "https://catalog.gatech.edu/search/?P=CS%203511"
     ],
     [
-      "MATH2552",
-      "Differential Equations",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%202552"
+      "ECE2031",
+      "Digital Design Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%202031"
     ],
     [
       "Select nine credit hours of the following for Society and Systems:",
@@ -329,38 +341,42 @@
       "https://catalog.gatech.edu/search/?P=CS%204726"
     ],
     [
-      "Select two of the following for Computational Science and Engineering:",
-      "6"
+      "Select one of the following for Systems Software Tools:",
+      "3"
     ],
     [
-      "CS4641",
-      "Machine Learning",
-      "",
-      "https://catalog.gatech.edu/search/?P=CS%204641"
+      "CS3300",
+      "Introduction to Software Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203300"
     ],
     [
-      "CX4140",
-      "Computational Modeling Algorithms",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204140"
+      "CS4240",
+      "Compilers, Interpreters, and Program Analyzers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204240"
     ],
     [
-      "CX4220",
-      "Introduction to High Performance Computing",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204220"
+      "Select one of the following for Advanced Systems Architectures:",
+      "3"
     ],
     [
-      "CX4230",
-      "Computer Simulation",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204230"
+      "CS4210",
+      "Advanced Operating Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204210"
     ],
     [
-      "CX4640",
-      "Numerical Analysis I",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204640"
+      "CS4220",
+      "Programming Embedded Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204220"
+    ],
+    [
+      "CS4290",
+      "Advanced Computer Organization",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204290"
     ]
   ],
   "Other Required Courses": [
@@ -408,7 +424,7 @@
   "Free Electives": [
     [
       "Free Electives",
-      "9"
+      "5"
     ],
     [
       "Total Credit Hours",

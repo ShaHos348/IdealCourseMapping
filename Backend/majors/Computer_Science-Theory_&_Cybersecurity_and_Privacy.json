@@ -259,10 +259,22 @@
       "https://catalog.gatech.edu/search/?P=CS%203511"
     ],
     [
-      "MATH2552",
-      "Differential Equations",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%202552"
+      "CS4510",
+      "Automata and Complexity Theory",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204510"
+    ],
+    [
+      "CS4540",
+      "Advanced Algorithms",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204540"
+    ],
+    [
+      "MATH3406",
+      "A Second Course in Linear Algebra",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%203406"
     ],
     [
       "Select nine credit hours of the following for Society and Systems:",
@@ -329,38 +341,26 @@
       "https://catalog.gatech.edu/search/?P=CS%204726"
     ],
     [
-      "Select two of the following for Computational Science and Engineering:",
-      "6"
+      "Select one of the following for Advanced Mathematics:",
+      "3"
     ],
     [
-      "CS4641",
-      "Machine Learning",
-      "",
-      "https://catalog.gatech.edu/search/?P=CS%204641"
+      "MATH4022",
+      "Introduction to Graph Theory",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204022"
     ],
     [
-      "CX4140",
-      "Computational Modeling Algorithms",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204140"
+      "MATH4032",
+      "Combinatorial Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204032"
     ],
     [
-      "CX4220",
-      "Introduction to High Performance Computing",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204220"
-    ],
-    [
-      "CX4230",
-      "Computer Simulation",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204230"
-    ],
-    [
-      "CX4640",
-      "Numerical Analysis I",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204640"
+      "MATH4150",
+      "Introduction to Number Theory",
+      3,
+      "https://catalog.gatech.edu/search/?P=MATH%204150"
     ]
   ],
   "Other Required Courses": [
@@ -408,7 +408,7 @@
   "Free Electives": [
     [
       "Free Electives",
-      "9"
+      "7"
     ],
     [
       "Total Credit Hours",

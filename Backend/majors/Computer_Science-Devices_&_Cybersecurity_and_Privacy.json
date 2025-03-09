@@ -175,7 +175,7 @@
       "https://catalog.gatech.edu/search/?P=CS%202340"
     ],
     [
-      "Select one for Ethics/Professionalism:",
+      "Select one for Professionalism/Ethics requirement:",
       "3"
     ],
     [
@@ -247,6 +247,12 @@
       "https://catalog.gatech.edu/search/?P=CS%203237"
     ],
     [
+      "CS3251",
+      "Computer Networking I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203251"
+    ],
+    [
       "CS3510",
       "Design and Analysis of Algorithms",
       3,
@@ -259,13 +265,13 @@
       "https://catalog.gatech.edu/search/?P=CS%203511"
     ],
     [
-      "MATH2552",
-      "Differential Equations",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%202552"
+      "ECE2031",
+      "Digital Design Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%202031"
     ],
     [
-      "Select nine credit hours of the following for Society and Systems:",
+      "Select at least nine credit hours of the following for Society and Systems:",
       "9"
     ],
     [
@@ -329,38 +335,48 @@
       "https://catalog.gatech.edu/search/?P=CS%204726"
     ],
     [
-      "Select two of the following for Computational Science and Engineering:",
-      "6"
+      "Select one of the following for Building Devices:",
+      "4"
     ],
     [
-      "CS4641",
-      "Machine Learning",
-      "",
-      "https://catalog.gatech.edu/search/?P=CS%204641"
+      "CS3651",
+      "Prototyping Intelligent Devices",
+      4,
+      "https://catalog.gatech.edu/search/?P=CS%203651"
     ],
     [
-      "CX4140",
-      "Computational Modeling Algorithms",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204140"
+      "ECE4180",
+      "Embedded Systems Design",
+      4,
+      "https://catalog.gatech.edu/search/?P=ECE%204180"
     ],
     [
-      "CX4220",
-      "Introduction to High Performance Computing",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204220"
+      "Select one of the following for Devices in the Real World:",
+      "3"
     ],
     [
-      "CX4230",
-      "Computer Simulation",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204230"
+      "CS3630",
+      "Introduction to Perception and Robotics",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%203630"
     ],
     [
-      "CX4640",
-      "Numerical Analysis I",
-      "",
-      "https://catalog.gatech.edu/search/?P=CX%204640"
+      "CS4261",
+      "Mobile Applications and Services for Converged Networks",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204261"
+    ],
+    [
+      "CS4605",
+      "Mobile and Ubiquitous Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204605"
+    ],
+    [
+      "CS4476",
+      "Introduction to Computer Vision",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%204476"
     ]
   ],
   "Other Required Courses": [
@@ -408,7 +424,7 @@
   "Free Electives": [
     [
       "Free Electives",
-      "9"
+      "7"
     ],
     [
       "Total Credit Hours",
