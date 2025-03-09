@@ -105,7 +105,7 @@ for college in colleges:
                 thread_list = thread_container.find_all(["li", "p"])
                 threads = [{
                     "value": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").replace(" ", "-").lower().replace("---", "-"),
-                    "label": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ") }
+                    "label": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").replace("   ", " - ") }
                     for item in thread_list if item.name == "li" or item.find("a")]  # Filter <p> that contain links
 
                 major_info["Threads"] = threads
