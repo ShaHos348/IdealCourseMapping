@@ -120,8 +120,14 @@
   ],
   "Social Sciences": [
     [
+      "PSYC1101",
+      "General Psychology",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%201101"
+    ],
+    [
       "Any SS",
-      "9",
+      "6",
       "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
     ]
   ],
@@ -175,7 +181,7 @@
       "https://catalog.gatech.edu/search/?P=CS%202340"
     ],
     [
-      "Select one for Ethics/Professionalism:",
+      "Select one for Professionalism/Ethics requirement:",
       "3"
     ],
     [
@@ -247,22 +253,22 @@
       "https://catalog.gatech.edu/search/?P=CS%203237"
     ],
     [
-      "CS3510",
-      "Design and Analysis of Algorithms",
+      "CS3750",
+      "Human Computer Interface Design and Evaluation",
       3,
-      "https://catalog.gatech.edu/search/?P=CS%203510"
+      "https://catalog.gatech.edu/search/?P=CS%203750"
     ],
     [
-      "orCS3511",
-      "Design and Analysis of Algorithms, Honors",
+      "orCS3751",
+      "Introduction to User Interface Design",
       3,
-      "https://catalog.gatech.edu/search/?P=CS%203511"
+      "https://catalog.gatech.edu/search/?P=CS%203751"
     ],
     [
-      "MATH2552",
-      "Differential Equations",
-      4,
-      "https://catalog.gatech.edu/search/?P=MATH%202552"
+      "PSYC2012",
+      "Introduction to Research Methods",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%202012"
     ],
     [
       "Select nine credit hours of the following for Society and Systems:",
@@ -329,38 +335,72 @@
       "https://catalog.gatech.edu/search/?P=CS%204726"
     ],
     [
-      "Select two of the following for Computational Science and Engineering:",
+      "Select six credit hours of the following for Human-Centered Technology:",
       "6"
     ],
     [
-      "CS4641",
-      "Machine Learning",
+      "CS3790",
+      "Introduction to Cognitive Science",
       "",
-      "https://catalog.gatech.edu/search/?P=CS%204641"
+      "https://catalog.gatech.edu/search/?P=CS%203790"
     ],
     [
-      "CX4140",
-      "Computational Modeling Algorithms",
+      "CS4660",
+      "Introduction to Educational Technology",
       "",
-      "https://catalog.gatech.edu/search/?P=CX%204140"
+      "https://catalog.gatech.edu/search/?P=CS%204660"
     ],
     [
-      "CX4220",
-      "Introduction to High Performance Computing",
+      "CS4460",
+      "Introduction to Information Visualization",
       "",
-      "https://catalog.gatech.edu/search/?P=CX%204220"
+      "https://catalog.gatech.edu/search/?P=CS%204460"
     ],
     [
-      "CX4230",
-      "Computer Simulation",
+      "CS4470",
+      "Introduction to User Interface Software",
       "",
-      "https://catalog.gatech.edu/search/?P=CX%204230"
+      "https://catalog.gatech.edu/search/?P=CS%204470"
     ],
     [
-      "CX4640",
-      "Numerical Analysis I",
+      "CS4472",
+      "Design of Online Communities",
       "",
-      "https://catalog.gatech.edu/search/?P=CX%204640"
+      "https://catalog.gatech.edu/search/?P=CS%204472"
+    ],
+    [
+      "CS4605",
+      "Mobile and Ubiquitous Computing",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204605"
+    ],
+    [
+      "CS4745",
+      "Information and Communication Technologies and Global Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=CS%204745"
+    ],
+    [
+      "Select one of the following for Social/Behavioral Science for Computing:",
+      "3"
+    ],
+    [
+      "PSYC2210",
+      "Social Psychology",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%202210"
+    ],
+    [
+      "PSYC2760",
+      "Human Language Processing",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%202760"
+    ],
+    [
+      "PSYC3040",
+      "Sensation and Perception",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%203040"
     ]
   ],
   "Other Required Courses": [
@@ -408,7 +448,7 @@
   "Free Electives": [
     [
       "Free Electives",
-      "9"
+      "7"
     ],
     [
       "Total Credit Hours",

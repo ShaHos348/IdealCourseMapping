@@ -41,7 +41,7 @@ export default function CourseSelectionPage() {
       if (storedSelectionData) {
         storedSelectionData = {
           major: storedSelectionData.major,
-          focus: [storedSelectionData.thread1, storedSelectionData.thread2],
+          focus: [storedSelectionData.thread1 || storedSelectionData.concentration, storedSelectionData.thread2],
         };
         setSelectionData(storedSelectionData);
       }
@@ -60,35 +60,40 @@ export default function CourseSelectionPage() {
     console.log("Updated selection data:", selectionData); // This will log updated value
     const loadTableData = async () => {
       console.log(selectionData.focus);
-
-      const program =
-        selectionData.major + // Replace all spaces in major with underscores
-        (selectionData.focus && selectionData.focus.length > 0
-          ? ": " +
-            selectionData.focus
-              .map((focus) => focus)
-              .join(" & ") // Replace all spaces in focus terms with underscores, and join with "_&_"
-          : "");
+      console.log("CHECKING");
+      let program = selectionData.major;
+      const focus1 = selectionData.focus[0];
+      const focus2 = selectionData.focus[1];
+      if (focus1 && focus2) {
+        program += ": " + focus1 + " & " + focus2;
+      } else if (focus1) {
+        program += ": " + focus1;
+      } else if (focus2) {
+        program += ": " + focus2;
+      }
       setProgram(program);
 
-      const json_file_path = program.replace(": ","-").replace(/ /g, "_");
+      const json_file_path = program.replace(": ", "-").replace(/ /g, "_");
 
-      //console.log(json_file_path);
+      console.log(json_file_path);
 
       try {
-        const response = await fetch(
-          "/data/majors/" + json_file_path + ".json"
-        );
+        const response = await fetch(`/api/majors/${json_file_path}`);
+        console.log("Response: ", response);
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.statusText}`);
+        }
         const data = await response.json();
         setTableData(data);
         //console.log(data);
-        setLoading(false);
       } catch (error) {
         console.error("Error loading course data:", error);
         setLoading(false);
+      } finally {
+        setLoading(false);
       }
     };
-    
+
     loadTableData();
   }, [selectionData]); // Dependency array means this runs when selectionData changes
 
@@ -147,9 +152,7 @@ export default function CourseSelectionPage() {
         </CardHeader>
 
         <CardContent className="max-h-[600px] overflow-y-auto space-y-4">
-          <h1>
-            {program}
-          </h1>
+          <h1>{program}</h1>
           {Object.entries(tableData).map(([category, courses]) => (
             <div key={category}>
               <h3 className="font-bold text-lg">{category}</h3>

@@ -1,8 +1,11 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_file
 from graph_maker_v2 import build_prereq_graph, build_selected_courses_graph, visualize_selected_courses_graph
 import json
 from flask_cors import CORS
 import os
+from csv_to_curricular import return_all_courses_json
+import csv
+import io
 
 
 app = Flask(__name__)
