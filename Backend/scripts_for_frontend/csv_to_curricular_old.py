@@ -115,18 +115,19 @@ def save_to_csv(df: pd.DataFrame, df2: pd.DataFrame, filename: str): #creates an
     df.to_csv(filename, index=False, header=True, mode='a')    # 'a' mode appends below df2
 
 
-def generate_curricular_csv(selected_courses: List[str]) -> str:
-    # Generates CSV content for curricular analytics site based on selected courses
-
-    # Process course data using selected courses
-    all_courses = index_courses(selected_courses)
+def main():
+    filepath = "frontend_files/"
+    output_folder = "Backend/frontend_files/"
+    courses = return_all_courses_json(filepath)
+    all_courses = index_courses(courses)
     info_courses(all_courses)
     prereq_courses(all_courses)
     prefix_courses(all_courses)
 
-    # Prepare course data for CSV
-    courses_info = [
-        {
+    # Makes list of all courses for csv file
+    courses_info = []
+    for index, course in all_courses.items():
+        course_entry = {
             "Course ID": index,
             "Course Name": course[0],
             "Prefix": course[1],
@@ -138,10 +139,8 @@ def generate_curricular_csv(selected_courses: List[str]) -> str:
             "Institution": "GT",
             "Canonical Name": course[8]
         }
-        for index, course in all_courses.items()
-    ]
-
-    # Prepare metadata for CSV
+        courses_info.append(course_entry)
+    # metadata at start of csv file
     metadata = [
             {"Field": "Curriculum", "Value": "Major"},
             {"Field": "Institution", "Value": "Georgia Institute of Technology"},
@@ -154,10 +153,9 @@ def generate_curricular_csv(selected_courses: List[str]) -> str:
     # process to export csv file
     df2 = pd.DataFrame(metadata)
     df = pd.DataFrame(courses_info)
+    output_file = os.path.join(output_folder, f"csv_for_display.csv")
+    save_to_csv(df, df2, output_file)
 
-    # Convert DataFrames to CSV format (string)
-    csv_metadata = df2.to_csv(index=False, header=False)
-    csv_courses = df.to_csv(index=False, header=True)
 
-    # Combine and return as a single CSV formatted string
-    return csv_metadata + csv_courses
+if __name__ == "__main__":
+    main()

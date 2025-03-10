@@ -1,17 +1,16 @@
 from flask import Flask, jsonify, request, send_file
 from graph_maker_v2 import build_prereq_graph, build_selected_courses_graph, visualize_selected_courses_graph
 import json
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 import os
 from csv_to_curricular import generate_curricular_csv
-
 import csv
 import io
 
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})  # Allow requests from any origin for now
 
+CORS(app) 
 
 
 def load_picked_courses():
@@ -59,20 +58,11 @@ def generate_graph():
 
 # TODO
 # Endpoint to generate CSV file
-@app.route("/make-csv/", methods=["POST", "OPTIONS"])
-@cross_origin(origins="*")  # Adjust as needed for security
+@app.route("/make-csv/", methods=["POST"])
 def generate_csv():
-    if request.method == "OPTIONS":
-        print("Handling preflight request.")
-        return jsonify({"status": "OK"}), 200
-
-    # Handle POST request
+    # Get the JSON data from the request
     data = request.get_json()
-    print(f"Received data: {data}")
-
-    # 🔧 Accepting 'courses' instead of 'selected_courses'
     selected_courses = data.get("courses", [])
-    print(f"Selected courses: {selected_courses}")
 
     if not selected_courses:
         print("No selected courses provided.")
@@ -82,11 +72,13 @@ def generate_csv():
         output_file = generate_curricular_csv(selected_courses)
         print(f"CSV generated at: {output_file}")
 
-        return send_file(output_file, mimetype="text/csv", as_attachment=True, download_name="curriculum.csv")
+        return output_file
 
     except Exception as e:
         print(f"Error generating CSV: {e}")
         return jsonify({"error": str(e)}), 500
 
+# TODO endpoint that takes program and returns the program table for it
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(debug=True)
