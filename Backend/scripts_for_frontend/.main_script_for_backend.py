@@ -3,7 +3,7 @@ from graph_maker_v2 import build_prereq_graph, build_selected_courses_graph, vis
 import json
 from flask_cors import CORS
 import os
-from csv_to_curricular import return_all_courses_json
+from csv_to_curricular import generate_curricular_csv
 import csv
 import io
 
@@ -64,8 +64,19 @@ def generate_csv():
     data = request.get_json()
     selected_courses = data.get("courses", [])
 
-    # Send the CSV file as a response
-    return selected_courses
+    if not selected_courses:
+        print("No selected courses provided.")
+        return jsonify({"error": "No selected courses provided"}), 400
+
+    try:
+        output_file = generate_curricular_csv(selected_courses)
+        print(f"CSV generated at: {output_file}")
+
+        return output_file
+
+    except Exception as e:
+        print(f"Error generating CSV: {e}")
+        return jsonify({"error": str(e)}), 500
 
 # TODO endpoint that takes program and returns the program table for it
 
