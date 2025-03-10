@@ -115,19 +115,17 @@ def save_to_csv(df: pd.DataFrame, df2: pd.DataFrame, filename: str): #creates an
     df.to_csv(filename, index=False, header=True, mode='a')    # 'a' mode appends below df2
 
 
-def main():
-    filepath = "frontend_files/"
-    output_folder = "Backend/frontend_files/"
-    courses = return_all_courses_json(filepath)
-    all_courses = index_courses(courses)
-    info_courses(all_courses)
-    prereq_courses(all_courses)
-    prefix_courses(all_courses)
+def generate_curricular_csv(selected_courses: List[str]) -> str:
+   # generates CSV for curricular analytics site based on selected courses
+    output_file = "Backend/frontend_files/csv_for_display.csv"
 
-    # Makes list of all courses for csv file
-    courses_info = []
-    for index, course in all_courses.items():
-        course_entry = {
+    # process course data using selected courses
+    all_courses = index_courses(selected_courses)
+    info_courses(all_courses)
+
+    # prepare course data for CSV
+    courses_info = [
+        {
             "Course ID": index,
             "Course Name": course[0],
             "Prefix": course[1],
@@ -139,23 +137,22 @@ def main():
             "Institution": "GT",
             "Canonical Name": course[8]
         }
-        courses_info.append(course_entry)
-    # metadata at start of csv file
+        for index, course in all_courses.items()
+    ]
+
+    # prepare metadata for CSV
     metadata = [
-            {"Field": "Curriculum", "Value": "Major"},
-            {"Field": "Institution", "Value": "Georgia Institute of Technology"},
-            {"Field": "Degree Type", "Value": "BS"},
-            {"Field": "System Type", "Value": "Semester"},
-            {"Field": "CIP", "Value": ""},
-            {"Field": "Courses", "Value": ""}
-        ]
-    
-    # process to export csv file
+        {"Field": "Curriculum", "Value": "Major"},
+        {"Field": "Institution", "Value": "Georgia Institute of Technology"},
+        {"Field": "Degree Type", "Value": "BS"},
+        {"Field": "System Type", "Value": "Semester"},
+        {"Field": "CIP", "Value": ""},
+        {"Field": "Courses", "Value": ""}
+    ]
+
+    # save CSV
     df2 = pd.DataFrame(metadata)
     df = pd.DataFrame(courses_info)
-    output_file = os.path.join(output_folder, f"csv_for_display.csv")
     save_to_csv(df, df2, output_file)
 
-
-if __name__ == "__main__":
-    main()
+    return output_file  # return the path to the generated CSV file
