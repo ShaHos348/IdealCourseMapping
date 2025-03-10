@@ -3,7 +3,8 @@ from graph_maker_v2 import build_prereq_graph, build_selected_courses_graph, vis
 import json
 from flask_cors import CORS
 import os
-from csv_to_curricular import return_all_courses_json
+from csv_to_curricular import generate_curricular_csv, return_all_courses_json
+
 import csv
 import io
 
