@@ -119,7 +119,7 @@ export default function GTCoursePicker() {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-md">
         <h2 className="text-lg font-semibold mb-4">Consent Required</h2>
-        <p className="mb-4">We need your consent to proceed.</p>
+        <p className="mb-4">The data collected is stored only for the current session and will be deleted if this tab is closed. We do not hold or keep in file any data collected from here.</p>
         <button
           onClick={() => setShowPopup(false)}
           className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
