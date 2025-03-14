@@ -69,7 +69,7 @@ const CourseMapPage = () => {
   const filteredCourses = Object.entries(courseData).flatMap(
     ([dept, courses]) =>
       courses.filter((course) =>
-        course["name"].toLowerCase().includes(searchQuery.toLowerCase())
+        `${course.name} - ${course.long_name} (${course.hours} hours)`.toLowerCase().includes(searchQuery.toLowerCase())
       )
   );
 
@@ -77,7 +77,22 @@ const CourseMapPage = () => {
     course = course.trim();
     if (course.length > 0) {
       if (takenCourses.includes(course)) {
-        alert("Course already taken!");
+        const popup = document.createElement("div");
+        popup.textContent = "Course already taken!";
+        Object.assign(popup.style, {
+          position: "fixed",
+          top: "20px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          background: "red",
+          color: "white",
+          padding: "10px 20px",
+          borderRadius: "5px",
+          zIndex: "1000"
+        });
+
+        document.body.appendChild(popup);
+        setTimeout(() => popup.remove(), 3000); // Remove after 5 seconds
         return;
       }
 
@@ -117,13 +132,13 @@ const CourseMapPage = () => {
   const handleCSVExport = async () => {
     try {
       const selectedCoursesArray = Array.from(selectedCourses);
-  
+
       const response = await axios.post(
         "http://localhost:5000/make-csv/",
         { courses: selectedCoursesArray },
         { responseType: 'blob' }
       );
-  
+
       const blob = new Blob([response.data], { type: 'text/csv' });
       FileSaver.saveAs(blob, 'courses.csv');
     } catch (error) {
@@ -163,18 +178,28 @@ const CourseMapPage = () => {
   };
 
   const handleEnterCourses = () => {
-    // This will be implemented later
     // Check if searchQuery matches any course name in filteredCourses
-    const courseExists = filteredCourses.some(
-      (course) => course.name.toUpperCase() === searchQuery.toUpperCase()
-    );
+    toggleCourse(searchQuery.toUpperCase());
+  };
 
-    if (courseExists) {
-      toggleCourse(searchQuery.toUpperCase());
-      setSearchQuery(""); // Clear input after entering the course
-    } else {
-      console.log(`Course "${searchQuery}" not found in available courses.`);
-    }
+  const handleEnterProgramCourses = () => {
+    handleClearSelectedCourses();
+    Object.values(neededCourses).forEach((courses) => {
+      courses.forEach((course) => {
+        let code = course[0];
+        if (code.toLowerCase().includes("elective")
+          || code.toLowerCase().includes("option")
+          || code.toLowerCase().includes("select")
+          || code.toLowerCase().includes("total")) {
+          return;
+        }
+        if (code.substring(0, 2) == 'or') {
+          code = code.substring(2);
+        }
+        const formattedCode = code.replace(/([a-zA-Z]+)(\d+)/, "$1 $2");
+        toggleCourse(formattedCode.toUpperCase());
+      });
+    });
   };
 
   const handleClearSelectedCourses = () => {
@@ -190,7 +215,7 @@ const CourseMapPage = () => {
       return Array.from(newSelected); // Convert back to an array
     });
   };
-  
+
   if (loading) {
     return <div className="p-8 text-center">Loading course map...</div>;
   }
@@ -216,7 +241,7 @@ const CourseMapPage = () => {
             <Button onClick={handleCSVExport}>Export CSV</Button>
             <Button onClick={redirectToCurricularAnalytics}>Go to Curricular Analytics</Button>
             <Button onClick={handleMakeGraph}>Make Graph</Button>
-        </div>
+          </div>
         </CardHeader>
         <CardContent>
           <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
@@ -234,53 +259,54 @@ const CourseMapPage = () => {
       </Card>
 
       {selectedCourses.length > 0 && (
-      <>
-        {/* Courses selected Box */}
-        <Card>
-          <CardHeader className="flex flex-row items-center justify-between space-y-0">
-            <CardTitle>Selected Courses</CardTitle>
-            <Button onClick={handleClearSelectedCourses} variant="outline">
-              Clear All
-            </Button>
-          </CardHeader>
+        <>
+          {/* Courses selected Box */}
+          <Card>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0">
+              <CardTitle>Selected Courses</CardTitle>
+              <Button onClick={handleClearSelectedCourses} variant="outline">
+                Clear All
+              </Button>
+            </CardHeader>
 
-          <CardContent>
-            {selectedCourses.map((course, index) => (
-              <span
-                key={course}
-                className="cursor-pointer hover:text-blue-600"
-                onClick={() => togglePrereqs(course)}
-                onContextMenu={(e) => {
-                  e.preventDefault();
-                  handleRemoveCourse(course);
-                }}
-              >
-                {course}
-                {index < selectedCourses.length - 1 && " | "}
-              </span>
-            ))}
-          </CardContent>
-        </Card>
-      </>
-    )}
+            <CardContent>
+              {selectedCourses.map((course, index) => (
+                <span
+                  key={course}
+                  className="cursor-pointer hover:text-blue-600"
+                  onClick={() => togglePrereqs(course)}
+                  onContextMenu={(e) => {
+                    e.preventDefault();
+                    handleRemoveCourse(course);
+                  }}
+                >
+                  {course}
+                  {index < selectedCourses.length - 1 && " | "}
+                </span>
+              ))}
+            </CardContent>
+          </Card>
+        </>
+      )}
 
- {/* Prereqs Box */}
- <Card>
-      <CardHeader>
-        <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-          {pickedCourseForPrereqs ? (
-            <p className="text-gray-500">{coursePrereqs}</p>
-          ) : (
-            <p className="text-gray-500">
-              Course Prereqs will appear here for a selected course
-            </p>
-          )}
-        </div>
-      </CardContent>
-    </Card>
+      {/* Prereqs Box */}
+      {pickedCourseForPrereqs && (<Card>
+        <CardHeader>
+          <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+            {pickedCourseForPrereqs ? (
+              <p className="text-gray-500">{coursePrereqs}</p>
+            ) : (
+              <p className="text-gray-500">
+                Course Prereqs will appear here for a selected course
+              </p>
+            )}
+          </div>
+        </CardContent>
+      </Card>)}
+
 
       {/* Search Section */}
       <Card>
@@ -289,6 +315,9 @@ const CourseMapPage = () => {
           <div className="flex gap-4">
             <Button onClick={handleEnterCourses} variant="outline">
               Enter Courses
+            </Button>
+            <Button onClick={handleEnterProgramCourses} variant="secondary">
+              Add All Program Courses
             </Button>
             <Button onClick={() => setShowSearch(!showSearch)}>
               {showSearch ? "Hide Search" : "Search Courses"}
