@@ -77,7 +77,22 @@ const CourseMapPage = () => {
     course = course.trim();
     if (course.length > 0) {
       if (takenCourses.includes(course)) {
-        alert("Course already taken!");
+        const popup = document.createElement("div");
+        popup.textContent = "Course already taken!";
+        Object.assign(popup.style, {
+          position: "fixed",
+          top: "20px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          background: "red",
+          color: "white",
+          padding: "10px 20px",
+          borderRadius: "5px",
+          zIndex: "1000"
+        });
+
+        document.body.appendChild(popup);
+        setTimeout(() => popup.remove(), 3000); // Remove after 5 seconds
         return;
       }
 
@@ -163,9 +178,28 @@ const CourseMapPage = () => {
   };
 
   const handleEnterCourses = () => {
-    // This will be implemented later
     // Check if searchQuery matches any course name in filteredCourses
     toggleCourse(searchQuery.toUpperCase());
+  };
+
+  const handleEnterProgramCourses = () => {
+    handleClearSelectedCourses();
+    Object.values(neededCourses).forEach((courses) => {
+      courses.forEach((course) => {
+        let code = course[0];
+        if (code.toLowerCase().includes("elective")
+          || code.toLowerCase().includes("option")
+          || code.toLowerCase().includes("select")
+          || code.toLowerCase().includes("total")) {
+          return;
+        }
+        if (code.substring(0, 2) == 'or') {
+          code = code.substring(2);
+        }
+        const formattedCode = code.replace(/([a-zA-Z]+)(\d+)/, "$1 $2");
+        toggleCourse(formattedCode.toUpperCase());
+      });
+    });
   };
 
   const handleClearSelectedCourses = () => {
@@ -281,6 +315,9 @@ const CourseMapPage = () => {
           <div className="flex gap-4">
             <Button onClick={handleEnterCourses} variant="outline">
               Enter Courses
+            </Button>
+            <Button onClick={handleEnterProgramCourses} variant="secondary">
+              Add All Program Courses
             </Button>
             <Button onClick={() => setShowSearch(!showSearch)}>
               {showSearch ? "Hide Search" : "Search Courses"}
