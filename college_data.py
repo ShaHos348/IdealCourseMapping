@@ -139,7 +139,17 @@ for college in colleges:
                     "label": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").split(" - ", 1)[-1]
                 } for item in conc_list]
 
-                major_info["Concentrations"] = concentrations
+                if program_key == "mathematics":
+                    major_info["Concentrations"] = [
+                        {"value": "applied-mathematics", "label": "Applied Mathematics"},
+                        {"value": "discrete-mathematics", "label": "Discrete Mathematics"},
+                        {"value": "mathematical-foundations-in-data-science", "label": "Mathematical Foundations in Data Science"},
+                        {"value": "pure-mathematics", "label": "Pure Mathematics"},
+                        {"value": "probability-and-statistics", "label": "Probability and Statistics"}
+                    ]
+
+                else:
+                    major_info["Concentrations"] = concentrations
 
             elif thread_container:
                 thread_list = thread_container.find_all(["li", "p"])
@@ -160,6 +170,26 @@ for college in colleges:
                         {"value": "people", "label": "People"},
                         {"value": "systems-and-architecture", "label": "Systems and Architecture"},
                         {"value": "theory", "label": "Theory"}
+                    ]
+
+                elif program_key == "literature-media-and-communication":
+                    major_info["Threads"] = [
+                        {"value": "literature-&-media", "label": "Literature & Media"},
+                        {"value": "literature-&-communication", "label": "Literature & Communication"},
+                        {"value": "literature-&-design", "label": "Literature & Design"},
+                        {"value": "literature-&-social-justice", "label": "Literature & Social Justice"},
+                        {"value": "literature-&-science,-technology,-and-culture", "label": "Literature & Science, Technology, and Culture"},
+                        {"value": "media-&-communication", "label": "Media & Communication"},
+                        {"value": "media-&-design", "label": "Media & Design"},
+                        {"value": "media-&-social-justice", "label": "Media & Social Justice"},
+                        {"value": "media-&-science,-technology,-and-culture", "label": "Media & Science, Technology, and Culture"},
+                        {"value": "communication-&-design", "label": "Communication & Design"},
+                        {"value": "communication-&-social-justice", "label": "Communication & Social Justice"},
+                        {"value": "communication-&-science,-technology,-and-culture", "label": "Communication & Science, Technology, and Culture"},
+                        {"value": "design-&-social-justice", "label": "Design & Social Justice"},
+                        {"value": "design-&-science,-technology,-and-culture", "label": "Design & Science, Technology, and Culture"},
+                        {"value": "social-justice-and-science,-technology,-and-culture", "label": "Social Justice and Science, Technology, and Culture"}
+
                     ]
 
                 else:
