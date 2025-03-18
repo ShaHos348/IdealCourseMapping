@@ -65,6 +65,46 @@ for college in colleges:
 
     print("Working...")
 
+    # Manually adding Scheller College of Business data, as the site format is different
+    if "scheller-college-of-business" in collegeData:
+        collegeData["scheller-college-of-business"]["majors"]["business-administration"] = {
+            "name": "Business Administration",
+            "Concentrations": [
+                {
+                    "value": "accounting",
+                    "label": "Accounting"
+                },
+                {
+                    "value": "finance",
+                    "label": "Finance"
+                },
+                {
+                    "value": "general-management",
+                    "label": "General Management"
+                },
+                {
+                    "value": "it-management",
+                    "label": "IT management"
+                },
+                {
+                    "value": "leadership-and-organizational-change",
+                    "label": "Leadership and Organizational Change"
+                },
+                {
+                    "value": "marketing",
+                    "label": "Marketing"
+                },
+                {
+                    "value": "operations-and-supply-chain-management",
+                    "label": "Operations and Supply Chain Management"
+                },
+                {
+                    "value": "strategy-and-innovation",
+                    "label": "Strategy and Innovation"
+                }
+            ]
+        }
+
     for program in program_list:
         program_name = program.text.split('.')[0].strip().replace(",", "").replace("\xa0", " ")
         links = program.find_all("a", href=True)
@@ -108,7 +148,22 @@ for college in colleges:
                     "label": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").replace("   ", " - ") }
                     for item in thread_list if item.name == "li" or item.find("a")]  # Filter <p> that contain links
 
-                major_info["Threads"] = threads
+                # Manually adding CS threads as website format is different.
+                if program_key == "computer-science":
+                    major_info["Threads"] = [
+                        {"value": "cybersecurity-and-privacy", "label": "Cybersecurity and Privacy"},
+                        {"value": "devices", "label": "Devices"},
+                        {"value": "information-internetworks", "label": "Information Internetworks"},
+                        {"value": "intelligence", "label": "Intelligence"},
+                        {"value": "media", "label": "Media"},
+                        {"value": "modeling-and-simulation", "label": "Modeling and Simulation"},
+                        {"value": "people", "label": "People"},
+                        {"value": "systems-and-architecture", "label": "Systems and Architecture"},
+                        {"value": "theory", "label": "Theory"}
+                    ]
+
+                else:
+                    major_info["Threads"] = threads
 
             else:
                 major_info["Requirements"] = [{"value": "requirements", "label": "Requirements"}]
@@ -126,10 +181,8 @@ for college in colleges:
 
 
 print(json.dumps(collegeData, indent=4))
-#print(collegeData)
 
 #Coverts the dictionary into a json file
 with open("./Backend/frontend_files/college_data.json", "w") as f:
     f.write(json.dumps(collegeData, indent=2))
-#\u2013, \u00a0
 
