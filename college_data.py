@@ -12,26 +12,26 @@ and go to url that is 'baseURL + link[1]'
 """
 
 """
-TODO For each college accessed from link, find the 'programstextcontainer' div
-and extract all programs that contain BS as a major.
+TODO For each college accessed from link, find the 'programstextcontainer' div 
+and extract all programs that contain BS as a major. 
 
 Make a new map that will store all the majors (Key is name of major with spaces replaced with '-' and name value is the text).
 
 For each BS program, go to the link using 'baseURL + href'
+"""
 
 """
-"""
-TODO For each BS major, find if the major has threads, concentrations, or neither.2d
+TODO For each BS major, find if the major has threads, concentrations, or neither.
 Make new map where the key is 'Concentrations', Threads', or 'Requirements' (Neither) and value is an array with data
 
-If concentration or thread, each item in array should be a dictionary
+If concentration or thread, each item in array should be a dictionary 
 where 'value' is the conectration/thread name (Spaces replaced with '-') and 'label' is the name itself
 
-If neither, array should contain only one item where both the 'value' and 'label' are 'Requirements'
+If neither, array should contain only one item where both the 'value' and 'label' are 'Requirements' 
 """
 
 """
-TODO When a major is done, append it to the dictionary for its program,
+TODO When a major is done, append it to the dictionary for its program, 
 and when a program is done, append it to the dictionary for its college,
 and when a college is done, append it to the collegeData dictionary.
 """
@@ -69,7 +69,7 @@ for college in colleges:
     if "scheller-college-of-business" in collegeData:
         collegeData["scheller-college-of-business"]["majors"]["business-administration"] = {
             "name": "Business Administration",
-            "Concentrations": [
+            "concentrations": [
                 {
                     "value": "accounting",
                     "label": "Accounting"
@@ -139,8 +139,9 @@ for college in colleges:
                     "label": item.text.strip().replace("\u2013", " ").replace("\u00a0", " ").split(" - ", 1)[-1]
                 } for item in conc_list]
 
+                # Manually adding Math threads to reduce redundancy.
                 if program_key == "mathematics":
-                    major_info["Concentrations"] = [
+                    major_info["concentrations"] = [
                         {"value": "applied-mathematics", "label": "Applied Mathematics"},
                         {"value": "discrete-mathematics", "label": "Discrete Mathematics"},
                         {"value": "mathematical-foundations-in-data-science", "label": "Mathematical Foundations in Data Science"},
@@ -149,7 +150,7 @@ for college in colleges:
                     ]
 
                 else:
-                    major_info["Concentrations"] = concentrations
+                    major_info["concentrations"] = concentrations
 
             elif thread_container:
                 thread_list = thread_container.find_all(["li", "p"])
@@ -160,7 +161,7 @@ for college in colleges:
 
                 # Manually adding CS threads as website format is different.
                 if program_key == "computer-science":
-                    major_info["Threads"] = [
+                    major_info["threads"] = [
                         {"value": "cybersecurity-and-privacy", "label": "Cybersecurity and Privacy"},
                         {"value": "devices", "label": "Devices"},
                         {"value": "information-internetworks", "label": "Information Internetworks"},
@@ -172,8 +173,9 @@ for college in colleges:
                         {"value": "theory", "label": "Theory"}
                     ]
 
+                # Manually adding Lit threads to reduce redundancy.
                 elif program_key == "literature-media-and-communication":
-                    major_info["Threads"] = [
+                    major_info["threads"] = [
                         {"value": "literature-&-media", "label": "Literature & Media"},
                         {"value": "literature-&-communication", "label": "Literature & Communication"},
                         {"value": "literature-&-design", "label": "Literature & Design"},
@@ -193,10 +195,10 @@ for college in colleges:
                     ]
 
                 else:
-                    major_info["Threads"] = threads
+                    major_info["threads"] = threads
 
             else:
-                major_info["Requirements"] = [{"value": "requirements", "label": "Requirements"}]
+                major_info["requirements"] = [{"value": "requirements", "label": "Requirements"}]
 
             # Save the formatted major info
             collegeData[college_key]["majors"][program_key] = major_info
@@ -215,4 +217,3 @@ print(json.dumps(collegeData, indent=4))
 #Coverts the dictionary into a json file
 with open("./Backend/frontend_files/college_data.json", "w") as f:
     f.write(json.dumps(collegeData, indent=2))
-
