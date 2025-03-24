@@ -102,9 +102,9 @@ export default function GTCoursePicker() {
     const selections = {
       college: collegeData[selectedCollege]['name'],
       major: collegeData[selectedCollege]['majors'][selectedMajor]['name'],
-      concentration: hasConcentration ? majorObj['concentrations'].find(t => t.value === concentration).label : null,
-      thread1: hasThreads ? majorObj['threads'].find(t => t.value === thread1).label : null,
-      thread2: hasThreads ? majorObj['threads'].find(t => t.value === thread2).label : null,
+      concentration: hasConcentration ? majorObj['concentrations'].find(t => t.value === concentration) : null,
+      thread1: hasThreads ? majorObj['threads'].find(t => t.value === thread1) : null,
+      thread2: hasThreads ? majorObj['threads'].find(t => t.value === thread2) : null,
     };
     
     // Navigate to the course selection page with the parameters

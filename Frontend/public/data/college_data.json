@@ -6,7 +6,7 @@
         "name": "Computational Media",
         "concentrations": [
           {
-            "value": "intelligence-film-&-media-studies",
+            "value": "intelligence-film-media-studies",
             "label": "Intelligence-Film & Media Studies"
           },
           {
@@ -18,7 +18,7 @@
             "label": "Intelligence-Interaction Design"
           },
           {
-            "value": "media-film-&-media-studies",
+            "value": "media-film-media-studies",
             "label": "Media-Film & Media Studies"
           },
           {
@@ -42,7 +42,7 @@
             "label": "Music Technology-People"
           },
           {
-            "value": "people-film-&-media-studies",
+            "value": "people-film-media-studies",
             "label": "People-Film & Media Studies"
           },
           {
@@ -59,8 +59,8 @@
         "name": "Computer Science",
         "threads": [
           {
-            "value": "cybersecurity-and-privacy",
-            "label": "Cybersecurity and Privacy"
+            "value": "cybersecurity-privacy",
+            "label": "Cybersecurity Privacy"
           },
           {
             "value": "devices",
@@ -79,16 +79,16 @@
             "label": "Media"
           },
           {
-            "value": "modeling-and-simulation",
-            "label": "Modeling and Simulation"
+            "value": "modeling-simulation",
+            "label": "Modeling Simulation"
           },
           {
             "value": "people",
             "label": "People"
           },
           {
-            "value": "systems-and-architecture",
-            "label": "Systems and Architecture"
+            "value": "systems-architecture",
+            "label": "Systems Architecture"
           },
           {
             "value": "theory",
@@ -114,52 +114,52 @@
         "name": "Computational Media",
         "concentrations": [
           {
-            "value": "intelligence-film-&-media-studies",
-            "label": "Intelligence-Film & Media Studies"
+            "value": "intelligence-film-media-studies",
+            "label": "Intelligence - Film & Media Studies"
           },
           {
             "value": "intelligence-games",
-            "label": "Intelligence-Games"
+            "label": "Intelligence - Games"
           },
           {
             "value": "intelligence-interaction-design",
-            "label": "Intelligence-Interaction Design"
+            "label": "Intelligence - Interaction Design"
           },
           {
-            "value": "media-film-&-media-studies",
-            "label": "Media-Film & Media Studies"
+            "value": "media-film-media-studies",
+            "label": "Media - Film & Media Studies"
           },
           {
             "value": "media-games",
-            "label": "Media-Games"
+            "label": "Media - Games"
           },
           {
             "value": "media-interaction-design",
-            "label": "Media-Interaction Design"
+            "label": "Media  - Interaction Design"
           },
           {
             "value": "music-technology-intelligence",
-            "label": "Music Technology-Intelligence"
+            "label": "Music Technology - Intelligence"
           },
           {
             "value": "music-technology-media",
-            "label": "Music Technology-Media"
+            "label": "Music Technology - Media"
           },
           {
             "value": "music-technology-people",
-            "label": "Music Technology-People"
+            "label": "Music Technology - People"
           },
           {
-            "value": "people-film-&-media-studies",
-            "label": "People-Film & Media Studies"
+            "value": "people-film-media-studies",
+            "label": "People - Film & Media Studies"
           },
           {
             "value": "people-games",
-            "label": "People-Games"
+            "label": "People - Games"
           },
           {
             "value": "people-interaction-design",
-            "label": "People-Interaction Design"
+            "label": "People - Interaction Design"
           }
         ]
       },
@@ -185,20 +185,20 @@
         "name": "Music Technology",
         "concentrations": [
           {
-            "value": "general",
+            "value": "gen",
             "label": "General"
           },
           {
-            "value": "electrical-and-computer-engineering:-signal-processing",
-            "label": "Electrical and Computer Engineering: Signal Processing"
+            "value": "ece",
+            "label": "Electrical and Computer Engineering Signal Processing"
           },
           {
-            "value": "mechanical-engineering:-acoustics-and-vibrations",
-            "label": "Mechanical Engineering: Acoustics and Vibrations"
+            "value": "me-av",
+            "label": "Mechanical Engineering Acoustics and Vibrations"
           },
           {
-            "value": "mechanical-engineering:-controls-and-robotics",
-            "label": "Mechanical Engineering: Controls and Robotics"
+            "value": "me-cr",
+            "label": "Mechanical Engineering Controls and Robotics"
           }
         ]
       }
@@ -240,18 +240,10 @@
       },
       "civil-engineering": {
         "name": "Civil Engineering",
-        "concentrations": [
+        "requirements": [
           {
-            "value": "standard",
-            "label": "Standard"
-          },
-          {
-            "value": "construction-and-infrastructure-systems-engineering",
-            "label": "Construction and Infrastructure Systems Engineering"
-          },
-          {
-            "value": "structural-engineering,-mechanics,-and-materials",
-            "label": "Structural Engineering, Mechanics, and Materials"
+            "value": "requirements",
+            "label": "Requirements"
           }
         ]
       },
@@ -259,205 +251,125 @@
         "name": "Computer Engineering",
         "concentrations": [
           {
-            "value": "cybersecurity-and-distributed-system-&-software-design",
+            "value": "cybersecurity-distributed-system-software-design",
             "label": "Cybersecurity and Distributed System & Software Design"
           },
           {
-            "value": "cybersecurity-and-computing-hardware-&-emerging-architectures",
+            "value": "cybersecurity-computing-hardware-emerging-architectures",
             "label": "Cybersecurity and Computing Hardware & Emerging Architectures"
           },
           {
-            "value": "cybersecurity-and-signal-&-information-processing",
+            "value": "cybersecurity-signal-information-processing",
             "label": "Cybersecurity and Signal & Information Processing"
           },
           {
-            "value": "cybersecurity-and-telecommunications",
+            "value": "cybersecurity-telecommunications",
             "label": "Cybersecurity and Telecommunications"
           },
           {
-            "value": "cybersecurity-and-robotics-&-autonomous-systems",
+            "value": "cybersecurity-robotics-autonomous-systems",
             "label": "Cybersecurity and Robotics & Autonomous Systems"
           },
           {
-            "value": "cybersecurity-and-systems-&-architecture",
+            "value": "cybersecurity-systems-architecture",
             "label": "Cybersecurity and Systems & Architecture"
           },
           {
-            "value": "cybersecurity-and-devices",
+            "value": "cybersecurity-devices",
             "label": "Cybersecurity and Devices"
           },
           {
-            "value": "cybersecurity-and-information-internetworks",
+            "value": "cybersecurity-information-internetworks",
             "label": "Cybersecurity and Information Internetworks"
           },
           {
-            "value": "computing-hardware-&-emerging-architectures-and-signal-&-information-processing",
+            "value": "computing-hardware-emerging-architectures-signal-information-processing",
             "label": "Computing Hardware & Emerging Architectures and Signal & Information Processing"
           },
           {
-            "value": "computing-hardware-&-emerging-architectures-and-telecommunications",
+            "value": "computing-hardware-emerging-architectures-telecommunications",
             "label": "Computing Hardware & Emerging Architectures and Telecommunications"
           },
           {
-            "value": "computing-hardware-&-emerging-architectures-and-robotics-&-autonomous-systems",
+            "value": "computing-hardware-emerging-architectures-robotics-autonomous-systems",
             "label": "Computing Hardware & Emerging Architectures and Robotics & Autonomous Systems"
           },
           {
-            "value": "computing-hardware-&-emerging-architectures-and-systems-&-architecture",
+            "value": "computing-hardware-emerging-architectures-systems-architecture",
             "label": "Computing Hardware & Emerging Architectures and Systems & Architecture"
           },
           {
-            "value": "computing-hardware-&-emerging-architectures-and-devices",
+            "value": "computing-hardware-emerging-architectures-devices",
             "label": "Computing Hardware & Emerging Architectures and Devices"
           },
           {
-            "value": "computing-hardware-&-emerging-architectures-and-information-internetworks",
+            "value": "computing-hardware-emerging-architectures-information-internetworks",
             "label": "Computing Hardware & Emerging Architectures and Information Internetworks"
           },
           {
-            "value": "distributed-system-&-software-design-and-telecommunications",
+            "value": "distributed-system-software-design-telecommunications",
             "label": "Distributed System & Software Design and Telecommunications"
           },
           {
-            "value": "distributed-system-&-software-design-and-systems-&-architecture",
+            "value": "distributed-system-software-design-systems-&-architecture",
             "label": "Distributed System & Software Design and Systems & Architecture"
           },
           {
-            "value": "distributed-system-&-software-design-and-signal-&-information-processing",
+            "value": "distributed-system-software-design-and-signal-information-processing",
             "label": "Distributed System & Software Design and Signal & Information Processing"
           },
           {
-            "value": "distributed-system-&-software-design-and-robotics-&-autonomous-systems",
+            "value": "distributed-system-software-design-and-robotics-autonomous-systems",
             "label": "Distributed System & Software Design and Robotics & Autonomous Systems"
           },
           {
-            "value": "distributed-system-&-software-design-and-information-internetworks",
+            "value": "distributed-system-software-design-and-information-internetworks",
             "label": "Distributed System & Software Design and Information Internetworks"
           },
           {
-            "value": "distributed-system-&-software-design-and-computing-hardware-&-emerging-architectures",
+            "value": "distributed-system-software-design-and-computing-hardware-emerging-architectures",
             "label": "Distributed System & Software Design and Computing Hardware & Emerging Architectures"
           },
           {
-            "value": "distributed-system-&-software-design-and-devices",
+            "value": "distributed-system-software-design-devices",
             "label": "Distributed System & Software Design and Devices"
           }
         ]
       },
       "electrical-engineering": {
         "name": "Electrical Engineering",
-        "concentrations": [
+        "threads": [
           {
-            "value": "signal-&-information-processing-robotics-&-autonomous-systems",
-            "label": "Signal & Information Processing - Robotics & Autonomous Systems"
+            "value": "signal-information-processing",
+            "label": "Signal & Information Processing"
           },
           {
-            "value": "signal-&-information-processing-telecommunications",
-            "label": "Signal & Information Processing - Telecommunications"
+            "value": "robotics-autonomous-systems",
+            "label": "Robotics & Autonomous Systems"
           },
           {
-            "value": "signal-&-information-processing-electronic-devices",
-            "label": "Signal & Information Processing - Electronic Devices"
+            "value": "telecommunications",
+            "label": "Telecommunications"
           },
           {
-            "value": "signal-&-information-processing-electrical-energy-systems",
-            "label": "Signal & Information Processing - Electrical Energy Systems"
+            "value": "electronic-devices",
+            "label": "Electronic Devices"
           },
           {
-            "value": "signal-&-information-processing-circuit-technology",
-            "label": "Signal & Information Processing - Circuit Technology"
+            "value": "electrical-energy-systems",
+            "label": "Electrical Energy Systems"
           },
           {
-            "value": "signal-&-information-processing-bioengineering",
-            "label": "Signal & Information Processing - Bioengineering"
+            "value": "circuit-technology",
+            "label": "Circuit Technology"
           },
           {
-            "value": "signal-&-information-processing-sensing-&-exploration",
-            "label": "Signal & Information Processing - Sensing & Exploration"
+            "value": "bioengineering",
+            "label": "Bioengineering"
           },
           {
-            "value": "robotics-&-autonomous-systems-electronic-devices",
-            "label": "Robotics & Autonomous Systems - Electronic Devices"
-          },
-          {
-            "value": "robotics-&-autonomous-systems-circuit-technology",
-            "label": "Robotics & Autonomous Systems - Circuit Technology"
-          },
-          {
-            "value": "robotics-&-autonomous-systems-electrical-energy-systems",
-            "label": "Robotics & Autonomous Systems - Electrical Energy Systems"
-          },
-          {
-            "value": "robotics-&-autonomous-systems-bioengineering",
-            "label": "Robotics & Autonomous Systems - Bioengineering"
-          },
-          {
-            "value": "robotics-&-autonomous-systems-sensing-&-exploration",
-            "label": "Robotics & Autonomous Systems - Sensing & Exploration"
-          },
-          {
-            "value": "robotics-&-autonomous-systems-telecommunications",
-            "label": "Robotics & Autonomous Systems - Telecommunications"
-          },
-          {
-            "value": "telecommunications-electric-energy-systems",
-            "label": "Telecommunications - Electric Energy Systems"
-          },
-          {
-            "value": "telecommunications-bioengineering",
-            "label": "Telecommunications - Bioengineering"
-          },
-          {
-            "value": "telecommunications-sensing-&-exploration",
-            "label": "Telecommunications - Sensing & Exploration"
-          },
-          {
-            "value": "electronic-devices-electric-energy-systems",
-            "label": "Electronic Devices - Electric Energy Systems"
-          },
-          {
-            "value": "electronic-devices-circuit-technology",
-            "label": "Electronic Devices - Circuit Technology"
-          },
-          {
-            "value": "electronic-devices-bioengineering",
-            "label": "Electronic Devices - Bioengineering"
-          },
-          {
-            "value": "electronic-devices-sensing-&-exploration",
-            "label": "Electronic Devices - Sensing & Exploration"
-          },
-          {
-            "value": "electronic-devices-telecommunications",
-            "label": "Electronic Devices - Telecommunications"
-          },
-          {
-            "value": "circuit-technology-electric-energy-systems",
-            "label": "Circuit Technology - Electric Energy Systems"
-          },
-          {
-            "value": "circuit-technology-bioengineering",
-            "label": "Circuit Technology - Bioengineering"
-          },
-          {
-            "value": "circuit-technology-sensing-&-exploration",
-            "label": "Circuit Technology - Sensing & Exploration"
-          },
-          {
-            "value": "circuit-technology-telecommunications",
-            "label": "Circuit Technology - Telecommunications"
-          },
-          {
-            "value": "bioengineering-electric-energy-systems",
-            "label": "Bioengineering - Electric Energy Systems"
-          },
-          {
-            "value": "bioengineering-sensing-&-exploration",
-            "label": "Bioengineering - Sensing & Exploration"
-          },
-          {
-            "value": "electric-energy-systems-sensing-&-exploration",
-            "label": "Electric Energy Systems - Sensing & Exploration"
+            "value": "sensing-exploration",
+            "label": "Sensing & Exploration"
           }
         ]
       },
@@ -474,11 +386,11 @@
         "name": "Industrial Engineering",
         "concentrations": [
           {
-            "value": "advanced-studies-in-operations-research-and-statistics",
+            "value": "advanced-studies-operations-research-statistics",
             "label": "Advanced Studies in Operations Research and Statistics"
           },
           {
-            "value": "analytics-and-data-science",
+            "value": "analytics-data-science",
             "label": "Analytics and Data Science"
           },
           {
@@ -486,7 +398,7 @@
             "label": "General"
           },
           {
-            "value": "economic-and-financial-systems",
+            "value": "economic-financial-systems",
             "label": "Economic and Financial Systems"
           },
           {
@@ -511,7 +423,7 @@
             "label": "Biomaterials"
           },
           {
-            "value": "polymer-and-fiber-materials",
+            "value": "polymer-fiber-materials",
             "label": "Polymer and Fiber Materials"
           },
           {
@@ -536,7 +448,7 @@
             "label": "Automotive"
           },
           {
-            "value": "automation-and-robotic-system",
+            "value": "automation-robotic-system",
             "label": "Automation and Robotic System"
           },
           {
@@ -548,32 +460,32 @@
             "label": "Manufacturing"
           },
           {
-            "value": "mechanics-of-materials",
+            "value": "mechanics-materials",
             "label": "Mechanics of Materials"
           },
           {
-            "value": "micro--and-nano-engineering",
+            "value": "micro-nano-engineering",
             "label": "Micro- and Nano-Engineering"
           },
           {
-            "value": "nuclear-and-radiological-engineering",
+            "value": "nre",
             "label": "Nuclear and Radiological Engineering"
           },
           {
-            "value": "thermal,-fluid-and-energy-systems",
+            "value": "thermal-fluid-energy-systems",
             "label": "Thermal, Fluid and Energy Systems"
           }
         ]
       },
       "nuclear-and-radiological-engineering": {
-        "name": "Nuclear and Radiological Engineering",
+        "name": "Nuclear Radiological Engineering",
         "concentrations": [
           {
             "value": "nuclear-engineering",
             "label": "Nuclear Engineering"
           },
           {
-            "value": "radiological-science-and-engineering",
+            "value": "radiological-engineering",
             "label": "Radiological Science and Engineering"
           }
         ]
@@ -595,7 +507,7 @@
             "label": "Business"
           },
           {
-            "value": "physics-of-living-systems",
+            "value": "physics-living-systems",
             "label": "Physics of Living Systems"
           }
         ]
@@ -612,8 +524,8 @@
             "label": "Business"
           },
           {
-            "value": "pre-health",
-            "label": "Pre-health"
+            "value": "prehealth",
+            "label": "Prehealth"
           }
         ]
       },
@@ -646,7 +558,7 @@
             "label": "Business"
           },
           {
-            "value": "polymers-and-materials",
+            "value": "polymers-materials",
             "label": "Polymers and Materials"
           },
           {
@@ -672,24 +584,32 @@
         "name": "Mathematics",
         "concentrations": [
           {
-            "value": "applied-mathematics",
+            "value": "applied",
             "label": "Applied Mathematics"
           },
           {
-            "value": "discrete-mathematics",
+            "value": "discrete",
             "label": "Discrete Mathematics"
           },
           {
-            "value": "mathematical-foundations-in-data-science",
+            "value": "mathematical-foundations-data-science",
             "label": "Mathematical Foundations in Data Science"
           },
           {
-            "value": "pure-mathematics",
+            "value": "pure",
             "label": "Pure Mathematics"
           },
           {
             "value": "probability-and-statistics",
             "label": "Probability and Statistics"
+          },
+          {
+            "value": "business",
+            "label": "Business Mathematics"
+          },
+          {
+            "value": "general",
+            "label": "General Mathematics"
           }
         ]
       },
@@ -718,7 +638,7 @@
             "label": "Business"
           },
           {
-            "value": "physics-of-living-systems",
+            "value": "physics-living-systems",
             "label": "Physics of Living Systems"
           }
         ]
@@ -741,8 +661,8 @@
   "ivan-allen-college-of-liberal-arts": {
     "name": "Ivan Allen College of Liberal Arts",
     "majors": {
-      "applied-language-&-intercultural-studies": {
-        "name": "Applied Language & Intercultural Studies",
+      "applied-languages-and-intercultural-studies": {
+        "name": "Applied Languages and Intercultural Studies",
         "concentrations": [
           {
             "value": "chinese",
@@ -778,52 +698,52 @@
         "name": "Computational Media",
         "concentrations": [
           {
-            "value": "intelligence-film-&-media-studies",
-            "label": "Intelligence - Film & Media Studies"
+            "value": "intelligence-film-media-studies",
+            "label": "Intelligence-Film & Media Studies"
           },
           {
             "value": "intelligence-games",
-            "label": "Intelligence - Games"
+            "label": "Intelligence-Games"
           },
           {
             "value": "intelligence-interaction-design",
-            "label": "Intelligence - Interaction Design"
+            "label": "Intelligence-Interaction Design"
           },
           {
-            "value": "media-film-&-media-studies",
-            "label": "Media - Film & Media Studies"
+            "value": "media-film-media-studies",
+            "label": "Media-Film & Media Studies"
           },
           {
             "value": "media-games",
-            "label": "Media - Games"
+            "label": "Media-Games"
           },
           {
             "value": "media-interaction-design",
-            "label": "Media  - Interaction Design"
+            "label": "Media-Interaction Design"
           },
           {
             "value": "music-technology-intelligence",
-            "label": "Music Technology - Intelligence"
+            "label": "Music Technology-Intelligence"
           },
           {
             "value": "music-technology-media",
-            "label": "Music Technology - Media"
+            "label": "Music Technology-Media"
           },
           {
             "value": "music-technology-people",
-            "label": "Music Technology - People"
+            "label": "Music Technology-People"
           },
           {
-            "value": "people-film-&-media-studies",
-            "label": "People - Film & Media Studies"
+            "value": "people-film-media-studies",
+            "label": "People-Film & Media Studies"
           },
           {
             "value": "people-games",
-            "label": "People - Games"
+            "label": "People-Games"
           },
           {
             "value": "people-interaction-design",
-            "label": "People - Interaction Design"
+            "label": "People-Interaction Design"
           }
         ]
       },
@@ -882,67 +802,31 @@
         ]
       },
       "literature-media-and-communication": {
-        "name": "Literature Media and Communication",
+        "name": "Literature Media Communication",
         "threads": [
           {
-            "value": "literature-&-media",
-            "label": "Literature & Media"
+            "value": "literature",
+            "label": "Literature"
           },
           {
-            "value": "literature-&-communication",
-            "label": "Literature & Communication"
+            "value": "communication",
+            "label": "Communication"
           },
           {
-            "value": "literature-&-design",
-            "label": "Literature & Design"
+            "value": "design",
+            "label": "Design"
           },
           {
-            "value": "literature-&-social-justice",
-            "label": "Literature & Social Justice"
+            "value": "social-justice",
+            "label": "Social Justice"
           },
           {
-            "value": "literature-&-science,-technology,-and-culture",
-            "label": "Literature & Science, Technology, and Culture"
+            "value": "science-technology-culture",
+            "label": "Science, Technology, and Culture"
           },
           {
-            "value": "media-&-communication",
-            "label": "Media & Communication"
-          },
-          {
-            "value": "media-&-design",
-            "label": "Media & Design"
-          },
-          {
-            "value": "media-&-social-justice",
-            "label": "Media & Social Justice"
-          },
-          {
-            "value": "media-&-science,-technology,-and-culture",
-            "label": "Media & Science, Technology, and Culture"
-          },
-          {
-            "value": "communication-&-design",
-            "label": "Communication & Design"
-          },
-          {
-            "value": "communication-&-social-justice",
-            "label": "Communication & Social Justice"
-          },
-          {
-            "value": "communication-&-science,-technology,-and-culture",
-            "label": "Communication & Science, Technology, and Culture"
-          },
-          {
-            "value": "design-&-social-justice",
-            "label": "Design & Social Justice"
-          },
-          {
-            "value": "design-&-science,-technology,-and-culture",
-            "label": "Design & Science, Technology, and Culture"
-          },
-          {
-            "value": "social-justice-and-science,-technology,-and-culture",
-            "label": "Social Justice and Science, Technology, and Culture"
+            "value": "media",
+            "label": "Media"
           }
         ]
       },
@@ -988,7 +872,7 @@
             "label": "Marketing"
           },
           {
-            "value": "operations-and-supply-chain-management",
+            "value": "operations-supply-chain-management",
             "label": "Operations and Supply Chain Management"
           },
           {
