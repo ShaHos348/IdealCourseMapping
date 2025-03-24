@@ -1,0 +1,348 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "ECON2100",
+      "Economic Analysis and Policy Problems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202100"
+    ],
+    [
+      "ECON2101",
+      "The Global Economy",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202101"
+    ],
+    [
+      "ECON2105",
+      "Principles of Macroeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202105"
+    ],
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
+    ],
+    [
+      "Any SS",
+      "6",
+      3
+    ]
+  ],
+  "Field of Study": [
+    [
+      "BIOS1107&1107L",
+      "Biological Principlesand Biological Principles Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=BIOS%201107"
+    ],
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "orCHEM1310",
+      "Principles of General Chemistry for Engineers",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201310"
+    ],
+    [
+      "CHEM2380",
+      "Synthesis Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%202380"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "CHBE2100",
+      "Chemical Process Principles",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%202100"
+    ],
+    [
+      "CHBE2140",
+      "Chemical Engineering Thermodynamics",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHBE%202140"
+    ],
+    [
+      "CHBE3205",
+      "Fluid Mechanics",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHBE%203205"
+    ],
+    [
+      "CHBE3215",
+      "Heat & Mass Transfer",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHBE%203215"
+    ],
+    [
+      "CHBE3225",
+      "Separations Processes",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%203225"
+    ],
+    [
+      "CHBE3300",
+      "Chemical Kinetics and Catalysis",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHBE%203300"
+    ],
+    [
+      "CHBE4200",
+      "Transport Phenomena/Unit Operations Laboratory",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%204200"
+    ],
+    [
+      "CHBE4310",
+      "Bioprocess Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%204310"
+    ],
+    [
+      "CHBE4320",
+      "Reactor Design",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHBE%204320"
+    ],
+    [
+      "CHBE4411",
+      "Process Dynamics and Control",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHBE%204411"
+    ],
+    [
+      "CHBE4412",
+      "Process Dynamics and Control Laboratory",
+      1,
+      "https://catalog.gatech.edu/search/?P=CHBE%204412"
+    ],
+    [
+      "CHBE4510",
+      "Process and Product Design And Economics",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHBE%204510"
+    ],
+    [
+      "CHBE4515",
+      "Chemical Process Safety",
+      1,
+      "https://catalog.gatech.edu/search/?P=CHBE%204515"
+    ],
+    [
+      "CHBE4530",
+      "Capstone ChBE Bio-Design",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHBE%204530"
+    ]
+  ],
+  "CHBE Electives": [
+    [
+      "CHBE Electives",
+      "3"
+    ]
+  ],
+  "Biotechnology Electives": [
+    [
+      "Biotechnology electives",
+      "3"
+    ]
+  ],
+  "Other Engineering and Science Requirements": [
+    [
+      "BIOS3450",
+      "Cell and Molecular Biology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%203450"
+    ],
+    [
+      "CHEM1212K",
+      "Chemical Principles II",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201212K"
+    ],
+    [
+      "CHEM2311",
+      "Organic Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202311"
+    ],
+    [
+      "CHEM2312",
+      "Organic Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202312"
+    ],
+    [
+      "orCHEM2313",
+      "Organic and Bioorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202313"
+    ],
+    [
+      "CHEM3521",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203521"
+    ],
+    [
+      "CHEM3522",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203522"
+    ],
+    [
+      "MSE2001",
+      "Principles and Applications of Engineering Materials",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%202001"
+    ]
+  ],
+  "Free Electives 7": [
+    [
+      "Free Electives",
+      "3"
+    ],
+    [
+      "Total Credit Hours",
+      "129"
+    ]
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1554",
+      "Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201554"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "ECON2100",
+      "Economic Analysis and Policy Problems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202100"
+    ],
+    [
+      "ECON2101",
+      "The Global Economy",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202101"
+    ],
+    [
+      "ECON2105",
+      "Principles of Macroeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202105"
+    ],
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
+    ],
+    [
+      "Any SS",
+      "6",
+      3
+    ]
+  ],
+  "Field of Study": [
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ],
+    [
+      "CHEM1310",
+      "Principles of General Chemistry for Engineers",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201310"
+    ],
+    [
+      "orCHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "Science Elective",
+      "3"
+    ],
+    [
+      "Probability/Statistics",
+      "3"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "Ethics Requirement",
+      "",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/ethics/#"
+    ],
+    [
+      "ECE1100",
+      "ECE Discovery Studio",
+      1,
+      "https://catalog.gatech.edu/search/?P=ECE%201100"
+    ],
+    [
+      "ECE2020",
+      "Digital System Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202020"
+    ],
+    [
+      "ECE2026",
+      "Introduction to Signal Processing",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202026"
+    ],
+    [
+      "ECE2031",
+      "Digital Design Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%202031"
+    ],
+    [
+      "ECE2035",
+      "Programming for Hardware/Software Systems",
+      4,
+      "https://catalog.gatech.edu/search/?P=ECE%202035"
+    ],
+    [
+      "orECE2036",
+      "Engineering Software Design",
+      4,
+      "https://catalog.gatech.edu/search/?P=ECE%202036"
+    ],
+    [
+      "ECE2040",
+      "Circuit Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%202040"
+    ],
+    [
+      "ECE3005",
+      "Professional and Technical Communications for ECE",
+      1,
+      "https://catalog.gatech.edu/search/?P=ECE%203005"
+    ],
+    [
+      "ECE3025",
+      "Electromagnetics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203025"
+    ],
+    [
+      "ECE3040",
+      "Microelectronic Circuits",
+      4,
+      "https://catalog.gatech.edu/search/?P=ECE%203040"
+    ],
+    [
+      "ECE3043",
+      "Measurements, Circuits, and Microelectronics Laboratory",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%203043"
+    ]
+  ],
+  "Bioengineering 10": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "ECE4781",
+      "Biomedical Instrumentation",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204781"
+    ],
+    [
+      "ECE4782",
+      "Biosystems Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204782"
+    ],
+    [
+      "ECE4784",
+      "Engineering Electrophysiology",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204784"
+    ],
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "ECE3084",
+      "Signals and Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203084"
+    ],
+    [
+      "ECE4350",
+      "Electromagnetic and Microwave Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204350"
+    ],
+    [
+      "ECE4370",
+      "Antenna Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204370"
+    ],
+    [
+      "ECE4435",
+      "Operational Amplifier Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204435"
+    ],
+    [
+      "ECE4781",
+      "Biomedical Instrumentation",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204781"
+    ],
+    [
+      "ECE4782",
+      "Biosystems Analysis",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204782"
+    ],
+    [
+      "ECE4784",
+      "Engineering Electrophysiology",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204784"
+    ],
+    [
+      "Bioengineering Electives",
+      ""
+    ],
+    [
+      "ECE 3000/4000-level Elective",
+      "3"
+    ]
+  ],
+  "Robotics & Autonomous Systems 10": [
+    [
+      "ECE3550",
+      "Feedback Control Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203550"
+    ],
+    [
+      "ECE4550",
+      "Control System Design",
+      4,
+      "https://catalog.gatech.edu/search/?P=ECE%204550"
+    ],
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "ECE3084",
+      "Signals and Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203084"
+    ],
+    [
+      "ECE3251",
+      "Optimization for Information Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%203251"
+    ],
+    [
+      "ECE4560",
+      "Introduction to Automation and Robotics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204560"
+    ],
+    [
+      "ECE4570",
+      "System Theory for Communication and Control",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204570"
+    ],
+    [
+      "ECE4580",
+      "Computational Computer Vision",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECE%204580"
+    ],
+    [
+      "Robotics & Autonomous Systems Electives",
+      ""
+    ],
+    [
+      "ECE 3000/4000-level Elective",
+      "3"
+    ]
+  ],
+  "Culminating Senior Design Options (Capstone)": [
+    [
+      "Culminating Senior Design",
+      "3"
+    ]
+  ],
+  "Free Electives 5,910": [
+    [
+      "Total Credit Hours",
+      "129"
+    ]
+  ]
+}

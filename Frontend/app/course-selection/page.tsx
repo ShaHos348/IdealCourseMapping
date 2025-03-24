@@ -9,6 +9,7 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
+import axios from "axios";
 
 export default function CourseSelectionPage() {
   const router = useRouter();
@@ -64,12 +65,13 @@ export default function CourseSelectionPage() {
       let program = selectionData.major;
       const focus1 = selectionData.focus[0];
       const focus2 = selectionData.focus[1];
+      const selected_program = [program, focus1?.value || "", focus2?.value || ""];
       if (focus1 && focus2) {
-        program += ": " + focus1 + " & " + focus2;
+        program += ": " + focus1.label + " & " + focus2.label;
       } else if (focus1) {
-        program += ": " + focus1;
+        program += ": " + focus1.label;
       } else if (focus2) {
-        program += ": " + focus2;
+        program += ": " + focus2.label;
       }
       setProgram(program);
 
@@ -78,12 +80,18 @@ export default function CourseSelectionPage() {
       console.log(json_file_path);
 
       try {
-        const response = await fetch(`/api/majors/${json_file_path}`);
-        console.log("Response: ", response);
-        if (!response.ok) {
-          throw new Error(`Error fetching data: ${response.statusText}`);
+        const response = await axios.post(
+          "http://127.0.0.1:5000/get-program-table/",
+          {
+            selected_program: selected_program,
+          }
+        );
+        //console.log("Response: ", response.data);
+
+        if (!response.data || response.data.error) {
+          throw new Error(response.data?.error || "Unknown error occurred.");
         }
-        const data = await response.json();
+        const data = JSON.parse(response.data); 
         setTableData(data);
         //console.log(data);
       } catch (error) {

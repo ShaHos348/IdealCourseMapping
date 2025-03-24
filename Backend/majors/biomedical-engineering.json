@@ -1,0 +1,308 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ],
+    [
+      "orMATH1554",
+      "Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201554"
+    ],
+    [
+      "orMATH1564",
+      "Linear Algebra with Abstract Vector Spaces",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201564"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "Any SS",
+      "9",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "BMED1000",
+      "Introduction to Biomedical Engineering",
+      1,
+      "https://catalog.gatech.edu/search/?P=BMED%201000"
+    ],
+    [
+      "BMED2110",
+      "Conservation Principles in Biomedical Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%202110"
+    ],
+    [
+      "COE2001",
+      "Statics",
+      2,
+      "https://catalog.gatech.edu/search/?P=COE%202001"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "MATH2552",
+      "Differential Equations",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202552"
+    ],
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "BMED2250",
+      "Problems in Biomedical Engineering",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%202250"
+    ],
+    [
+      "BMED2310",
+      "Intro to Biomedical Engineering Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%202310"
+    ],
+    [
+      "BMED3100",
+      "Systems Physiology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%203100"
+    ],
+    [
+      "BMED3110",
+      "Quantitative Engineering Physiology Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=BMED%203110"
+    ],
+    [
+      "BMED3310",
+      "Biotransport",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%203310"
+    ],
+    [
+      "BMED3410",
+      "Introduction to Biomechanics",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%203410"
+    ],
+    [
+      "BMED3520",
+      "Biomedical Systems and Modeling",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%203520"
+    ],
+    [
+      "BMED3600",
+      "Physiology of Cellular and Molecular Systems",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%203600"
+    ],
+    [
+      "BMED3610",
+      "Quantitative Engineering Physiology Laboratory II",
+      2,
+      "https://catalog.gatech.edu/search/?P=BMED%203610"
+    ],
+    [
+      "BMED4000",
+      "The Art of Telling Your Story",
+      1,
+      "https://catalog.gatech.edu/search/?P=BMED%204000"
+    ],
+    [
+      "BMED4602",
+      "Capstone Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%204602"
+    ],
+    [
+      "orBMED4723",
+      "Interdisciplinary Capstone Design",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%204723"
+    ]
+  ],
+  "Other Engineering and Science Requirements": [
+    [
+      "CHEM1315",
+      "Survey of Organic Chemistry for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%201315"
+    ],
+    [
+      "BMED2400",
+      "Introduction to Bioengineering Statistics",
+      3,
+      "https://catalog.gatech.edu/search/?P=BMED%202400"
+    ],
+    [
+      "orISYE3770",
+      "Statistics and Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=ISYE%203770"
+    ],
+    [
+      "orCEE3770",
+      "Statistics and Applications",
+      3,
+      "https://catalog.gatech.edu/search/?P=CEE%203770"
+    ],
+    [
+      "MSE2001",
+      "Principles and Applications of Engineering Materials",
+      3,
+      "https://catalog.gatech.edu/search/?P=MSE%202001"
+    ],
+    [
+      "ECE3710",
+      "Circuits and Electronics",
+      2,
+      "https://catalog.gatech.edu/search/?P=ECE%203710"
+    ],
+    [
+      "ECE3741",
+      "Instrumentation and Electronics Lab",
+      1,
+      "https://catalog.gatech.edu/search/?P=ECE%203741"
+    ]
+  ],
+  "BMED Depth Electives": [
+    [
+      "BMED Depth Electives",
+      "9"
+    ]
+  ],
+  "BMED Breadth Electives": [
+    [
+      "BMED Breadth Electives",
+      "15"
+    ],
+    [
+      "Total Credit Hours",
+      "128"
+    ]
+  ]
+}

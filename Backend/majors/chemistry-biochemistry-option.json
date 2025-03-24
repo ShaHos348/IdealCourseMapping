@@ -1,0 +1,358 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "Any SS",
+      "9",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "CHEM1212K",
+      "Chemical Principles II",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201212K"
+    ],
+    [
+      "CHEM2380",
+      "Synthesis Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%202380"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "BIOS1107&1107L",
+      "Biological Principlesand Biological Principles Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=BIOS%201107"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "CHEM2216&2216L",
+      "Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202216"
+    ],
+    [
+      "orCHEM2214",
+      "Quantitative Chemical Analysis",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202214"
+    ],
+    [
+      "CHEM2311",
+      "Organic Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202311"
+    ],
+    [
+      "CHEM2312",
+      "Organic Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202312"
+    ],
+    [
+      "orCHEM2313",
+      "Organic and Bioorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202313"
+    ],
+    [
+      "CHEM2601",
+      "Professional Skills for Chemists and Biochemists",
+      1,
+      "https://catalog.gatech.edu/search/?P=CHEM%202601"
+    ],
+    [
+      "CHEM3111",
+      "Inorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203111"
+    ],
+    [
+      "CHEM3216&3216L",
+      "Analytical Chemistry Lectureand Analytical Chemistry Laboratory",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203216"
+    ],
+    [
+      "orCHEM3211",
+      "Analytical Chemistry",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203211"
+    ],
+    [
+      "CHEM3380",
+      "Synthesis Laboratory II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203380"
+    ],
+    [
+      "CHEM3411",
+      "Physical Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203411"
+    ],
+    [
+      "CHEM3412",
+      "Physical Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203412"
+    ],
+    [
+      "CHEM3481",
+      "Physical Chemistry Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%203481"
+    ]
+  ],
+  "Biochemistry Option": [
+    [
+      "CHEM4511",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204511"
+    ],
+    [
+      "orCHEM3521",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203521"
+    ],
+    [
+      "CHEM4512",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204512"
+    ],
+    [
+      "orCHEM3522",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203522"
+    ],
+    [
+      "CHEM4581",
+      "Biochemistry Laboratory I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204581"
+    ],
+    [
+      "CHEM4601",
+      "Chemistry Seminar",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%204601"
+    ],
+    [
+      "Biochemistry Lab Elective",
+      "3"
+    ],
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "CHEM4521",
+      "Biophysical Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204521"
+    ],
+    [
+      "CHEM4582",
+      "Biochemistry Laboratory II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204582"
+    ],
+    [
+      "CHEM4765",
+      "Drug Design, Development, and Delivery",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204765"
+    ],
+    [
+      "BIOS3380",
+      "Microbiology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%203380"
+    ],
+    [
+      "BIOS3450",
+      "Cell and Molecular Biology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%203450"
+    ],
+    [
+      "BIOS4340",
+      "Medical Microbiology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%204340"
+    ],
+    [
+      "BIOS4418",
+      "Microbial Physiology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%204418"
+    ],
+    [
+      "BIOS4401",
+      "Experimental Design and Statistical Methods in Biological Sciences",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%204401"
+    ],
+    [
+      "BIOS4464",
+      "Developmental Biology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%204464"
+    ],
+    [
+      "BIOS4570",
+      "Immunology",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%204570"
+    ],
+    [
+      "BIOS4668",
+      "Eukaryotic Molecular Genetics",
+      3,
+      "https://catalog.gatech.edu/search/?P=BIOS%204668"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "12"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

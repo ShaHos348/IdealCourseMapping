@@ -102,28 +102,14 @@ for program in range(len(links)):
                     if currCourse[0][0:2] == "or":
                         currCourse.insert(2, creditHour)
                 creditHour = -1
-            if "-" not in concentration_titles[concentration]:
-                fileName = (
-                    titles[program]
-                    + "-"
-                    + concentration_titles[concentration]
-                    .replace(" ", "_")
-                    .replace("_-_", "-")
-                    .replace(",_", ",")
-                    .replace("Bachelor_of_Science_in_Mathematics", "")
-                    .replace("_with_a_concentration_in_", "")
-                    .replace("Bachelor_of_Science_in_", "")
-                    .replace("_with_a_concentration_is_", "")
-                )
-            else:
-                fileName = (
-                    concentration_titles[concentration]
-                    .replace(" ", "_")
-                    .replace("_-_", "-")
-                    .replace("-_", "-")
-                    .replace("Bachelor_of_Science_in_", "")
-                    .replace("_Option", "")
-                )
+            fileName = (
+                url
+                .replace("https://catalog.gatech.edu/programs/", "")
+                .replace("-bs", "")
+                .replace("/", "")
+                .replace("_\u2013_", "-")
+                .strip()
+            )
             make_json(fileName, map)
     elif threads != None:
         thread_titles = threads.find_all("a")
@@ -182,11 +168,11 @@ for program in range(len(links)):
                         currCourse.insert(2, creditHour)
                 creditHour = -1
             fileName = (
-                (titles[program] + "-" + thread_titles[threadIdx])
-                .replace("_-_", "-")
-                .replace("-_", "-")
+                url
+                .replace("https://catalog.gatech.edu/programs/", "")
+                .replace("-bs", "")
+                .replace("/", "")
                 .replace("_\u2013_", "-")
-                .replace(",_", ",")
                 .strip()
             )
             make_json(fileName, map)
@@ -233,4 +219,12 @@ for program in range(len(links)):
                 if currCourse[0][0:2] == "or":
                     currCourse.insert(2, creditHour)
             creditHour = -1
-        make_json(titles[program], map)
+        fileName = (
+                url
+                .replace("https://catalog.gatech.edu/programs/", "")
+                .replace("-bs", "")
+                .replace("/", "")
+                .replace("_\u2013_", "-")
+                .strip()
+            )
+        make_json(fileName, map)

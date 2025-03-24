@@ -79,6 +79,54 @@ def generate_csv():
         return jsonify({"error": str(e)}), 500
 
 # TODO endpoint that takes program and returns the program table for it
+@app.route("/get-program-table/", methods=["POST"])
+def get_program_table():
+    try:
+        # Get JSON data from the request
+        data = request.get_json()
+        selected_program = data.get("selected_program", [])
+
+        # Ensure selected_program is a list and convert to lowercase
+        selected_program = [word.strip().replace(" ", "-").lower() for word in selected_program if word and word.strip()]
+        
+        print("Received selected program:", selected_program)
+
+        BACKEND_PATH = os.path.join(os.getcwd(), "Backend/majors")
+
+        # Get list of all JSON files in Backend/majors
+        try:
+            files = [f for f in os.listdir(BACKEND_PATH) if f.endswith(".json")]
+        except FileNotFoundError:
+            return jsonify({"error": "Directory not found"}), 500
+
+        #print("Available files:", files)
+
+        # Look for a file containing all requested words in any order
+        matching_file = None
+        for file in files:
+            normalized_filename = file.replace(".json", "").lower()  # Normalize filename
+            #print(f"Checking file: {file} => Filename: {normalized_filename}")
+
+            if all(word in normalized_filename for word in selected_program):
+                matching_file = file
+                break  # Stop at the first match
+
+        if not matching_file:
+            print("No matching file found.")
+            return jsonify({"error": "File not found"}), 404
+
+        print(f"Matched file: {matching_file}")
+
+        # Read and return JSON file content
+        file_path = os.path.join(BACKEND_PATH, matching_file)
+        with open(file_path, "r", encoding="utf-8") as f:
+            file_contents = f.read()
+
+        return jsonify(file_contents)
+
+    except Exception as e:
+        print("Error:", str(e))
+        return jsonify({"error": "Internal Server Error"}), 500
 
 if __name__ == "__main__":
     app.run(debug=True)
