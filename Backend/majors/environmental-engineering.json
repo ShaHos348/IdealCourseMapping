@@ -1,1 +1,300 @@
-{}
+{
+    "Wellness Requirement": [
+        [
+            "APPH 1040",
+            "Scientific Foundations of Health",
+            2,
+            ""
+        ],
+        [
+            "APPH 1050",
+            "The Science of Physical Activity and Health",
+            2,
+            ""
+        ],
+        [
+            "APPH 1060",
+            "Flourishing: Strategies for Well-being and Resilience",
+            2,
+            ""
+        ]
+    ],
+    "Core IMPACTS": [
+        [
+            "CS 1371",
+            "Computing for Engineers",
+            3,
+            ""
+        ]
+    ],
+    "Mathematics and Quantitative Skills": [
+        [
+            "MATH 1552",
+            "Integral Calculus 3",
+            4,
+            ""
+        ]
+    ],
+    "Political Science and U.S. History": [
+        [
+            "HIST 2111",
+            "The United States to 1877",
+            3,
+            ""
+        ],
+        [
+            "HIST 2112",
+            "The United States since 1877",
+            3,
+            ""
+        ],
+        [
+            "INTA 1200",
+            "American Government in Comparative Perspective",
+            3,
+            ""
+        ],
+        [
+            "POL 1101",
+            "Government of the United States",
+            3,
+            ""
+        ],
+        [
+            "PUBP 3000",
+            "American Constitutional Issues",
+            3,
+            ""
+        ]
+    ],
+    "Arts, Humanities, and Ethics": [
+        [
+            "Any HUM",
+            "",
+            6,
+            ""
+        ]
+    ],
+    "Communicating in Writing": [
+        [
+            "ENGL 1101",
+            "English Composition I",
+            3,
+            ""
+        ],
+        [
+            "ENGL 1102",
+            "English Composition II",
+            3,
+            ""
+        ]
+    ],
+    "Technology, Mathematics, and Sciences": [
+        [
+            "PHYS 2211",
+            "Introductory Physics I 2,3",
+            4,
+            ""
+        ],
+        [
+            "PHYS 2212",
+            "Introductory Physics II",
+            4,
+            ""
+        ],
+        [
+            "MATH 1551",
+            "Differential Calculus 3",
+            2,
+            ""
+        ],
+        [
+            "MATH 1553",
+            "Introduction to Linear Algebra 3",
+            2,
+            ""
+        ],
+        [
+            "MATH 1554",
+            "Linear Algebra",
+            2,
+            ""
+        ],
+        [
+            "MATH 1564",
+            "Linear Algebra with Abstract Vector Spaces",
+            2,
+            ""
+        ]
+    ],
+    "Social Sciences": [
+        [
+            "ECON 2100",
+            "Economic Analysis and Policy Problems",
+            3,
+            ""
+        ],
+        [
+            "ECON 2101",
+            "The Global Economy",
+            3,
+            ""
+        ],
+        [
+            "ECON 2105",
+            "Principles of Macroeconomics",
+            3,
+            ""
+        ],
+        [
+            "ECON 2106",
+            "Principles of Microeconomics",
+            3,
+            ""
+        ],
+        [
+            "Any SS",
+            "",
+            6,
+            ""
+        ]
+    ],
+    "Field of Study": [
+        [
+            "COE 2001",
+            "Statics 3",
+            2,
+            ""
+        ],
+        [
+            "MATH 2551",
+            "Multivariable Calculus",
+            4,
+            ""
+        ],
+        [
+            "MATH 2552",
+            "Differential Equations 3",
+            4,
+            ""
+        ],
+        [
+            "CHEM 1310",
+            "Principles of General Chemistry for Engineers 3",
+            4,
+            ""
+        ],
+        [
+            "BIOS 1107 & 1107L",
+            "Biological Principles and Biological Principles Laboratory",
+            4,
+            ""
+        ]
+    ],
+    "Major Requirements": [
+        [
+            "Ethics Requirement",
+            "see footnote for courses",
+            1,
+            ""
+        ],
+        [
+            "CEE 1070",
+            "Engineering Graphics for Civil and Environmental Engineering",
+            1,
+            ""
+        ],
+        [
+            "CEE 1090",
+            "Exploring Civil and Environmental Engineering",
+            2,
+            ""
+        ],
+        [
+            "CEE 2040",
+            "Dynamics",
+            2,
+            ""
+        ],
+        [
+            "CEE 2090",
+            "Civil and Environmental Engineering Systems",
+            3,
+            ""
+        ],
+        [
+            "CEE 2300",
+            "Environmental Engineering Principles",
+            3,
+            ""
+        ],
+        [
+            "CEE 3040",
+            "Fluid Mechanics",
+            3,
+            ""
+        ],
+        [
+            "CEE 3090",
+            "Data Analytics in Civil and Environmental Engineering",
+            3,
+            ""
+        ],
+        [
+            "CEE 3340",
+            "Environmental Engineering Laboratory",
+            3,
+            ""
+        ],
+        [
+            "CEE 3770",
+            "Statistics and Applications",
+            3,
+            ""
+        ],
+        [
+            "ISYE 3770",
+            "Statistics and Applications",
+            3,
+            ""
+        ],
+        [
+            "CEE 4090",
+            "Capstone Design",
+            3,
+            ""
+        ],
+        [
+            "CEE 4200",
+            "Hydraulic Engineering",
+            3,
+            ""
+        ],
+        [
+            "COE 3001",
+            "Mechanics of Deformable Bodies",
+            3,
+            ""
+        ]
+    ],
+    "Additional Requirements": [
+        [
+            "CHEM 1315",
+            "Survey of Organic Chemistry for Engineers",
+            3,
+            ""
+        ],
+        [
+            "EAS 2600",
+            "Earth Processes",
+            4,
+            ""
+        ]
+    ],
+    "Total Credit Hours": [
+        [
+            "129",
+            ""
+        ]
+    ]
+}

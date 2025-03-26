@@ -109,6 +109,8 @@ def get_program_table():
 
             if all(word in normalized_filename for word in selected_program):
                 matching_file = file
+                if "biochemistry" in matching_file and "biochemistry" not in selected_program:
+                    matching_file = "chemistry-general.json"
                 break  # Stop at the first match
 
         if not matching_file:

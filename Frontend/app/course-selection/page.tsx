@@ -62,10 +62,10 @@ export default function CourseSelectionPage() {
     const loadTableData = async () => {
       console.log(selectionData.focus);
       console.log("CHECKING");
-      let program = selectionData.major;
+      let program = selectionData.major[1];
       const focus1 = selectionData.focus[0];
       const focus2 = selectionData.focus[1];
-      const selected_program = [program, focus1?.value || "", focus2?.value || ""];
+      const selected_program = [selectionData.major[0], focus1?.value || "", focus2?.value || ""];
       if (focus1 && focus2) {
         program += ": " + focus1.label + " & " + focus2.label;
       } else if (focus1) {

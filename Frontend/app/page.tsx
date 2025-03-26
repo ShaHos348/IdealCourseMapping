@@ -16,7 +16,7 @@ import college_data_proto from "../public/data/college_data.json";
 const collegeData = college_data_proto;
 
 export default function GTCoursePicker() {
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup, setShowPopup] = useState(false);
   const router = useRouter();
   const [selectedCollege, setSelectedCollege] = useState("");
   const [selectedMajor, setSelectedMajor] = useState("");
@@ -101,7 +101,7 @@ export default function GTCoursePicker() {
 
     const selections = {
       college: collegeData[selectedCollege]['name'],
-      major: collegeData[selectedCollege]['majors'][selectedMajor]['name'],
+      major: [selectedMajor, collegeData[selectedCollege]['majors'][selectedMajor]['name']],
       concentration: hasConcentration ? majorObj['concentrations'].find(t => t.value === concentration) : null,
       thread1: hasThreads ? majorObj['threads'].find(t => t.value === thread1) : null,
       thread2: hasThreads ? majorObj['threads'].find(t => t.value === thread2) : null,
