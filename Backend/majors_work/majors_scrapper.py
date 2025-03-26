@@ -2,6 +2,7 @@ import re
 from bs4 import BeautifulSoup
 import requests
 import json
+import os
 
 baseURL = "https://catalog.gatech.edu"
 programsURL = baseURL + "/programs/#bachelorstext"
@@ -22,8 +23,10 @@ links.remove(None)
 
 def make_json(fileName, map):
     map = {key: value for key, value in map.items() if value}  # Remove keys with empty lists
-    with open("./Backend/majors/" + fileName + ".json", "w") as f:
-        f.write(json.dumps(map, indent=2))
+    file_path = "./Backend/majors/" + fileName + ".json"
+    if not os.path.exists(file_path):
+        with open(file_path, "w") as f:
+            f.write(json.dumps(map, indent=2))
 
 for program in range(len(links)):
     url = baseURL + str(links[program])
@@ -102,12 +105,15 @@ for program in range(len(links)):
                     if currCourse[0][0:2] == "or":
                         currCourse.insert(2, creditHour)
                 creditHour = -1
-            fileName = (
+            programName = titles[program].lower().replace("_","-").replace("-and-","-")
+            fileName = programName + "-" + (
                 url
                 .replace("https://catalog.gatech.edu/programs/", "")
                 .replace("-bs", "")
                 .replace("/", "")
                 .replace("_\u2013_", "-")
+                .replace(("-" + programName), "")
+                .replace((programName + "-"), "")
                 .strip()
             )
             make_json(fileName, map)
@@ -167,12 +173,15 @@ for program in range(len(links)):
                     if currCourse[0][0:2] == "or":
                         currCourse.insert(2, creditHour)
                 creditHour = -1
-            fileName = (
+            programName = titles[program].lower().replace("_","-").replace("-and-","-")
+            fileName = programName + "-" + (
                 url
                 .replace("https://catalog.gatech.edu/programs/", "")
                 .replace("-bs", "")
                 .replace("/", "")
                 .replace("_\u2013_", "-")
+                .replace(("-" + programName), "")
+                .replace((programName + "-"), "")
                 .strip()
             )
             make_json(fileName, map)
@@ -220,11 +229,11 @@ for program in range(len(links)):
                     currCourse.insert(2, creditHour)
             creditHour = -1
         fileName = (
-                url
-                .replace("https://catalog.gatech.edu/programs/", "")
-                .replace("-bs", "")
-                .replace("/", "")
-                .replace("_\u2013_", "-")
-                .strip()
-            )
+            url
+            .replace("https://catalog.gatech.edu/programs/", "")
+            .replace("-bs", "")
+            .replace("/", "")
+            .replace("_\u2013_", "-")
+            .strip()
+        )
         make_json(fileName, map)
