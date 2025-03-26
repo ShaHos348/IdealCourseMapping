@@ -225,7 +225,7 @@
           }
         ]
       },
-      "chemical-and-biomolecular-engineering": {
+      "chemical-biomolecular": {
         "name": "Chemical and Biomolecular Engineering",
         "concentrations": [
           {
@@ -319,7 +319,7 @@
             "label": "Distributed System & Software Design and Telecommunications"
           },
           {
-            "value": "distributed-system-software-design-systems-&-architecture",
+            "value": "distributed-system-software-design-systems-architecture",
             "label": "Distributed System & Software Design and Systems & Architecture"
           },
           {
@@ -364,7 +364,7 @@
             "label": "Electronic Devices"
           },
           {
-            "value": "electrical-energy-systems",
+            "value": "electric-energy-systems",
             "label": "Electrical Energy Systems"
           },
           {
@@ -414,7 +414,7 @@
             "label": "Operations Research"
           },
           {
-            "value": "quality-and-statistics",
+            "value": "quality-statistics",
             "label": "Quality and Statistics"
           },
           {
@@ -423,7 +423,7 @@
           }
         ]
       },
-      "materials-science-and-engineering": {
+      "materials-science-engineering": {
         "name": "Materials Science and Engineering",
         "concentrations": [
           {
@@ -485,8 +485,8 @@
           }
         ]
       },
-      "nuclear-and-radiological-engineering": {
-        "name": "Nuclear Radiological Engineering",
+      "nuclear-radiological-engineering": {
+        "name": "Nuclear and Radiological Engineering",
         "concentrations": [
           {
             "value": "nuclear-engineering",
@@ -570,12 +570,12 @@
             "label": "Polymers and Materials"
           },
           {
-            "value": "pre-health",
+            "value": "prehealth",
             "label": "Pre-health"
           }
         ]
       },
-      "earth-and-atmospheric-sciences": {
+      "earth-atmospheric-sciences": {
         "name": "Earth and Atmospheric Sciences",
         "concentrations": [
           {
@@ -669,7 +669,7 @@
   "ivan-allen-college-of-liberal-arts": {
     "name": "Ivan Allen College of Liberal Arts",
     "majors": {
-      "applied-languages-and-intercultural-studies": {
+      "applied-language-intercultural-studies": {
         "name": "Applied Languages and Intercultural Studies",
         "concentrations": [
           {
@@ -764,7 +764,7 @@
           }
         ]
       },
-      "economics-and-international-affairs": {
+      "economics-international-affairs": {
         "name": "Economics and International Affairs",
         "requirements": [
           {
@@ -773,7 +773,7 @@
           }
         ]
       },
-      "global-economics-and-modern-languages": {
+      "global-economics-modern-languages": {
         "name": "Global Economics and Modern Languages",
         "requirements": [
           {
@@ -782,7 +782,7 @@
           }
         ]
       },
-      "history-technology-and-society": {
+      "history-technology-society": {
         "name": "History Technology and Society",
         "requirements": [
           {
@@ -800,7 +800,7 @@
           }
         ]
       },
-      "international-affairs-and-modern-language": {
+      "international-affairs-modern-language": {
         "name": "International Affairs and Modern Language",
         "requirements": [
           {
@@ -872,7 +872,7 @@
             "label": "IT management"
           },
           {
-            "value": "leadership-and-organizational-change",
+            "value": "leadership-organizational-change",
             "label": "Leadership and Organizational Change"
           },
           {

@@ -108,8 +108,9 @@ def get_program_table():
             #print(f"Checking file: {file} => Filename: {normalized_filename}")
 
             if all(word in normalized_filename for word in selected_program):
-                matching_file = file
-                break  # Stop at the first match
+                if file.split("-")[0] in selected_program[0]:
+                    matching_file = file
+                    break  # Stop at the first match
 
         if not matching_file:
             print("No matching file found.")
