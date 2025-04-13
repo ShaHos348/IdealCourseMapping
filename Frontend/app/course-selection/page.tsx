@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import "../style.css";
 import {
   Card,
   CardHeader,
@@ -91,7 +92,7 @@ export default function CourseSelectionPage() {
         if (!response.data || response.data.error) {
           throw new Error(response.data?.error || "Unknown error occurred.");
         }
-        const data = JSON.parse(response.data); 
+        const data = JSON.parse(response.data);
         setTableData(data);
         //console.log(data);
       } catch (error) {
@@ -109,7 +110,7 @@ export default function CourseSelectionPage() {
     .map(([dept, courses]) => ({
       department: dept,
       courses: courses.filter((course) =>
-        course["name"].toLowerCase().includes(searchQuery.toLowerCase())
+        `${course.name} - ${course.long_name} (${course.hours} hours)`.toLowerCase().includes(searchQuery.toLowerCase())
       ),
     }))
     .filter(({ courses }) => courses.length > 0);
@@ -154,7 +155,7 @@ export default function CourseSelectionPage() {
 
   return (
     <div className="max-w-6xl mx-auto p-4 flex space-x-4">
-      <Card className="flex-1">
+      <Card className="flex-1 blackBorder">
         <CardHeader className="space-y-6">
           <CardTitle className="text-2xl">Program Requirements</CardTitle>
         </CardHeader>
@@ -236,9 +237,19 @@ export default function CourseSelectionPage() {
           ))}
         </CardContent>
       </Card>
-      <Card className="flex-1">
-        <CardHeader className="space-y-6">
-          <CardTitle className="text-2xl">Select Completed Courses</CardTitle>
+      <Card className="flex-1 blackBorder">
+        <CardHeader className="space-y-4">
+          <div className="flex justify-between items-center">
+            <CardTitle className="text-2l">Select Completed Courses</CardTitle>
+            <div className="flex space-x-2">
+              <Button variant="outline" onClick={() => router.back()}>
+                Back
+              </Button>
+              <Button onClick={handleContinue} className="nextPageBut">
+                Continue ({selectedCourses.size} selected)
+              </Button>
+            </div>
+          </div>
           <div>
             <input
               type="text"
@@ -249,6 +260,7 @@ export default function CourseSelectionPage() {
             />
           </div>
         </CardHeader>
+
 
         <CardContent className="max-h-[600px] overflow-y-auto space-y-4">
           {filteredDepartments.map(({ department, courses }) => (
@@ -296,19 +308,6 @@ export default function CourseSelectionPage() {
             </div>
           ))}
         </CardContent>
-
-        <CardFooter className="flex justify-between border-t p-6">
-          <Button
-            variant="outline"
-            onClick={() => router.back()}
-            className="px-6"
-          >
-            Back to Thread Selection
-          </Button>
-          <Button onClick={handleContinue} className="px-6">
-            Continue ({selectedCourses.size} selected)
-          </Button>
-        </CardFooter>
       </Card>
     </div>
   );

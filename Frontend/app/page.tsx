@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import "./style.css";
 import {
   Select,
   SelectContent,
@@ -16,7 +17,7 @@ import college_data_proto from "../public/data/college_data.json";
 const collegeData = college_data_proto;
 
 export default function GTCoursePicker() {
-  const [showPopup, setShowPopup] = useState(false);
+  const [showPopup, setShowPopup] = useState(true);
   const router = useRouter();
   const [selectedCollege, setSelectedCollege] = useState("");
   const [selectedMajor, setSelectedMajor] = useState("");
@@ -114,8 +115,8 @@ export default function GTCoursePicker() {
 
   if (showPopup) {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-md">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 pageBackground">
+      <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-md blackBorder">
         <h2 className="text-lg font-semibold mb-4">Consent Required</h2>
         <p className="mb-4">The data collected is stored only for the current session and will be deleted if this tab is closed. We do not hold or keep in file any data collected from here.</p>
         <button
@@ -132,7 +133,7 @@ export default function GTCoursePicker() {
 
   return (
     <div className="max-w-md mx-auto p-4">
-      <Card>
+      <Card className='blackBorder'>
         <CardHeader>
           <CardTitle>Georgia Institute of Technology</CardTitle>
         </CardHeader>
@@ -252,7 +253,7 @@ export default function GTCoursePicker() {
             </div>
           )}
 
-          <Button className="w-full" onClick={handleContinue} disabled={!canContinue()}>
+          <Button className="w-full nextPageBut" onClick={handleContinue} disabled={!canContinue()}>
             Continue to Course Map
           </Button>
         </CardContent>

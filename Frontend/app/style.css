@@ -1,0 +1,33 @@
+.pageBackground {
+  background: linear-gradient(to right, white, rgb(255, 222, 75));
+}
+
+.nextPageBut {
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.nextPageBut:hover {
+  background-color: goldenrod;
+}
+
+.nextPageBut:disabled {
+  background-color: lightgray;
+  color: gray;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.nextPageBut:disabled:hover {
+  background-color: lightgray;
+}
+
+.blackBorder {
+  border: 1px solid black;
+}
+
+button {
+  border: 1px solid black;
+}

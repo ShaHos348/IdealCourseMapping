@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import "../style.css";
 import {
   Card,
   CardHeader,
@@ -26,6 +27,8 @@ const CourseMapPage = () => {
   const [pickedCourseForPrereqs, setPickedCourseForPrereqs] = useState("");
   const [coursePrereqs, setCoursePrereqs] = useState("");
   const [coursePrereqData, setCoursePrereqData] = useState({});
+  const [showRequirements, setShowRequirements] = useState(true);
+
 
   useEffect(() => {
     const loadInitialData = async () => {
@@ -151,7 +154,7 @@ const CourseMapPage = () => {
   };
 
   const handleMakeGraph = async () => {
-    if (selectedCourses.length === 0) {
+    if (selectedCourses.length === 0 || imageSrc != null) {
       setImageSrc(null);
       //alert("No Courses Selected!");
       return;
@@ -223,224 +226,238 @@ const CourseMapPage = () => {
   return (
     <div className="max-w-6xl mx-auto p-4 space-y-6">
       {/* Header with Back Button */}
-      <div className="flex justify-between items-center space-x-2">
-        <Button
-          variant="outline"
-          onClick={() => router.back()}
-          className="gap-2"
-        >
-          ← Back to Course Selection
-        </Button>
+      <div className="flex justify-between items-center">
+        {/* Left-aligned Back button */}
+        <div>
+          <Button
+            variant="outline"
+            onClick={() => router.back()}
+            className="gap-2"
+          >
+            ← Back to Course Selection
+          </Button>
+        </div>
+
+        {/* Right-aligned action buttons */}
+        <div className="flex space-x-2">
+          <Button
+            className="nextPageBut"
+            style={{ backgroundColor: "#fff7cc" }}
+            onClick={handleCSVExport}
+          >
+            Export CSV
+          </Button>
+          <Button
+            className="nextPageBut"
+            style={{ backgroundColor: "gold" }}
+            onClick={redirectToCurricularAnalytics}
+          >
+            Go to Curricular Analytics
+          </Button>
+          <Button
+            className="nextPageBut"
+            style={{ backgroundColor: "#d4af37" }}
+            onClick={handleMakeGraph}
+          >
+            Make Graph
+          </Button>
+        </div>
       </div>
 
-      {/* Graph Area */}
-      <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 space-x-2">
-          <CardTitle>Course Prerequisites Graph</CardTitle>
-          <div className="flex space-x-2">
-            <Button onClick={handleCSVExport}>Export CSV</Button>
-            <Button onClick={redirectToCurricularAnalytics}>Go to Curricular Analytics</Button>
-            <Button onClick={handleMakeGraph}>Make Graph</Button>
-          </div>
-        </CardHeader>
-        <CardContent>
-          <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            {imageSrc ? (
-              <img src={imageSrc} alt="Course Prerequisite Graph" />
-            ) : (
-              <p className="text-gray-500">
-                {loadingGraph
-                  ? "Graph loading!"
-                  : "Graph visualization will display here!"}
-              </p>
-            )}
-          </div>
-        </CardContent>
-      </Card>
 
-      {selectedCourses.length > 0 && (
-        <>
-          {/* Courses selected Box */}
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0">
-              <CardTitle>Selected Courses</CardTitle>
-              <Button onClick={handleClearSelectedCourses} variant="outline">
-                Clear All
-              </Button>
+      <div className="flex gap-6 max-w-7xl mx-auto mt-6">
+        {/* LEFT COLUMN */}
+        <div className="flex-1 space-y-4">
+          {/* Graph */}
+          <Card className="blackBorder">
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 space-x-2">
+              <CardTitle>Course Prerequisites Graph</CardTitle>
             </CardHeader>
-
             <CardContent>
-              {selectedCourses.map((course, index) => (
-                <span
-                  key={course}
-                  className="cursor-pointer hover:text-blue-600"
-                  onClick={() => togglePrereqs(course)}
-                  onContextMenu={(e) => {
-                    e.preventDefault();
-                    handleRemoveCourse(course);
-                  }}
-                >
-                  {course}
-                  {index < selectedCourses.length - 1 && " | "}
-                </span>
-              ))}
+              <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+                {imageSrc ? (
+                  <img src={imageSrc} alt="Course Prerequisite Graph" />
+                ) : (
+                  <p className="text-gray-500">
+                    {loadingGraph
+                      ? "Graph loading!"
+                      : "Graph visualization will display here!"}
+                  </p>
+                )}
+              </div>
             </CardContent>
           </Card>
-        </>
-      )}
-
-      {/* Prereqs Box */}
-      {pickedCourseForPrereqs && (<Card>
-        <CardHeader>
-          <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            {pickedCourseForPrereqs ? (
-              <p className="text-gray-500">{coursePrereqs}</p>
-            ) : (
-              <p className="text-gray-500">
-                Course Prereqs will appear here for a selected course
-              </p>
-            )}
-          </div>
-        </CardContent>
-      </Card>)}
-
-
-      {/* Search Section */}
-      <Card>
-        <CardHeader className="flex flex-row items-center justify-between space-y-0">
-          <CardTitle>Course Search</CardTitle>
-          <div className="flex gap-4">
-            <Button onClick={handleEnterCourses} variant="outline">
-              Enter Courses
-            </Button>
-            <Button onClick={handleEnterProgramCourses} variant="secondary">
-              Add All Program Courses
-            </Button>
-            <Button onClick={() => setShowSearch(!showSearch)}>
-              {showSearch ? "Hide Search" : "Search Courses"}
-            </Button>
-          </div>
-        </CardHeader>
-
-        {showSearch && (
-          <CardContent>
-            <div className="space-y-4">
-              <input
-                type="text"
-                placeholder="Search courses (e.g. CS 1301)"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full p-2 border rounded"
-              />
-              <div className="max-h-60 overflow-y-auto border rounded">
-                {filteredCourses.map((course) => (
-                  <div
-                    key={course["name"]}
-                    className="flex items-center p-2 hover:bg-gray-50 border-b last:border-b-0 cursor-pointer w-full"
-                    onClick={() => toggleCourse(course["name"])}
+          {/* Selected Courses */}
+          {selectedCourses.length > 0 && (
+            <Card className="blackBorder">
+              <CardHeader className="flex flex-row items-center justify-between space-y-0">
+                <CardTitle>Selected Courses</CardTitle>
+                <Button onClick={handleClearSelectedCourses} variant="outline">
+                  Clear All
+                </Button>
+              </CardHeader>
+              <CardContent>
+                {selectedCourses.map((course, index) => (
+                  <span
+                    key={course}
+                    className="cursor-pointer hover:text-blue-600"
+                    onClick={() => togglePrereqs(course)}
+                    onContextMenu={(e) => {
+                      e.preventDefault();
+                      handleRemoveCourse(course);
+                    }}
                   >
-                    <input
-                      type="checkbox"
-                      checked={selectedCourses.includes(course["name"])}
-                      readOnly
-                      className="mr-3"
-                    />
-                    <div className="flex-1">{course["name"]} - {course["long_name"]} ({course["hours"]} hours)</div>
-                  </div>
+                    {course}
+                    {index < selectedCourses.length - 1 && " | "}
+                  </span>
                 ))}
+              </CardContent>
+            </Card>
+          )}
+
+          {/* Prereqs */}
+          {selectedCourses.length > 0 && pickedCourseForPrereqs && (
+            <Card className="blackBorder">
+              <CardHeader>
+                <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+                  <p className="text-gray-500">{coursePrereqs}</p>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
+
+        </div>
+
+        {/* RIGHT COLUMN */}
+        <div className="flex-1 space-y-4">
+          {/* Program Requirements */}
+          <Card className="blackBorder">
+            <CardHeader>
+              <div className="flex items-center justify-between w-full">
+                <div className="flex items-center gap-4">
+                  <CardTitle className="text-1xl">
+                    Program Requirements
+                  </CardTitle>
+                  <Button
+                    variant="ghost"
+                    onClick={() => setShowRequirements(!showRequirements)}
+                    className="text-sm"
+                  >
+                    {showRequirements ? "Collapse" : "Expand"}
+                  </Button>
+                </div>
               </div>
+            </CardHeader>
 
-            </div>
-          </CardContent>
-        )}
-      </Card>
 
-      {/*Lists the courses for the program. Will be Changed Next Semester */}
-      <Card className="flex-1">
-        <CardHeader className="space-y-6">
-          <CardTitle className="text-1xl">
-            Program Requirements {"("}Choose courses you want to take{")"}
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="max-h-[200px] overflow-y-auto space-y-4">
-          {Object.entries(neededCourses).map(([category, courses]) => (
-            <div key={category}>
-              <h3 className="font-bold text-lg">{category}</h3>
-              <table className="min-w-full table-fixed border border-gray-300 border-collapse">
-                <thead>
-                  <tr>
-                    <th className="px-4 py-2 text-left w-1/4 border border-gray-300">
-                      Code
-                    </th>
-                    <th className="px-4 py-2 text-left w-2/4 border border-gray-300">
-                      Title
-                    </th>
-                    <th className="px-4 py-2 text-left w-1/4 border border-gray-300">
-                      Credits
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {courses.map((course, index) => {
-                    const [code, title, credits, link] = course;
-                    return (
-                      <tr key={index} className="border-b border-gray-300">
-                        {course.length >= 3 && (
-                          <td className="px-4 py-2 border border-gray-300">
-                            {code}
-                          </td>
-                        )}
-
-                        {/* Conditionally render title based on course length */}
-
-                        {/* Length 4 */}
-                        {course.length === 4 && (
-                          <td className="px-4 py-2 border border-gray-300">
-                            {title}
-                          </td>
-                        )}
-                        {course.length === 4 && (
-                          <td className="px-4 py-2 border border-gray-300">
-                            {credits}
-                          </td>
-                        )}
-
-                        {/* Length 3 */}
-                        {course.length === 3 && (
-                          <td className="px-4 py-2 border border-gray-300"></td>
-                        )}
-                        {course.length === 3 && (
-                          <td className="px-4 py-2 border border-gray-300">
-                            {title}
-                          </td>
-                        )}
-
-                        {/* Length 2 */}
-                        {course.length === 2 && (
-                          <td
-                            colSpan="2"
-                            className="px-4 py-2 border border-gray-300"
-                          >
-                            {code}
-                          </td>
-                        )}
-                        {course.length === 2 && (
-                          <td className="px-4 py-2 border border-gray-300">
-                            {title}
-                          </td>
-                        )}
+            {showRequirements && (<CardContent className="max-h-[200px] overflow-y-auto space-y-4">
+              {/* ... existing table rendering code ... */}
+              {Object.entries(neededCourses).map(([category, courses]) => (
+                <div key={category}>
+                  <h3 className="font-bold text-lg">{category}</h3>
+                  <table className="min-w-full table-fixed border border-gray-300 border-collapse">
+                    <thead>
+                      <tr>
+                        <th className="px-4 py-2 text-left w-1/4 border border-gray-300">Code</th>
+                        <th className="px-4 py-2 text-left w-2/4 border border-gray-300">Title</th>
+                        <th className="px-4 py-2 text-left w-1/4 border border-gray-300">Credits</th>
                       </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          ))}
-        </CardContent>
-      </Card>
+                    </thead>
+                    <tbody>
+                      {courses.map((course, index) => {
+                        const [code, title, credits, link] = course;
+                        return (
+                          <tr key={index} className="border-b border-gray-300">
+                            {course.length >= 3 && (
+                              <td className="px-4 py-2 border border-gray-300">{code}</td>
+                            )}
+                            {course.length === 4 && (
+                              <>
+                                <td className="px-4 py-2 border border-gray-300">{title}</td>
+                                <td className="px-4 py-2 border border-gray-300">{credits}</td>
+                              </>
+                            )}
+                            {course.length === 3 && (
+                              <>
+                                <td className="px-4 py-2 border border-gray-300"></td>
+                                <td className="px-4 py-2 border border-gray-300">{title}</td>
+                              </>
+                            )}
+                            {course.length === 2 && (
+                              <>
+                                <td colSpan="2" className="px-4 py-2 border border-gray-300">{code}</td>
+                                <td className="px-4 py-2 border border-gray-300">{title}</td>
+                              </>
+                            )}
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              ))}
+            </CardContent>)}
+
+          </Card>
+
+          {/* Search Section */}
+          <Card className="blackBorder">
+            <CardHeader className="flex flex-col space-y-4">
+              <CardTitle>Course Search</CardTitle>
+              <div className="flex flex-wrap gap-2">
+                <Button onClick={handleEnterCourses} variant="outline">
+                  Enter Courses
+                </Button>
+                <Button onClick={handleEnterProgramCourses} variant="secondary">
+                  Add All Program Courses
+                </Button>
+                <Button onClick={() => setShowSearch(!showSearch)}>
+                  {showSearch ? "Hide Search" : "Search Courses"}
+                </Button>
+              </div>
+            </CardHeader>
+
+
+            {showSearch && (
+              <CardContent>
+                <div className="space-y-4">
+                  <input
+                    type="text"
+                    placeholder="Search courses (e.g. CS 1301)"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full p-2 border rounded"
+                  />
+                  <div className="max-h-60 overflow-y-auto border rounded">
+                    {filteredCourses.map((course) => (
+                      <div
+                        key={course["name"]}
+                        className="flex items-center p-2 hover:bg-gray-50 border-b last:border-b-0 cursor-pointer w-full"
+                        onClick={() => toggleCourse(course["name"])}
+                      >
+                        <input
+                          type="checkbox"
+                          checked={selectedCourses.includes(course["name"])}
+                          readOnly
+                          className="mr-3"
+                        />
+                        <div className="flex-1">
+                          {course["name"]} - {course["long_name"]} ({course["hours"]} hours)
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </CardContent>
+            )}
+          </Card>
+        </div>
+      </div>
+
 
 
     </div>
