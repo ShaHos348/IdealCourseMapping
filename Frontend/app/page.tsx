@@ -3,20 +3,21 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import "./style.css";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";  
+} from "@/components/ui/select";
 import college_data_proto from "../public/data/college_data.json";
 
 // Structured data for colleges and majors
 const collegeData = college_data_proto;
 
 export default function GTCoursePicker() {
-  const [showPopup, setShowPopup] = useState(false);
+  const [showPopup, setShowPopup] = useState(true);
   const router = useRouter();
   const [selectedCollege, setSelectedCollege] = useState("");
   const [selectedMajor, setSelectedMajor] = useState("");
@@ -47,7 +48,7 @@ export default function GTCoursePicker() {
     setConcentraion("");
   };
 
-  const handleMajorChange = (value, college, collegeData) => {    
+  const handleMajorChange = (value, college, collegeData) => {
     setSelectedMajor(value);
     setHasThreads(false);
     setHasConcentration(false);
@@ -63,21 +64,21 @@ export default function GTCoursePicker() {
 
   const getAvailableThreads = () => {
     if (
-      !selectedCollege || !selectedMajor || 
+      !selectedCollege || !selectedMajor ||
       !("threads" in collegeData[selectedCollege].majors[selectedMajor])
-    ) 
+    )
       return [];
     const threads = collegeData[selectedCollege].majors[selectedMajor].threads;
-    return threads.filter(thread => 
+    return threads.filter(thread =>
       thread.value !== thread1 && thread.value !== thread2
     );
   };
 
   const getAvailableConcentrations = () => {
     if (
-      !selectedCollege || !selectedMajor || 
+      !selectedCollege || !selectedMajor ||
       !("concentrations" in collegeData[selectedCollege].majors[selectedMajor])
-    ) 
+    )
       return [];
     const concentrations = collegeData[selectedCollege].majors[selectedMajor].concentrations;
     return concentrations.filter(c => c.value !== concentration);
@@ -106,33 +107,41 @@ export default function GTCoursePicker() {
       thread1: hasThreads ? majorObj['threads'].find(t => t.value === thread1) : null,
       thread2: hasThreads ? majorObj['threads'].find(t => t.value === thread2) : null,
     };
-    
+
     // Navigate to the course selection page with the parameters
     localStorage.setItem("gtCourseSelections", JSON.stringify(selections));
     router.push(`/course-selection`);
   };
 
   if (showPopup) {
-  return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-md">
-        <h2 className="text-lg font-semibold mb-4">Consent Required</h2>
-        <p className="mb-4">The data collected is stored only for the current session and will be deleted if this tab is closed. We do not hold or keep in file any data collected from here.</p>
-        <button
-          onClick={() => setShowPopup(false)}
-          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        >
-          Accept
-        </button>
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center z-50 pageBackground">
+        <div className="w-full text-center mt-8">
+          <h1 className="text-4xl italic font-mono">Ideal Course Mapping</h1>
+        </div>
+        <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-md blackBorder mt-8">
+          <h2 className="text-lg font-semibold mb-4">Consent Required</h2>
+          <p className="mb-4">
+            The data collected is stored only for the current session and will be deleted if this tab is closed. We do not hold or keep in file any data collected from here.
+          </p>
+          <button
+            onClick={() => setShowPopup(false)}
+            className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 nextPageBut"
+          >
+            Accept
+          </button>
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
+
 
 
   return (
     <div className="max-w-md mx-auto p-4">
-      <Card>
+      <h1 className="text-4xl italic font-mono text-center mb-6">Ideal Course Mapping</h1>
+
+      <Card className='blackBorder'>
         <CardHeader>
           <CardTitle>Georgia Institute of Technology</CardTitle>
         </CardHeader>
@@ -164,8 +173,8 @@ export default function GTCoursePicker() {
               <label htmlFor="major" className="block text-sm font-medium mb-2">
                 Major
               </label>
-              <Select 
-                value={selectedMajor} 
+              <Select
+                value={selectedMajor}
                 onValueChange={(major) => handleMajorChange(major, selectedCollege, collegeData)}>
                 <SelectTrigger id="major">
                   <SelectValue placeholder="Select a major">
@@ -186,14 +195,14 @@ export default function GTCoursePicker() {
           {selectedMajor && hasConcentration && (
             <div>
               <label htmlFor="concentration" className="block text-sm font-medium mb-2">
-              Concentration
+                Concentration
               </label>
-              <Select 
-                value={concentration} 
+              <Select
+                value={concentration}
                 onValueChange={setConcentraion}>
                 <SelectTrigger id="concentration">
                   <SelectValue placeholder="Select a concentration">
-                  {getLabel(concentration, "concentrations") || "Select a concentration"}
+                    {getLabel(concentration, "concentrations") || "Select a concentration"}
                   </SelectValue>
                 </SelectTrigger>
                 <SelectContent>
@@ -252,7 +261,7 @@ export default function GTCoursePicker() {
             </div>
           )}
 
-          <Button className="w-full" onClick={handleContinue} disabled={!canContinue()}>
+          <Button className="w-full nextPageBut" onClick={handleContinue} disabled={!canContinue()}>
             Continue to Course Map
           </Button>
         </CardContent>
