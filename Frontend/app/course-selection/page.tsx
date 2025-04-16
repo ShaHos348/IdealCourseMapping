@@ -58,7 +58,6 @@ export default function CourseSelectionPage() {
       return;
     }
 
-    // TODO: Change this to an server request
     console.log("Updated selection data:", selectionData); // This will log updated value
     const loadTableData = async () => {
       console.log(selectionData.focus);

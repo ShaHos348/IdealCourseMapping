@@ -56,7 +56,6 @@ def generate_graph():
 
     return jsonify({"image": image_base64})
 
-# TODO
 # Endpoint to generate CSV file
 @app.route("/make-csv/", methods=["POST"])
 def generate_csv():
@@ -78,7 +77,7 @@ def generate_csv():
         print(f"Error generating CSV: {e}")
         return jsonify({"error": str(e)}), 500
 
-# TODO endpoint that takes program and returns the program table for it
+# Endpoint that takes program and returns the program table for it
 @app.route("/get-program-table/", methods=["POST"])
 def get_program_table():
     try:

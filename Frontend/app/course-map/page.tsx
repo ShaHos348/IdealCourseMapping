@@ -254,13 +254,7 @@ const CourseMapPage = () => {
           >
             Go to Curricular Analytics
           </Button>
-          <Button
-            className="nextPageBut"
-            style={{ backgroundColor: "#d4af37" }}
-            onClick={handleMakeGraph}
-          >
-            Make Graph
-          </Button>
+
         </div>
       </div>
 
@@ -272,6 +266,13 @@ const CourseMapPage = () => {
           <Card className="blackBorder">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 space-x-2">
               <CardTitle>Course Prerequisites Graph</CardTitle>
+              <Button
+                className="nextPageBut"
+                style={{ backgroundColor: "#d4af37" }}
+                onClick={handleMakeGraph}
+              >
+                {imageSrc ? "Remove Graph" : "Make Graph"}
+              </Button>
             </CardHeader>
             <CardContent>
               <div className="bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
@@ -318,12 +319,15 @@ const CourseMapPage = () => {
           {/* Prereqs */}
           {selectedCourses.length > 0 && pickedCourseForPrereqs && (
             <Card className="blackBorder">
-              <CardHeader>
+              <CardHeader className="flex flex-row items-center justify-between space-y-0">
                 <CardTitle>Course Prereqs: {pickedCourseForPrereqs}</CardTitle>
+                <Button onClick={() => setPickedCourseForPrereqs("")} variant="outline">
+                  X
+                </Button>
               </CardHeader>
               <CardContent>
                 <div className="h-20 bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-                  <p className="text-gray-500">{coursePrereqs}</p>
+                  <p className="text-gray-500">{coursePrereqs.length === 0 ? "No prerequisites" : coursePrereqs}</p>
                 </div>
               </CardContent>
             </Card>
@@ -354,7 +358,7 @@ const CourseMapPage = () => {
             </CardHeader>
 
 
-            {showRequirements && (<CardContent className="max-h-[200px] overflow-y-auto space-y-4">
+            {showRequirements && (<CardContent className="max-h-[40vh] overflow-y-auto space-y-4">
               {/* ... existing table rendering code ... */}
               {Object.entries(neededCourses).map(([category, courses]) => (
                 <div key={category}>
@@ -416,23 +420,24 @@ const CourseMapPage = () => {
                   Add All Program Courses
                 </Button>
                 <Button onClick={() => setShowSearch(!showSearch)}>
-                  {showSearch ? "Hide Search" : "Search Courses"}
+                  {showSearch ? "Hide Browser" : "Browse Courses"}
                 </Button>
               </div>
+              <input
+                type="text"
+                placeholder="Enter courses (e.g. CS 1301)"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full p-2 border rounded"
+              />
             </CardHeader>
 
 
             {showSearch && (
               <CardContent>
                 <div className="space-y-4">
-                  <input
-                    type="text"
-                    placeholder="Search courses (e.g. CS 1301)"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full p-2 border rounded"
-                  />
-                  <div className="max-h-60 overflow-y-auto border rounded">
+
+                  <div className="max-h-[40vh] overflow-y-auto border rounded">
                     {filteredCourses.map((course) => (
                       <div
                         key={course["name"]}
