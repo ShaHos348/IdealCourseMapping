@@ -1,0 +1,1412 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1712",
+      "Survey of Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201712"
+    ],
+    [
+      "orMATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Modern Language",
+      "6"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH1711",
+      "Finite Mathematics",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201711"
+    ],
+    [
+      "orMATH1551&MATH1553",
+      "Differential Calculusand Introduction to Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "HTS Electives",
+      "9"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "ECON2100",
+      "Economic Analysis and Policy Problems",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202100"
+    ],
+    [
+      "ECON2101",
+      "The Global Economy",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202101"
+    ],
+    [
+      "ECON2105",
+      "Principles of Macroeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202105"
+    ],
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
+    ],
+    [
+      "HTS Elective",
+      "3"
+    ],
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "HTS1031",
+      "Europe Since the Renaissance",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%201031"
+    ],
+    [
+      "HTS2036",
+      "Revolutionary Europe: 1789-1914",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%202036"
+    ],
+    [
+      "HTS2037",
+      "Twentieth Century Europe: 1914 to Present",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%202037"
+    ],
+    [
+      "HTS2040",
+      "History of Islamic Societies",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%202040"
+    ],
+    [
+      "HTS2041",
+      "History of the Modern Middle East",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%202041"
+    ],
+    [
+      "HTS2061",
+      "Traditional Asia and Its Legacy",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%202061"
+    ],
+    [
+      "HTS2062",
+      "Asia in the Modern World",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%202062"
+    ],
+    [
+      "HTS3028",
+      "Ancient Greece: Gods, Heroes, and RuinS",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203028"
+    ],
+    [
+      "HTS3029",
+      "Ancient Rome: From Greatness to Ruins",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203029"
+    ],
+    [
+      "HTS3030",
+      "Medieval Europe: 350 to 1400",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203030"
+    ],
+    [
+      "HTS3031",
+      "European Labor History",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203031"
+    ],
+    [
+      "HTS3032",
+      "Modern European Intellectual History",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203032"
+    ],
+    [
+      "HTS3033",
+      "Medieval England",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203033"
+    ],
+    [
+      "HTS3035",
+      "Britain from 1815-1914",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203035"
+    ],
+    [
+      "HTS3036",
+      "Britain Since 1914",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203036"
+    ],
+    [
+      "HTS3038",
+      "The French Revolution",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203038"
+    ],
+    [
+      "HTS3039",
+      "Modern France",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203039"
+    ],
+    [
+      "HTS3041",
+      "Modern Spain",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203041"
+    ],
+    [
+      "HTS3043",
+      "Modern Germany",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203043"
+    ],
+    [
+      "HTS3045",
+      "Nazi Germany and the Holocaust",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203045"
+    ],
+    [
+      "HTS3046",
+      "Science, Politics, and Culture in Nazi Germany",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203046"
+    ],
+    [
+      "HTS3048",
+      "Modern Russian History and Society",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203048"
+    ],
+    [
+      "HTS3051",
+      "Women and the Politics of Gender in the Middle East",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203051"
+    ],
+    [
+      "HTS3055",
+      "Globalization in the Modern Era",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203055"
+    ],
+    [
+      "HTS3061",
+      "Modern China",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203061"
+    ],
+    [
+      "HTS3062",
+      "Modern Japan",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203062"
+    ],
+    [
+      "HTS3063",
+      "Outposts of Empire: Comparative History of British",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203063"
+    ],
+    [
+      "HTS3064",
+      "Sociology of Development",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203064"
+    ],
+    [
+      "HTS3065",
+      "History of Global Societies",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203065"
+    ],
+    [
+      "HTS3069",
+      "Modern Cuba",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%203069"
+    ],
+    [
+      "HTS2101",
+      "Historical and Social Research",
+      3,
+      "https://catalog.gatech.edu/search/?P=HTS%202101"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      3
+    ],
+    [
+      "SOC1101",
+      "Introduction to Sociology",
+      3,
+      "https://catalog.gatech.edu/search/?P=SOC%201101"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "HTS1081",
+      "Engineering in History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%201081"
+    ],
+    [
+      "HTS2080",
+      "Introduction to the History of Disease and Medicine",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202080"
+    ],
+    [
+      "HTS2081",
+      "The Scientific Revolution",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202081"
+    ],
+    [
+      "HTS2082",
+      "Technology and Science in the Industrial Age",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202082"
+    ],
+    [
+      "HTS2084",
+      "Technology and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202084"
+    ],
+    [
+      "HTS2100",
+      "Sci, Tech & Modern World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202100"
+    ],
+    [
+      "HTS3001",
+      "American Economic History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203001"
+    ],
+    [
+      "HTS3007",
+      "Sociology of Work, Industry, and Occupations",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203007"
+    ],
+    [
+      "HTS3020",
+      "Gender and Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203020"
+    ],
+    [
+      "HTS3021",
+      "Women in Science and Engineering",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203021"
+    ],
+    [
+      "HTS3046",
+      "Science, Politics, and Culture in Nazi Germany",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203046"
+    ],
+    [
+      "HTS3080",
+      "History of Rocketry",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203080"
+    ],
+    [
+      "HTS3081",
+      "Technology and the Environment",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203081"
+    ],
+    [
+      "HTS3082",
+      "Sociology of Science",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203082"
+    ],
+    [
+      "HTS3083",
+      "Technology and the Shaping of American Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203083"
+    ],
+    [
+      "HTS3084",
+      "Culture and Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203084"
+    ],
+    [
+      "HTS3085",
+      "Law, Technology, and Politics",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203085"
+    ],
+    [
+      "HTS3086",
+      "Sociology of Medicine and Health",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203086"
+    ],
+    [
+      "HTS3087",
+      "History of Medicine",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203087"
+    ],
+    [
+      "HTS3088",
+      "Race, Medicine & Science",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203088"
+    ],
+    [
+      "HTS3089",
+      "Science, Technology and Sports",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203089"
+    ],
+    [
+      "Select 8 credit hours of the following:",
+      "8"
+    ],
+    [
+      "HTS4001",
+      "Seminar in United States History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%204001"
+    ],
+    [
+      "HTS4011",
+      "Seminar in Sociology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%204011"
+    ],
+    [
+      "HTS4031",
+      "Seminar in European History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%204031"
+    ],
+    [
+      "HTS4061",
+      "Seminar in Asian History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%204061"
+    ],
+    [
+      "HTS4081",
+      "Seminar in History of Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%204081"
+    ],
+    [
+      "HTS4086",
+      "Seminar in Health, Medicine, and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%204086"
+    ],
+    [
+      "HTS4091",
+      "Seminar in Global Issues",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%204091"
+    ],
+    [
+      "HTS Elective",
+      "3"
+    ]
+  ],
+  "HTS Specialization Electives9": [
+    [
+      "Select three classes from one of the following specialization groups:",
+      ""
+    ],
+    [
+      "U.S. Society",
+      ""
+    ],
+    [
+      "HTS2001",
+      "Early American History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202001"
+    ],
+    [
+      "HTS2002",
+      "The American Revolution and Constitution",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202002"
+    ],
+    [
+      "HTS2006",
+      "History of the Old South to 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202006"
+    ],
+    [
+      "HTS2007",
+      "History of the New South since 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202007"
+    ],
+    [
+      "HTS2011",
+      "The Gilded Age and the Progressive Era",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202011"
+    ],
+    [
+      "HTS2013",
+      "Modern America: World War II and After",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202013"
+    ],
+    [
+      "HTS2015",
+      "History of Sports in America",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202015"
+    ],
+    [
+      "HTS2052",
+      "North American Borderlands",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202052"
+    ],
+    [
+      "HTS2085",
+      "Reel History I: US History through Hollywood Films",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202085"
+    ],
+    [
+      "HTS3001",
+      "American Economic History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203001"
+    ],
+    [
+      "HTS3002",
+      "History of American Business",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203002"
+    ],
+    [
+      "HTS3005",
+      "American Environmental History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203005"
+    ],
+    [
+      "HTS3006",
+      "United States Labor History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203006"
+    ],
+    [
+      "HTS3009",
+      "The American Civil War",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203009"
+    ],
+    [
+      "HTS3011",
+      "The City in American History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203011"
+    ],
+    [
+      "HTS3012",
+      "Urban Sociology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203012"
+    ],
+    [
+      "HTS3015",
+      "History of the Vietnam War",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203015"
+    ],
+    [
+      "HTS3016",
+      "Women and Gender in the United States",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203016"
+    ],
+    [
+      "HTS3018",
+      "New Religions and Cults in America",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203018"
+    ],
+    [
+      "HTS3019",
+      "The Family, Sexuality, and Social Change in America",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203019"
+    ],
+    [
+      "HTS3022",
+      "Gender and Sports",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203022"
+    ],
+    [
+      "HTS3023",
+      "Slaves without Masters: Free People of Color before 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203023"
+    ],
+    [
+      "HTS3024",
+      "African American History to 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203024"
+    ],
+    [
+      "HTS3025",
+      "African American History since 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203025"
+    ],
+    [
+      "HTS3026",
+      "Sociology of Race and Ethnicity",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203026"
+    ],
+    [
+      "HTS3027",
+      "The Civil Rights Movement",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203027"
+    ],
+    [
+      "HTS3068",
+      "Social Movements",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203068"
+    ],
+    [
+      "HTS3070",
+      "Culture and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203070"
+    ],
+    [
+      "HTS3073",
+      "Sociology of Sports",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203073"
+    ],
+    [
+      "HTS3083",
+      "Technology and the Shaping of American Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203083"
+    ],
+    [
+      "HTS3100",
+      "Introduction to Museum Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203100"
+    ],
+    [
+      "Global Studies",
+      ""
+    ],
+    [
+      "HTS1031",
+      "Europe Since the Renaissance",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%201031"
+    ],
+    [
+      "HTS2036",
+      "Revolutionary Europe: 1789-1914",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202036"
+    ],
+    [
+      "HTS2037",
+      "Twentieth Century Europe: 1914 to Present",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202037"
+    ],
+    [
+      "HTS2040",
+      "History of Islamic Societies",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202040"
+    ],
+    [
+      "HTS2041",
+      "History of the Modern Middle East",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202041"
+    ],
+    [
+      "HTS2051",
+      "Colonial Latin America and the World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202051"
+    ],
+    [
+      "HTS2061",
+      "Traditional Asia and Its Legacy",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202061"
+    ],
+    [
+      "HTS2062",
+      "Asia in the Modern World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202062"
+    ],
+    [
+      "HTS2100",
+      "Sci, Tech & Modern World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202100"
+    ],
+    [
+      "HTS3030",
+      "Medieval Europe: 350 to 1400",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203030"
+    ],
+    [
+      "HTS3031",
+      "European Labor History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203031"
+    ],
+    [
+      "HTS3032",
+      "Modern European Intellectual History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203032"
+    ],
+    [
+      "HTS3033",
+      "Medieval England",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203033"
+    ],
+    [
+      "HTS3035",
+      "Britain from 1815-1914",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203035"
+    ],
+    [
+      "HTS3036",
+      "Britain Since 1914",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203036"
+    ],
+    [
+      "HTS3038",
+      "The French Revolution",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203038"
+    ],
+    [
+      "HTS3039",
+      "Modern France",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203039"
+    ],
+    [
+      "HTS3041",
+      "Modern Spain",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203041"
+    ],
+    [
+      "HTS3043",
+      "Modern Germany",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203043"
+    ],
+    [
+      "HTS3045",
+      "Nazi Germany and the Holocaust",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203045"
+    ],
+    [
+      "HTS3046",
+      "Science, Politics, and Culture in Nazi Germany",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203046"
+    ],
+    [
+      "HTS3048",
+      "Modern Russian History and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203048"
+    ],
+    [
+      "HTS3051",
+      "Women and the Politics of Gender in the Middle East",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203051"
+    ],
+    [
+      "HTS3055",
+      "Globalization in the Modern Era",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203055"
+    ],
+    [
+      "HTS3061",
+      "Modern China",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203061"
+    ],
+    [
+      "HTS3062",
+      "Modern Japan",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203062"
+    ],
+    [
+      "HTS3063",
+      "Outposts of Empire: Comparative History of British",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203063"
+    ],
+    [
+      "HTS3064",
+      "Sociology of Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203064"
+    ],
+    [
+      "HTS3065",
+      "History of Global Societies",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203065"
+    ],
+    [
+      "HTS3067",
+      "Revolutionary Movements in the Modern World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203067"
+    ],
+    [
+      "HTS3069",
+      "Modern Cuba",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203069"
+    ],
+    [
+      "Politics, Economics, and Innovation",
+      ""
+    ],
+    [
+      "HTS1081",
+      "Engineering in History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%201081"
+    ],
+    [
+      "HTS2016",
+      "Social Issues and Public Policy",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202016"
+    ],
+    [
+      "HTS2100",
+      "Sci, Tech & Modern World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202100"
+    ],
+    [
+      "HTS3001",
+      "American Economic History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203001"
+    ],
+    [
+      "HTS3002",
+      "History of American Business",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203002"
+    ],
+    [
+      "HTS3003",
+      "Sociology of Economic Institutions",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203003"
+    ],
+    [
+      "HTS3006",
+      "United States Labor History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203006"
+    ],
+    [
+      "HTS3007",
+      "Sociology of Work, Industry, and Occupations",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203007"
+    ],
+    [
+      "HTS3031",
+      "European Labor History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203031"
+    ],
+    [
+      "HTS3064",
+      "Sociology of Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203064"
+    ],
+    [
+      "HTS3066",
+      "Sociology of Politics and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203066"
+    ],
+    [
+      "HTS3068",
+      "Social Movements",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203068"
+    ],
+    [
+      "HTS3080",
+      "History of Rocketry",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203080"
+    ],
+    [
+      "HTS3083",
+      "Technology and the Shaping of American Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203083"
+    ],
+    [
+      "HTS3084",
+      "Culture and Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203084"
+    ],
+    [
+      "HTS3085",
+      "Law, Technology, and Politics",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203085"
+    ],
+    [
+      "Science, Technology, and Medicine",
+      ""
+    ],
+    [
+      "HTS1081",
+      "Engineering in History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%201081"
+    ],
+    [
+      "HTS2080",
+      "Introduction to the History of Disease and Medicine",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202080"
+    ],
+    [
+      "HTS2081",
+      "The Scientific Revolution",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202081"
+    ],
+    [
+      "HTS2082",
+      "Technology and Science in the Industrial Age",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202082"
+    ],
+    [
+      "HTS2084",
+      "Technology and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202084"
+    ],
+    [
+      "HTS2100",
+      "Sci, Tech & Modern World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202100"
+    ],
+    [
+      "HTS3020",
+      "Gender and Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203020"
+    ],
+    [
+      "HTS3021",
+      "Women in Science and Engineering",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203021"
+    ],
+    [
+      "HTS3046",
+      "Science, Politics, and Culture in Nazi Germany",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203046"
+    ],
+    [
+      "HTS3080",
+      "History of Rocketry",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203080"
+    ],
+    [
+      "HTS3081",
+      "Technology and the Environment",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203081"
+    ],
+    [
+      "HTS3082",
+      "Sociology of Science",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203082"
+    ],
+    [
+      "HTS3083",
+      "Technology and the Shaping of American Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203083"
+    ],
+    [
+      "HTS3084",
+      "Culture and Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203084"
+    ],
+    [
+      "HTS3085",
+      "Law, Technology, and Politics",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203085"
+    ],
+    [
+      "HTS3086",
+      "Sociology of Medicine and Health",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203086"
+    ],
+    [
+      "HTS3087",
+      "History of Medicine",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203087"
+    ],
+    [
+      "HTS3088",
+      "Race, Medicine & Science",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203088"
+    ],
+    [
+      "HTS3089",
+      "Science, Technology and Sports",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203089"
+    ],
+    [
+      "Communities, Environment, and Sustainability",
+      ""
+    ],
+    [
+      "HTS3005",
+      "American Environmental History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203005"
+    ],
+    [
+      "HTS3011",
+      "The City in American History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203011"
+    ],
+    [
+      "HTS3012",
+      "Urban Sociology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203012"
+    ],
+    [
+      "HTS3026",
+      "Sociology of Race and Ethnicity",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203026"
+    ],
+    [
+      "HTS3064",
+      "Sociology of Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203064"
+    ],
+    [
+      "HTS3071",
+      "Sociology of Crime",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203071"
+    ],
+    [
+      "HTS3072",
+      "Sociology of Education",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203072"
+    ],
+    [
+      "HTS3081",
+      "Technology and the Environment",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203081"
+    ],
+    [
+      "Power, Inequality, and Social Justice",
+      ""
+    ],
+    [
+      "HTS2016",
+      "Social Issues and Public Policy",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202016"
+    ],
+    [
+      "HTS3006",
+      "United States Labor History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203006"
+    ],
+    [
+      "HTS3008",
+      "Class, Power, and Social Inequality",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203008"
+    ],
+    [
+      "HTS3011",
+      "The City in American History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203011"
+    ],
+    [
+      "HTS3012",
+      "Urban Sociology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203012"
+    ],
+    [
+      "HTS3016",
+      "Women and Gender in the United States",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203016"
+    ],
+    [
+      "HTS3017",
+      "Sociology of Gender",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203017"
+    ],
+    [
+      "HTS3020",
+      "Gender and Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203020"
+    ],
+    [
+      "HTS3021",
+      "Women in Science and Engineering",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203021"
+    ],
+    [
+      "HTS3022",
+      "Gender and Sports",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203022"
+    ],
+    [
+      "HTS3023",
+      "Slaves without Masters: Free People of Color before 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203023"
+    ],
+    [
+      "HTS3024",
+      "African American History to 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203024"
+    ],
+    [
+      "HTS3025",
+      "African American History since 1865",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203025"
+    ],
+    [
+      "HTS3026",
+      "Sociology of Race and Ethnicity",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203026"
+    ],
+    [
+      "HTS3027",
+      "The Civil Rights Movement",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203027"
+    ],
+    [
+      "HTS3031",
+      "European Labor History",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203031"
+    ],
+    [
+      "HTS3051",
+      "Women and the Politics of Gender in the Middle East",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203051"
+    ],
+    [
+      "HTS3067",
+      "Revolutionary Movements in the Modern World",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203067"
+    ],
+    [
+      "HTS3068",
+      "Social Movements",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203068"
+    ],
+    [
+      "HTS3071",
+      "Sociology of Crime",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203071"
+    ],
+    [
+      "HTS3072",
+      "Sociology of Education",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203072"
+    ],
+    [
+      "Culture and Society",
+      ""
+    ],
+    [
+      "HTS2015",
+      "History of Sports in America",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202015"
+    ],
+    [
+      "HTS2085",
+      "Reel History I: US History through Hollywood Films",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%202085"
+    ],
+    [
+      "HTS3022",
+      "Gender and Sports",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203022"
+    ],
+    [
+      "HTS3046",
+      "Science, Politics, and Culture in Nazi Germany",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203046"
+    ],
+    [
+      "HTS3070",
+      "Culture and Society",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203070"
+    ],
+    [
+      "HTS3073",
+      "Sociology of Sports",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203073"
+    ],
+    [
+      "HTS3084",
+      "Culture and Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203084"
+    ],
+    [
+      "HTS3100",
+      "Introduction to Museum Studies",
+      "",
+      "https://catalog.gatech.edu/search/?P=HTS%203100"
+    ],
+    [
+      "Custom Specialization",
+      ""
+    ]
+  ],
+  "Non-Major Cluster": [
+    [
+      "Non-Major Cluster",
+      "12"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "18"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

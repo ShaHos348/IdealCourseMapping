@@ -13,6 +13,9 @@ import {
 import axios from "axios";
 import FileSaver from 'file-saver';
 
+import full_program_courses from "../../public/data/full_program_courses.json";
+import prereqs from "../../public/data/prereqs.json";
+
 const CourseMapPage = () => {
   const router = useRouter();
   const [selectedCourses, setSelectedCourses] = useState<Array<string>>([]);
@@ -33,13 +36,13 @@ const CourseMapPage = () => {
   useEffect(() => {
     const loadInitialData = async () => {
       try {
-        const response = await fetch("/data/full_program_courses.json");
-        const data = await response.json();
-        setCourseData(data);
+        //const response = await fetch("/data/full_program_courses.json");
+        //const data = await response.json();
+        setCourseData(full_program_courses);
 
-        const prereqResponse = await fetch("/data/prereqs.json");
-        const prereqData = await prereqResponse.json();
-        setCoursePrereqData(prereqData);
+        //const prereqResponse = await fetch("/data/prereqs.json");
+        //const prereqData = await prereqResponse.json();
+        setCoursePrereqData(prereqs);
 
         setLoading(false);
       } catch (error) {
@@ -134,7 +137,7 @@ const CourseMapPage = () => {
 
   const handleCSVExport = async () => {
     try {
-      const selectedCoursesArray = Array.from(selectedCourses);
+      /*const selectedCoursesArray = Array.from(selectedCourses);
 
       const response = await axios.post(
         "http://localhost:5000/make-csv/",
@@ -143,6 +146,12 @@ const CourseMapPage = () => {
       );
 
       const blob = new Blob([response.data], { type: 'text/csv' });
+      FileSaver.saveAs(blob, 'courses.csv');*/
+
+      const filePath = `/demos/ideal-course-mapping/data/courses.csv`;
+      const response = await fetch(filePath);
+
+      const blob = await response.blob();
       FileSaver.saveAs(blob, 'courses.csv');
     } catch (error) {
       console.error("Error downloading CSV:", error);
@@ -161,7 +170,7 @@ const CourseMapPage = () => {
     }
 
     try {
-      setLoadingGraph(true);
+      /*setLoadingGraph(true);
       const selectedCoursesArray = selectedCourses;
 
       const response = await axios.post(
@@ -174,7 +183,17 @@ const CourseMapPage = () => {
       if (response.data.image) {
         setImageSrc(`data:image/png;base64,${response.data.image}`);
         setLoadingGraph(false);
-      }
+      }*/
+
+      setLoadingGraph(true);
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+      const filePath = `/demos/ideal-course-mapping/data/graph.png`;
+      const response = await fetch(filePath);
+      const blob = await response.blob();
+      const objectURL = URL.createObjectURL(blob);
+
+      setImageSrc(objectURL);
+      setLoadingGraph(false);
     } catch (error) {
       console.error("Error generating graph:", error);
     }

@@ -1,0 +1,404 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "Any SS",
+      "9",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "CHEM1212K",
+      "Chemical Principles II",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201212K"
+    ],
+    [
+      "CHEM2380",
+      "Synthesis Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%202380"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "BIOS1107&1107L",
+      "Biological Principlesand Biological Principles Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=BIOS%201107"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "CHEM2601",
+      "Professional Skills for Chemists and Biochemists",
+      1,
+      "https://catalog.gatech.edu/search/?P=CHEM%202601"
+    ],
+    [
+      "CHEM2216&2216L",
+      "Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202216"
+    ],
+    [
+      "orCHEM2214",
+      "Quantitative Chemical Analysis",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202214"
+    ],
+    [
+      "CHEM2311",
+      "Organic Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202311"
+    ],
+    [
+      "CHEM2312",
+      "Organic Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202312"
+    ],
+    [
+      "orCHEM2313",
+      "Organic and Bioorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202313"
+    ],
+    [
+      "CHEM3111",
+      "Inorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203111"
+    ],
+    [
+      "CHEM3216&3216L",
+      "Analytical Chemistry Lectureand Analytical Chemistry Laboratory",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203216"
+    ],
+    [
+      "orCHEM3211",
+      "Analytical Chemistry",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203211"
+    ],
+    [
+      "CHEM3380",
+      "Synthesis Laboratory II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203380"
+    ],
+    [
+      "CHEM3411",
+      "Physical Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203411"
+    ],
+    [
+      "CHEM3412",
+      "Physical Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203412"
+    ],
+    [
+      "CHEM3481",
+      "Physical Chemistry Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%203481"
+    ]
+  ],
+  "Additional Major Requirements": [
+    [
+      "Research Experience",
+      "2"
+    ],
+    [
+      "CHEM4695",
+      "Undergraduate Internship (Undergraduate Internship for Academic Credit)",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204695"
+    ],
+    [
+      "CHEM4699",
+      "Undergraduate Research",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204699"
+    ],
+    [
+      "CHEM3511",
+      "Survey of Biochemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203511"
+    ],
+    [
+      "orCHEM4511",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204511"
+    ],
+    [
+      "orCHEM4512",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204512"
+    ],
+    [
+      "orCHEM3521",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203521"
+    ],
+    [
+      "orCHEM3522",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203522"
+    ]
+  ],
+  "Polymers and Materials Courses12-13": [
+    [
+      "MSE2001",
+      "Principles and Applications of Engineering Materials",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%202001"
+    ],
+    [
+      "CHEM/MSE 4775",
+      "Polymer Science and Engineering I: Formation and Properties",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204775"
+    ],
+    [
+      "Select Polymers Interest or Inorganic Materials Interest:",
+      ""
+    ],
+    [
+      "Polymers interest (select 6 credits):",
+      ""
+    ],
+    [
+      "MSE4025",
+      "Fiber Product Manufacturing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%204025"
+    ],
+    [
+      "MSE4335",
+      "Soft Nano and Bio Materials",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%204335"
+    ],
+    [
+      "MSE4751",
+      "Introduction to Biomaterials",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%204751"
+    ],
+    [
+      "MSE4793",
+      "Composite Materials and Processing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%204793"
+    ],
+    [
+      "CHEM/MSE 6750",
+      "Preparation and Reaction of Polymers",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%206750"
+    ],
+    [
+      "CHEM/MSE 6751",
+      "Physical Chemistry of Polymer Solutions",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%206751"
+    ],
+    [
+      "CHEM/MSE 6752",
+      "Polymer Characterization",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%206752"
+    ],
+    [
+      "CHEM/MSE 6757",
+      "Advanced Polymer Chemistry",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%206757"
+    ],
+    [
+      "Materials interest:",
+      ""
+    ],
+    [
+      "MSE2021",
+      "Materials Characterization",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%202021"
+    ],
+    [
+      "Materials Interest select one additional course:",
+      ""
+    ],
+    [
+      "MSE3015",
+      "Electrical, Optical, and Magnetic Properties",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%203015"
+    ],
+    [
+      "MSE4010",
+      "Environmental Degradation",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%204010"
+    ],
+    [
+      "MSE4325",
+      "Thin Film Materials Science",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%204325"
+    ],
+    [
+      "MSE4330",
+      "Fundamentals of Nanomaterials and Nanostructures",
+      "",
+      "https://catalog.gatech.edu/search/?P=MSE%204330"
+    ],
+    [
+      "CHEM/MSE/CHBE/ME 4759",
+      "Electrochemical Energy Storage and Conversion",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204759"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "11-12"
+    ]
+  ]
+}

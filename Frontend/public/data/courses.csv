@@ -1,0 +1,58 @@
+Curriculum,Major
+Institution,Georgia Institute of Technology
+Degree Type,BS
+System Type,Semester
+CIP,
+Courses,
+Course ID,Course Name,Prefix,Number,Prerequisites,Corequisites,Strict-Corequisites,Credit Hours,Institution,Canonical Name
+1,APPH 1040,APPH,1040,,,,2,GT,Scientific Foundations of Health
+2,APPH 1050,APPH,1050,,,,2,GT,The Science of Physical Activity and Health
+3,APPH 1060,APPH,1060,,,,2,GT,Flourishing: Strategies for Well-being and Resilience
+4,CS 1301,CS,1301,,,,3,GT,Introduction to Computing
+5,MATH 1552,MATH,1552,16,,,4,GT,Integral Calculus
+6,HIST 2111,HIST,2111,,,,3,GT,The United States to 1877
+7,HIST 2112,HIST,2112,,,,3,GT,The United States since 1877
+8,INTA 1200,INTA,1200,,,,3,GT,American Government in Comparative Perspective
+9,POL 1101,POL,1101,,,,3,GT,Government of the United States
+10,PUBP 3000,PUBP,3000,,,,3,GT,American Constitutional Issues
+11,ANY HUM,,,,,,,GT,
+12,ANY LMC HUM,,,,,,,GT,
+13,ENGL 1101,ENGL,1101,,,,3,GT,English Composition I
+14,ENGL 1102,ENGL,1102,13,,,3,GT,English Composition II
+15,LAB SCIENCE,,,,,,,GT,
+16,MATH 1551,MATH,1551,,,,2,GT,Differential Calculus
+17,MATH 1554,MATH,1554,5;16,,,4,GT,Linear Algebra
+18,MATH 1564,MATH,1564,5,,,4,GT,Linear Algebra with Abstract Vector Spaces
+19,ANY SS,,,,,,,GT,
+20,CS 1331,CS,1331,4,,,3,GT,Introduction to Object Oriented Programming
+21,CS 1332,CS,1332,20,,,3,GT,Data Structures and Algorithms for Applications
+22,CS 2050,CS,2050,,,,3,GT,Introduction to Discrete Mathematics for Computer Science
+23,CS 2340,CS,2340,20,,,3,GT,Objects and Design
+24,LMC 2700,LMC,2700,14;4,,,3,GT,Introduction to Computational Media
+25,MATH 2550,MATH,2550,5;17;18,,,2,GT,Introduction to Multivariable Calculus
+26,CS 2261,CS,2261,20,,,4,GT,Media Device Architectures
+27,CS 4001,CS,4001,,,,3,GT,"Computing, Society, and Professionalism"
+28,CS 4726,CS,4726,,,,3,GT,"Privacy, Technology, Policy, and Law"
+29,SLS 3110,SLS,3110,,,,3,GT,Technology and Sustainable Community Development
+30,CS 3451,CS,3451,25;26;21;23,,,3,GT,Computer Graphics
+31,CS 4455,CS,4455,30,,,3,GT,Video Game Design and Programming
+32,CS 4460,CS,4460,21,,,3,GT,Introduction to Information Visualization
+33,CS 4464,CS,4464,,,,3,GT,Computational Journalism
+34,CS 4475,CS,4475,4,,,3,GT,Computational Photography
+35,CS 4480,CS,4480,,,,3,GT,Digital Video Special Effects
+36,CS 4496,CS,4496,30,,,3,GT,Computer Animation
+37,CS 4590,CS,4590,,,,3,GT,Principles and Applications of Computer Audio
+38,LMC 4813,LMC,4813,,,,,GT,
+39,LMC 4720,LMC,4720,20;24,,,3,GT,Interactive Narrative
+40,"ANY LMC 27XX, 37XX",ANYLMCXXXX,2737,,,,,GT,
+41,LMC 2500,LMC,2500,14,,,3,GT,Introduction to Film
+42,LMC 2600,LMC,2600,14,,,3,GT,Introduction to Performance Studies
+43,LMC 3206,LMC,3206,14,,,3,GT,Communication and Culture
+44,LMC 3314,LMC,3314,14,,,3,GT,Technologies of Representation
+45,LMC 3352,LMC,3352,,,,3,GT,Film and/as Technology
+46,LMC 3402,LMC,3402,14,,,3,GT,Graphic and Visual Design
+47,LMC 3406,LMC,3406,14,,,3,GT,Video Production
+48,ANY LMC 325X COURSE,ANYLMCXCOURSE,325,,,,,GT,
+49,ANY LMC 38XX COURSE,ANYLMCXXCOURSE,38,,,,,GT,
+50,CM OR LMC COURSES,,,,,,,GT,
+51,"ANY LMC 2XXX, 3XXX, 4XXX",ANYLMCXXXXXXXXX,234,,,,,GT,

@@ -12,6 +12,8 @@ import {
 } from "@/components/ui/card";
 import axios from "axios";
 
+import full_program_courses from "../../public/data/full_program_courses.json";
+
 export default function CourseSelectionPage() {
   const router = useRouter();
   const [courseData, setCourseData] = useState({});
@@ -26,9 +28,9 @@ export default function CourseSelectionPage() {
   useEffect(() => {
     const loadCourseData = async () => {
       try {
-        const response = await fetch("/data/full_program_courses.json");
-        const data = await response.json();
-        setCourseData(data);
+        //const response = await fetch("/data/full_program_courses.json");
+        //const data = await response.json();
+        setCourseData(full_program_courses);
         //setLoading(false);
       } catch (error) {
         console.error("Error loading course data:", error);
@@ -80,7 +82,7 @@ export default function CourseSelectionPage() {
       console.log(json_file_path);
 
       try {
-        const response = await axios.post(
+        /*const response = await axios.post(
           "http://127.0.0.1:5000/get-program-table/",
           {
             selected_program: selected_program,
@@ -92,7 +94,24 @@ export default function CourseSelectionPage() {
           throw new Error(response.data?.error || "Unknown error occurred.");
         }
         const data = JSON.parse(response.data);
-        setTableData(data);
+        
+        setTableData(data);*/
+        // Construct the filename from major + thread data
+        const filenameBase = selected_program
+          .map((s) => s?.trim().replace(/\s+/g, "-").toLowerCase())
+          .filter(Boolean)
+          .join("-");
+
+        const filePath = `/demos/ideal-course-mapping/data/majors/${filenameBase}.json`;
+
+        try {
+          const response = await fetch(filePath);
+          const data = await response.json();
+          setTableData(data);
+        } catch (error) {
+          console.error("File not found or failed to load:", filePath, error);
+          setTableData({});
+        }
         //console.log(data);
       } catch (error) {
         console.error("Error loading course data:", error);

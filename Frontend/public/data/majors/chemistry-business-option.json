@@ -1,0 +1,454 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "PHYS2211",
+      "Introductory Physics I",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202211"
+    ],
+    [
+      "PHYS2212",
+      "Introductory Physics II",
+      4,
+      "https://catalog.gatech.edu/search/?P=PHYS%202212"
+    ],
+    [
+      "MATH1551",
+      "Differential Calculus",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "MATH1553",
+      "Introduction to Linear Algebra",
+      2,
+      "https://catalog.gatech.edu/search/?P=MATH%201553"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
+    ],
+    [
+      "Any SS",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "CHEM1211K",
+      "Chemical Principles I",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201211K"
+    ],
+    [
+      "CHEM1212K",
+      "Chemical Principles II",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%201212K"
+    ],
+    [
+      "CHEM2380",
+      "Synthesis Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%202380"
+    ],
+    [
+      "MATH2551",
+      "Multivariable Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%202551"
+    ],
+    [
+      "BIOS1107&1107L",
+      "Biological Principlesand Biological Principles Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=BIOS%201107"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "CHEM2216&2216L",
+      "Quantitative Chemical Analysisand Quantitative Chemical Analysis Laboratory",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202216"
+    ],
+    [
+      "orCHEM2214",
+      "Quantitative Chemical Analysis",
+      4,
+      "https://catalog.gatech.edu/search/?P=CHEM%202214"
+    ],
+    [
+      "CHEM2311",
+      "Organic Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202311"
+    ],
+    [
+      "CHEM2312",
+      "Organic Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202312"
+    ],
+    [
+      "orCHEM2313",
+      "Organic and Bioorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%202313"
+    ],
+    [
+      "CHEM2601",
+      "Professional Skills for Chemists and Biochemists",
+      1,
+      "https://catalog.gatech.edu/search/?P=CHEM%202601"
+    ],
+    [
+      "CHEM3111",
+      "Inorganic Chemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203111"
+    ],
+    [
+      "CHEM3216&3216L",
+      "Analytical Chemistry Lectureand Analytical Chemistry Laboratory",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203216"
+    ],
+    [
+      "orCHEM3211",
+      "Analytical Chemistry",
+      5,
+      "https://catalog.gatech.edu/search/?P=CHEM%203211"
+    ],
+    [
+      "CHEM3380",
+      "Synthesis Laboratory II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203380"
+    ],
+    [
+      "CHEM3411",
+      "Physical Chemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203411"
+    ],
+    [
+      "CHEM3412",
+      "Physical Chemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203412"
+    ],
+    [
+      "CHEM3481",
+      "Physical Chemistry Laboratory I",
+      2,
+      "https://catalog.gatech.edu/search/?P=CHEM%203481"
+    ]
+  ],
+  "Additional Major Required": [
+    [
+      "Research Experience",
+      "2"
+    ],
+    [
+      "CHEM4695",
+      "Undergraduate Internship (Undergraduate Internship for Academic Credit)",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204695"
+    ],
+    [
+      "CHEM4699",
+      "Undergraduate Research",
+      "",
+      "https://catalog.gatech.edu/search/?P=CHEM%204699"
+    ],
+    [
+      "CHEM3511",
+      "Survey of Biochemistry",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203511"
+    ],
+    [
+      "orCHEM4511",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204511"
+    ],
+    [
+      "orCHEM4512",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%204512"
+    ],
+    [
+      "orCHEM3521",
+      "Biochemistry I",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203521"
+    ],
+    [
+      "orCHEM3522",
+      "Biochemistry II",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHEM%203522"
+    ],
+    [
+      "Upper level Chemistry Electives",
+      "3"
+    ]
+  ],
+  "Business Option": [
+    [
+      "ACCT2101",
+      "Accounting I: Financial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ACCT%202101"
+    ],
+    [
+      "orMGT3000",
+      "Financial and Managerial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203000"
+    ],
+    [
+      "MGT3101",
+      "Organizational Behavior",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203101"
+    ],
+    [
+      "orMGT3150",
+      "Principles of Management",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203150"
+    ],
+    [
+      "orPSYC2220",
+      "Industrial/Organizational Psychology",
+      3,
+      "https://catalog.gatech.edu/search/?P=PSYC%202220"
+    ],
+    [
+      "Select two of the following:",
+      "6"
+    ],
+    [
+      "MGT3062",
+      "Financial Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203062"
+    ],
+    [
+      "MGT3078",
+      "Finance and Investments",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203078"
+    ],
+    [
+      "MGT3300",
+      "Marketing Management I",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203300"
+    ],
+    [
+      "MGT3660",
+      "International Business",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203660"
+    ],
+    [
+      "MGT4015",
+      "Advanced Managerial Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204015"
+    ],
+    [
+      "MGT4026",
+      "Financial Reporting and Analysis I",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204026"
+    ],
+    [
+      "MGT4028",
+      "Financial Analysis and Reporting of Technology Firms",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204028"
+    ],
+    [
+      "MGT4030",
+      "International Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204030"
+    ],
+    [
+      "MGT4190",
+      "Strategic Quality Management and Competitiveness",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204190"
+    ],
+    [
+      "MGT4191",
+      "The Entrepreneurship Forum",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204191"
+    ],
+    [
+      "MGT4192",
+      "Impact Speaker Series Forum",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204192"
+    ],
+    [
+      "MGT4193",
+      "Servant Leadership, Values & Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204193"
+    ],
+    [
+      "MGT4194",
+      "Social Enterprise and Entrepreneurship",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204194"
+    ],
+    [
+      "MGT4303",
+      "Personal Selling and Sales Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204303"
+    ],
+    [
+      "MGT4304",
+      "Strategic Brand Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204304"
+    ],
+    [
+      "MGT4307",
+      "Strategic Marketing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204307"
+    ],
+    [
+      "MGT4335",
+      "International Marketing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204335"
+    ],
+    [
+      "MGT4610",
+      "Law, Management, and Economics",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204610"
+    ],
+    [
+      "MGT4670",
+      "Entrepreneurship",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204670"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "9"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

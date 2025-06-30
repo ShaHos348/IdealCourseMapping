@@ -1,0 +1,620 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ],
+    [
+      "orMATH1712",
+      "Survey of Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201712"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "orHIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "orINTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "orPOL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "orPUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH1551&MATH1553",
+      "Differential Calculusand Introduction to Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ],
+    [
+      "orMATH1711",
+      "Finite Mathematics",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201711"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "ECON2105",
+      "Principles of Macroeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202105"
+    ],
+    [
+      "ECON2106",
+      "Principles of Microeconomics",
+      3,
+      "https://catalog.gatech.edu/search/?P=ECON%202106"
+    ],
+    [
+      "Any SS",
+      "3",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "ACCT2101",
+      "Accounting I: Financial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ACCT%202101"
+    ],
+    [
+      "ACCT2102",
+      "Accounting II: Managerial Accounting",
+      3,
+      "https://catalog.gatech.edu/search/?P=ACCT%202102"
+    ],
+    [
+      "MGT2106",
+      "Legal, Social, Ethical Aspects of Business",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202106"
+    ],
+    [
+      "MGT2210",
+      "Information Systems and Digital Transformation",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202210"
+    ],
+    [
+      "MGT2250",
+      "Management Statistics",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202250"
+    ],
+    [
+      "MGT2255",
+      "Quantitative Analysis for Business",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%202255"
+    ]
+  ],
+  "Major Requirements": [
+    [
+      "LMC3403",
+      "Technical Communication, Theory and Practice",
+      3,
+      "https://catalog.gatech.edu/search/?P=LMC%203403"
+    ],
+    [
+      "MGT3062",
+      "Financial Management",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203062"
+    ],
+    [
+      "MGT3101",
+      "Organizational Behavior",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203101"
+    ],
+    [
+      "MGT3102",
+      "Managing Human Resources within a Regulatory Environment",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203102"
+    ],
+    [
+      "MGT3300",
+      "Marketing Management I",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203300"
+    ],
+    [
+      "MGT3501",
+      "Operations Management",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203501"
+    ],
+    [
+      "MGT3599",
+      "Career Development Workshop",
+      1,
+      "https://catalog.gatech.edu/search/?P=MGT%203599"
+    ],
+    [
+      "MGT3660",
+      "International Business",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203660"
+    ],
+    [
+      "MGT3659",
+      "Foundations of Strategy",
+      3,
+      "https://catalog.gatech.edu/search/?P=MGT%203659"
+    ]
+  ],
+  "General Management Concentration": [
+    [
+      "Select six of the following:",
+      "18"
+    ],
+    [
+      "MGT3075",
+      "Security Valuation",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203075"
+    ],
+    [
+      "MGT3076",
+      "Investments",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203076"
+    ],
+    [
+      "MGT3079",
+      "Management of Financial Institutions",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203079"
+    ],
+    [
+      "MGT3082",
+      "Fundamentals of Real Estate Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203082"
+    ],
+    [
+      "MGT3084",
+      "Derivative Securities",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203084"
+    ],
+    [
+      "MGT3103",
+      "Leadership in a Changing Environment",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203103"
+    ],
+    [
+      "MGT3310",
+      "Marketing Research: Analytics",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203310"
+    ],
+    [
+      "MGT3510",
+      "Management of Technology",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203510"
+    ],
+    [
+      "MGT3605",
+      "Principles of Commerical Law",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203605"
+    ],
+    [
+      "MGT3606",
+      "International Business Law",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203606"
+    ],
+    [
+      "MGT3607",
+      "Business Ethics",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203607"
+    ],
+    [
+      "MGT3608",
+      "Technology Law and Ethics",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203608"
+    ],
+    [
+      "MGT3609",
+      "Legal Aspects of Real Estate",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203609"
+    ],
+    [
+      "MGT3661",
+      "Advanced Concepts in International Business",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203661"
+    ],
+    [
+      "MGT3662",
+      "Management in the Healthcare Sector",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203662"
+    ],
+    [
+      "MGT3663",
+      "Technology Strategy",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203663"
+    ],
+    [
+      "MGT3743",
+      "Analysis of Emerging Technologies",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203743"
+    ],
+    [
+      "MGT3744",
+      "Managing Product, Service & Technology Development",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%203744"
+    ],
+    [
+      "MGT4010",
+      "Business Taxation",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204010"
+    ],
+    [
+      "MGT4015",
+      "Advanced Managerial Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204015"
+    ],
+    [
+      "MGT4026",
+      "Financial Reporting and Analysis I",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204026"
+    ],
+    [
+      "MGT4027",
+      "Financial Reporting and Analysis II",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204027"
+    ],
+    [
+      "MGT4028",
+      "Financial Analysis and Reporting of Technology Firms",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204028"
+    ],
+    [
+      "MGT4030",
+      "International Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204030"
+    ],
+    [
+      "MGT4041",
+      "Auditing and Financial Control Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204041"
+    ],
+    [
+      "MGT4043",
+      "Advanced Financial Reporting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204043"
+    ],
+    [
+      "MGT4045",
+      "Seminar in Advanced Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204045"
+    ],
+    [
+      "MGT4047",
+      "Ethics & Accounting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204047"
+    ],
+    [
+      "MGT4052",
+      "Systems Analysis and Design",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204052"
+    ],
+    [
+      "MGT4053",
+      "Business Data Communications",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204053"
+    ],
+    [
+      "MGT4056",
+      "Electronic Commerce",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204056"
+    ],
+    [
+      "MGT4057",
+      "Business Process Analysis and Design",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204057"
+    ],
+    [
+      "MGT4058",
+      "Database Management Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204058"
+    ],
+    [
+      "MGT4066",
+      "Corporate Restructuring",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204066"
+    ],
+    [
+      "MGT4067",
+      "Financial Markets: Trading and Structure",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204067"
+    ],
+    [
+      "MGT4068",
+      "Fixed Income",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204068"
+    ],
+    [
+      "MGT4070",
+      "International Finance",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204070"
+    ],
+    [
+      "MGT4072",
+      "Entrepreneurial Finance",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204072"
+    ],
+    [
+      "MGT4102",
+      "Management Consulting",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204102"
+    ],
+    [
+      "MGT4116",
+      "The Role of Gender, Race and Ethnicity in Organizational Behavior",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204116"
+    ],
+    [
+      "MGT4191",
+      "The Entrepreneurship Forum",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204191"
+    ],
+    [
+      "MGT4192",
+      "Impact Speaker Series Forum",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204192"
+    ],
+    [
+      "MGT4193",
+      "Servant Leadership, Values & Systems",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204193"
+    ],
+    [
+      "MGT4194",
+      "Social Enterprise and Entrepreneurship",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204194"
+    ],
+    [
+      "MGT4303",
+      "Personal Selling and Sales Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204303"
+    ],
+    [
+      "MGT4304",
+      "Strategic Brand Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204304"
+    ],
+    [
+      "MGT4308",
+      "Advertising & Promotion: Integrated Marketing Communications",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204308"
+    ],
+    [
+      "MGT4309",
+      "Services Marketing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204309"
+    ],
+    [
+      "MGT4311",
+      "Digital Marketing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204311"
+    ],
+    [
+      "MGT4331",
+      "Consumer Behavior",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204331"
+    ],
+    [
+      "MGT4332",
+      "Database and CRM Strategy",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204332"
+    ],
+    [
+      "MGT4335",
+      "International Marketing",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204335"
+    ],
+    [
+      "MGT4352",
+      "Operations Resource Planning and Execution",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204352"
+    ],
+    [
+      "MGT4353",
+      "Operations Strategy",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204353"
+    ],
+    [
+      "MGT4360",
+      "Global Operations and Supply Chain Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204360"
+    ],
+    [
+      "MGT4366",
+      "Service Operations Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204366"
+    ],
+    [
+      "MGT4401",
+      "Supply Chain Modeling",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204401"
+    ],
+    [
+      "MGT4670",
+      "Entrepreneurship",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204670"
+    ],
+    [
+      "MGT4803",
+      "Special Topics in Management",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204803"
+    ],
+    [
+      "MGT4910",
+      "Special Problems",
+      "",
+      "https://catalog.gatech.edu/search/?P=MGT%204910"
+    ]
+  ],
+  "Non-MGT Electives": [
+    [
+      "Non-MGT Electives",
+      "6"
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "10"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}

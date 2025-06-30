@@ -1,0 +1,174 @@
+{
+  "Wellness Requirement": [
+    [
+      "APPH1040",
+      "Scientific Foundations of Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201040"
+    ],
+    [
+      "orAPPH1050",
+      "The Science of Physical Activity and Health",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201050"
+    ],
+    [
+      "orAPPH1060",
+      "Flourishing: Strategies for Well-being and Resilience",
+      2,
+      "https://catalog.gatech.edu/search/?P=APPH%201060"
+    ]
+  ],
+  "Institutional Priority": [
+    [
+      "CS1301",
+      "Introduction to Computing",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201301"
+    ],
+    [
+      "orCS1315",
+      "Introduction to Media Computation",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201315"
+    ],
+    [
+      "orCS1371",
+      "Computing for Engineers",
+      3,
+      "https://catalog.gatech.edu/search/?P=CS%201371"
+    ]
+  ],
+  "Mathematics and Quantitative Skills": [
+    [
+      "MATH1712",
+      "Survey of Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201712"
+    ],
+    [
+      "orMATH1552",
+      "Integral Calculus",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201552"
+    ]
+  ],
+  "Political Science and U.S. History": [
+    [
+      "Select one of the following:",
+      "3"
+    ],
+    [
+      "HIST2111",
+      "The United States to 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202111"
+    ],
+    [
+      "HIST2112",
+      "The United States since 1877",
+      3,
+      "https://catalog.gatech.edu/search/?P=HIST%202112"
+    ],
+    [
+      "INTA1200",
+      "American Government in Comparative Perspective",
+      3,
+      "https://catalog.gatech.edu/search/?P=INTA%201200"
+    ],
+    [
+      "POL1101",
+      "Government of the United States",
+      3,
+      "https://catalog.gatech.edu/search/?P=POL%201101"
+    ],
+    [
+      "PUBP3000",
+      "American Constitutional Issues",
+      3,
+      "https://catalog.gatech.edu/search/?P=PUBP%203000"
+    ]
+  ],
+  "Arts, Humanities, and Ethics": [
+    [
+      "Any HUM",
+      "6",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-c/#"
+    ]
+  ],
+  "Communicating in Writing": [
+    [
+      "ENGL1101",
+      "English Composition I",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201101"
+    ],
+    [
+      "ENGL1102",
+      "English Composition II",
+      3,
+      "https://catalog.gatech.edu/search/?P=ENGL%201102"
+    ]
+  ],
+  "Technology, Mathematics, and Sciences": [
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "Lab Science",
+      "4"
+    ],
+    [
+      "MATH1711",
+      "Finite Mathematics",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201711"
+    ],
+    [
+      "orMATH1551&MATH1553",
+      "Differential Calculusand Introduction to Linear Algebra",
+      4,
+      "https://catalog.gatech.edu/search/?P=MATH%201551"
+    ]
+  ],
+  "Social Sciences": [
+    [
+      "Any SS",
+      "9",
+      "https://catalog.gatech.edu/academics/undergraduate/core-curriculum/core-area-e/#"
+    ]
+  ],
+  "Field of Study": [
+    [
+      "Approved Cluster",
+      "18"
+    ]
+  ],
+  "ALIS Major Requirements": [
+    [
+      "CHIN4500",
+      "Advanced Intercultural Seminar",
+      3,
+      "https://catalog.gatech.edu/search/?P=CHIN%204500"
+    ],
+    [
+      "Chinese Electives",
+      "27"
+    ],
+    [
+      "Study Abroad Experience (12 credits from 30 credits of Chinese Electives for the ALIS Major Requirements and/or 18 credits of Approved Cluster)",
+      ""
+    ]
+  ],
+  "Free Electives": [
+    [
+      "Free Electives",
+      "29"
+    ],
+    [
+      "Total Credit Hours",
+      "122"
+    ]
+  ]
+}
