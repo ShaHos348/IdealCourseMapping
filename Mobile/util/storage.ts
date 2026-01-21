@@ -29,11 +29,3 @@ export const removeData = async (key: string) => {
     console.error("Error removing data:", e);
   }
 };
-
-export const saveSelection = async (selection: any) => {
-  await storeData("gtCourseSelections", selection);
-};
-
-export const loadSelection = async () => {
-  return await getData("gtCourseSelections");
-};

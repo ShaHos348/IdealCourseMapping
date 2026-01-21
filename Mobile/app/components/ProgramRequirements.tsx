@@ -133,7 +133,7 @@ export default function ProgramRequirements({
         <Text style={[styles.cell, styles.credits, styles.headerText, textStyle]}>Credits</Text>
       </View>
 
-      <ScrollView style={{ maxHeight: 320 }}>
+      <ScrollView>
         {entries.map(([section, value]) => (
           <View key={String(section)} style={styles.section}>
             <Text style={[styles.sectionTitle, textStyle]}>{String(section)}</Text>

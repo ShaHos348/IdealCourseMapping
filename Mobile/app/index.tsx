@@ -4,11 +4,12 @@ import { View, Text, Button, StyleSheet, ScrollView } from "react-native";
 import { useRouter } from "expo-router";
 import { Picker } from "@react-native-picker/picker";
 
+import PrimaryButton from "@/app/components/ui/PrimaryButton";
 import { useColorScheme } from "@/hooks/use-color-scheme";
 import { Colors } from "@/constants/theme";
 
 import collegeData from "../assets/data/college_data.json";
-import { saveSelection } from "../util/storage";
+import { storeData } from "../util/storage";
 
 export default function Index() {
   const router = useRouter();
@@ -93,8 +94,8 @@ export default function Index() {
         : null,
     };
 
-    await saveSelection(selections);
-    router.push("/course-selection");
+    await storeData("gtCourseSelections", selections);
+    router.push("/(course-selection)/requirements");
   };
 
   return (
@@ -229,11 +230,10 @@ export default function Index() {
       )}
 
       <View style={styles.buttonContainer}>
-        <Button
+        <PrimaryButton
           title="Continue"
           onPress={handleContinue}
           disabled={!canContinue()}
-          color={theme.tint}
         />
       </View>
     </ScrollView>
