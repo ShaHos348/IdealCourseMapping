@@ -1,0 +1,894 @@
+{
+  "college-of-computing": {
+    "name": "College of Computing",
+    "majors": {
+      "computational-media": {
+        "name": "Computational Media",
+        "concentrations": [
+          {
+            "value": "intelligence-film-media-studies",
+            "label": "Intelligence-Film & Media Studies"
+          },
+          {
+            "value": "intelligence-games",
+            "label": "Intelligence-Games"
+          },
+          {
+            "value": "intelligence-interaction-design",
+            "label": "Intelligence-Interaction Design"
+          },
+          {
+            "value": "media-film-media-studies",
+            "label": "Media-Film & Media Studies"
+          },
+          {
+            "value": "media-games",
+            "label": "Media-Games"
+          },
+          {
+            "value": "media-interaction-design",
+            "label": "Media-Interaction Design"
+          },
+          {
+            "value": "music-technology-intelligence",
+            "label": "Music Technology-Intelligence"
+          },
+          {
+            "value": "music-technology-media",
+            "label": "Music Technology-Media"
+          },
+          {
+            "value": "music-technology-people",
+            "label": "Music Technology-People"
+          },
+          {
+            "value": "people-film-media-studies",
+            "label": "People-Film & Media Studies"
+          },
+          {
+            "value": "people-games",
+            "label": "People-Games"
+          },
+          {
+            "value": "people-interaction-design",
+            "label": "People-Interaction Design"
+          }
+        ]
+      },
+      "computer-science": {
+        "name": "Computer Science",
+        "threads": [
+          {
+            "value": "cybersecurity-privacy",
+            "label": "Cybersecurity Privacy"
+          },
+          {
+            "value": "devices",
+            "label": "Devices"
+          },
+          {
+            "value": "information-internetworks",
+            "label": "Information Internetworks"
+          },
+          {
+            "value": "intelligence",
+            "label": "Intelligence"
+          },
+          {
+            "value": "media",
+            "label": "Media"
+          },
+          {
+            "value": "modeling-simulation",
+            "label": "Modeling Simulation"
+          },
+          {
+            "value": "people",
+            "label": "People"
+          },
+          {
+            "value": "systems-architecture",
+            "label": "Systems Architecture"
+          },
+          {
+            "value": "theory",
+            "label": "Theory"
+          }
+        ]
+      }
+    }
+  },
+  "college-of-design": {
+    "name": "College of Design",
+    "majors": {
+      "architecture": {
+        "name": "Architecture",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "computational-media": {
+        "name": "Computational Media",
+        "concentrations": [
+          {
+            "value": "intelligence-film-media-studies",
+            "label": "Intelligence - Film & Media Studies"
+          },
+          {
+            "value": "intelligence-games",
+            "label": "Intelligence - Games"
+          },
+          {
+            "value": "intelligence-interaction-design",
+            "label": "Intelligence - Interaction Design"
+          },
+          {
+            "value": "media-film-media-studies",
+            "label": "Media - Film & Media Studies"
+          },
+          {
+            "value": "media-games",
+            "label": "Media - Games"
+          },
+          {
+            "value": "media-interaction-design",
+            "label": "Media  - Interaction Design"
+          },
+          {
+            "value": "music-technology-intelligence",
+            "label": "Music Technology - Intelligence"
+          },
+          {
+            "value": "music-technology-media",
+            "label": "Music Technology - Media"
+          },
+          {
+            "value": "music-technology-people",
+            "label": "Music Technology - People"
+          },
+          {
+            "value": "people-film-media-studies",
+            "label": "People - Film & Media Studies"
+          },
+          {
+            "value": "people-games",
+            "label": "People - Games"
+          },
+          {
+            "value": "people-interaction-design",
+            "label": "People - Interaction Design"
+          }
+        ]
+      },
+      "construction-science-and-management": {
+        "name": "Construction Science and Management",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "industrial-design": {
+        "name": "Industrial Design",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "music-technology": {
+        "name": "Music Technology",
+        "concentrations": [
+          {
+            "value": "gen",
+            "label": "General"
+          },
+          {
+            "value": "ece",
+            "label": "Electrical and Computer Engineering Signal Processing"
+          },
+          {
+            "value": "me-av",
+            "label": "Mechanical Engineering Acoustics and Vibrations"
+          },
+          {
+            "value": "me-cr",
+            "label": "Mechanical Engineering Controls and Robotics"
+          }
+        ]
+      }
+    }
+  },
+  "college-of-engineering": {
+    "name": "College of Engineering",
+    "majors": {
+      "aerospace-engineering": {
+        "name": "Aerospace Engineering",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "biomedical-engineering": {
+        "name": "Biomedical Engineering",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "chemical-biomolecular": {
+        "name": "Chemical and Biomolecular Engineering",
+        "concentrations": [
+          {
+            "value": "biotechnology",
+            "label": "Biotechnology"
+          },
+          {
+            "value": "standard",
+            "label": "Standard"
+          }
+        ]
+      },
+      "civil-engineering": {
+        "name": "Civil Engineering",
+        "concentrations": [
+          {
+            "value": "standard",
+            "label": "Standard"
+          },
+          {
+            "value": "construction-infrastructure-systems-engineering",
+            "label": "Construction and Infrastructure Systems Engineering"
+          },
+          {
+            "value": "structural-engineering-mechanics-materials",
+            "label": "Structural Engineering, Mechanics, and Materials"
+          }
+        ]
+      },
+      "computer-engineering": {
+        "name": "Computer Engineering",
+        "concentrations": [
+          {
+            "value": "cybersecurity-distributed-system-software-design",
+            "label": "Cybersecurity and Distributed System & Software Design"
+          },
+          {
+            "value": "cybersecurity-computing-hardware-emerging-architectures",
+            "label": "Cybersecurity and Computing Hardware & Emerging Architectures"
+          },
+          {
+            "value": "cybersecurity-signal-information-processing",
+            "label": "Cybersecurity and Signal & Information Processing"
+          },
+          {
+            "value": "cybersecurity-telecommunications",
+            "label": "Cybersecurity and Telecommunications"
+          },
+          {
+            "value": "cybersecurity-robotics-autonomous-systems",
+            "label": "Cybersecurity and Robotics & Autonomous Systems"
+          },
+          {
+            "value": "cybersecurity-systems-architecture",
+            "label": "Cybersecurity and Systems & Architecture"
+          },
+          {
+            "value": "cybersecurity-devices",
+            "label": "Cybersecurity and Devices"
+          },
+          {
+            "value": "cybersecurity-information-internetworks",
+            "label": "Cybersecurity and Information Internetworks"
+          },
+          {
+            "value": "computing-hardware-emerging-architectures-signal-information-processing",
+            "label": "Computing Hardware & Emerging Architectures and Signal & Information Processing"
+          },
+          {
+            "value": "computing-hardware-emerging-architectures-telecommunications",
+            "label": "Computing Hardware & Emerging Architectures and Telecommunications"
+          },
+          {
+            "value": "computing-hardware-emerging-architectures-robotics-autonomous-systems",
+            "label": "Computing Hardware & Emerging Architectures and Robotics & Autonomous Systems"
+          },
+          {
+            "value": "computing-hardware-emerging-architectures-systems-architecture",
+            "label": "Computing Hardware & Emerging Architectures and Systems & Architecture"
+          },
+          {
+            "value": "computing-hardware-emerging-architectures-devices",
+            "label": "Computing Hardware & Emerging Architectures and Devices"
+          },
+          {
+            "value": "computing-hardware-emerging-architectures-information-internetworks",
+            "label": "Computing Hardware & Emerging Architectures and Information Internetworks"
+          },
+          {
+            "value": "distributed-system-software-design-telecommunications",
+            "label": "Distributed System & Software Design and Telecommunications"
+          },
+          {
+            "value": "distributed-system-software-design-systems-architecture",
+            "label": "Distributed System & Software Design and Systems & Architecture"
+          },
+          {
+            "value": "distributed-system-software-design-and-signal-information-processing",
+            "label": "Distributed System & Software Design and Signal & Information Processing"
+          },
+          {
+            "value": "distributed-system-software-design-and-robotics-autonomous-systems",
+            "label": "Distributed System & Software Design and Robotics & Autonomous Systems"
+          },
+          {
+            "value": "distributed-system-software-design-and-information-internetworks",
+            "label": "Distributed System & Software Design and Information Internetworks"
+          },
+          {
+            "value": "distributed-system-software-design-and-computing-hardware-emerging-architectures",
+            "label": "Distributed System & Software Design and Computing Hardware & Emerging Architectures"
+          },
+          {
+            "value": "distributed-system-software-design-devices",
+            "label": "Distributed System & Software Design and Devices"
+          }
+        ]
+      },
+      "electrical-engineering": {
+        "name": "Electrical Engineering",
+        "threads": [
+          {
+            "value": "signal-information-processing",
+            "label": "Signal & Information Processing"
+          },
+          {
+            "value": "robotics-autonomous-systems",
+            "label": "Robotics & Autonomous Systems"
+          },
+          {
+            "value": "telecommunications",
+            "label": "Telecommunications"
+          },
+          {
+            "value": "electronic-devices",
+            "label": "Electronic Devices"
+          },
+          {
+            "value": "electric-energy-systems",
+            "label": "Electrical Energy Systems"
+          },
+          {
+            "value": "circuit-technology",
+            "label": "Circuit Technology"
+          },
+          {
+            "value": "bioengineering",
+            "label": "Bioengineering"
+          },
+          {
+            "value": "sensing-exploration",
+            "label": "Sensing & Exploration"
+          }
+        ]
+      },
+      "environmental-engineering": {
+        "name": "Environmental Engineering",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "industrial-engineering": {
+        "name": "Industrial Engineering",
+        "concentrations": [
+          {
+            "value": "advanced-studies-operations-research-statistics",
+            "label": "Advanced Studies in Operations Research and Statistics"
+          },
+          {
+            "value": "analytics-data-science",
+            "label": "Analytics and Data Science"
+          },
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "economic-financial-systems",
+            "label": "Economic and Financial Systems"
+          },
+          {
+            "value": "operations-research",
+            "label": "Operations Research"
+          },
+          {
+            "value": "quality-statistics",
+            "label": "Quality and Statistics"
+          },
+          {
+            "value": "supply-chain-engineering",
+            "label": "Supply Chain Engineering"
+          }
+        ]
+      },
+      "materials-science-engineering": {
+        "name": "Materials Science and Engineering",
+        "concentrations": [
+          {
+            "value": "biomaterials",
+            "label": "Biomaterials"
+          },
+          {
+            "value": "polymer-fiber-materials",
+            "label": "Polymer and Fiber Materials"
+          },
+          {
+            "value": "structural-materials",
+            "label": "Structural Materials"
+          },
+          {
+            "value": "functional-materials",
+            "label": "Functional Materials"
+          }
+        ]
+      },
+      "mechanical-engineering": {
+        "name": "Mechanical Engineering",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "automotive",
+            "label": "Automotive"
+          },
+          {
+            "value": "automation-robotic-system",
+            "label": "Automation and Robotic System"
+          },
+          {
+            "value": "design",
+            "label": "Design"
+          },
+          {
+            "value": "manufacturing",
+            "label": "Manufacturing"
+          },
+          {
+            "value": "mechanics-materials",
+            "label": "Mechanics of Materials"
+          },
+          {
+            "value": "micro-nano-engineering",
+            "label": "Micro- and Nano-Engineering"
+          },
+          {
+            "value": "nre",
+            "label": "Nuclear and Radiological Engineering"
+          },
+          {
+            "value": "thermal-fluid-energy-systems",
+            "label": "Thermal, Fluid and Energy Systems"
+          }
+        ]
+      },
+      "nuclear-radiological-engineering": {
+        "name": "Nuclear and Radiological Engineering",
+        "concentrations": [
+          {
+            "value": "nuclear-engineering",
+            "label": "Nuclear Engineering"
+          },
+          {
+            "value": "radiological-engineering",
+            "label": "Radiological Science and Engineering"
+          }
+        ]
+      }
+    }
+  },
+  "college-of-sciences": {
+    "name": "College of Sciences",
+    "majors": {
+      "applied-physics": {
+        "name": "Applied Physics",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "business",
+            "label": "Business"
+          },
+          {
+            "value": "physics-living-systems",
+            "label": "Physics of Living Systems"
+          }
+        ]
+      },
+      "biochemistry": {
+        "name": "Biochemistry",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "business",
+            "label": "Business"
+          },
+          {
+            "value": "prehealth",
+            "label": "Prehealth"
+          }
+        ]
+      },
+      "biology": {
+        "name": "Biology",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "business",
+            "label": "Business"
+          }
+        ]
+      },
+      "chemistry": {
+        "name": "Chemistry",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "biochemistry",
+            "label": "Biochemistry"
+          },
+          {
+            "value": "business",
+            "label": "Business"
+          },
+          {
+            "value": "polymers-materials",
+            "label": "Polymers and Materials"
+          },
+          {
+            "value": "prehealth",
+            "label": "Pre-health"
+          }
+        ]
+      },
+      "earth-atmospheric-sciences": {
+        "name": "Earth and Atmospheric Sciences",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "business",
+            "label": "Business"
+          }
+        ]
+      },
+      "mathematics": {
+        "name": "Mathematics",
+        "concentrations": [
+          {
+            "value": "applied",
+            "label": "Applied Mathematics"
+          },
+          {
+            "value": "discrete",
+            "label": "Discrete Mathematics"
+          },
+          {
+            "value": "mathematical-foundations-data-science",
+            "label": "Mathematical Foundations in Data Science"
+          },
+          {
+            "value": "pure",
+            "label": "Pure Mathematics"
+          },
+          {
+            "value": "probability-and-statistics",
+            "label": "Probability and Statistics"
+          },
+          {
+            "value": "business",
+            "label": "Business Mathematics"
+          },
+          {
+            "value": "general",
+            "label": "General Mathematics"
+          }
+        ]
+      },
+      "neuroscience": {
+        "name": "Neuroscience",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "physics": {
+        "name": "Physics",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "astrophysics",
+            "label": "Astrophysics"
+          },
+          {
+            "value": "business",
+            "label": "Business"
+          },
+          {
+            "value": "physics-living-systems",
+            "label": "Physics of Living Systems"
+          }
+        ]
+      },
+      "psychology": {
+        "name": "Psychology",
+        "concentrations": [
+          {
+            "value": "general",
+            "label": "General"
+          },
+          {
+            "value": "business",
+            "label": "Business"
+          }
+        ]
+      }
+    }
+  },
+  "ivan-allen-college-of-liberal-arts": {
+    "name": "Ivan Allen College of Liberal Arts",
+    "majors": {
+      "applied-language-intercultural-studies": {
+        "name": "Applied Languages and Intercultural Studies",
+        "concentrations": [
+          {
+            "value": "chinese",
+            "label": "Chinese"
+          },
+          {
+            "value": "french",
+            "label": "French"
+          },
+          {
+            "value": "german",
+            "label": "German"
+          },
+          {
+            "value": "japanese",
+            "label": "Japanese"
+          },
+          {
+            "value": "korean",
+            "label": "Korean"
+          },
+          {
+            "value": "russian",
+            "label": "Russian"
+          },
+          {
+            "value": "spanish",
+            "label": "Spanish"
+          }
+        ]
+      },
+      "computational-media": {
+        "name": "Computational Media",
+        "concentrations": [
+          {
+            "value": "intelligence-film-media-studies",
+            "label": "Intelligence-Film & Media Studies"
+          },
+          {
+            "value": "intelligence-games",
+            "label": "Intelligence-Games"
+          },
+          {
+            "value": "intelligence-interaction-design",
+            "label": "Intelligence-Interaction Design"
+          },
+          {
+            "value": "media-film-media-studies",
+            "label": "Media-Film & Media Studies"
+          },
+          {
+            "value": "media-games",
+            "label": "Media-Games"
+          },
+          {
+            "value": "media-interaction-design",
+            "label": "Media-Interaction Design"
+          },
+          {
+            "value": "music-technology-intelligence",
+            "label": "Music Technology-Intelligence"
+          },
+          {
+            "value": "music-technology-media",
+            "label": "Music Technology-Media"
+          },
+          {
+            "value": "music-technology-people",
+            "label": "Music Technology-People"
+          },
+          {
+            "value": "people-film-media-studies",
+            "label": "People-Film & Media Studies"
+          },
+          {
+            "value": "people-games",
+            "label": "People-Games"
+          },
+          {
+            "value": "people-interaction-design",
+            "label": "People-Interaction Design"
+          }
+        ]
+      },
+      "economics": {
+        "name": "Economics",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "economics-international-affairs": {
+        "name": "Economics and International Affairs",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "global-economics-modern-languages": {
+        "name": "Global Economics and Modern Languages",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "history-technology-society": {
+        "name": "History Technology and Society",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "international-affairs": {
+        "name": "International Affairs",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "international-affairs-modern-language": {
+        "name": "International Affairs and Modern Language",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      },
+      "literature-media-and-communication": {
+        "name": "Literature Media Communication",
+        "threads": [
+          {
+            "value": "literature",
+            "label": "Literature"
+          },
+          {
+            "value": "communication",
+            "label": "Communication"
+          },
+          {
+            "value": "design",
+            "label": "Design"
+          },
+          {
+            "value": "social-justice",
+            "label": "Social Justice"
+          },
+          {
+            "value": "science-technology-culture",
+            "label": "Science, Technology, and Culture"
+          },
+          {
+            "value": "media",
+            "label": "Media"
+          }
+        ]
+      },
+      "public-policy": {
+        "name": "Public Policy",
+        "requirements": [
+          {
+            "value": "requirements",
+            "label": "Requirements"
+          }
+        ]
+      }
+    }
+  },
+  "scheller-college-of-business": {
+    "name": "Scheller College of Business",
+    "majors": {
+      "business-administration": {
+        "name": "Business Administration",
+        "concentrations": [
+          {
+            "value": "accounting",
+            "label": "Accounting"
+          },
+          {
+            "value": "finance",
+            "label": "Finance"
+          },
+          {
+            "value": "general-management",
+            "label": "General Management"
+          },
+          {
+            "value": "it-management",
+            "label": "IT management"
+          },
+          {
+            "value": "leadership-organizational-change",
+            "label": "Leadership and Organizational Change"
+          },
+          {
+            "value": "marketing",
+            "label": "Marketing"
+          },
+          {
+            "value": "operations-supply-chain-management",
+            "label": "Operations and Supply Chain Management"
+          },
+          {
+            "value": "strategy-and-innovation",
+            "label": "Strategy and Innovation"
+          }
+        ]
+      }
+    }
+  }
+}

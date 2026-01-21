@@ -10,8 +10,7 @@ import io
 
 app = Flask(__name__)
 
-CORS(app) 
-
+CORS(app)
 
 def load_picked_courses():
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -129,4 +128,4 @@ def get_program_table():
         return jsonify({"error": "Internal Server Error"}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)
