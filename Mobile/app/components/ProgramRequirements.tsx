@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, ScrollView, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import { useColorScheme } from "@/hooks/use-color-scheme";
 import { Colors } from "@/constants/theme";
 
@@ -19,18 +19,11 @@ export default function ProgramRequirements({
   const scheme = useColorScheme() ?? "light";
   const theme = Colors[scheme];
 
-  // themed styles (computed once per render)
   const cardStyle = [
     styles.card,
     { borderColor: theme.icon, backgroundColor: theme.background },
   ];
-
-  const headerRowStyle = [
-    styles.row,
-    styles.headerRow,
-    { borderBottomColor: theme.icon },
-  ];
-
+  const headerRowStyle = [styles.row, styles.headerRow, { borderBottomColor: theme.icon }];
   const rowStyle = [styles.row, { borderBottomColor: theme.icon }];
 
   const textStyle = { color: theme.text };
@@ -113,7 +106,7 @@ export default function ProgramRequirements({
     return (
       <View style={cardStyle}>
         <Text style={[styles.title, textStyle]}>{program || "Program Requirements"}</Text>
-        <Text style={[textStyle]}>No program requirements available.</Text>
+        <Text style={textStyle}>No program requirements available.</Text>
       </View>
     );
   }
@@ -126,21 +119,18 @@ export default function ProgramRequirements({
     <View style={cardStyle}>
       <Text style={[styles.title, textStyle]}>{program || "Program Requirements"}</Text>
 
-      {/* header */}
       <View style={headerRowStyle}>
         <Text style={[styles.cell, styles.code, styles.headerText, textStyle]}>Code</Text>
         <Text style={[styles.cell, styles.titleCell, styles.headerText, textStyle]}>Title</Text>
         <Text style={[styles.cell, styles.credits, styles.headerText, textStyle]}>Credits</Text>
       </View>
 
-      <ScrollView>
-        {entries.map(([section, value]) => (
-          <View key={String(section)} style={styles.section}>
-            <Text style={[styles.sectionTitle, textStyle]}>{String(section)}</Text>
-            {renderSectionValue(value, String(section))}
-          </View>
-        ))}
-      </ScrollView>
+      {entries.map(([section, value]) => (
+        <View key={String(section)} style={styles.section}>
+          <Text style={[styles.sectionTitle, textStyle]}>{String(section)}</Text>
+          {renderSectionValue(value, String(section))}
+        </View>
+      ))}
     </View>
   );
 }
@@ -150,7 +140,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
     borderRadius: 8,
-    marginBottom: 10,
   },
   title: { fontSize: 18, fontWeight: "bold", marginBottom: 8 },
 

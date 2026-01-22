@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, send_file
+from flask import Flask, Response, jsonify, request, send_file
 from graph_maker_v2 import build_prereq_graph, build_selected_courses_graph, visualize_selected_courses_graph
 import json
 from flask_cors import CORS
@@ -74,6 +74,26 @@ def generate_csv():
 
     except Exception as e:
         print(f"Error generating CSV: {e}")
+        return jsonify({"error": str(e)}), 500
+    
+@app.route("/make-csv-mobile/", methods=["POST"])
+def generate_csv_mobile():
+    data = request.get_json()
+    selected_courses = data.get("courses", [])
+
+    if not selected_courses:
+        return jsonify({"error": "No selected courses provided"}), 400
+
+    try:
+        csv_text = generate_curricular_csv(selected_courses)  # <-- must be a string
+        return Response(
+            csv_text,
+            mimetype="text/csv",
+            headers={
+                "Content-Disposition": 'attachment; filename="courses.csv"'
+            },
+        )
+    except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 # Endpoint that takes program and returns the program table for it

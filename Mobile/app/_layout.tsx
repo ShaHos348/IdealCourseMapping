@@ -23,7 +23,7 @@ export default function RootLayout() {
           options={{ title: "Course Selection" }}
         />
 
-        <Stack.Screen name="course-map" options={{ title: "Course Map" }} />
+        <Stack.Screen name="(course-map)" options={{ title: "Course Map" }} />
       </Stack>
 
       <StatusBar style="auto" />

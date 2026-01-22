@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, StyleSheet, ActivityIndicator, Alert } from "react-native";
+import { View, Text, StyleSheet, ActivityIndicator, Alert, ScrollView } from "react-native";
 import axios from "axios";
 
 import { useColorScheme } from "@/hooks/use-color-scheme";
@@ -22,7 +22,10 @@ export default function RequirementsPane() {
       try {
         const stored = await getData("gtCourseSelections");
         if (!stored) {
-          Alert.alert("Error", "No program selection found. Go back to Page 1.");
+          Alert.alert(
+            "Error",
+            "No program selection found. Go back to Page 1.",
+          );
           setLoading(false);
           return;
         }
@@ -47,7 +50,9 @@ export default function RequirementsPane() {
         });
 
         const parsed =
-          typeof response.data === "string" ? JSON.parse(response.data) : response.data;
+          typeof response.data === "string"
+            ? JSON.parse(response.data)
+            : response.data;
 
         setProgramTable(parsed);
 
@@ -77,9 +82,9 @@ export default function RequirementsPane() {
   }
 
   return (
-    <View style={[styles.screen, { backgroundColor: theme.background }]}>
+    <ScrollView contentContainerStyle={{ padding: 12, paddingBottom: 28 }}>
       <ProgramRequirements program={programName} tableData={programTable} />
-    </View>
+    </ScrollView>
   );
 }
 

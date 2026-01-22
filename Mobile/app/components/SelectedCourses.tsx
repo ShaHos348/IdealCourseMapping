@@ -1,98 +1,194 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+import React, { useMemo, useState } from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  Pressable,
+  Modal,
+} from "react-native";
+import { useColorScheme } from "@/hooks/use-color-scheme";
+import { Colors } from "@/constants/theme";
 
-import { HelloWave } from '@/components/hello-wave';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { Link } from 'expo-router';
+export default function SelectedCourses({
+  courses,
+  pickedCourse,
+  onTogglePrereq,
+  onRemove,
+  onClearAll,
+}: {
+  courses: string[];
+  pickedCourse: string;
+  onTogglePrereq: (course: string) => void;
+  onRemove: (course: string) => void;
+  onClearAll: () => void;
+}) {
+  const scheme = useColorScheme() ?? "light";
+  const theme = Colors[scheme];
 
-export default function HomeScreen() {
+  const [openCourse, setOpenCourse] = useState<string>("");
+
+  const isOpen = !!openCourse;
+  const isPicked = openCourse && pickedCourse === openCourse;
+
+  const prereqLabel = isPicked ? "Hide prereq" : "Show prereq";
+
+  const close = () => setOpenCourse("");
+
+  const sortedCourses = useMemo(() => [...courses].sort(), [courses]);
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <Link href="/modal">
-          <Link.Trigger>
-            <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-          </Link.Trigger>
-          <Link.Preview />
-          <Link.Menu>
-            <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
-            <Link.MenuAction
-              title="Share"
-              icon="square.and.arrow.up"
-              onPress={() => alert('Share pressed')}
-            />
-            <Link.Menu title="More" icon="ellipsis">
-              <Link.MenuAction
-                title="Delete"
-                icon="trash"
-                destructive
-                onPress={() => alert('Delete pressed')}
-              />
-            </Link.Menu>
-          </Link.Menu>
-        </Link>
+    <View style={[styles.card, { borderColor: theme.icon }]}>
+      {/* Header row */}
+      <View style={styles.header}>
+        <Text style={[styles.title, { color: theme.text }]}>
+          Selected Courses ({sortedCourses.length})
+        </Text>
 
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+        <Pressable
+          onPress={onClearAll}
+          disabled={sortedCourses.length === 0}
+          style={[
+            styles.clearBtn,
+            {
+              borderColor: theme.icon,
+              opacity: sortedCourses.length === 0 ? 0.5 : 1,
+            },
+          ]}
+        >
+          <Text style={{ color: theme.text, fontWeight: "600" }}>Clear</Text>
+        </Pressable>
+      </View>
+
+      {/* Pills */}
+      <View style={styles.wrap}>
+        {sortedCourses.map((c) => {
+          const active = c === pickedCourse;
+          return (
+            <Pressable
+              key={c}
+              onPress={() => setOpenCourse(c)}
+              style={[
+                styles.pill,
+                {
+                  borderColor: active ? theme.tint : theme.icon,
+                  backgroundColor: active ? theme.tint : "transparent",
+                },
+              ]}
+            >
+              <Text
+                style={{
+                  color: active ? (scheme === "dark" ? "#000" : "#fff") : theme.text,
+                }}
+              >
+                {c}
+              </Text>
+            </Pressable>
+          );
+        })}
+      </View>
+
+      {/* Tap-outside-to-close popup */}
+      <Modal
+        transparent
+        visible={isOpen}
+        animationType="fade"
+        onRequestClose={close}
+      >
+        {/* Outside overlay */}
+        <Pressable style={styles.overlay} onPress={close}>
+          {/* Stop propagation so tapping inside doesn't close */}
+          <Pressable
+            onPress={() => {}}
+            style={[
+              styles.popup,
+              { backgroundColor: theme.background, borderColor: theme.icon },
+            ]}
+          >
+            <Text style={[styles.popupTitle, { color: theme.text }]}>
+              {openCourse}
+            </Text>
+
+            <Pressable
+              onPress={() => {
+                onTogglePrereq(openCourse);
+                close();
+              }}
+              style={[styles.popupBtn, { borderColor: theme.icon }]}
+            >
+              <Text style={{ color: theme.text, fontWeight: "600" }}>
+                {prereqLabel}
+              </Text>
+            </Pressable>
+
+            <Pressable
+              onPress={() => {
+                onRemove(openCourse);
+                close();
+              }}
+              style={[styles.popupBtn, { borderColor: theme.icon }]}
+            >
+              <Text style={{ color: "#ff3b30", fontWeight: "700" }}>
+                Delete
+              </Text>
+            </Pressable>
+          </Pressable>
+        </Pressable>
+      </Modal>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
+  card: { borderWidth: 1, borderRadius: 12, padding: 12 },
+
+  header: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: 10,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+
+  title: { fontSize: 16, fontWeight: "700" },
+
+  clearBtn: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderWidth: 1,
+    borderRadius: 10,
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+
+  wrap: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
+
+  pill: {
+    borderWidth: 1,
+    borderRadius: 999,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+  },
+
+  overlay: {
+    flex: 1,
+    backgroundColor: "rgba(0,0,0,0.35)",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 20,
+  },
+
+  popup: {
+    width: "100%",
+    maxWidth: 360,
+    borderWidth: 1,
+    borderRadius: 14,
+    padding: 14,
+    gap: 10,
+  },
+
+  popupTitle: { fontSize: 16, fontWeight: "700" },
+
+  popupBtn: {
+    borderWidth: 1,
+    borderRadius: 12,
+    paddingVertical: 10,
+    alignItems: "center",
   },
 });
